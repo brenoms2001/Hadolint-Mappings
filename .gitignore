@@ -1,0 +1,6 @@
+__pycache__/
+*.pkl
+all_mpnet_base_v2
+venv
+.ipynb_checkpoints
+data/output/images
