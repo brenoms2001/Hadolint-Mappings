@@ -1,0 +1,3120 @@
+{
+  "records": [
+    {
+      "id": "SR 1.1",
+      "type": "SR",
+      "title": "Human user identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all human users.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.2",
+      "type": "SR",
+      "title": "Software process and device identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all software processes and devices.",
+      "parent_sr": "SR 1.2",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.3",
+      "type": "SR",
+      "title": "Account management",
+      "text": "The control system shall provide the capability to manage accounts.",
+      "parent_sr": "SR 1.3",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.4",
+      "type": "SR",
+      "title": "Identifier management",
+      "text": "The control system shall provide the capability to manage identifiers.",
+      "parent_sr": "SR 1.4",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.8",
+      "type": "SR",
+      "title": "Public key infrastructure (PKI) certificates",
+      "text": "The control system shall provide the capability to support the use of PKI certificates.",
+      "parent_sr": "SR 1.8",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.11",
+      "type": "SR",
+      "title": "Unsuccessful login attempts",
+      "text": "The control system shall provide the capability to manage unsuccessful login attempts.",
+      "parent_sr": "SR 1.11",
+      "fr": 1,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 2.1",
+      "type": "SR",
+      "title": "Authorization enforcement",
+      "text": "The control system shall provide the capability to enforce authorization.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 2.5",
+      "type": "SR",
+      "title": "Session lock",
+      "text": "The control system shall provide the capability to lock sessions.",
+      "parent_sr": "SR 2.5",
+      "fr": 2,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 2.8",
+      "type": "SR",
+      "title": "Auditable events",
+      "text": "The control system shall provide the capability to generate audit records for auditable events.",
+      "parent_sr": "SR 2.8",
+      "fr": 2,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 2.11",
+      "type": "SR",
+      "title": "Timestamps",
+      "text": "The control system shall provide the capability to generate timestamps.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 2.12",
+      "type": "SR",
+      "title": "Non-repudiation",
+      "text": "The control system shall provide the capability to enforce non-repudiation.",
+      "parent_sr": "SR 2.12",
+      "fr": 2,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 5.2",
+      "type": "SR",
+      "title": "Zone boundary protection",
+      "text": "The control system shall provide the capability to enforce zone boundary protection.",
+      "parent_sr": "SR 5.2",
+      "fr": 5,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 7.1",
+      "type": "SR",
+      "title": "Denial of service protection",
+      "text": "The control system shall provide the capability to protect against denial of service events.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 1,
+      "central_pages": [
+        3,
+        4
+      ],
+      "context_pages": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "SR 1.1",
+      "type": "SR",
+      "title": "Human user identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all human users. This capability shall enforce such identification and authentication on all interfaces which provide human user access to the control system to support segregation of duties and least privilege in accordance with applicable security policies and procedures.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 2,
+      "central_pages": [
+        5,
+        6
+      ],
+      "context_pages": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all human users.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 2,
+      "central_pages": [
+        5,
+        6
+      ],
+      "context_pages": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 2",
+      "type": "RE",
+      "title": "Multifactor authentication for untrusted networks",
+      "text": "The control system shall provide the capability to employ multifactor authentication for human user access to the control system via an untrusted network.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 2,
+      "central_pages": [
+        5,
+        6
+      ],
+      "context_pages": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 3",
+      "type": "RE",
+      "title": "Multifactor authentication for all networks",
+      "text": "The control system shall provide the capability to employ multifactor authentication for all human user access to the control system.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 2,
+      "central_pages": [
+        5,
+        6
+      ],
+      "context_pages": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "SR 1.1",
+      "type": "SR",
+      "title": "Human user identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all human users. This capability shall enforce such identification and authentication on all interfaces which provide human user access to the control system to support segregation of duties and least privilege in accordance with applicable security policies and procedures.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all human users.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 2",
+      "type": "RE",
+      "title": "Multifactor authentication for untrusted networks",
+      "text": "The control system shall provide the capability to employ multifactor authentication for human user access to the control system via an untrusted network.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.1 RE 3",
+      "type": "RE",
+      "title": "Multifactor authentication for all networks",
+      "text": "The control system shall provide the capability to employ multifactor authentication for all human user access to the control system.",
+      "parent_sr": "SR 1.1",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.2",
+      "type": "SR",
+      "title": "Software process and device identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all software processes and devices. This capability shall enforce such identification and authentication on all interfaces which provide access to the control system to support least privilege in accordance with applicable security policies and procedures.",
+      "parent_sr": "SR 1.2",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.2 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all software processes and devices.",
+      "parent_sr": "SR 1.2",
+      "fr": 1,
+      "source_block": 3,
+      "central_pages": [
+        7,
+        8
+      ],
+      "context_pages": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "SR 1.2",
+      "type": "SR",
+      "title": "Software process and device identification and authentication",
+      "text": "The control system shall provide the capability to identify and authenticate all software processes and devices. This capability shall enforce such identification and authentication on all interfaces which provide access to the control system to support least privilege in accordance with applicable security policies and procedures.",
+      "parent_sr": "SR 1.2",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.2 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all software processes and devices.",
+      "parent_sr": "SR 1.2",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.3",
+      "type": "SR",
+      "title": "Account management",
+      "text": "The control system shall provide the capability to support the management of all accounts by authorized users, including adding, activating, modifying, disabling and removing accounts.",
+      "parent_sr": "SR 1.3",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.3 RE 1",
+      "type": "RE",
+      "title": "Unified account management",
+      "text": "The control system shall provide the capability to support unified account management.",
+      "parent_sr": "SR 1.3",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.4",
+      "type": "SR",
+      "title": "Identifier management",
+      "text": "The control system shall provide the capability to support the management of identifiers by user, group, role or control system interface.",
+      "parent_sr": "SR 1.4",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.5",
+      "type": "SR",
+      "title": "Authenticator management",
+      "text": "The control system shall provide the capability to: h) initialize authenticator content; i) change all default authenticators upon control system installation; j) change/refresh all authenticators; and k) protect all authenticators from unauthorized disclosure and modification when stored and transmitted.",
+      "parent_sr": "SR 1.5",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.5 RE 1",
+      "type": "RE",
+      "title": "Hardware security for software process identity credentials",
+      "text": "For software process and device users, the control system shall provide the capability to protect the relevant authenticators via hardware mechanisms.",
+      "parent_sr": "SR 1.5",
+      "fr": 1,
+      "source_block": 4,
+      "central_pages": [
+        9,
+        10
+      ],
+      "context_pages": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "SR 1.5",
+      "type": "SR",
+      "title": "Authenticator management",
+      "text": "The control system shall provide the capability to: h) initialize authenticator content; i) change all default authenticators upon control system installation; j) change/refresh all authenticators; and k) protect all authenticators from unauthorized disclosure and modification when stored and transmitted.",
+      "parent_sr": "SR 1.5",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.5 RE 1",
+      "type": "RE",
+      "title": "Hardware security for software process identity credentials",
+      "text": "For software process and device users, the control system shall provide the capability to protect the relevant authenticators via hardware mechanisms.",
+      "parent_sr": "SR 1.5",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.6",
+      "type": "SR",
+      "title": "Wireless access management",
+      "text": "The control system shall provide the capability to identify and authenticate all users (humans, software processes or devices) engaged in wireless communication.",
+      "parent_sr": "SR 1.6",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.6 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all users (humans, software processes or devices) engaged in wireless communication.",
+      "parent_sr": "SR 1.6",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.7",
+      "type": "SR",
+      "title": "Strength of password-based authentication",
+      "text": "For control systems utilizing password-based authentication, the control system shall provide the capability to enforce configurable password strength based on minimum length and variety of character types.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.7 RE 1",
+      "type": "RE",
+      "title": "Password generation and lifetime restrictions for human users",
+      "text": "The control system shall provide the capability to prevent any given human user account from reusing a password for a configurable number of generations. In addition, the control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for human users. These capabilities shall conform with commonly accepted security industry practices.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.7 RE 2",
+      "type": "RE",
+      "title": "Password lifetime restrictions for all users",
+      "text": "The control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for all users.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 5,
+      "central_pages": [
+        11,
+        12
+      ],
+      "context_pages": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "SR 1.6",
+      "type": "SR",
+      "title": "Wireless access management",
+      "text": "The control system shall provide the capability to identify and authenticate all users (humans, software processes or devices) engaged in wireless communication.",
+      "parent_sr": "SR 1.6",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.6 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "text": "The control system shall provide the capability to uniquely identify and authenticate all users (humans, software processes or devices) engaged in wireless communication.",
+      "parent_sr": "SR 1.6",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.7",
+      "type": "SR",
+      "title": "Strength of password-based authentication",
+      "text": "For control systems utilizing password-based authentication, the control system shall provide the capability to enforce configurable password strength based on minimum length and variety of character types.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.7 RE 1",
+      "type": "RE",
+      "title": "Password generation and lifetime restrictions for human users",
+      "text": "The control system shall provide the capability to prevent any given human user account from reusing a password for a configurable number of generations. In addition, the control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for human users. These capabilities shall conform with commonly accepted security industry practices.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.7 RE 2",
+      "type": "RE",
+      "title": "Password lifetime restrictions for all users",
+      "text": "The control system shall provide the capability to enforce password minimum and maximum lifetime restrictions for all users.",
+      "parent_sr": "SR 1.7",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.8",
+      "type": "SR",
+      "title": "Public key infrastructure (PKI) certificates",
+      "text": "Where PKI is utilized, the control system shall provide the capability to operate a PKI according to commonly accepted best practices or obtain public key certificates from an existing PKI.",
+      "parent_sr": "SR 1.8",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.9",
+      "type": "SR",
+      "title": "Strength of public key authentication",
+      "text": "For control systems utilizing public key authentication, the control system shall provide the capability to: a) validate certificates by checking the validity of the signature of a given certificate; b) validate certificates by constructing a certification path to an accepted CA or in the case of self-signed certificates by deploying leaf certificates to all hosts which communicate with the subject to which the certificate is issued; c) validate certificates by checking a given certificate’s revocation status; d) establish user (human, software process or device) control of the corresponding private key; and e) map the authenticated identity to a user (human, software process or device).",
+      "parent_sr": "SR 1.9",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.9 RE 1",
+      "type": "RE",
+      "title": "Hardware security for public key authentication",
+      "text": "The control system shall provide the capability to protect the relevant private keys via hardware mechanisms according to commonly accepted security industry practices and recommendations.",
+      "parent_sr": "SR 1.9",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.10",
+      "type": "SR",
+      "title": "Authenticator feedback",
+      "text": "The control system shall provide the capability to obscure feedback of authentication information during the authentication process.",
+      "parent_sr": "SR 1.10",
+      "fr": 1,
+      "source_block": 6,
+      "central_pages": [
+        13,
+        14
+      ],
+      "context_pages": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "SR 1.9",
+      "type": "SR",
+      "title": "Strength of public key authentication",
+      "text": "For control systems utilizing public key authentication, the control system shall provide the capability to: a) validate certificates by checking the validity of the signature of a given certificate; b) validate certificates by constructing a certification path to an accepted CA or in the case of self-signed certificates by deploying leaf certificates to all hosts which communicate with the subject to which the certificate is issued; c) validate certificates by checking a given certificate’s revocation status; d) establish user (human, software process or device) control of the corresponding private key; and e) map the authenticated identity to a user (human, software process or device).",
+      "parent_sr": "SR 1.9",
+      "fr": 1,
+      "source_block": 7,
+      "central_pages": [
+        15,
+        16
+      ],
+      "context_pages": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "SR 1.9 RE 1",
+      "type": "RE",
+      "title": "Hardware security for public key authentication",
+      "text": "The control system shall provide the capability to protect the relevant private keys via hardware mechanisms according to commonly accepted security industry practices and recommendations.",
+      "parent_sr": "SR 1.9",
+      "fr": 1,
+      "source_block": 7,
+      "central_pages": [
+        15,
+        16
+      ],
+      "context_pages": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "SR 1.10",
+      "type": "SR",
+      "title": "Authenticator feedback",
+      "text": "The control system shall provide the capability to obscure feedback of authentication information during the authentication process.",
+      "parent_sr": "SR 1.10",
+      "fr": 1,
+      "source_block": 7,
+      "central_pages": [
+        15,
+        16
+      ],
+      "context_pages": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "SR 1.11",
+      "type": "SR",
+      "title": "Unsuccessful login attempts",
+      "text": "The control system shall provide the capability to enforce a limit of a configurable number of consecutive invalid access attempts by any user (human, software process or device) during a configurable time period. The control system shall provide the capability to deny access for a specified period of time or until unlocked by an administrator when this limit has been exceeded. For system accounts on behalf of which critical services or servers are run, the control system shall provide the capability to disallow interactive logons.",
+      "parent_sr": "SR 1.11",
+      "fr": 1,
+      "source_block": 7,
+      "central_pages": [
+        15,
+        16
+      ],
+      "context_pages": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "SR 1.12",
+      "type": "SR",
+      "title": "System use notification",
+      "text": "The control system shall provide the capability to display a system use notification message before authenticating. The system use notification message shall be configurable by authorized personnel.",
+      "parent_sr": "SR 1.12",
+      "fr": 1,
+      "source_block": 7,
+      "central_pages": [
+        15,
+        16
+      ],
+      "context_pages": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "SR 1.13",
+      "type": "SR",
+      "title": "Access via untrusted networks",
+      "text": "The control system shall provide the capability to monitor and control all methods of access to the control system via untrusted networks.",
+      "parent_sr": "SR 1.13",
+      "fr": 1,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 1.13 RE 1",
+      "type": "RE",
+      "title": "Explicit access request approval",
+      "text": "The control system shall provide the capability to deny access requests via untrusted networks unless approved by an assigned role.",
+      "parent_sr": "SR 1.13",
+      "fr": 1,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1",
+      "type": "SR",
+      "title": "Authorization enforcement",
+      "text": "On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all human users for controlling use of the control system to support segregation of duties and least privilege.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 1",
+      "type": "RE",
+      "title": "Authorization enforcement for all users",
+      "text": "On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all users (humans, software processes and devices) for controlling use of the control system to support segregation of duties and least privilege.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 2",
+      "type": "RE",
+      "title": "Permission mapping to roles",
+      "text": "The control system shall provide the capability for an authorized user or role to define and modify the mapping of permissions to roles for all human users.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 3",
+      "type": "RE",
+      "title": "Supervisor override",
+      "text": "The control system shall support supervisor manual override of the current human user authorizations for a configurable time or event sequence.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 4",
+      "type": "RE",
+      "title": "Dual approval",
+      "text": "The control system shall support dual approval where an action can result in serious impact on the industrial process.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 8,
+      "central_pages": [
+        17,
+        18
+      ],
+      "context_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "SR 2.1",
+      "type": "SR",
+      "title": "Authorization enforcement",
+      "text": "On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all human users for controlling use of the control system to support segregation of duties and least privilege.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 1",
+      "type": "RE",
+      "title": "Authorization enforcement for all users",
+      "text": "On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all users (humans, software processes and devices) for controlling use of the control system to support segregation of duties and least privilege.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 2",
+      "type": "RE",
+      "title": "Permission mapping to roles",
+      "text": "The control system shall provide the capability for an authorized user or role to define and modify the mapping of permissions to roles for all human users.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 3",
+      "type": "RE",
+      "title": "Supervisor override",
+      "text": "The control system shall support supervisor manual override of the current human user authorizations for a configurable time or event sequence.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.1 RE 4",
+      "type": "RE",
+      "title": "Dual approval",
+      "text": "The control system shall support dual approval where an action can result in serious impact on the industrial process.",
+      "parent_sr": "SR 2.1",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.2",
+      "type": "SR",
+      "title": "Wireless use control",
+      "text": "The control system shall provide the capability to authorize, monitor and enforce usage restrictions for wireless connectivity to the control system according to commonly accepted security industry practices.",
+      "parent_sr": "SR 2.2",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.2 RE 1",
+      "type": "RE",
+      "title": "Identify and report unauthorized wireless devices",
+      "text": "The control system shall provide the capability to identify and report unauthorized wireless devices transmitting within the control system physical environment.",
+      "parent_sr": "SR 2.2",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.3",
+      "type": "SR",
+      "title": "Use control for portable and mobile devices",
+      "text": "The control system shall provide the capability to automatically enforce configurable usage restrictions that include: a) preventing the use of portable and mobile devices; b) requiring context specific authorization; and c) restricting code and data transfer to/from portable and mobile devices.",
+      "parent_sr": "SR 2.3",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.3 RE 1",
+      "type": "RE",
+      "title": "Enforcement of security status of portable and mobile devices",
+      "text": "The control system shall provide the capability to verify that portable or mobile devices attempting to connect to a zone comply with the security requirements of that zone.",
+      "parent_sr": "SR 2.3",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.4",
+      "type": "SR",
+      "title": "Mobile code",
+      "text": "The control system shall provide the capability to enforce usage restrictions for mobile code technologies based on the potential to cause damage to the control system that include: a) preventing the execution of mobile code; b) requiring proper authentication and authorization for origin of the code; c) restricting mobile code transfer to/from the control system; and d) monitoring the use of mobile code.",
+      "parent_sr": "SR 2.4",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.4 RE 1",
+      "type": "RE",
+      "title": "Mobile code integrity check",
+      "text": "The control system shall provide the capability to verify integrity of the mobile code before allowing code execution.",
+      "parent_sr": "SR 2.4",
+      "fr": 2,
+      "source_block": 9,
+      "central_pages": [
+        19,
+        20
+      ],
+      "context_pages": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "SR 2.3",
+      "type": "SR",
+      "title": "Use control for portable and mobile devices",
+      "text": "The control system shall provide the capability to automatically enforce configurable usage restrictions that include: a) preventing the use of portable and mobile devices; b) requiring context specific authorization; and c) restricting code and data transfer to/from portable and mobile devices.",
+      "parent_sr": "SR 2.3",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.3 RE 1",
+      "type": "RE",
+      "title": "Enforcement of security status of portable and mobile devices",
+      "text": "The control system shall provide the capability to verify that portable or mobile devices attempting to connect to a zone comply with the security requirements of that zone.",
+      "parent_sr": "SR 2.3",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.4",
+      "type": "SR",
+      "title": "Mobile code",
+      "text": "The control system shall provide the capability to enforce usage restrictions for mobile code technologies based on the potential to cause damage to the control system that include: a) preventing the execution of mobile code; b) requiring proper authentication and authorization for origin of the code; c) restricting mobile code transfer to/from the control system; and d) monitoring the use of mobile code.",
+      "parent_sr": "SR 2.4",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.4 RE 1",
+      "type": "RE",
+      "title": "Mobile code integrity check",
+      "text": "The control system shall provide the capability to verify integrity of the mobile code before allowing code execution.",
+      "parent_sr": "SR 2.4",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.5",
+      "type": "SR",
+      "title": "Session lock",
+      "text": "The control system shall provide the capability to prevent further access by initiating a session lock after a configurable time period of inactivity or by manual initiation. The session lock shall remain in effect until the human user who owns the session or another authorized human user re-establishes access using appropriate identification and authentication procedures.",
+      "parent_sr": "SR 2.5",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.6",
+      "type": "SR",
+      "title": "Remote session termination",
+      "text": "The control system shall provide the capability to terminate a remote session either automatically after a configurable time period of inactivity or manually by the user who initiated the session.",
+      "parent_sr": "SR 2.6",
+      "fr": 2,
+      "source_block": 10,
+      "central_pages": [
+        21,
+        22
+      ],
+      "context_pages": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "SR 2.6",
+      "type": "SR",
+      "title": "Remote session termination",
+      "text": "The control system shall provide the capability to terminate a remote session either automatically after a configurable time period of inactivity or manually by the user who initiated the session.",
+      "parent_sr": "SR 2.6",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.7",
+      "type": "SR",
+      "title": "Concurrent session control",
+      "text": "The control system shall provide the capability to limit the number of concurrent sessions per interface for any given user (human, software process or device) to a configurable number of sessions.",
+      "parent_sr": "SR 2.7",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.8",
+      "type": "SR",
+      "title": "Auditable events",
+      "text": "The control system shall provide the capability to generate audit records relevant to security for the following categories: access control, request errors, operating system events, control system events, backup and restore events, configuration changes, potential reconnaissance activity and audit log events. Individual audit records shall include the timestamp, source (originating device, software process or human user account), category, type, event ID and event result.",
+      "parent_sr": "SR 2.8",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.8 RE 1",
+      "type": "RE",
+      "title": "Centrally managed, system-wide audit trail",
+      "text": "The control system shall provide the capability to centrally manage audit events and to compile audit records from multiple components throughout the control system into a system-wide (logical or physical), time-correlated audit trail. The control system shall provide the capability to export these audit records in industry standard formats for analysis by standard commercial log analysis tools, for example, security information and event management (SIEM).",
+      "parent_sr": "SR 2.8",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.9",
+      "type": "SR",
+      "title": "Audit storage capacity",
+      "text": "The control system shall allocate sufficient audit record storage capacity according to commonly recognized recommendations for log management and system configuration. The control system shall provide auditing mechanisms to reduce the likelihood of such capacity being exceeded.",
+      "parent_sr": "SR 2.9",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.9 RE 1",
+      "type": "RE",
+      "title": "Warn when audit record storage capacity threshold reached",
+      "text": "The control system shall provide the capability to issue a warning when the allocated audit record storage volume reaches a configurable percentage of maximum audit record storage capacity.",
+      "parent_sr": "SR 2.9",
+      "fr": 2,
+      "source_block": 11,
+      "central_pages": [
+        23,
+        24
+      ],
+      "context_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": "SR 2.10",
+      "type": "SR",
+      "title": "Response to audit processing failures",
+      "text": "The control system shall provide the capability to alert personnel and prevent the loss of essential services and functions in the event of an audit processing failure. The control system shall provide the capability to support appropriate actions in response to an audit processing failure according to commonly accepted industry practices and recommendations.",
+      "parent_sr": "SR 2.10",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.11",
+      "type": "SR",
+      "title": "Timestamps",
+      "text": "The control system shall provide timestamps for use in audit record generation.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.11 RE 1",
+      "type": "RE",
+      "title": "Internal time synchronization",
+      "text": "The control system shall provide the capability to synchronize internal system clocks at a configurable frequency.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.11 RE 2",
+      "type": "RE",
+      "title": "Protection of time source integrity",
+      "text": "The time source shall be protected from unauthorized alteration and shall cause an audit event upon alteration.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.12",
+      "type": "SR",
+      "title": "Non-repudiation",
+      "text": "The control system shall provide the capability to determine whether a given human user took a particular action.",
+      "parent_sr": "SR 2.12",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.12 RE 1",
+      "type": "RE",
+      "title": "Non-repudiation for all users",
+      "text": "The control system shall provide the capability to determine whether a given user (human, software process or device) took a particular action.",
+      "parent_sr": "SR 2.12",
+      "fr": 2,
+      "source_block": 12,
+      "central_pages": [
+        25,
+        26
+      ],
+      "context_pages": [
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": "SR 2.11 RE 1",
+      "type": "RE",
+      "title": "Internal time synchronization",
+      "text": "The control system shall provide the capability to synchronize internal system clocks at a configurable frequency.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 2.11 RE 2",
+      "type": "RE",
+      "title": "Protection of time source integrity",
+      "text": "The time source shall be protected from unauthorized alteration and shall cause an audit event upon alteration.",
+      "parent_sr": "SR 2.11",
+      "fr": 2,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 2.12",
+      "type": "SR",
+      "title": "Non-repudiation",
+      "text": "The control system shall provide the capability to determine whether a given human user took a particular action.",
+      "parent_sr": "SR 2.12",
+      "fr": 2,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 2.12 RE 1",
+      "type": "RE",
+      "title": "Non-repudiation for all users",
+      "text": "The control system shall provide the capability to determine whether a given user (human, software process or device) took a particular action.",
+      "parent_sr": "SR 2.12",
+      "fr": 2,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.1",
+      "type": "SR",
+      "title": "Communication integrity",
+      "text": "The control system shall provide the capability to protect the integrity of transmitted information.",
+      "parent_sr": "SR 3.1",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.1 RE 1",
+      "type": "RE",
+      "title": "Cryptographic integrity protection",
+      "text": "The control system shall provide the capability to employ cryptographic mechanisms to recognize changes to information during communication.",
+      "parent_sr": "SR 3.1",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.2",
+      "type": "SR",
+      "title": "Malicious code protection",
+      "text": "The control system shall provide the capability to employ protection mechanisms to prevent, detect, report and mitigate the effects of malicious code or unauthorized software. The control system shall provide the capability to update the protection mechanisms.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.2 RE 1",
+      "type": "RE",
+      "title": "Malicious code protection on entry and exit points",
+      "text": "The control system shall provide the capability to employ malicious code protection mechanisms at all entry and exit points.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.2 RE 2",
+      "type": "RE",
+      "title": "Central management and reporting for malicious code protection",
+      "text": "The control system shall provide the capability to manage malicious code protection mechanisms.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.3",
+      "type": "SR",
+      "title": "Security functionality verification",
+      "text": "The control system shall provide the capability to support verification of the intended operation of security functions and report when anomalies are discovered during FAT, SAT and scheduled maintenance. These security functions shall include all those necessary to support the security requirements specified in this standard.",
+      "parent_sr": "SR 3.3",
+      "fr": 3,
+      "source_block": 13,
+      "central_pages": [
+        27,
+        28
+      ],
+      "context_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": "SR 3.2",
+      "type": "SR",
+      "title": "Malicious code protection",
+      "text": "The control system shall provide the capability to employ protection mechanisms to prevent, detect, report and mitigate the effects of malicious code or unauthorized software. The control system shall provide the capability to update the protection mechanisms.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.2 RE 1",
+      "type": "RE",
+      "title": "Malicious code protection on entry and exit points",
+      "text": "The control system shall provide the capability to employ malicious code protection mechanisms at all entry and exit points.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.2 RE 2",
+      "type": "RE",
+      "title": "Central management and reporting for malicious code protection",
+      "text": "The control system shall provide the capability to manage malicious code protection mechanisms.",
+      "parent_sr": "SR 3.2",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.3",
+      "type": "SR",
+      "title": "Security functionality verification",
+      "text": "The control system shall provide the capability to support verification of the intended operation of security functions and report when anomalies are discovered during FAT, SAT and scheduled maintenance. These security functions shall include all those necessary to support the security requirements specified in this standard.",
+      "parent_sr": "SR 3.3",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.3 RE 1",
+      "type": "RE",
+      "title": "Automated mechanisms for security functionality verification",
+      "text": "The control system shall provide the capability to employ automated mechanisms to support management of security verification during FAT, SAT and scheduled maintenance.",
+      "parent_sr": "SR 3.3",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.3 RE 2",
+      "type": "RE",
+      "title": "Security functionality verification during normal operation",
+      "text": "The control system shall provide the capability to support verification of the intended operation of security functions during normal operations.",
+      "parent_sr": "SR 3.3",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.4",
+      "type": "SR",
+      "title": "Software and information integrity",
+      "text": "The control system shall provide the capability to detect, record, report and protect against unauthorized changes to software and information at rest.",
+      "parent_sr": "SR 3.4",
+      "fr": 3,
+      "source_block": 14,
+      "central_pages": [
+        29,
+        30
+      ],
+      "context_pages": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "SR 3.4",
+      "type": "SR",
+      "title": "Software and information integrity",
+      "text": "The control system shall provide the capability to detect, record, report and protect against unauthorized changes to software and information at rest.",
+      "parent_sr": "SR 3.4",
+      "fr": 3,
+      "source_block": 15,
+      "central_pages": [
+        31,
+        32
+      ],
+      "context_pages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SR 3.4 RE 1",
+      "type": "RE",
+      "title": "Automated notification about integrity violations",
+      "text": "The control system shall provide the capability to use automated tools that provide notification to a configurable set of recipients upon discovering discrepancies during integrity verification.",
+      "parent_sr": "SR 3.4",
+      "fr": 3,
+      "source_block": 15,
+      "central_pages": [
+        31,
+        32
+      ],
+      "context_pages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SR 3.5",
+      "type": "SR",
+      "title": "Input validation",
+      "text": "The control system shall validate the syntax and content of any input which is used as an industrial process control input or input that directly impacts the action of the control system.",
+      "parent_sr": "SR 3.5",
+      "fr": 3,
+      "source_block": 15,
+      "central_pages": [
+        31,
+        32
+      ],
+      "context_pages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SR 3.6",
+      "type": "SR",
+      "title": "Deterministic output",
+      "text": "The control system shall provide the capability to set outputs to a predetermined state if normal operation cannot be maintained as a result of an attack.",
+      "parent_sr": "SR 3.6",
+      "fr": 3,
+      "source_block": 15,
+      "central_pages": [
+        31,
+        32
+      ],
+      "context_pages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SR 3.7",
+      "type": "SR",
+      "title": "Error handling",
+      "text": "The control system shall identify and handle error conditions in a manner such that effective remediation can occur. This shall be done in a manner which does not provide information that could be exploited by adversaries to attack the IACS unless revealing this information is necessary for the timely troubleshooting of problems.",
+      "parent_sr": "SR 3.7",
+      "fr": 3,
+      "source_block": 15,
+      "central_pages": [
+        31,
+        32
+      ],
+      "context_pages": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "SR 3.8",
+      "type": "SR",
+      "title": "Session integrity",
+      "text": "The control system shall provide the capability to protect the integrity of sessions. The control system shall reject any usage of invalid session IDs.",
+      "parent_sr": "SR 3.8",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 3.8 RE 1",
+      "type": "RE",
+      "title": "Invalidation of session IDs after session termination",
+      "text": "The control system shall provide the capability to invalidate session IDs upon user logout or other session termination (including browser sessions).",
+      "parent_sr": "SR 3.8",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 3.8 RE 2",
+      "type": "RE",
+      "title": "Unique session ID generation",
+      "text": "The control system shall provide the capability to generate a unique session ID for each session and treat all unexpected session IDs as invalid.",
+      "parent_sr": "SR 3.8",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 3.8 RE 3",
+      "type": "RE",
+      "title": "Randomness of session IDs",
+      "text": "The control system shall provide the capability to generate unique session IDs with commonly accepted sources of randomness.",
+      "parent_sr": "SR 3.8",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 3.9",
+      "type": "SR",
+      "title": "Protection of audit information",
+      "text": "The control system shall protect audit information and audit tools (if present) from unauthorized access, modification and deletion.",
+      "parent_sr": "SR 3.9",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 3.9 RE 1",
+      "type": "RE",
+      "title": "Audit records on write-once media",
+      "text": "The control system shall provide the capability to produce audit records on hardware-enforced write-once media.",
+      "parent_sr": "SR 3.9",
+      "fr": 3,
+      "source_block": 16,
+      "central_pages": [
+        33,
+        34
+      ],
+      "context_pages": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "SR 4.1",
+      "type": "SR",
+      "title": "Information confidentiality",
+      "text": "The control system shall provide the capability to protect the confidentiality of information for which explicit read authorization is supported, whether at rest or in transit.",
+      "parent_sr": "SR 4.1",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.1 RE 1",
+      "type": "RE",
+      "title": "Protection of confidentiality at rest or in transit via untrusted networks",
+      "text": "The control system shall provide the capability to protect the confidentiality of information at rest and remote access sessions traversing an untrusted network.",
+      "parent_sr": "SR 4.1",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.1 RE 2",
+      "type": "RE",
+      "title": "Protection of confidentiality across zone boundaries",
+      "text": "The control system shall provide the capability to protect the confidentiality of information traversing any zone boundary.",
+      "parent_sr": "SR 4.1",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.2",
+      "type": "SR",
+      "title": "Information persistence",
+      "text": "The control system shall provide the capability to purge all information for which explicit read authorization is supported from components to be released from active service and/or decommissioned.",
+      "parent_sr": "SR 4.2",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.2 RE 1",
+      "type": "RE",
+      "title": "Purging of shared memory resources",
+      "text": "The control system shall provide the capability to prevent unauthorized and unintended information transfer via volatile shared memory resources.",
+      "parent_sr": "SR 4.2",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.3",
+      "type": "SR",
+      "title": "Use of cryptography",
+      "text": "If cryptography is required, the control system shall use cryptographic algorithms, key sizes and mechanisms for key establishment and management according to commonly accepted security industry practices and recommendations.",
+      "parent_sr": "SR 4.3",
+      "fr": 4,
+      "source_block": 17,
+      "central_pages": [
+        35,
+        36
+      ],
+      "context_pages": [
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "SR 4.3",
+      "type": "SR",
+      "title": "Use of cryptography",
+      "text": "If cryptography is required, the control system shall use cryptographic algorithms, key sizes and mechanisms for key establishment and management according to commonly accepted security industry practices and recommendations.",
+      "parent_sr": "SR 4.3",
+      "fr": 4,
+      "source_block": 18,
+      "central_pages": [
+        37,
+        38
+      ],
+      "context_pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "SR 5.1",
+      "type": "SR",
+      "title": "Network segmentation",
+      "text": "The control system shall provide the capability to logically segment control system networks from non-control system networks and to logically segment critical control system networks from other control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 18,
+      "central_pages": [
+        37,
+        38
+      ],
+      "context_pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 1",
+      "type": "RE",
+      "title": "Physical network segmentation",
+      "text": "The control system shall provide the capability to physically segment control system networks from non-control system networks and to physically segment critical control system networks from non-critical control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 18,
+      "central_pages": [
+        37,
+        38
+      ],
+      "context_pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 2",
+      "type": "RE",
+      "title": "Independence from non-control system networks",
+      "text": "The control system shall have the capability to provide network services to control system networks, critical or otherwise, without a connection to non-control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 18,
+      "central_pages": [
+        37,
+        38
+      ],
+      "context_pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 3",
+      "type": "RE",
+      "title": "Logical and physical isolation of critical networks",
+      "text": "The control system shall provide the capability to logically and physically isolate critical control system networks from non-critical control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 18,
+      "central_pages": [
+        37,
+        38
+      ],
+      "context_pages": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "id": "SR 5.1",
+      "type": "SR",
+      "title": "Network segmentation",
+      "text": "The control system shall provide the capability to logically segment control system networks from non-control system networks and to logically segment critical control system networks from other control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 1",
+      "type": "RE",
+      "title": "Physical network segmentation",
+      "text": "The control system shall provide the capability to physically segment control system networks from non-control system networks and to physically segment critical control system networks from non-critical control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 2",
+      "type": "RE",
+      "title": "Independence from non-control system networks",
+      "text": "The control system shall have the capability to provide network services to control system networks, critical or otherwise, without a connection to non-control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.1 RE 3",
+      "type": "RE",
+      "title": "Logical and physical isolation of critical networks",
+      "text": "The control system shall provide the capability to logically and physically isolate critical control system networks from non-critical control system networks.",
+      "parent_sr": "SR 5.1",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.2",
+      "type": "SR",
+      "title": "Zone boundary protection",
+      "text": "The control system shall provide the capability to monitor and control communications at zone boundaries to enforce the compartmentalization defined in the risk-based zones and conduits model.",
+      "parent_sr": "SR 5.2",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.2 RE 1",
+      "type": "RE",
+      "title": "Deny by default, allow by exception",
+      "text": "The control system shall provide the capability to deny network traffic by default and allow network traffic by exception (also termed deny all, permit by exception).",
+      "parent_sr": "SR 5.2",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.2 RE 2",
+      "type": "RE",
+      "title": "Island mode",
+      "text": "The control system shall provide the capability to prevent any communication through the control system boundary (also termed island mode).",
+      "parent_sr": "SR 5.2",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.2 RE 3",
+      "type": "RE",
+      "title": "Fail close",
+      "text": "The control system shall provide the capability to prevent any communication through the control system boundary when there is an operational failure of the boundary protection mechanisms (also termed fail close). This ‘fail close’ functionality shall be designed such that it does not interfere with the operation of a SIS or other safety-related functions.",
+      "parent_sr": "SR 5.2",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.3",
+      "type": "SR",
+      "title": "General purpose person-to-person communication restrictions",
+      "text": "The control system shall provide the capability to prevent general purpose person-to-person messages from being received from users or systems external to the control system.",
+      "parent_sr": "SR 5.3",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.3 RE 1",
+      "type": "RE",
+      "title": "Prohibit all general purpose person-to-person communications",
+      "text": "The control system shall provide the capability to prevent both transmission and receipt of general purpose person-to-person messages.",
+      "parent_sr": "SR 5.3",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.4",
+      "type": "SR",
+      "title": "Application partitioning",
+      "text": "The control system shall provide the capability to support partitioning of data, applications and services based on criticality to facilitate implementing a zoning model.",
+      "parent_sr": "SR 5.4",
+      "fr": 5,
+      "source_block": 19,
+      "central_pages": [
+        39,
+        40
+      ],
+      "context_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "SR 5.3",
+      "type": "SR",
+      "title": "General purpose person-to-person communication restrictions",
+      "text": "The control system shall provide the capability to prevent general purpose person-to-person messages from being received from users or systems external to the control system.",
+      "parent_sr": "SR 5.3",
+      "fr": 5,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 5.3 RE 1",
+      "type": "RE",
+      "title": "Prohibit all general purpose person-to-person communications",
+      "text": "The control system shall provide the capability to prevent both transmission and receipt of general purpose person-to-person messages.",
+      "parent_sr": "SR 5.3",
+      "fr": 5,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 5.4",
+      "type": "SR",
+      "title": "Application partitioning",
+      "text": "The control system shall provide the capability to support partitioning of data, applications and services based on criticality to facilitate implementing a zoning model.",
+      "parent_sr": "SR 5.4",
+      "fr": 5,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 6.1",
+      "type": "SR",
+      "title": "Audit log accessibility",
+      "text": "The control system shall provide the capability for authorized humans and/or tools to access audit logs on a read-only basis.",
+      "parent_sr": "SR 6.1",
+      "fr": 6,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 6.1 RE 1",
+      "type": "RE",
+      "title": "Programmatic access to audit logs",
+      "text": "The control system shall provide programmatic access to audit records using an application programming interface (API).",
+      "parent_sr": "SR 6.1",
+      "fr": 6,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 6.2",
+      "type": "SR",
+      "title": "Continuous monitoring",
+      "text": "The control system shall provide the capability to continuously monitor all security mechanism performance using commonly accepted security industry practices and recommendations to detect, characterize and report security breaches in a timely manner.",
+      "parent_sr": "SR 6.2",
+      "fr": 6,
+      "source_block": 20,
+      "central_pages": [
+        41,
+        42
+      ],
+      "context_pages": [
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": "SR 6.2",
+      "type": "SR",
+      "title": "Continuous monitoring",
+      "text": "The control system shall provide the capability to continuously monitor all security mechanism performance using commonly accepted security industry practices and recommendations to detect, characterize and report security breaches in a timely manner.",
+      "parent_sr": "SR 6.2",
+      "fr": 6,
+      "source_block": 21,
+      "central_pages": [
+        43,
+        44
+      ],
+      "context_pages": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "SR 7.1",
+      "type": "SR",
+      "title": "Denial of service protection",
+      "text": "The control system shall provide the capability to operate in a degraded mode during a DoS event.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 21,
+      "central_pages": [
+        43,
+        44
+      ],
+      "context_pages": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "SR 7.1 RE 1",
+      "type": "RE",
+      "title": "Manage communication loads",
+      "text": "The control system shall provide the capability to manage communication loads (such as using rate limiting) to mitigate the effects of information flooding types of DoS events.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 21,
+      "central_pages": [
+        43,
+        44
+      ],
+      "context_pages": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "SR 7.1 RE 2",
+      "type": "RE",
+      "title": "Limit DoS effects to other systems or networks",
+      "text": "The control system shall provide the capability to restrict the ability of all users (humans, software processes and devices) to cause DoS events which affect other control systems or networks.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 21,
+      "central_pages": [
+        43,
+        44
+      ],
+      "context_pages": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "SR 7.2",
+      "type": "SR",
+      "title": "Resource management",
+      "text": "The control system shall provide the capability to limit the use of resources by security functions to prevent resource exhaustion.",
+      "parent_sr": "SR 7.2",
+      "fr": 7,
+      "source_block": 21,
+      "central_pages": [
+        43,
+        44
+      ],
+      "context_pages": [
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "SR 7.1",
+      "type": "SR",
+      "title": "Denial of service protection",
+      "text": "The control system shall provide the capability to operate in a degraded mode during a DoS event.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.1 RE 1",
+      "type": "RE",
+      "title": "Manage communication loads",
+      "text": "The control system shall provide the capability to manage communication loads (such as using rate limiting) to mitigate the effects of information flooding types of DoS events.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.1 RE 2",
+      "type": "RE",
+      "title": "Limit DoS effects to other systems or networks",
+      "text": "The control system shall provide the capability to restrict the ability of all users (humans, software processes and devices) to cause DoS events which affect other control systems or networks.",
+      "parent_sr": "SR 7.1",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.2",
+      "type": "SR",
+      "title": "Resource management",
+      "text": "The control system shall provide the capability to limit the use of resources by security functions to prevent resource exhaustion.",
+      "parent_sr": "SR 7.2",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.3",
+      "type": "SR",
+      "title": "Control system backup",
+      "text": "The identity and location of critical files and the ability to conduct backups of user-level and system-level information (including system state information) shall be supported by the control system without affecting normal plant operations.",
+      "parent_sr": "SR 7.3",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.3 RE 1",
+      "type": "RE",
+      "title": "Backup verification",
+      "text": "The control system shall provide the capability to verify the reliability of backup mechanisms.",
+      "parent_sr": "SR 7.3",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.3 RE 2",
+      "type": "RE",
+      "title": "Backup automation",
+      "text": "The control system shall provide the capability to automate the backup function based on a configurable frequency.",
+      "parent_sr": "SR 7.3",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.4",
+      "type": "SR",
+      "title": "Control system recovery and reconstitution",
+      "text": "The control system shall provide the capability to recover and reconstitute to a known secure state after a disruption or failure.",
+      "parent_sr": "SR 7.4",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.5",
+      "type": "SR",
+      "title": "Emergency power",
+      "text": "The control system shall provide the capability to switch to and from an emergency power supply without affecting the existing security state or a documented degraded mode.",
+      "parent_sr": "SR 7.5",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.6",
+      "type": "SR",
+      "title": "Network and security configuration settings",
+      "text": "The control system shall provide the capability to be configured according to recommended network and security configurations as described in guidelines provided by the control system supplier. The control system shall provide an interface to the currently deployed network and security configuration settings.",
+      "parent_sr": "SR 7.6",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.6 RE 1",
+      "type": "RE",
+      "title": "Machine-readable reporting of current security settings",
+      "text": "The control system shall provide the capability to generate a report listing the currently deployed security settings in a machine-readable format.",
+      "parent_sr": "SR 7.6",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.7",
+      "type": "SR",
+      "title": "Least functionality",
+      "text": "The control system shall provide the capability to specifically prohibit and/or restrict the use of unnecessary functions, ports, protocols and/or services.",
+      "parent_sr": "SR 7.7",
+      "fr": 7,
+      "source_block": 22,
+      "central_pages": [
+        45,
+        46
+      ],
+      "context_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "id": "SR 7.6",
+      "type": "SR",
+      "title": "Network and security configuration settings",
+      "text": "The control system shall provide the capability to be configured according to recommended network and security configurations as described in guidelines provided by the control system supplier. The control system shall provide an interface to the currently deployed network and security configuration settings.",
+      "parent_sr": "SR 7.6",
+      "fr": 7,
+      "source_block": 23,
+      "central_pages": [
+        47,
+        48
+      ],
+      "context_pages": [
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "SR 7.6 RE 1",
+      "type": "RE",
+      "title": "Machine-readable reporting of current security settings",
+      "text": "The control system shall provide the capability to generate a report listing the currently deployed security settings in a machine-readable format.",
+      "parent_sr": "SR 7.6",
+      "fr": 7,
+      "source_block": 23,
+      "central_pages": [
+        47,
+        48
+      ],
+      "context_pages": [
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "SR 7.7",
+      "type": "SR",
+      "title": "Least functionality",
+      "text": "The control system shall provide the capability to specifically prohibit and/or restrict the use of unnecessary functions, ports, protocols and/or services.",
+      "parent_sr": "SR 7.7",
+      "fr": 7,
+      "source_block": 23,
+      "central_pages": [
+        47,
+        48
+      ],
+      "context_pages": [
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "SR 7.8",
+      "type": "SR",
+      "title": "Control system component inventory",
+      "text": "The control system shall provide the capability to report the current list of installed components and their associated properties.",
+      "parent_sr": "SR 7.8",
+      "fr": 7,
+      "source_block": 23,
+      "central_pages": [
+        47,
+        48
+      ],
+      "context_pages": [
+        46,
+        47,
+        48,
+        49
+      ]
+    }
+  ]
+}

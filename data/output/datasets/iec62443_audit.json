@@ -1,0 +1,5251 @@
+{
+  "metadata": {
+    "audit_generated_at": "2026-08-26T19:11:27.518557+00:00",
+    "audit_script": "iec_audit.py",
+    "clean_dataset": "data/output/datasets/iec62443_clean.json",
+    "debug_dataset": "data/output/datasets/iec62443_debug.json",
+    "expected_total_entries": 100,
+    "expected_total_srs": 51,
+    "expected_total_res": 49
+  },
+  "dataset_summary": {
+    "total_entries": 100,
+    "sr_count": 51,
+    "re_count": 49,
+    "expected_total_entries": 100,
+    "expected_total_srs": 51,
+    "expected_total_res": 49,
+    "structural_pass": true,
+    "status_counts": {
+      "warning": 13,
+      "approved": 86,
+      "review": 1
+    },
+    "duplicate_id_count": 0,
+    "duplicate_text_group_count": 0,
+    "missing_sr_count": 0,
+    "unexpected_sr_count": 0,
+    "missing_from_debug_blocks_count": 0,
+    "missing_from_debug_consolidation_count": 0
+  },
+  "sr_coverage": {
+    "expected_ids": [
+      "SR 1.1",
+      "SR 1.10",
+      "SR 1.11",
+      "SR 1.12",
+      "SR 1.13",
+      "SR 1.2",
+      "SR 1.3",
+      "SR 1.4",
+      "SR 1.5",
+      "SR 1.6",
+      "SR 1.7",
+      "SR 1.8",
+      "SR 1.9",
+      "SR 2.1",
+      "SR 2.10",
+      "SR 2.11",
+      "SR 2.12",
+      "SR 2.2",
+      "SR 2.3",
+      "SR 2.4",
+      "SR 2.5",
+      "SR 2.6",
+      "SR 2.7",
+      "SR 2.8",
+      "SR 2.9",
+      "SR 3.1",
+      "SR 3.2",
+      "SR 3.3",
+      "SR 3.4",
+      "SR 3.5",
+      "SR 3.6",
+      "SR 3.7",
+      "SR 3.8",
+      "SR 3.9",
+      "SR 4.1",
+      "SR 4.2",
+      "SR 4.3",
+      "SR 5.1",
+      "SR 5.2",
+      "SR 5.3",
+      "SR 5.4",
+      "SR 6.1",
+      "SR 6.2",
+      "SR 7.1",
+      "SR 7.2",
+      "SR 7.3",
+      "SR 7.4",
+      "SR 7.5",
+      "SR 7.6",
+      "SR 7.7",
+      "SR 7.8"
+    ],
+    "actual_ids": [
+      "SR 1.1",
+      "SR 1.10",
+      "SR 1.11",
+      "SR 1.12",
+      "SR 1.13",
+      "SR 1.2",
+      "SR 1.3",
+      "SR 1.4",
+      "SR 1.5",
+      "SR 1.6",
+      "SR 1.7",
+      "SR 1.8",
+      "SR 1.9",
+      "SR 2.1",
+      "SR 2.10",
+      "SR 2.11",
+      "SR 2.12",
+      "SR 2.2",
+      "SR 2.3",
+      "SR 2.4",
+      "SR 2.5",
+      "SR 2.6",
+      "SR 2.7",
+      "SR 2.8",
+      "SR 2.9",
+      "SR 3.1",
+      "SR 3.2",
+      "SR 3.3",
+      "SR 3.4",
+      "SR 3.5",
+      "SR 3.6",
+      "SR 3.7",
+      "SR 3.8",
+      "SR 3.9",
+      "SR 4.1",
+      "SR 4.2",
+      "SR 4.3",
+      "SR 5.1",
+      "SR 5.2",
+      "SR 5.3",
+      "SR 5.4",
+      "SR 6.1",
+      "SR 6.2",
+      "SR 7.1",
+      "SR 7.2",
+      "SR 7.3",
+      "SR 7.4",
+      "SR 7.5",
+      "SR 7.6",
+      "SR 7.7",
+      "SR 7.8"
+    ],
+    "missing_ids": [],
+    "unexpected_ids": []
+  },
+  "foundational_requirement_distribution": {
+    "1": {
+      "sr_count": 13,
+      "re_count": 11,
+      "expected_sr_count": 13,
+      "sr_count_matches_expected": true
+    },
+    "2": {
+      "sr_count": 12,
+      "re_count": 12,
+      "expected_sr_count": 12,
+      "sr_count_matches_expected": true
+    },
+    "3": {
+      "sr_count": 9,
+      "re_count": 10,
+      "expected_sr_count": 9,
+      "sr_count_matches_expected": true
+    },
+    "4": {
+      "sr_count": 3,
+      "re_count": 3,
+      "expected_sr_count": 3,
+      "sr_count_matches_expected": true
+    },
+    "5": {
+      "sr_count": 4,
+      "re_count": 7,
+      "expected_sr_count": 4,
+      "sr_count_matches_expected": true
+    },
+    "6": {
+      "sr_count": 2,
+      "re_count": 1,
+      "expected_sr_count": 2,
+      "sr_count_matches_expected": true
+    },
+    "7": {
+      "sr_count": 8,
+      "re_count": 5,
+      "expected_sr_count": 8,
+      "sr_count_matches_expected": true
+    }
+  },
+  "duplicate_ids": {},
+  "duplicate_texts": [],
+  "debug_coverage": {
+    "missing_from_debug_blocks": [],
+    "missing_from_debug_consolidation": []
+  },
+  "entries": [
+    {
+      "id": "SR 1.1",
+      "type": "SR",
+      "title": "Human user identification and authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.1",
+      "word_count": 14,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants",
+        "prefix_or_truncation_variant_detected"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 3,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.4189,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.6126,
+        "prefix_variants_detected": true,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to identify and authenticate all human users.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to identify and authenticate all human users. This capability shall enforce such identification and authentication on all interfaces which provide human user access to the control system to support segregation of duties and least privilege in accordance with applicable security policies and procedures.",
+            "blocks": [
+              2,
+              3
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "prefix_or_truncation_variant_detected",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.1 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.1",
+      "word_count": 15,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.1 RE 2",
+      "type": "RE",
+      "title": "Multifactor authentication for untrusted networks",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.1",
+      "word_count": 23,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.1 RE 3",
+      "type": "RE",
+      "title": "Multifactor authentication for all networks",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.1",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.2",
+      "type": "SR",
+      "title": "Software process and device identification and authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.2",
+      "word_count": 16,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants",
+        "prefix_or_truncation_variant_detected"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 3,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5034,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.6689,
+        "prefix_variants_detected": true,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to identify and authenticate all software processes and devices.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to identify and authenticate all software processes and devices. This capability shall enforce such identification and authentication on all interfaces which provide access to the control system to support least privilege in accordance with applicable security policies and procedures.",
+            "blocks": [
+              3,
+              4
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "prefix_or_truncation_variant_detected",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.2 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.2",
+      "word_count": 17,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.3",
+      "type": "SR",
+      "title": "Account management",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.3",
+      "word_count": 25,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5339,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.7669,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to manage accounts.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to support the management of all accounts by authorized users, including adding, activating, modifying, disabling and removing accounts.",
+            "blocks": [
+              4
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.3 RE 1",
+      "type": "RE",
+      "title": "Unified account management",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.3",
+      "word_count": 12,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.4",
+      "type": "SR",
+      "title": "Identifier management",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.4",
+      "word_count": 21,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.6731,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.8365,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to manage identifiers.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to support the management of identifiers by user, group, role or control system interface.",
+            "blocks": [
+              4
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.5",
+      "type": "SR",
+      "title": "Authenticator management",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.5",
+      "word_count": 39,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.5 RE 1",
+      "type": "RE",
+      "title": "Hardware security for software process identity credentials",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.5",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.6",
+      "type": "SR",
+      "title": "Wireless access management",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.6",
+      "word_count": 22,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.6 RE 1",
+      "type": "RE",
+      "title": "Unique identification and authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.6",
+      "word_count": 23,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.7",
+      "type": "SR",
+      "title": "Strength of password-based authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.7",
+      "word_count": 27,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.7 RE 1",
+      "type": "RE",
+      "title": "Password generation and lifetime restrictions for human users",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.7",
+      "word_count": 54,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.7 RE 2",
+      "type": "RE",
+      "title": "Password lifetime restrictions for all users",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.7",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.8",
+      "type": "SR",
+      "title": "Public key infrastructure (PKI) certificates",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.8",
+      "word_count": 30,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5362,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.7681,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to support the use of PKI certificates.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "Where PKI is utilized, the control system shall provide the capability to operate a PKI according to commonly accepted best practices or obtain public key certificates from an existing PKI.",
+            "blocks": [
+              6
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.9",
+      "type": "SR",
+      "title": "Strength of public key authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.9",
+      "word_count": 104,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.9 RE 1",
+      "type": "RE",
+      "title": "Hardware security for public key authentication",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.9",
+      "word_count": 25,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.10",
+      "type": "SR",
+      "title": "Authenticator feedback",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.10",
+      "word_count": 17,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.11",
+      "type": "SR",
+      "title": "Unsuccessful login attempts",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.11",
+      "word_count": 85,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.2343,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.6172,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to manage unsuccessful login attempts.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to enforce a limit of a configurable number of consecutive invalid access attempts by any user (human, software process or device) during a configurable time period. The control system shall provide the capability to deny access for a specified period of time or until unlocked by an administrator when this limit has been exceeded. For system accounts on behalf of which critical services or servers are run, the control system shall provide the capability to disallow interactive logons.",
+            "blocks": [
+              7
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.12",
+      "type": "SR",
+      "title": "System use notification",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.12",
+      "word_count": 27,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.13",
+      "type": "SR",
+      "title": "Access via untrusted networks",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.13",
+      "word_count": 22,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 1.13 RE 1",
+      "type": "RE",
+      "title": "Explicit access request approval",
+      "foundational_requirement": 1,
+      "parent_sr": "SR 1.13",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.1",
+      "type": "SR",
+      "title": "Authorization enforcement",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.1",
+      "word_count": 33,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 3,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5052,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.8351,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to enforce authorization.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "On all interfaces, the control system shall provide the capability to enforce authorizations assigned to all human users for controlling use of the control system to support segregation of duties and least privilege.",
+            "blocks": [
+              8,
+              9
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.1 RE 1",
+      "type": "RE",
+      "title": "Authorization enforcement for all users",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.1",
+      "word_count": 37,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.1 RE 2",
+      "type": "RE",
+      "title": "Permission mapping to roles",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.1",
+      "word_count": 27,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.1 RE 3",
+      "type": "RE",
+      "title": "Supervisor override",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.1",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.1 RE 4",
+      "type": "RE",
+      "title": "Dual approval",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.1",
+      "word_count": 19,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.2",
+      "type": "SR",
+      "title": "Wireless use control",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.2",
+      "word_count": 28,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.2 RE 1",
+      "type": "RE",
+      "title": "Identify and report unauthorized wireless devices",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.2",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.3",
+      "type": "SR",
+      "title": "Use control for portable and mobile devices",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.3",
+      "word_count": 41,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.3 RE 1",
+      "type": "RE",
+      "title": "Enforcement of security status of portable and mobile devices",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.3",
+      "word_count": 28,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.4",
+      "type": "SR",
+      "title": "Mobile code",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.4",
+      "word_count": 63,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.4 RE 1",
+      "type": "RE",
+      "title": "Mobile code integrity check",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.4",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.5",
+      "type": "SR",
+      "title": "Session lock",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.5",
+      "word_count": 55,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.2818,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.6409,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to lock sessions.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to prevent further access by initiating a session lock after a configurable time period of inactivity or by manual initiation. The session lock shall remain in effect until the human user who owns the session or another authorized human user re-establishes access using appropriate identification and authentication procedures.",
+            "blocks": [
+              10
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.6",
+      "type": "SR",
+      "title": "Remote session termination",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.6",
+      "word_count": 30,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.7",
+      "type": "SR",
+      "title": "Concurrent session control",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.7",
+      "word_count": 31,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.8",
+      "type": "SR",
+      "title": "Auditable events",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.8",
+      "word_count": 64,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.3117,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.6559,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to generate audit records for auditable events.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to generate audit records relevant to security for the following categories: access control, request errors, operating system events, control system events, backup and restore events, configuration changes, potential reconnaissance activity and audit log events. Individual audit records shall include the timestamp, source (originating device, software process or human user account), category, type, event ID and event result.",
+            "blocks": [
+              11
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.8 RE 1",
+      "type": "RE",
+      "title": "Centrally managed, system-wide audit trail",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.8",
+      "word_count": 65,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.9",
+      "type": "SR",
+      "title": "Audit storage capacity",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.9",
+      "word_count": 37,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.9 RE 1",
+      "type": "RE",
+      "title": "Warn when audit record storage capacity threshold reached",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.9",
+      "word_count": 28,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.10",
+      "type": "SR",
+      "title": "Response to audit processing failures",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.10",
+      "word_count": 53,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.11",
+      "type": "SR",
+      "title": "Timestamps",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.11",
+      "word_count": 12,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5867,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.7933,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to generate timestamps.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide timestamps for use in audit record generation.",
+            "blocks": [
+              12
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.11 RE 1",
+      "type": "RE",
+      "title": "Internal time synchronization",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.11",
+      "word_count": 16,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.11 RE 2",
+      "type": "RE",
+      "title": "Protection of time source integrity",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.11",
+      "word_count": 17,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.12",
+      "type": "SR",
+      "title": "Non-repudiation",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.12",
+      "word_count": 18,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 3,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.6596,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.8865,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to enforce non-repudiation.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to determine whether a given human user took a particular action.",
+            "blocks": [
+              12,
+              13
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 2.12 RE 1",
+      "type": "RE",
+      "title": "Non-repudiation for all users",
+      "foundational_requirement": 2,
+      "parent_sr": "SR 2.12",
+      "word_count": 22,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.1",
+      "type": "SR",
+      "title": "Communication integrity",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.1",
+      "word_count": 14,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.1 RE 1",
+      "type": "RE",
+      "title": "Cryptographic integrity protection",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.1",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.2",
+      "type": "SR",
+      "title": "Malicious code protection",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.2",
+      "word_count": 37,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.2 RE 1",
+      "type": "RE",
+      "title": "Malicious code protection on entry and exit points",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.2",
+      "word_count": 19,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.2 RE 2",
+      "type": "RE",
+      "title": "Central management and reporting for malicious code protection",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.2",
+      "word_count": 13,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.3",
+      "type": "SR",
+      "title": "Security functionality verification",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.3",
+      "word_count": 46,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.3 RE 1",
+      "type": "RE",
+      "title": "Automated mechanisms for security functionality verification",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.3",
+      "word_count": 23,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.3 RE 2",
+      "type": "RE",
+      "title": "Security functionality verification during normal operation",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.3",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.4",
+      "type": "SR",
+      "title": "Software and information integrity",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.4",
+      "word_count": 22,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.4 RE 1",
+      "type": "RE",
+      "title": "Automated notification about integrity violations",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.4",
+      "word_count": 26,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.5",
+      "type": "SR",
+      "title": "Input validation",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.5",
+      "word_count": 32,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.6",
+      "type": "SR",
+      "title": "Deterministic output",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.6",
+      "word_count": 26,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.7",
+      "type": "SR",
+      "title": "Error handling",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.7",
+      "word_count": 52,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.8",
+      "type": "SR",
+      "title": "Session integrity",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.8",
+      "word_count": 24,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.8 RE 1",
+      "type": "RE",
+      "title": "Invalidation of session IDs after session termination",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.8",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.8 RE 2",
+      "type": "RE",
+      "title": "Unique session ID generation",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.8",
+      "word_count": 24,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.8 RE 3",
+      "type": "RE",
+      "title": "Randomness of session IDs",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.8",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.9",
+      "type": "SR",
+      "title": "Protection of audit information",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.9",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 3.9 RE 1",
+      "type": "RE",
+      "title": "Audit records on write-once media",
+      "foundational_requirement": 3,
+      "parent_sr": "SR 3.9",
+      "word_count": 15,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.1",
+      "type": "SR",
+      "title": "Information confidentiality",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.1",
+      "word_count": 26,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.1 RE 1",
+      "type": "RE",
+      "title": "Protection of confidentiality at rest or in transit via untrusted networks",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.1",
+      "word_count": 23,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.1 RE 2",
+      "type": "RE",
+      "title": "Protection of confidentiality across zone boundaries",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.1",
+      "word_count": 17,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.2",
+      "type": "SR",
+      "title": "Information persistence",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.2",
+      "word_count": 28,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.2 RE 1",
+      "type": "RE",
+      "title": "Purging of shared memory resources",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.2",
+      "word_count": 19,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 4.3",
+      "type": "SR",
+      "title": "Use of cryptography",
+      "foundational_requirement": 4,
+      "parent_sr": "SR 4.3",
+      "word_count": 29,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.1",
+      "type": "SR",
+      "title": "Network segmentation",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.1",
+      "word_count": 30,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.1 RE 1",
+      "type": "RE",
+      "title": "Physical network segmentation",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.1",
+      "word_count": 30,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.1 RE 2",
+      "type": "RE",
+      "title": "Independence from non-control system networks",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.1",
+      "word_count": 25,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.1 RE 3",
+      "type": "RE",
+      "title": "Logical and physical isolation of critical networks",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.1",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.2",
+      "type": "SR",
+      "title": "Zone boundary protection",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.2",
+      "word_count": 27,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "low_similarity_candidate_variant",
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.5435,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.7717,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to enforce zone boundary protection.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to monitor and control communications at zone boundaries to enforce the compartmentalization defined in the risk-based zones and conduits model.",
+            "blocks": [
+              19
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants",
+          "low_similarity_candidate_variant"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.2 RE 1",
+      "type": "RE",
+      "title": "Deny by default, allow by exception",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.2",
+      "word_count": 26,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.2 RE 2",
+      "type": "RE",
+      "title": "Island mode",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.2",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.2 RE 3",
+      "type": "RE",
+      "title": "Fail close",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.2",
+      "word_count": 54,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.3",
+      "type": "SR",
+      "title": "General purpose person-to-person communication restrictions",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.3",
+      "word_count": 25,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.3 RE 1",
+      "type": "RE",
+      "title": "Prohibit all general purpose person-to-person communications",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.3",
+      "word_count": 18,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 5.4",
+      "type": "SR",
+      "title": "Application partitioning",
+      "foundational_requirement": 5,
+      "parent_sr": "SR 5.4",
+      "word_count": 24,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 6.1",
+      "type": "SR",
+      "title": "Audit log accessibility",
+      "foundational_requirement": 6,
+      "parent_sr": "SR 6.1",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 6.1 RE 1",
+      "type": "RE",
+      "title": "Programmatic access to audit logs",
+      "foundational_requirement": 6,
+      "parent_sr": "SR 6.1",
+      "word_count": 16,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 6.2",
+      "type": "SR",
+      "title": "Continuous monitoring",
+      "foundational_requirement": 6,
+      "parent_sr": "SR 6.2",
+      "word_count": 33,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.1",
+      "type": "SR",
+      "title": "Denial of service protection",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.1",
+      "word_count": 17,
+      "score": 8,
+      "max_score": 9,
+      "status": "warning",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": false
+      },
+      "issues": [],
+      "warnings": [
+        "multiple_text_variants"
+      ],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 3,
+        "unique_text_variants": 2,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 0.7302,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 0.9101,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [
+          {
+            "text": "The control system shall provide the capability to protect against denial of service events.",
+            "blocks": [
+              1
+            ]
+          },
+          {
+            "text": "The control system shall provide the capability to operate in a degraded mode during a DoS event.",
+            "blocks": [
+              21,
+              22
+            ]
+          }
+        ],
+        "issues": [
+          "multiple_text_variants"
+        ]
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.1 RE 1",
+      "type": "RE",
+      "title": "Manage communication loads",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.1",
+      "word_count": 27,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.1 RE 2",
+      "type": "RE",
+      "title": "Limit DoS effects to other systems or networks",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.1",
+      "word_count": 30,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.2",
+      "type": "SR",
+      "title": "Resource management",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.2",
+      "word_count": 20,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.3",
+      "type": "SR",
+      "title": "Control system backup",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.3",
+      "word_count": 34,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.3 RE 1",
+      "type": "RE",
+      "title": "Backup verification",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.3",
+      "word_count": 14,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.3 RE 2",
+      "type": "RE",
+      "title": "Backup automation",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.3",
+      "word_count": 17,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.4",
+      "type": "SR",
+      "title": "Control system recovery and reconstitution",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.4",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.5",
+      "type": "SR",
+      "title": "Emergency power",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.5",
+      "word_count": 27,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.6",
+      "type": "SR",
+      "title": "Network and security configuration settings",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.6",
+      "word_count": 43,
+      "score": 8,
+      "max_score": 9,
+      "status": "review",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": false,
+        "debug_consistency": true
+      },
+      "issues": [
+        "possible_text_contamination:provided_by"
+      ],
+      "warnings": [],
+      "contamination": [
+        "provided_by"
+      ],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.6 RE 1",
+      "type": "RE",
+      "title": "Machine-readable reporting of current security settings",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.6",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.7",
+      "type": "SR",
+      "title": "Least functionality",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.7",
+      "word_count": 21,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 2,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    },
+    {
+      "id": "SR 7.8",
+      "type": "SR",
+      "title": "Control system component inventory",
+      "foundational_requirement": 7,
+      "parent_sr": "SR 7.8",
+      "word_count": 19,
+      "score": 9,
+      "max_score": 9,
+      "status": "approved",
+      "checks": {
+        "valid_id": true,
+        "valid_type": true,
+        "title_present": true,
+        "text_present": true,
+        "parent_valid": true,
+        "fr_consistent": true,
+        "normative_text": true,
+        "contamination_free": true,
+        "debug_consistency": true
+      },
+      "issues": [],
+      "warnings": [],
+      "contamination": [],
+      "normative_text_assessment": {
+        "status": "pass",
+        "reason": "contains_shall"
+      },
+      "debug_candidate_audit": {
+        "candidate_occurrences": 1,
+        "unique_text_variants": 1,
+        "unique_title_variants": 1,
+        "min_text_similarity_to_final": 1.0,
+        "max_text_similarity_to_final": 1.0,
+        "average_text_similarity_to_final": 1.0,
+        "prefix_variants_detected": false,
+        "exact_final_match_found": true,
+        "title_variants": [],
+        "text_variants": [],
+        "issues": []
+      },
+      "debug_consolidated_comparison": {
+        "found": true,
+        "id_match": true,
+        "title_similarity": 1.0,
+        "text_similarity": 1.0
+      }
+    }
+  ]
+}

@@ -6,3 +6,8 @@ venv
 data/output/images
 .env/
 data/output/mappings
+*.txt
+*debug*
+*checkpoint*
+*old*
+*test*
