@@ -88,23 +88,18 @@ PROMPT_VERSION = (
     "iec-gemini-security-relevance-audit-v1"
 )
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+def get_client():
 
-if not API_KEY:
-    raise RuntimeError("GEMINI_API_KEY environment variable is not set")
+    api_key = os.getenv("GEMINI_API_KEY", "")
 
-if API_KEY:
-    client = genai.Client(
-        api_key=API_KEY
-    )
-elif os.getenv("GEMINI_API_KEY"):
-    client = genai.Client(
-        api_key=os.environ["GEMINI_API_KEY"]
-    )
-else:
-    raise RuntimeError(
-        "Nenhuma API key do Gemini encontrada. "
-        "Defina GEMINI_API_KEY ou configure API_KEY no script."
+    if not api_key:
+        raise RuntimeError(
+            "Nenhuma API key do Gemini encontrada. "
+            "Defina a variável de ambiente GEMINI_API_KEY."
+        )
+
+    return genai.Client(
+        api_key=api_key
     )
 
 
@@ -531,7 +526,7 @@ def call_gemini(batch):
 
         try:
 
-            response = client.models.generate_content(
+            response = get_client().models.generate_content(
                 model=MODEL_NAME,
                 contents=prompt,
                 config=types.GenerateContentConfig(

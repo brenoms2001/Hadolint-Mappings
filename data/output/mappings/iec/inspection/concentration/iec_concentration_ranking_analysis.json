@@ -1,0 +1,1764 @@
+{
+  "metadata": {
+    "matches_file": "data/output/mappings/iec/inspection/iec_matches_068_top10.json",
+    "threshold": 0.68,
+    "top_k": 10,
+    "power": 5.5,
+    "candidate_records": 4134,
+    "source_rule_counts": {
+      "hadolint": 75,
+      "shellcheck": 519
+    },
+    "method": "Frequency ranking and concentration analysis over embedding-generated IEC candidates."
+  },
+  "global": {
+    "concentration": {
+      "total_candidate_records": 4134,
+      "distinct_target_ids": 91,
+      "distinct_parent_srs": 48,
+      "target_id_concentration": {
+        "hhi": 0.039254518853062,
+        "gini": 0.6916803564118514,
+        "entropy_bits": 5.228908315898716,
+        "normalized_entropy": 0.803483915057754,
+        "top_1_share_percent": 8.659893565553944,
+        "top_5_share_percent": 35.48621190130624,
+        "top_10_share_percent": 53.33817126269957
+      },
+      "parent_sr_concentration": {
+        "hhi": 0.05381383076703065,
+        "gini": 0.6307551201419126,
+        "entropy_bits": 4.559668241751046,
+        "normalized_entropy": 0.8164187747298717,
+        "top_1_share_percent": 9.57910014513788,
+        "top_5_share_percent": 40.68698597000484,
+        "top_10_share_percent": 63.691340106434446
+      }
+    },
+    "target_ranking": [
+      {
+        "rank": 1,
+        "source": "ALL",
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": "SR 3.5",
+        "target_title": "Input validation",
+        "count": 358,
+        "percentage": 8.659893565553944,
+        "mean_relative_score": 0.922230782122905,
+        "mean_raw_cosine": 0.5111977067039106
+      },
+      {
+        "rank": 2,
+        "source": "ALL",
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": "SR 3.7",
+        "target_title": "Error handling",
+        "count": 341,
+        "percentage": 8.248669569424287,
+        "mean_relative_score": 0.8632706832844574,
+        "mean_raw_cosine": 0.5040751495601172
+      },
+      {
+        "rank": 3,
+        "source": "ALL",
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "target_title": "Malicious code protection on entry and exit points",
+        "count": 280,
+        "percentage": 6.773101112723754,
+        "mean_relative_score": 0.8468571321428572,
+        "mean_raw_cosine": 0.5036105821428571
+      },
+      {
+        "rank": 4,
+        "source": "ALL",
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "target_title": "Fail close",
+        "count": 276,
+        "percentage": 6.6763425253991295,
+        "mean_relative_score": 0.854052884057971,
+        "mean_raw_cosine": 0.5052973768115941
+      },
+      {
+        "rank": 5,
+        "source": "ALL",
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": "SR 1.11",
+        "target_title": "Unsuccessful login attempts",
+        "count": 212,
+        "percentage": 5.128205128205129,
+        "mean_relative_score": 0.8380675754716981,
+        "mean_raw_cosine": 0.49698711792452827
+      },
+      {
+        "rank": 6,
+        "source": "ALL",
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": "SR 3.6",
+        "target_title": "Deterministic output",
+        "count": 158,
+        "percentage": 3.82196419932269,
+        "mean_relative_score": 0.8377272341772153,
+        "mean_raw_cosine": 0.4969156265822785
+      },
+      {
+        "rank": 7,
+        "source": "ALL",
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": "SR 3.3",
+        "target_title": "Security functionality verification",
+        "count": 150,
+        "percentage": 3.6284470246734397,
+        "mean_relative_score": 0.8120865066666667,
+        "mean_raw_cosine": 0.49214468
+      },
+      {
+        "rank": 8,
+        "source": "ALL",
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": "SR 2.11",
+        "target_title": "Timestamps",
+        "count": 148,
+        "percentage": 3.5800677310111273,
+        "mean_relative_score": 0.8320570878378378,
+        "mean_raw_cosine": 0.4914786824324324
+      },
+      {
+        "rank": 9,
+        "source": "ALL",
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": "SR 1.4",
+        "target_title": "Identifier management",
+        "count": 145,
+        "percentage": 3.5074987905176584,
+        "mean_relative_score": 0.868214248275862,
+        "mean_raw_cosine": 0.4979263586206896
+      },
+      {
+        "rank": 10,
+        "source": "ALL",
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "target_title": "Non-repudiation for all users",
+        "count": 137,
+        "percentage": 3.3139816158684083,
+        "mean_relative_score": 0.8134592554744525,
+        "mean_raw_cosine": 0.4973637153284672
+      },
+      {
+        "rank": 11,
+        "source": "ALL",
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": "SR 7.1",
+        "target_title": "Denial of service protection",
+        "count": 107,
+        "percentage": 2.5882922109337203,
+        "mean_relative_score": 0.8071835327102804,
+        "mean_raw_cosine": 0.4941278691588785
+      },
+      {
+        "rank": 12,
+        "source": "ALL",
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": "SR 7.3",
+        "target_title": "Control system backup",
+        "count": 106,
+        "percentage": 2.5641025641025643,
+        "mean_relative_score": 0.8245046603773585,
+        "mean_raw_cosine": 0.4986949150943396
+      },
+      {
+        "rank": 13,
+        "source": "ALL",
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "target_title": "Manage communication loads",
+        "count": 103,
+        "percentage": 2.4915336236090955,
+        "mean_relative_score": 0.818867213592233,
+        "mean_raw_cosine": 0.4954142427184466
+      },
+      {
+        "rank": 14,
+        "source": "ALL",
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "target_title": "Mobile code integrity check",
+        "count": 102,
+        "percentage": 2.467343976777939,
+        "mean_relative_score": 0.7872847254901961,
+        "mean_raw_cosine": 0.49819816666666666
+      },
+      {
+        "rank": 15,
+        "source": "ALL",
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "target_title": "Hardware security for software process identity credentials",
+        "count": 94,
+        "percentage": 2.273826802128689,
+        "mean_relative_score": 0.8145933085106383,
+        "mean_raw_cosine": 0.4845900957446808
+      },
+      {
+        "rank": 16,
+        "source": "ALL",
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "target_title": "Password generation and lifetime restrictions for human users",
+        "count": 90,
+        "percentage": 2.1770682148040637,
+        "mean_relative_score": 0.7931688111111111,
+        "mean_raw_cosine": 0.4904025666666667
+      },
+      {
+        "rank": 17,
+        "source": "ALL",
+        "target_id": "SR 4.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 4.2",
+        "target_title": "Purging of shared memory resources",
+        "count": 80,
+        "percentage": 1.9351717464925011,
+        "mean_relative_score": 0.8260339625,
+        "mean_raw_cosine": 0.490824675
+      },
+      {
+        "rank": 18,
+        "source": "ALL",
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "target_title": "Randomness of session IDs",
+        "count": 72,
+        "percentage": 1.741654571843251,
+        "mean_relative_score": 0.8137107222222223,
+        "mean_raw_cosine": 0.48355325000000005
+      },
+      {
+        "rank": 19,
+        "source": "ALL",
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": "SR 3.2",
+        "target_title": "Malicious code protection",
+        "count": 71,
+        "percentage": 1.7174649250120948,
+        "mean_relative_score": 0.8229132816901408,
+        "mean_raw_cosine": 0.4743320985915493
+      },
+      {
+        "rank": 20,
+        "source": "ALL",
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": "SR 7.7",
+        "target_title": "Least functionality",
+        "count": 68,
+        "percentage": 1.644895984518626,
+        "mean_relative_score": 0.7992722352941177,
+        "mean_raw_cosine": 0.49317357352941177
+      }
+    ],
+    "parent_sr_ranking": [
+      {
+        "rank": 1,
+        "parent_sr": "SR 5.2",
+        "count": 396,
+        "percentage": 9.57910014513788,
+        "distinct_target_ids": 4,
+        "mean_relative_score": 0.8414336388888889
+      },
+      {
+        "rank": 2,
+        "parent_sr": "SR 3.2",
+        "count": 371,
+        "percentage": 8.974358974358974,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.8383184393530998
+      },
+      {
+        "rank": 3,
+        "parent_sr": "SR 3.5",
+        "count": 358,
+        "percentage": 8.659893565553944,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.922230782122905
+      },
+      {
+        "rank": 4,
+        "parent_sr": "SR 3.7",
+        "count": 341,
+        "percentage": 8.248669569424287,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.8632706832844574
+      },
+      {
+        "rank": 5,
+        "parent_sr": "SR 7.1",
+        "count": 216,
+        "percentage": 5.2249637155297535,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.8137329861111111
+      },
+      {
+        "rank": 6,
+        "parent_sr": "SR 1.11",
+        "count": 212,
+        "percentage": 5.128205128205129,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.8380675754716981
+      },
+      {
+        "rank": 7,
+        "parent_sr": "SR 2.11",
+        "count": 205,
+        "percentage": 4.9588776003870345,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.8335250390243902
+      },
+      {
+        "rank": 8,
+        "parent_sr": "SR 3.3",
+        "count": 196,
+        "percentage": 4.7411707789066275,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.8054927244897959
+      },
+      {
+        "rank": 9,
+        "parent_sr": "SR 3.8",
+        "count": 180,
+        "percentage": 4.354136429608127,
+        "distinct_target_ids": 4,
+        "mean_relative_score": 0.8049600388888889
+      },
+      {
+        "rank": 10,
+        "parent_sr": "SR 3.6",
+        "count": 158,
+        "percentage": 3.82196419932269,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.8377272341772153
+      },
+      {
+        "rank": 11,
+        "parent_sr": "SR 2.12",
+        "count": 153,
+        "percentage": 3.7010159651669086,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.8051028235294118
+      },
+      {
+        "rank": 12,
+        "parent_sr": "SR 2.4",
+        "count": 148,
+        "percentage": 3.5800677310111273,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.7967821824324325
+      },
+      {
+        "rank": 13,
+        "parent_sr": "SR 1.4",
+        "count": 145,
+        "percentage": 3.5074987905176584,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.868214248275862
+      },
+      {
+        "rank": 14,
+        "parent_sr": "SR 7.3",
+        "count": 141,
+        "percentage": 3.410740203193033,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.8217893758865249
+      },
+      {
+        "rank": 15,
+        "parent_sr": "SR 4.2",
+        "count": 138,
+        "percentage": 3.3381712626995648,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.8260839999999999
+      },
+      {
+        "rank": 16,
+        "parent_sr": "SR 1.7",
+        "count": 109,
+        "percentage": 2.6366715045960327,
+        "distinct_target_ids": 3,
+        "mean_relative_score": 0.790387247706422
+      },
+      {
+        "rank": 17,
+        "parent_sr": "SR 1.5",
+        "count": 96,
+        "percentage": 2.3222060957910013,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.8144193020833334
+      },
+      {
+        "rank": 18,
+        "parent_sr": "SR 7.6",
+        "count": 77,
+        "percentage": 1.8626028059990325,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.8118157402597402
+      },
+      {
+        "rank": 19,
+        "parent_sr": "SR 7.7",
+        "count": 68,
+        "percentage": 1.644895984518626,
+        "distinct_target_ids": 1,
+        "mean_relative_score": 0.7992722352941177
+      },
+      {
+        "rank": 20,
+        "parent_sr": "SR 1.2",
+        "count": 67,
+        "percentage": 1.6207063376874697,
+        "distinct_target_ids": 2,
+        "mean_relative_score": 0.7738230298507462
+      }
+    ],
+    "target_type_ranking": [
+      {
+        "rank": 1,
+        "id": "SR",
+        "count": 2214,
+        "percentage": 53.55587808417997
+      },
+      {
+        "rank": 2,
+        "id": "RE",
+        "count": 1920,
+        "percentage": 46.44412191582003
+      }
+    ],
+    "foundational_requirement_ranking": [
+      {
+        "rank": 1,
+        "id": 3,
+        "count": 1641,
+        "percentage": 39.69521044992743
+      },
+      {
+        "rank": 2,
+        "id": 1,
+        "count": 710,
+        "percentage": 17.174649250120947
+      },
+      {
+        "rank": 3,
+        "id": 2,
+        "count": 641,
+        "percentage": 15.505563618771166
+      },
+      {
+        "rank": 4,
+        "id": 7,
+        "count": 518,
+        "percentage": 12.530237058538946
+      },
+      {
+        "rank": 5,
+        "id": 5,
+        "count": 455,
+        "percentage": 11.0062893081761
+      },
+      {
+        "rank": 6,
+        "id": 4,
+        "count": 155,
+        "percentage": 3.749395258829221
+      },
+      {
+        "rank": 7,
+        "id": 6,
+        "count": 14,
+        "percentage": 0.3386550556361877
+      }
+    ]
+  },
+  "sources": {
+    "hadolint": {
+      "rules": 75,
+      "candidate_records": 529,
+      "concentration": {
+        "total_candidate_records": 529,
+        "distinct_target_ids": 67,
+        "distinct_parent_srs": 40,
+        "target_id_concentration": {
+          "hhi": 0.03130706365400352,
+          "gini": 0.5223598453855487,
+          "entropy_bits": 5.40672029718849,
+          "normalized_entropy": 0.8913024730486161,
+          "top_1_share_percent": 6.805293005671078,
+          "top_5_share_percent": 28.35538752362949,
+          "top_10_share_percent": 45.93572778827977
+        },
+        "parent_sr_concentration": {
+          "hhi": 0.053548264907572515,
+          "gini": 0.5333175803402648,
+          "entropy_bits": 4.625320401006837,
+          "normalized_entropy": 0.8691061432134458,
+          "top_1_share_percent": 12.854442344045369,
+          "top_5_share_percent": 40.07561436672968,
+          "top_10_share_percent": 62.75992438563327
+        }
+      },
+      "target_ranking": [
+        {
+          "rank": 1,
+          "source": "ALL",
+          "target_id": "SR 1.11",
+          "target_type": "SR",
+          "parent_sr": "SR 1.11",
+          "target_title": "Unsuccessful login attempts",
+          "count": 36,
+          "percentage": 6.805293005671078,
+          "mean_relative_score": 0.8769218888888889,
+          "mean_raw_cosine": 0.46841641666666667
+        },
+        {
+          "rank": 2,
+          "source": "ALL",
+          "target_id": "SR 3.2",
+          "target_type": "SR",
+          "parent_sr": "SR 3.2",
+          "target_title": "Malicious code protection",
+          "count": 34,
+          "percentage": 6.427221172022684,
+          "mean_relative_score": 0.8893593823529412,
+          "mean_raw_cosine": 0.4580329411764706
+        },
+        {
+          "rank": 3,
+          "source": "ALL",
+          "target_id": "SR 3.7",
+          "target_type": "SR",
+          "parent_sr": "SR 3.7",
+          "target_title": "Error handling",
+          "count": 31,
+          "percentage": 5.8601134215500945,
+          "mean_relative_score": 0.8729732580645161,
+          "mean_raw_cosine": 0.4727034516129032
+        },
+        {
+          "rank": 4,
+          "source": "ALL",
+          "target_id": "SR 3.2 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 3.2",
+          "target_title": "Malicious code protection on entry and exit points",
+          "count": 25,
+          "percentage": 4.725897920604915,
+          "mean_relative_score": 0.8636036,
+          "mean_raw_cosine": 0.47995196
+        },
+        {
+          "rank": 5,
+          "source": "ALL",
+          "target_id": "SR 3.8 RE 3",
+          "target_type": "RE",
+          "parent_sr": "SR 3.8",
+          "target_title": "Randomness of session IDs",
+          "count": 24,
+          "percentage": 4.536862003780718,
+          "mean_relative_score": 0.834061625,
+          "mean_raw_cosine": 0.4633258333333334
+        },
+        {
+          "rank": 6,
+          "source": "ALL",
+          "target_id": "SR 3.6",
+          "target_type": "SR",
+          "parent_sr": "SR 3.6",
+          "target_title": "Deterministic output",
+          "count": 22,
+          "percentage": 4.158790170132325,
+          "mean_relative_score": 0.8311491363636364,
+          "mean_raw_cosine": 0.46092045454545455
+        },
+        {
+          "rank": 7,
+          "source": "ALL",
+          "target_id": "SR 1.5 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 1.5",
+          "target_title": "Hardware security for software process identity credentials",
+          "count": 19,
+          "percentage": 3.5916824196597354,
+          "mean_relative_score": 0.7989581052631579,
+          "mean_raw_cosine": 0.4485586842105263
+        },
+        {
+          "rank": 8,
+          "source": "ALL",
+          "target_id": "SR 1.4",
+          "target_type": "SR",
+          "parent_sr": "SR 1.4",
+          "target_title": "Identifier management",
+          "count": 18,
+          "percentage": 3.402646502835539,
+          "mean_relative_score": 0.9082483333333333,
+          "mean_raw_cosine": 0.4917926666666667
+        },
+        {
+          "rank": 9,
+          "source": "ALL",
+          "target_id": "SR 2.12 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 2.12",
+          "target_title": "Non-repudiation for all users",
+          "count": 17,
+          "percentage": 3.213610586011342,
+          "mean_relative_score": 0.838768294117647,
+          "mean_raw_cosine": 0.46420864705882353
+        },
+        {
+          "rank": 10,
+          "source": "ALL",
+          "target_id": "SR 5.2 RE 3",
+          "target_type": "RE",
+          "parent_sr": "SR 5.2",
+          "target_title": "Fail close",
+          "count": 17,
+          "percentage": 3.213610586011342,
+          "mean_relative_score": 0.8056333529411764,
+          "mean_raw_cosine": 0.4693159411764706
+        },
+        {
+          "rank": 11,
+          "source": "ALL",
+          "target_id": "SR 2.4",
+          "target_type": "SR",
+          "parent_sr": "SR 2.4",
+          "target_title": "Mobile code",
+          "count": 15,
+          "percentage": 2.835538752362949,
+          "mean_relative_score": 0.8173859333333334,
+          "mean_raw_cosine": 0.4516750666666667
+        },
+        {
+          "rank": 12,
+          "source": "ALL",
+          "target_id": "SR 5.2 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 5.2",
+          "target_title": "Deny by default, allow by exception",
+          "count": 15,
+          "percentage": 2.835538752362949,
+          "mean_relative_score": 0.836071,
+          "mean_raw_cosine": 0.45673026666666666
+        },
+        {
+          "rank": 13,
+          "source": "ALL",
+          "target_id": "SR 1.7 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 1.7",
+          "target_title": "Password generation and lifetime restrictions for human users",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "mean_relative_score": 0.7947953846153847,
+          "mean_raw_cosine": 0.45631053846153846
+        },
+        {
+          "rank": 14,
+          "source": "ALL",
+          "target_id": "SR 3.3",
+          "target_type": "SR",
+          "parent_sr": "SR 3.3",
+          "target_title": "Security functionality verification",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "mean_relative_score": 0.8471597692307693,
+          "mean_raw_cosine": 0.44560115384615384
+        },
+        {
+          "rank": 15,
+          "source": "ALL",
+          "target_id": "SR 7.1",
+          "target_type": "SR",
+          "parent_sr": "SR 7.1",
+          "target_title": "Denial of service protection",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "mean_relative_score": 0.8324610769230769,
+          "mean_raw_cosine": 0.4494903846153846
+        },
+        {
+          "rank": 16,
+          "source": "ALL",
+          "target_id": "SR 7.3",
+          "target_type": "SR",
+          "parent_sr": "SR 7.3",
+          "target_title": "Control system backup",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "mean_relative_score": 0.8717156923076923,
+          "mean_raw_cosine": 0.48866653846153846
+        },
+        {
+          "rank": 17,
+          "source": "ALL",
+          "target_id": "SR 7.7",
+          "target_type": "SR",
+          "parent_sr": "SR 7.7",
+          "target_title": "Least functionality",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "mean_relative_score": 0.8359293076923078,
+          "mean_raw_cosine": 0.4637279230769231
+        },
+        {
+          "rank": 18,
+          "source": "ALL",
+          "target_id": "SR 2.4 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 2.4",
+          "target_title": "Mobile code integrity check",
+          "count": 12,
+          "percentage": 2.268431001890359,
+          "mean_relative_score": 0.7968451666666666,
+          "mean_raw_cosine": 0.44727958333333334
+        },
+        {
+          "rank": 19,
+          "source": "ALL",
+          "target_id": "SR 4.2",
+          "target_type": "SR",
+          "parent_sr": "SR 4.2",
+          "target_title": "Information persistence",
+          "count": 10,
+          "percentage": 1.890359168241966,
+          "mean_relative_score": 0.9135859,
+          "mean_raw_cosine": 0.4648352
+        },
+        {
+          "rank": 20,
+          "source": "ALL",
+          "target_id": "SR 3.2 RE 2",
+          "target_type": "RE",
+          "parent_sr": "SR 3.2",
+          "target_title": "Central management and reporting for malicious code protection",
+          "count": 9,
+          "percentage": 1.7013232514177694,
+          "mean_relative_score": 0.7980501111111111,
+          "mean_raw_cosine": 0.45310688888888895
+        }
+      ],
+      "parent_sr_ranking": [
+        {
+          "rank": 1,
+          "parent_sr": "SR 3.2",
+          "count": 68,
+          "percentage": 12.854442344045369,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8678052941176471
+        },
+        {
+          "rank": 2,
+          "parent_sr": "SR 3.8",
+          "count": 40,
+          "percentage": 7.561436672967864,
+          "distinct_target_ids": 4,
+          "mean_relative_score": 0.809700425
+        },
+        {
+          "rank": 3,
+          "parent_sr": "SR 5.2",
+          "count": 37,
+          "percentage": 6.994328922495274,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8173752702702703
+        },
+        {
+          "rank": 4,
+          "parent_sr": "SR 1.11",
+          "count": 36,
+          "percentage": 6.805293005671078,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8769218888888889
+        },
+        {
+          "rank": 5,
+          "parent_sr": "SR 3.7",
+          "count": 31,
+          "percentage": 5.8601134215500945,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8729732580645161
+        },
+        {
+          "rank": 6,
+          "parent_sr": "SR 2.4",
+          "count": 27,
+          "percentage": 5.103969754253308,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8082567037037037
+        },
+        {
+          "rank": 7,
+          "parent_sr": "SR 3.3",
+          "count": 26,
+          "percentage": 4.914933837429111,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8304558076923078
+        },
+        {
+          "rank": 8,
+          "parent_sr": "SR 7.3",
+          "count": 23,
+          "percentage": 4.3478260869565215,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8443480434782609
+        },
+        {
+          "rank": 9,
+          "parent_sr": "SR 3.6",
+          "count": 22,
+          "percentage": 4.158790170132325,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8311491363636364
+        },
+        {
+          "rank": 10,
+          "parent_sr": "SR 7.1",
+          "count": 22,
+          "percentage": 4.158790170132325,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8477008181818182
+        },
+        {
+          "rank": 11,
+          "parent_sr": "SR 1.5",
+          "count": 21,
+          "percentage": 3.9697542533081287,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.7996517142857142
+        },
+        {
+          "rank": 12,
+          "parent_sr": "SR 1.4",
+          "count": 18,
+          "percentage": 3.402646502835539,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.9082483333333333
+        },
+        {
+          "rank": 13,
+          "parent_sr": "SR 2.12",
+          "count": 18,
+          "percentage": 3.402646502835539,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8327420000000001
+        },
+        {
+          "rank": 14,
+          "parent_sr": "SR 1.7",
+          "count": 16,
+          "percentage": 3.0245746691871456,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.7831961875
+        },
+        {
+          "rank": 15,
+          "parent_sr": "SR 4.2",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8839226153846155
+        },
+        {
+          "rank": 16,
+          "parent_sr": "SR 7.7",
+          "count": 13,
+          "percentage": 2.4574669187145557,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8359293076923078
+        },
+        {
+          "rank": 17,
+          "parent_sr": "SR 2.11",
+          "count": 10,
+          "percentage": 1.890359168241966,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8854868
+        },
+        {
+          "rank": 18,
+          "parent_sr": "SR 1.13",
+          "count": 7,
+          "percentage": 1.3232514177693762,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.7464031428571428
+        },
+        {
+          "rank": 19,
+          "parent_sr": "SR 1.2",
+          "count": 7,
+          "percentage": 1.3232514177693762,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8000874285714286
+        },
+        {
+          "rank": 20,
+          "parent_sr": "SR 3.4",
+          "count": 7,
+          "percentage": 1.3232514177693762,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.7643658571428571
+        }
+      ],
+      "target_type_ranking": [
+        {
+          "rank": 1,
+          "id": "SR",
+          "count": 292,
+          "percentage": 55.198487712665404
+        },
+        {
+          "rank": 2,
+          "id": "RE",
+          "count": 237,
+          "percentage": 44.801512287334596
+        }
+      ],
+      "foundational_requirement_ranking": [
+        {
+          "rank": 1,
+          "id": 3,
+          "count": 203,
+          "percentage": 38.37429111531191
+        },
+        {
+          "rank": 2,
+          "id": 1,
+          "count": 121,
+          "percentage": 22.873345935727787
+        },
+        {
+          "rank": 3,
+          "id": 7,
+          "count": 72,
+          "percentage": 13.610586011342155
+        },
+        {
+          "rank": 4,
+          "id": 2,
+          "count": 66,
+          "percentage": 12.476370510396976
+        },
+        {
+          "rank": 5,
+          "id": 5,
+          "count": 49,
+          "percentage": 9.262759924385634
+        },
+        {
+          "rank": 6,
+          "id": 4,
+          "count": 14,
+          "percentage": 2.6465028355387523
+        },
+        {
+          "rank": 7,
+          "id": 6,
+          "count": 4,
+          "percentage": 0.7561436672967864
+        }
+      ]
+    },
+    "shellcheck": {
+      "rules": 519,
+      "candidate_records": 3605,
+      "concentration": {
+        "total_candidate_records": 3605,
+        "distinct_target_ids": 87,
+        "distinct_parent_srs": 46,
+        "target_id_concentration": {
+          "hhi": 0.04272914218001273,
+          "gini": 0.7003044940775103,
+          "entropy_bits": 5.121542701037451,
+          "normalized_entropy": 0.794907281794001,
+          "top_1_share_percent": 9.736477115117891,
+          "top_5_share_percent": 37.47572815533981,
+          "top_10_share_percent": 55.78363384188627
+        },
+        "parent_sr_concentration": {
+          "hhi": 0.05586331205118488,
+          "gini": 0.6285774588433937,
+          "entropy_bits": 4.505550573075516,
+          "normalized_entropy": 0.8156965756733898,
+          "top_1_share_percent": 9.958391123439666,
+          "top_5_share_percent": 42.108183079056865,
+          "top_10_share_percent": 64.74341192787794
+        }
+      },
+      "target_ranking": [
+        {
+          "rank": 1,
+          "source": "ALL",
+          "target_id": "SR 3.5",
+          "target_type": "SR",
+          "parent_sr": "SR 3.5",
+          "target_title": "Input validation",
+          "count": 351,
+          "percentage": 9.736477115117891,
+          "mean_relative_score": 0.9230333390313391,
+          "mean_raw_cosine": 0.5116644188034188
+        },
+        {
+          "rank": 2,
+          "source": "ALL",
+          "target_id": "SR 3.7",
+          "target_type": "SR",
+          "parent_sr": "SR 3.7",
+          "target_title": "Error handling",
+          "count": 310,
+          "percentage": 8.599167822468793,
+          "mean_relative_score": 0.8623004258064516,
+          "mean_raw_cosine": 0.5072123193548387
+        },
+        {
+          "rank": 3,
+          "source": "ALL",
+          "target_id": "SR 5.2 RE 3",
+          "target_type": "RE",
+          "parent_sr": "SR 5.2",
+          "target_title": "Fail close",
+          "count": 259,
+          "percentage": 7.184466019417476,
+          "mean_relative_score": 0.857231,
+          "mean_raw_cosine": 0.5076590926640927
+        },
+        {
+          "rank": 4,
+          "source": "ALL",
+          "target_id": "SR 3.2 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 3.2",
+          "target_title": "Malicious code protection on entry and exit points",
+          "count": 255,
+          "percentage": 7.0735090152565885,
+          "mean_relative_score": 0.8452153215686274,
+          "mean_raw_cosine": 0.5059300549019609
+        },
+        {
+          "rank": 5,
+          "source": "ALL",
+          "target_id": "SR 1.11",
+          "target_type": "SR",
+          "parent_sr": "SR 1.11",
+          "target_title": "Unsuccessful login attempts",
+          "count": 176,
+          "percentage": 4.8821081830790565,
+          "mean_relative_score": 0.8301201022727273,
+          "mean_raw_cosine": 0.502831125
+        },
+        {
+          "rank": 6,
+          "source": "ALL",
+          "target_id": "SR 2.11",
+          "target_type": "SR",
+          "parent_sr": "SR 2.11",
+          "target_title": "Timestamps",
+          "count": 140,
+          "percentage": 3.883495145631068,
+          "mean_relative_score": 0.8279670357142858,
+          "mean_raw_cosine": 0.49266174285714287
+        },
+        {
+          "rank": 7,
+          "source": "ALL",
+          "target_id": "SR 3.3",
+          "target_type": "SR",
+          "parent_sr": "SR 3.3",
+          "target_title": "Security functionality verification",
+          "count": 137,
+          "percentage": 3.8002773925104023,
+          "mean_relative_score": 0.8087583868613138,
+          "mean_raw_cosine": 0.4965612189781022
+        },
+        {
+          "rank": 8,
+          "source": "ALL",
+          "target_id": "SR 3.6",
+          "target_type": "SR",
+          "parent_sr": "SR 3.6",
+          "target_title": "Deterministic output",
+          "count": 136,
+          "percentage": 3.7725381414701804,
+          "mean_relative_score": 0.8387913382352941,
+          "mean_raw_cosine": 0.502738375
+        },
+        {
+          "rank": 9,
+          "source": "ALL",
+          "target_id": "SR 1.4",
+          "target_type": "SR",
+          "parent_sr": "SR 1.4",
+          "target_title": "Identifier management",
+          "count": 127,
+          "percentage": 3.5228848821081833,
+          "mean_relative_score": 0.862540125984252,
+          "mean_raw_cosine": 0.4987957007874016
+        },
+        {
+          "rank": 10,
+          "source": "ALL",
+          "target_id": "SR 2.12 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 2.12",
+          "target_title": "Non-repudiation for all users",
+          "count": 120,
+          "percentage": 3.3287101248266295,
+          "mean_relative_score": 0.8098738083333333,
+          "mean_raw_cosine": 0.5020606833333333
+        },
+        {
+          "rank": 11,
+          "source": "ALL",
+          "target_id": "SR 7.1 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 7.1",
+          "target_title": "Manage communication loads",
+          "count": 95,
+          "percentage": 2.635228848821082,
+          "mean_relative_score": 0.8152084,
+          "mean_raw_cosine": 0.49701531578947367
+        },
+        {
+          "rank": 12,
+          "source": "ALL",
+          "target_id": "SR 7.1",
+          "target_type": "SR",
+          "parent_sr": "SR 7.1",
+          "target_title": "Denial of service protection",
+          "count": 94,
+          "percentage": 2.60748959778086,
+          "mean_relative_score": 0.8036877021276596,
+          "mean_raw_cosine": 0.5003011382978724
+        },
+        {
+          "rank": 13,
+          "source": "ALL",
+          "target_id": "SR 7.3",
+          "target_type": "SR",
+          "parent_sr": "SR 7.3",
+          "target_title": "Control system backup",
+          "count": 93,
+          "percentage": 2.579750346740638,
+          "mean_relative_score": 0.8179052688172043,
+          "mean_raw_cosine": 0.5000967311827956
+        },
+        {
+          "rank": 14,
+          "source": "ALL",
+          "target_id": "SR 2.4 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 2.4",
+          "target_title": "Mobile code integrity check",
+          "count": 90,
+          "percentage": 2.496532593619972,
+          "mean_relative_score": 0.78601,
+          "mean_raw_cosine": 0.5049873111111112
+        },
+        {
+          "rank": 15,
+          "source": "ALL",
+          "target_id": "SR 1.7 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 1.7",
+          "target_title": "Password generation and lifetime restrictions for human users",
+          "count": 77,
+          "percentage": 2.1359223300970873,
+          "mean_relative_score": 0.7928941948051947,
+          "mean_raw_cosine": 0.4961583636363637
+        },
+        {
+          "rank": 16,
+          "source": "ALL",
+          "target_id": "SR 4.2 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 4.2",
+          "target_title": "Purging of shared memory resources",
+          "count": 77,
+          "percentage": 2.1359223300970873,
+          "mean_relative_score": 0.827630935064935,
+          "mean_raw_cosine": 0.49259850649350645
+        },
+        {
+          "rank": 17,
+          "source": "ALL",
+          "target_id": "SR 1.5 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 1.5",
+          "target_title": "Hardware security for software process identity credentials",
+          "count": 75,
+          "percentage": 2.0804438280166435,
+          "mean_relative_score": 0.8185542266666667,
+          "mean_raw_cosine": 0.49371805333333335
+        },
+        {
+          "rank": 18,
+          "source": "ALL",
+          "target_id": "SR 7.6 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 7.6",
+          "target_title": "Machine-readable reporting of current security settings",
+          "count": 64,
+          "percentage": 1.7753120665742026,
+          "mean_relative_score": 0.816414546875,
+          "mean_raw_cosine": 0.497852296875
+        },
+        {
+          "rank": 19,
+          "source": "ALL",
+          "target_id": "SR 2.9 RE 1",
+          "target_type": "RE",
+          "parent_sr": "SR 2.9",
+          "target_title": "Warn when audit record storage capacity threshold reached",
+          "count": 57,
+          "percentage": 1.581137309292649,
+          "mean_relative_score": 0.8210402807017544,
+          "mean_raw_cosine": 0.48802071929824564
+        },
+        {
+          "rank": 20,
+          "source": "ALL",
+          "target_id": "SR 5.2 RE 2",
+          "target_type": "RE",
+          "parent_sr": "SR 5.2",
+          "target_title": "Island mode",
+          "count": 55,
+          "percentage": 1.5256588072122053,
+          "mean_relative_score": 0.8162803818181817,
+          "mean_raw_cosine": 0.5117283818181818
+        }
+      ],
+      "parent_sr_ranking": [
+        {
+          "rank": 1,
+          "parent_sr": "SR 5.2",
+          "count": 359,
+          "percentage": 9.958391123439666,
+          "distinct_target_ids": 4,
+          "mean_relative_score": 0.843913192200557
+        },
+        {
+          "rank": 2,
+          "parent_sr": "SR 3.5",
+          "count": 351,
+          "percentage": 9.736477115117891,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.9230333390313391
+        },
+        {
+          "rank": 3,
+          "parent_sr": "SR 3.7",
+          "count": 310,
+          "percentage": 8.599167822468793,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8623004258064516
+        },
+        {
+          "rank": 4,
+          "parent_sr": "SR 3.2",
+          "count": 303,
+          "percentage": 8.40499306518724,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8317009273927393
+        },
+        {
+          "rank": 5,
+          "parent_sr": "SR 2.11",
+          "count": 195,
+          "percentage": 5.4091539528432735,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8308603333333333
+        },
+        {
+          "rank": 6,
+          "parent_sr": "SR 7.1",
+          "count": 194,
+          "percentage": 5.381414701803052,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8098809639175257
+        },
+        {
+          "rank": 7,
+          "parent_sr": "SR 1.11",
+          "count": 176,
+          "percentage": 4.8821081830790565,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8301201022727273
+        },
+        {
+          "rank": 8,
+          "parent_sr": "SR 3.3",
+          "count": 170,
+          "percentage": 4.715672676837725,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8016748411764707
+        },
+        {
+          "rank": 9,
+          "parent_sr": "SR 3.8",
+          "count": 140,
+          "percentage": 3.883495145631068,
+          "distinct_target_ids": 4,
+          "mean_relative_score": 0.8036056428571429
+        },
+        {
+          "rank": 10,
+          "parent_sr": "SR 3.6",
+          "count": 136,
+          "percentage": 3.7725381414701804,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8387913382352941
+        },
+        {
+          "rank": 11,
+          "parent_sr": "SR 2.12",
+          "count": 135,
+          "percentage": 3.7447988904299585,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8014176000000001
+        },
+        {
+          "rank": 12,
+          "parent_sr": "SR 1.4",
+          "count": 127,
+          "percentage": 3.5228848821081833,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.862540125984252
+        },
+        {
+          "rank": 13,
+          "parent_sr": "SR 4.2",
+          "count": 125,
+          "percentage": 3.467406380027739,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.820068784
+        },
+        {
+          "rank": 14,
+          "parent_sr": "SR 2.4",
+          "count": 121,
+          "percentage": 3.3564493758668514,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.7942217520661157
+        },
+        {
+          "rank": 15,
+          "parent_sr": "SR 7.3",
+          "count": 118,
+          "percentage": 3.2732316227461857,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.8173923474576271
+        },
+        {
+          "rank": 16,
+          "parent_sr": "SR 1.7",
+          "count": 93,
+          "percentage": 2.579750346740638,
+          "distinct_target_ids": 3,
+          "mean_relative_score": 0.7916244193548387
+        },
+        {
+          "rank": 17,
+          "parent_sr": "SR 1.5",
+          "count": 75,
+          "percentage": 2.0804438280166435,
+          "distinct_target_ids": 1,
+          "mean_relative_score": 0.8185542266666667
+        },
+        {
+          "rank": 18,
+          "parent_sr": "SR 7.6",
+          "count": 70,
+          "percentage": 1.941747572815534,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8188468142857143
+        },
+        {
+          "rank": 19,
+          "parent_sr": "SR 2.9",
+          "count": 65,
+          "percentage": 1.8030513176144245,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.8188155538461538
+        },
+        {
+          "rank": 20,
+          "parent_sr": "SR 1.2",
+          "count": 60,
+          "percentage": 1.6643550624133148,
+          "distinct_target_ids": 2,
+          "mean_relative_score": 0.77075885
+        }
+      ],
+      "target_type_ranking": [
+        {
+          "rank": 1,
+          "id": "SR",
+          "count": 1922,
+          "percentage": 53.31484049930652
+        },
+        {
+          "rank": 2,
+          "id": "RE",
+          "count": 1683,
+          "percentage": 46.68515950069348
+        }
+      ],
+      "foundational_requirement_ranking": [
+        {
+          "rank": 1,
+          "id": 3,
+          "count": 1438,
+          "percentage": 39.88904299583911
+        },
+        {
+          "rank": 2,
+          "id": 1,
+          "count": 589,
+          "percentage": 16.33841886269071
+        },
+        {
+          "rank": 3,
+          "id": 2,
+          "count": 575,
+          "percentage": 15.9500693481276
+        },
+        {
+          "rank": 4,
+          "id": 7,
+          "count": 446,
+          "percentage": 12.371705963938973
+        },
+        {
+          "rank": 5,
+          "id": 5,
+          "count": 406,
+          "percentage": 11.262135922330097
+        },
+        {
+          "rank": 6,
+          "id": 4,
+          "count": 141,
+          "percentage": 3.91123439667129
+        },
+        {
+          "rank": 7,
+          "id": 6,
+          "count": 10,
+          "percentage": 0.27739251040221913
+        }
+      ]
+    }
+  },
+  "source_target_matrix": {
+    "target_ids": [
+      "SR 1.1",
+      "SR 1.1 RE 1",
+      "SR 1.1 RE 2",
+      "SR 1.1 RE 3",
+      "SR 1.10",
+      "SR 1.11",
+      "SR 1.12",
+      "SR 1.13",
+      "SR 1.13 RE 1",
+      "SR 1.2",
+      "SR 1.2 RE 1",
+      "SR 1.3 RE 1",
+      "SR 1.4",
+      "SR 1.5",
+      "SR 1.5 RE 1",
+      "SR 1.7",
+      "SR 1.7 RE 1",
+      "SR 1.7 RE 2",
+      "SR 1.8",
+      "SR 1.9",
+      "SR 1.9 RE 1",
+      "SR 2.1",
+      "SR 2.1 RE 1",
+      "SR 2.1 RE 2",
+      "SR 2.1 RE 3",
+      "SR 2.1 RE 4",
+      "SR 2.10",
+      "SR 2.11",
+      "SR 2.11 RE 1",
+      "SR 2.11 RE 2",
+      "SR 2.12",
+      "SR 2.12 RE 1",
+      "SR 2.3",
+      "SR 2.3 RE 1",
+      "SR 2.4",
+      "SR 2.4 RE 1",
+      "SR 2.5",
+      "SR 2.6",
+      "SR 2.7",
+      "SR 2.8 RE 1",
+      "SR 2.9",
+      "SR 2.9 RE 1",
+      "SR 3.1 RE 1",
+      "SR 3.2",
+      "SR 3.2 RE 1",
+      "SR 3.2 RE 2",
+      "SR 3.3",
+      "SR 3.3 RE 1",
+      "SR 3.3 RE 2",
+      "SR 3.4",
+      "SR 3.4 RE 1",
+      "SR 3.5",
+      "SR 3.6",
+      "SR 3.7",
+      "SR 3.8",
+      "SR 3.8 RE 1",
+      "SR 3.8 RE 2",
+      "SR 3.8 RE 3",
+      "SR 3.9",
+      "SR 3.9 RE 1",
+      "SR 4.1",
+      "SR 4.1 RE 1",
+      "SR 4.1 RE 2",
+      "SR 4.2",
+      "SR 4.2 RE 1",
+      "SR 4.3",
+      "SR 5.1",
+      "SR 5.1 RE 2",
+      "SR 5.1 RE 3",
+      "SR 5.2",
+      "SR 5.2 RE 1",
+      "SR 5.2 RE 2",
+      "SR 5.2 RE 3",
+      "SR 5.3",
+      "SR 5.3 RE 1",
+      "SR 5.4",
+      "SR 6.1",
+      "SR 6.1 RE 1",
+      "SR 6.2",
+      "SR 7.1",
+      "SR 7.1 RE 1",
+      "SR 7.1 RE 2",
+      "SR 7.3",
+      "SR 7.3 RE 1",
+      "SR 7.3 RE 2",
+      "SR 7.4",
+      "SR 7.5",
+      "SR 7.6",
+      "SR 7.6 RE 1",
+      "SR 7.7",
+      "SR 7.8"
+    ],
+    "sources": {
+      "hadolint": {
+        "SR 1.1": 1,
+        "SR 1.1 RE 1": 1,
+        "SR 1.1 RE 2": 1,
+        "SR 1.1 RE 3": 2,
+        "SR 1.10": 1,
+        "SR 1.11": 36,
+        "SR 1.12": 2,
+        "SR 1.13": 0,
+        "SR 1.13 RE 1": 7,
+        "SR 1.2": 4,
+        "SR 1.2 RE 1": 3,
+        "SR 1.3 RE 1": 0,
+        "SR 1.4": 18,
+        "SR 1.5": 2,
+        "SR 1.5 RE 1": 19,
+        "SR 1.7": 0,
+        "SR 1.7 RE 1": 13,
+        "SR 1.7 RE 2": 3,
+        "SR 1.8": 5,
+        "SR 1.9": 3,
+        "SR 1.9 RE 1": 0,
+        "SR 2.1": 0,
+        "SR 2.1 RE 1": 1,
+        "SR 2.1 RE 2": 0,
+        "SR 2.1 RE 3": 0,
+        "SR 2.1 RE 4": 0,
+        "SR 2.10": 0,
+        "SR 2.11": 8,
+        "SR 2.11 RE 1": 0,
+        "SR 2.11 RE 2": 2,
+        "SR 2.12": 1,
+        "SR 2.12 RE 1": 17,
+        "SR 2.3": 5,
+        "SR 2.3 RE 1": 0,
+        "SR 2.4": 15,
+        "SR 2.4 RE 1": 12,
+        "SR 2.5": 3,
+        "SR 2.6": 0,
+        "SR 2.7": 0,
+        "SR 2.8 RE 1": 1,
+        "SR 2.9": 0,
+        "SR 2.9 RE 1": 1,
+        "SR 3.1 RE 1": 0,
+        "SR 3.2": 34,
+        "SR 3.2 RE 1": 25,
+        "SR 3.2 RE 2": 9,
+        "SR 3.3": 13,
+        "SR 3.3 RE 1": 7,
+        "SR 3.3 RE 2": 6,
+        "SR 3.4": 6,
+        "SR 3.4 RE 1": 1,
+        "SR 3.5": 7,
+        "SR 3.6": 22,
+        "SR 3.7": 31,
+        "SR 3.8": 7,
+        "SR 3.8 RE 1": 6,
+        "SR 3.8 RE 2": 3,
+        "SR 3.8 RE 3": 24,
+        "SR 3.9": 2,
+        "SR 3.9 RE 1": 0,
+        "SR 4.1": 1,
+        "SR 4.1 RE 1": 0,
+        "SR 4.1 RE 2": 0,
+        "SR 4.2": 10,
+        "SR 4.2 RE 1": 3,
+        "SR 4.3": 0,
+        "SR 5.1": 0,
+        "SR 5.1 RE 2": 1,
+        "SR 5.1 RE 3": 2,
+        "SR 5.2": 0,
+        "SR 5.2 RE 1": 15,
+        "SR 5.2 RE 2": 5,
+        "SR 5.2 RE 3": 17,
+        "SR 5.3": 2,
+        "SR 5.3 RE 1": 4,
+        "SR 5.4": 3,
+        "SR 6.1": 0,
+        "SR 6.1 RE 1": 4,
+        "SR 6.2": 0,
+        "SR 7.1": 13,
+        "SR 7.1 RE 1": 8,
+        "SR 7.1 RE 2": 1,
+        "SR 7.3": 13,
+        "SR 7.3 RE 1": 8,
+        "SR 7.3 RE 2": 2,
+        "SR 7.4": 2,
+        "SR 7.5": 5,
+        "SR 7.6": 4,
+        "SR 7.6 RE 1": 3,
+        "SR 7.7": 13,
+        "SR 7.8": 0
+      },
+      "shellcheck": {
+        "SR 1.1": 2,
+        "SR 1.1 RE 1": 1,
+        "SR 1.1 RE 2": 5,
+        "SR 1.1 RE 3": 1,
+        "SR 1.10": 1,
+        "SR 1.11": 176,
+        "SR 1.12": 9,
+        "SR 1.13": 1,
+        "SR 1.13 RE 1": 29,
+        "SR 1.2": 28,
+        "SR 1.2 RE 1": 32,
+        "SR 1.3 RE 1": 3,
+        "SR 1.4": 127,
+        "SR 1.5": 0,
+        "SR 1.5 RE 1": 75,
+        "SR 1.7": 11,
+        "SR 1.7 RE 1": 77,
+        "SR 1.7 RE 2": 5,
+        "SR 1.8": 2,
+        "SR 1.9": 2,
+        "SR 1.9 RE 1": 2,
+        "SR 2.1": 1,
+        "SR 2.1 RE 1": 1,
+        "SR 2.1 RE 2": 3,
+        "SR 2.1 RE 3": 7,
+        "SR 2.1 RE 4": 8,
+        "SR 2.10": 10,
+        "SR 2.11": 140,
+        "SR 2.11 RE 1": 15,
+        "SR 2.11 RE 2": 40,
+        "SR 2.12": 15,
+        "SR 2.12 RE 1": 120,
+        "SR 2.3": 4,
+        "SR 2.3 RE 1": 9,
+        "SR 2.4": 31,
+        "SR 2.4 RE 1": 90,
+        "SR 2.5": 0,
+        "SR 2.6": 3,
+        "SR 2.7": 2,
+        "SR 2.8 RE 1": 11,
+        "SR 2.9": 8,
+        "SR 2.9 RE 1": 57,
+        "SR 3.1 RE 1": 1,
+        "SR 3.2": 37,
+        "SR 3.2 RE 1": 255,
+        "SR 3.2 RE 2": 11,
+        "SR 3.3": 137,
+        "SR 3.3 RE 1": 12,
+        "SR 3.3 RE 2": 21,
+        "SR 3.4": 4,
+        "SR 3.4 RE 1": 2,
+        "SR 3.5": 351,
+        "SR 3.6": 136,
+        "SR 3.7": 310,
+        "SR 3.8": 26,
+        "SR 3.8 RE 1": 32,
+        "SR 3.8 RE 2": 34,
+        "SR 3.8 RE 3": 48,
+        "SR 3.9": 1,
+        "SR 3.9 RE 1": 20,
+        "SR 4.1": 1,
+        "SR 4.1 RE 1": 2,
+        "SR 4.1 RE 2": 11,
+        "SR 4.2": 48,
+        "SR 4.2 RE 1": 77,
+        "SR 4.3": 2,
+        "SR 5.1": 1,
+        "SR 5.1 RE 2": 1,
+        "SR 5.1 RE 3": 0,
+        "SR 5.2": 1,
+        "SR 5.2 RE 1": 44,
+        "SR 5.2 RE 2": 55,
+        "SR 5.2 RE 3": 259,
+        "SR 5.3": 6,
+        "SR 5.3 RE 1": 10,
+        "SR 5.4": 29,
+        "SR 6.1": 1,
+        "SR 6.1 RE 1": 8,
+        "SR 6.2": 1,
+        "SR 7.1": 94,
+        "SR 7.1 RE 1": 95,
+        "SR 7.1 RE 2": 5,
+        "SR 7.3": 93,
+        "SR 7.3 RE 1": 19,
+        "SR 7.3 RE 2": 6,
+        "SR 7.4": 0,
+        "SR 7.5": 7,
+        "SR 7.6": 6,
+        "SR 7.6 RE 1": 64,
+        "SR 7.7": 55,
+        "SR 7.8": 2
+      }
+    }
+  }
+}

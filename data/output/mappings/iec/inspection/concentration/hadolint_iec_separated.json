@@ -1,0 +1,5667 @@
+{
+  "DL1001": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.508833,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.501355,
+        "relative_score": 0.921798,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.499486,
+        "relative_score": 0.90306,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.498655,
+        "relative_score": 0.894824,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.3",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.497253,
+        "relative_score": 0.881075,
+        "target_title": "Prohibit all general purpose person-to-person communications"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.496083,
+        "relative_score": 0.869729,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.494929,
+        "relative_score": 0.858662,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 5,
+        "raw_cosine": 0.494238,
+        "relative_score": 0.852093,
+        "target_title": "General purpose person-to-person communication restrictions"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.10",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.493067,
+        "relative_score": 0.841045,
+        "target_title": "Authenticator feedback"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.49071,
+        "relative_score": 0.819172,
+        "target_title": "Deny by default, allow by exception"
+      }
+    ]
+  },
+  "DL3000": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.494736,
+        "relative_score": 1.0,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.490041,
+        "relative_score": 0.948899,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.487362,
+        "relative_score": 0.920722,
+        "target_title": "Use control for portable and mobile devices"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.486672,
+        "relative_score": 0.913572,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483662,
+        "relative_score": 0.882927,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.482867,
+        "relative_score": 0.874979,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.481619,
+        "relative_score": 0.862606,
+        "target_title": "Software process and device identification and authentication"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.480382,
+        "relative_score": 0.850489,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.478188,
+        "relative_score": 0.829345,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 5.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 5,
+        "raw_cosine": 0.477277,
+        "relative_score": 0.820691,
+        "target_title": "Application partitioning"
+      }
+    ]
+  },
+  "DL3001": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.490865,
+        "relative_score": 1.0,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.480609,
+        "relative_score": 0.89035,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.480575,
+        "relative_score": 0.890005,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.478707,
+        "relative_score": 0.871146,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.477005,
+        "relative_score": 0.854243,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.472056,
+        "relative_score": 0.806628,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.47132,
+        "relative_score": 0.799727,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 7.6 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.6",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.468109,
+        "relative_score": 0.770225,
+        "target_title": "Machine-readable reporting of current security settings"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.466216,
+        "relative_score": 0.753243,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.465518,
+        "relative_score": 0.747061,
+        "target_title": "Unsuccessful login attempts"
+      }
+    ]
+  },
+  "DL3002": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.525013,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.523563,
+        "relative_score": 0.984912,
+        "target_title": "Session lock"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.515753,
+        "relative_score": 0.906767,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.510787,
+        "relative_score": 0.859773,
+        "target_title": "Invalidation of session IDs after session termination"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.503441,
+        "relative_score": 0.79393,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 2.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.1",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.501668,
+        "relative_score": 0.778673,
+        "target_title": "Authorization enforcement for all users"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.7 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.497898,
+        "relative_score": 0.747034,
+        "target_title": "Password lifetime restrictions for all users"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.497225,
+        "relative_score": 0.741491,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.497129,
+        "relative_score": 0.740709,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 5.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.49119,
+        "relative_score": 0.693331,
+        "target_title": "Island mode"
+      }
+    ]
+  },
+  "DL3003": {
+    "candidate_count": 3,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.510417,
+        "relative_score": 1.0,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 7.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.497138,
+        "relative_score": 0.865038,
+        "target_title": "Backup automation"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.481419,
+        "relative_score": 0.724923,
+        "target_title": "Deterministic output"
+      }
+    ]
+  },
+  "DL3004": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.456336,
+        "relative_score": 1.0,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.440363,
+        "relative_score": 0.822032,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.439951,
+        "relative_score": 0.817819,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.426161,
+        "relative_score": 0.686417,
+        "target_title": "Explicit access request approval"
+      }
+    ]
+  },
+  "DL3005": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.390129,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.38848,
+        "relative_score": 0.976962,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.385315,
+        "relative_score": 0.933986,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.383186,
+        "relative_score": 0.905949,
+        "target_title": "Emergency power"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.381578,
+        "relative_score": 0.885237,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.380931,
+        "relative_score": 0.877015,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.3",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.375191,
+        "relative_score": 0.806753,
+        "target_title": "Prohibit all general purpose person-to-person communications"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.372416,
+        "relative_score": 0.774482,
+        "target_title": "Public key infrastructure (PKI) certificates"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.372193,
+        "relative_score": 0.771932,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.371513,
+        "relative_score": 0.764202,
+        "target_title": "Mobile code"
+      }
+    ]
+  },
+  "DL3006": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.461041,
+        "relative_score": 1.0,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.4576,
+        "relative_score": 0.959638,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.449525,
+        "relative_score": 0.870117,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.44603,
+        "relative_score": 0.83356,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.441631,
+        "relative_score": 0.789329,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.2",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.44145,
+        "relative_score": 0.78756,
+        "target_title": "Unique identification and authentication"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.441176,
+        "relative_score": 0.784871,
+        "target_title": "Software process and device identification and authentication"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.8 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.438831,
+        "relative_score": 0.762194,
+        "target_title": "Unique session ID generation"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.437911,
+        "relative_score": 0.753452,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.435761,
+        "relative_score": 0.733333,
+        "target_title": "Invalidation of session IDs after session termination"
+      }
+    ]
+  },
+  "DL3007": {
+    "candidate_count": 9,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.47121,
+        "relative_score": 1.0,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.468176,
+        "relative_score": 0.965091,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.458249,
+        "relative_score": 0.857778,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.454337,
+        "relative_score": 0.818271,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.449469,
+        "relative_score": 0.771199,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.446697,
+        "relative_score": 0.745402,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.444228,
+        "relative_score": 0.723023,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.443684,
+        "relative_score": 0.718167,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.439432,
+        "relative_score": 0.681119,
+        "target_title": "Randomness of session IDs"
+      }
+    ]
+  },
+  "DL3008": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.443424,
+        "relative_score": 1.0,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.435353,
+        "relative_score": 0.903905,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.429733,
+        "relative_score": 0.841557,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.422978,
+        "relative_score": 0.771335,
+        "target_title": "Public key infrastructure (PKI) certificates"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.421987,
+        "relative_score": 0.761448,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.421939,
+        "relative_score": 0.760963,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.421525,
+        "relative_score": 0.756871,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.41772,
+        "relative_score": 0.720046,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.7 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.416023,
+        "relative_score": 0.704105,
+        "target_title": "Password lifetime restrictions for all users"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.415107,
+        "relative_score": 0.69562,
+        "target_title": "Explicit access request approval"
+      }
+    ]
+  },
+  "DL3009": {
+    "candidate_count": 2,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.457532,
+        "relative_score": 1.0,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 4.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 4.2",
+        "foundational_requirement": 4,
+        "raw_cosine": 0.433175,
+        "relative_score": 0.740169,
+        "target_title": "Purging of shared memory resources"
+      }
+    ]
+  },
+  "DL3010": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.50825,
+        "relative_score": 1.0,
+        "target_title": "Timestamps"
+      }
+    ]
+  },
+  "DL3011": {
+    "candidate_count": 5,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.52786,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.512906,
+        "relative_score": 0.853799,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.506637,
+        "relative_score": 0.797964,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.499217,
+        "relative_score": 0.735764,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.497036,
+        "relative_score": 0.718256,
+        "target_title": "Manage communication loads"
+      }
+    ]
+  },
+  "DL3012": {
+    "candidate_count": 9,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.502444,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.491525,
+        "relative_score": 0.886175,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.484886,
+        "relative_score": 0.822315,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.484729,
+        "relative_score": 0.82085,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.481025,
+        "relative_score": 0.786934,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.478788,
+        "relative_score": 0.767022,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.4772,
+        "relative_score": 0.753127,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.476983,
+        "relative_score": 0.751245,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.471223,
+        "relative_score": 0.702691,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      }
+    ]
+  },
+  "DL3013": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.440326,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.43874,
+        "relative_score": 0.980349,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.43738,
+        "relative_score": 0.963756,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.436877,
+        "relative_score": 0.95768,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.436849,
+        "relative_score": 0.957337,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.426475,
+        "relative_score": 0.838795,
+        "target_title": "Explicit access request approval"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.426061,
+        "relative_score": 0.834331,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.425849,
+        "relative_score": 0.832046,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.425005,
+        "relative_score": 0.823016,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.423933,
+        "relative_score": 0.811664,
+        "target_title": "Deterministic output"
+      }
+    ]
+  },
+  "DL3014": {
+    "candidate_count": 7,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.448165,
+        "relative_score": 1.0,
+        "target_title": "Emergency power"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.444906,
+        "relative_score": 0.960658,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.423814,
+        "relative_score": 0.735456,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.423535,
+        "relative_score": 0.732793,
+        "target_title": "Backup automation"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.421611,
+        "relative_score": 0.714675,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.421226,
+        "relative_score": 0.711091,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.418229,
+        "relative_score": 0.683704,
+        "target_title": "Mobile code"
+      }
+    ]
+  },
+  "DL3015": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.487693,
+        "relative_score": 1.0,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.468089,
+        "relative_score": 0.798001,
+        "target_title": "Explicit access request approval"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.464292,
+        "relative_score": 0.763035,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.460187,
+        "relative_score": 0.726665,
+        "target_title": "Use control for portable and mobile devices"
+      }
+    ]
+  },
+  "DL3016": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.9",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.453884,
+        "relative_score": 1.0,
+        "target_title": "Strength of public key authentication"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.442173,
+        "relative_score": 0.866092,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.433685,
+        "relative_score": 0.778506,
+        "target_title": "Public key infrastructure (PKI) certificates"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.8",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.431654,
+        "relative_score": 0.758667,
+        "target_title": "Centrally managed, system-wide audit trail"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.431378,
+        "relative_score": 0.755998,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.429235,
+        "relative_score": 0.735573,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.428332,
+        "relative_score": 0.727101,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.427269,
+        "relative_score": 0.71724,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.425969,
+        "relative_score": 0.705311,
+        "target_title": "Authenticator management"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 7.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.423452,
+        "relative_score": 0.682696,
+        "target_title": "Network and security configuration settings"
+      }
+    ]
+  },
+  "DL3017": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.447496,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.436247,
+        "relative_score": 0.869343,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.433915,
+        "relative_score": 0.844081,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.433256,
+        "relative_score": 0.837061,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.431597,
+        "relative_score": 0.819582,
+        "target_title": "Use control for portable and mobile devices"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.429531,
+        "relative_score": 0.798234,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.423555,
+        "relative_score": 0.739037,
+        "target_title": "Emergency power"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.12",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.42279,
+        "relative_score": 0.731728,
+        "target_title": "System use notification"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.42133,
+        "relative_score": 0.717933,
+        "target_title": "Explicit access request approval"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.421304,
+        "relative_score": 0.717692,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      }
+    ]
+  },
+  "DL3018": {
+    "candidate_count": 6,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.492956,
+        "relative_score": 1.0,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.473862,
+        "relative_score": 0.80471,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.470806,
+        "relative_score": 0.776574,
+        "target_title": "Session lock"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.464374,
+        "relative_score": 0.719988,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.461902,
+        "relative_score": 0.699163,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.46016,
+        "relative_score": 0.684781,
+        "target_title": "Security functionality verification"
+      }
+    ]
+  },
+  "DL3019": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.471018,
+        "relative_score": 1.0,
+        "target_title": "Emergency power"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.464798,
+        "relative_score": 0.929497,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.459959,
+        "relative_score": 0.877498,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.454919,
+        "relative_score": 0.825904,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.451454,
+        "relative_score": 0.791889,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.449697,
+        "relative_score": 0.775091,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.449265,
+        "relative_score": 0.771006,
+        "target_title": "Island mode"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 2.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.445846,
+        "relative_score": 0.739284,
+        "target_title": "Session lock"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 2.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.444025,
+        "relative_score": 0.72282,
+        "target_title": "Use control for portable and mobile devices"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.439349,
+        "relative_score": 0.681937,
+        "target_title": "Security functionality verification"
+      }
+    ]
+  },
+  "DL3020": {
+    "candidate_count": 3,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.529806,
+        "relative_score": 1.0,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.514403,
+        "relative_score": 0.850205,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.497019,
+        "relative_score": 0.70373,
+        "target_title": "Malicious code protection"
+      }
+    ]
+  },
+  "DL3021": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.520413,
+        "relative_score": 1.0,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.51665,
+        "relative_score": 0.960867,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.507417,
+        "relative_score": 0.870145,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.507172,
+        "relative_score": 0.867838,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.50549,
+        "relative_score": 0.852125,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.501549,
+        "relative_score": 0.816216,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.499469,
+        "relative_score": 0.797773,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.494906,
+        "relative_score": 0.758501,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.7 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.493612,
+        "relative_score": 0.74766,
+        "target_title": "Password lifetime restrictions for all users"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 2.11 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 2.11",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.4934,
+        "relative_score": 0.745898,
+        "target_title": "Protection of time source integrity"
+      }
+    ]
+  },
+  "DL3022": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.487943,
+        "relative_score": 1.0,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.487388,
+        "relative_score": 0.993753,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.483248,
+        "relative_score": 0.948209,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.477077,
+        "relative_score": 0.883497,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.11 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 2.11",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.476724,
+        "relative_score": 0.879906,
+        "target_title": "Protection of time source integrity"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.474648,
+        "relative_score": 0.859035,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.47288,
+        "relative_score": 0.84159,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.471155,
+        "relative_score": 0.824843,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.9",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.470937,
+        "relative_score": 0.822746,
+        "target_title": "Protection of audit information"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.466811,
+        "relative_score": 0.783875,
+        "target_title": "Non-repudiation for all users"
+      }
+    ]
+  },
+  "DL3023": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.46323,
+        "relative_score": 1.0,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.46317,
+        "relative_score": 0.999291,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.1 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.45706,
+        "relative_score": 0.928899,
+        "target_title": "Limit DoS effects to other systems or networks"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 5.1 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.1",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.454422,
+        "relative_score": 0.899797,
+        "target_title": "Independence from non-control system networks"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.453929,
+        "relative_score": 0.894444,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.453634,
+        "relative_score": 0.891252,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.453628,
+        "relative_score": 0.891186,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.1 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.1",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.453224,
+        "relative_score": 0.88683,
+        "target_title": "Logical and physical isolation of critical networks"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.450037,
+        "relative_score": 0.853069,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.44998,
+        "relative_score": 0.852467,
+        "target_title": "Deterministic output"
+      }
+    ]
+  },
+  "DL3024": {
+    "candidate_count": 7,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.487354,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.2",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.478514,
+        "relative_score": 0.904224,
+        "target_title": "Unique identification and authentication"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.478036,
+        "relative_score": 0.899265,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.466792,
+        "relative_score": 0.788919,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.463346,
+        "relative_score": 0.757417,
+        "target_title": "Software process and device identification and authentication"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.455356,
+        "relative_score": 0.688313,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.454862,
+        "relative_score": 0.684217,
+        "target_title": "Deterministic output"
+      }
+    ]
+  },
+  "DL3025": {
+    "candidate_count": 7,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.528187,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.517061,
+        "relative_score": 0.889511,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.511355,
+        "relative_score": 0.836842,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.504616,
+        "relative_score": 0.777953,
+        "target_title": "Security functionality verification during normal operation"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.502624,
+        "relative_score": 0.761215,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.493233,
+        "relative_score": 0.686209,
+        "target_title": "Network and security configuration settings"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.492709,
+        "relative_score": 0.682211,
+        "target_title": "Fail close"
+      }
+    ]
+  },
+  "DL3026": {
+    "candidate_count": 2,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.552813,
+        "relative_score": 1.0,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.517784,
+        "relative_score": 0.697656,
+        "target_title": "Deny by default, allow by exception"
+      }
+    ]
+  },
+  "DL3027": {
+    "candidate_count": 5,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.460841,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.443359,
+        "relative_score": 0.808395,
+        "target_title": "Public key infrastructure (PKI) certificates"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.433615,
+        "relative_score": 0.715393,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.431374,
+        "relative_score": 0.695288,
+        "target_title": "Explicit access request approval"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.430676,
+        "relative_score": 0.689127,
+        "target_title": "Mobile code integrity check"
+      }
+    ]
+  },
+  "DL3028": {
+    "candidate_count": 5,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.451715,
+        "relative_score": 1.0,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.434793,
+        "relative_score": 0.810585,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.42992,
+        "relative_score": 0.76187,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.426684,
+        "relative_score": 0.730854,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.42216,
+        "relative_score": 0.689236,
+        "target_title": "Hardware security for software process identity credentials"
+      }
+    ]
+  },
+  "DL3029": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.48719,
+        "relative_score": 1.0,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.485022,
+        "relative_score": 0.975772,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.481639,
+        "relative_score": 0.938919,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.474696,
+        "relative_score": 0.866849,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.474265,
+        "relative_score": 0.862532,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.473322,
+        "relative_score": 0.853143,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.472846,
+        "relative_score": 0.848436,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.463226,
+        "relative_score": 0.757742,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.463007,
+        "relative_score": 0.755774,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.461157,
+        "relative_score": 0.739317,
+        "target_title": "Denial of service protection"
+      }
+    ]
+  },
+  "DL3030": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.500226,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473756,
+        "relative_score": 0.741545,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473426,
+        "relative_score": 0.738705,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.470236,
+        "relative_score": 0.711738,
+        "target_title": "Mobile code integrity check"
+      }
+    ]
+  },
+  "DL3031": {
+    "candidate_count": 8,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.444581,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.438992,
+        "relative_score": 0.932792,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.42878,
+        "relative_score": 0.819524,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.425447,
+        "relative_score": 0.785096,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.422826,
+        "relative_score": 0.758862,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.420028,
+        "relative_score": 0.73165,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.416608,
+        "relative_score": 0.699475,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.414699,
+        "relative_score": 0.682024,
+        "target_title": "Malicious code protection on entry and exit points"
+      }
+    ]
+  },
+  "DL3032": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.429606,
+        "relative_score": 1.0,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.423532,
+        "relative_score": 0.924666,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.417336,
+        "relative_score": 0.852676,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.416684,
+        "relative_score": 0.845378,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.416183,
+        "relative_score": 0.839794,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.41551,
+        "relative_score": 0.832356,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.412592,
+        "relative_score": 0.800706,
+        "target_title": "Control system recovery and reconstitution"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.411312,
+        "relative_score": 0.787143,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.409574,
+        "relative_score": 0.769023,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.409124,
+        "relative_score": 0.764389,
+        "target_title": "Security functionality verification during normal operation"
+      }
+    ]
+  },
+  "DL3033": {
+    "candidate_count": 2,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.468587,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.443478,
+        "relative_score": 0.738666,
+        "target_title": "Randomness of session IDs"
+      }
+    ]
+  },
+  "DL3034": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.429532,
+        "relative_score": 1.0,
+        "target_title": "Emergency power"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.42294,
+        "relative_score": 0.918464,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.412877,
+        "relative_score": 0.804524,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.411608,
+        "relative_score": 0.791023,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.409518,
+        "relative_score": 0.76918,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.409123,
+        "relative_score": 0.765107,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.408663,
+        "relative_score": 0.760392,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.406164,
+        "relative_score": 0.735165,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.406076,
+        "relative_score": 0.734287,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 2.12",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.405674,
+        "relative_score": 0.730295,
+        "target_title": "Non-repudiation"
+      }
+    ]
+  },
+  "DL3035": {
+    "candidate_count": 3,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473734,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.452278,
+        "relative_score": 0.77498,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.445152,
+        "relative_score": 0.710159,
+        "target_title": "Malicious code protection on entry and exit points"
+      }
+    ]
+  },
+  "DL3036": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.430886,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.411147,
+        "relative_score": 0.772667,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.410018,
+        "relative_score": 0.761071,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.406663,
+        "relative_score": 0.727446,
+        "target_title": "Mobile code integrity check"
+      }
+    ]
+  },
+  "DL3037": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.434726,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.43269,
+        "relative_score": 0.974504,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.431749,
+        "relative_score": 0.9629,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.428586,
+        "relative_score": 0.924742,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.427415,
+        "relative_score": 0.910934,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 2.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.423558,
+        "relative_score": 0.86663,
+        "target_title": "Use control for portable and mobile devices"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.42092,
+        "relative_score": 0.837357,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.420141,
+        "relative_score": 0.828864,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.416246,
+        "relative_score": 0.787471,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.415642,
+        "relative_score": 0.781207,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      }
+    ]
+  },
+  "DL3038": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.495785,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.486432,
+        "relative_score": 0.900551,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.476228,
+        "relative_score": 0.801433,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.47563,
+        "relative_score": 0.795916,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.474636,
+        "relative_score": 0.786807,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.474115,
+        "relative_score": 0.782074,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.47187,
+        "relative_score": 0.761916,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.471374,
+        "relative_score": 0.757524,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.471296,
+        "relative_score": 0.756835,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.470999,
+        "relative_score": 0.754218,
+        "target_title": "Mobile code"
+      }
+    ]
+  },
+  "DL3039": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.458216,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.447795,
+        "relative_score": 0.881148,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.434919,
+        "relative_score": 0.750517,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.427469,
+        "relative_score": 0.682482,
+        "target_title": "Randomness of session IDs"
+      }
+    ]
+  },
+  "DL3040": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.444051,
+        "relative_score": 1.0,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.443516,
+        "relative_score": 0.9934,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.43543,
+        "relative_score": 0.89778,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.431889,
+        "relative_score": 0.858361,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.430909,
+        "relative_score": 0.847697,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.430695,
+        "relative_score": 0.845381,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.426533,
+        "relative_score": 0.801415,
+        "target_title": "Control system recovery and reconstitution"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.421963,
+        "relative_score": 0.75532,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.421064,
+        "relative_score": 0.746507,
+        "target_title": "Security functionality verification during normal operation"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.1 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 1.1",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.420857,
+        "relative_score": 0.744491,
+        "target_title": "Multifactor authentication for all networks"
+      }
+    ]
+  },
+  "DL3041": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.459882,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.456826,
+        "relative_score": 0.964002,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.451748,
+        "relative_score": 0.906522,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.451607,
+        "relative_score": 0.90496,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.444558,
+        "relative_score": 0.829957,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.440152,
+        "relative_score": 0.785706,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.438693,
+        "relative_score": 0.77149,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 7.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.437373,
+        "relative_score": 0.758809,
+        "target_title": "Network and security configuration settings"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.435252,
+        "relative_score": 0.738792,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.434871,
+        "relative_score": 0.735242,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      }
+    ]
+  },
+  "DL3042": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.444818,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.435795,
+        "relative_score": 0.893407,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.433358,
+        "relative_score": 0.866276,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.425048,
+        "relative_score": 0.77877,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 5,
+        "raw_cosine": 0.423745,
+        "relative_score": 0.765725,
+        "target_title": "Application partitioning"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.422164,
+        "relative_score": 0.750148,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.420185,
+        "relative_score": 0.731003,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.420161,
+        "relative_score": 0.730774,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.419167,
+        "relative_score": 0.72132,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.418934,
+        "relative_score": 0.719114,
+        "target_title": "Hardware security for software process identity credentials"
+      }
+    ]
+  },
+  "DL3043": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.443939,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 5.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.443761,
+        "relative_score": 0.997803,
+        "target_title": "Island mode"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.442918,
+        "relative_score": 0.987422,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.440362,
+        "relative_score": 0.956481,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.434849,
+        "relative_score": 0.892455,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.433809,
+        "relative_score": 0.880779,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.433458,
+        "relative_score": 0.876866,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.432074,
+        "relative_score": 0.861581,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.43049,
+        "relative_score": 0.844342,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.427773,
+        "relative_score": 0.815449,
+        "target_title": "Automated mechanisms for security functionality verification"
+      }
+    ]
+  },
+  "DL3044": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.554353,
+        "relative_score": 1.0,
+        "target_title": "Error handling"
+      }
+    ]
+  },
+  "DL3045": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.475803,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.468114,
+        "relative_score": 0.914288,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.45967,
+        "relative_score": 0.827188,
+        "target_title": "Island mode"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.458743,
+        "relative_score": 0.818053,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.454237,
+        "relative_score": 0.774825,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.453568,
+        "relative_score": 0.768569,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.452209,
+        "relative_score": 0.755988,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.451215,
+        "relative_score": 0.746897,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.451014,
+        "relative_score": 0.745068,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.450529,
+        "relative_score": 0.740669,
+        "target_title": "Hardware security for software process identity credentials"
+      }
+    ]
+  },
+  "DL3046": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.525811,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      }
+    ]
+  },
+  "DL3047": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.465638,
+        "relative_score": 1.0,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.9 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.9",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.457268,
+        "relative_score": 0.90505,
+        "target_title": "Warn when audit record storage capacity threshold reached"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.457246,
+        "relative_score": 0.904818,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.452378,
+        "relative_score": 0.853088,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.450384,
+        "relative_score": 0.832606,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.449337,
+        "relative_score": 0.822018,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.6 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.6",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.443375,
+        "relative_score": 0.763794,
+        "target_title": "Machine-readable reporting of current security settings"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.44304,
+        "relative_score": 0.760627,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 6.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 6.1",
+        "foundational_requirement": 6,
+        "raw_cosine": 0.441293,
+        "relative_score": 0.744278,
+        "target_title": "Programmatic access to audit logs"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.437563,
+        "relative_score": 0.710326,
+        "target_title": "Hardware security for software process identity credentials"
+      }
+    ]
+  },
+  "DL3048": {
+    "candidate_count": 6,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.506238,
+        "relative_score": 1.0,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.501525,
+        "relative_score": 0.949857,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.498215,
+        "relative_score": 0.91589,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.493489,
+        "relative_score": 0.869116,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.481432,
+        "relative_score": 0.758563,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473504,
+        "relative_score": 0.692356,
+        "target_title": "Invalidation of session IDs after session termination"
+      }
+    ]
+  },
+  "DL3049": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.503224,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      }
+    ]
+  },
+  "DL3050": {
+    "candidate_count": 4,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.520335,
+        "relative_score": 1.0,
+        "target_title": "Least functionality"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.496754,
+        "relative_score": 0.774855,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.487719,
+        "relative_score": 0.70045,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.485612,
+        "relative_score": 0.683966,
+        "target_title": "Identifier management"
+      }
+    ]
+  },
+  "DL3051": {
+    "candidate_count": 3,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.499665,
+        "relative_score": 1.0,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.497347,
+        "relative_score": 0.974744,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.484436,
+        "relative_score": 0.843466,
+        "target_title": "Fail close"
+      }
+    ]
+  },
+  "DL3052": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.514783,
+        "relative_score": 1.0,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.51203,
+        "relative_score": 0.970931,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.500035,
+        "relative_score": 0.852251,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.499913,
+        "relative_score": 0.851109,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.489431,
+        "relative_score": 0.757476,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.487764,
+        "relative_score": 0.743392,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.48434,
+        "relative_score": 0.715138,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.48413,
+        "relative_score": 0.71344,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483841,
+        "relative_score": 0.711101,
+        "target_title": "Invalidation of session IDs after session termination"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483576,
+        "relative_score": 0.708958,
+        "target_title": "Session integrity"
+      }
+    ]
+  },
+  "DL3053": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.600301,
+        "relative_score": 1.0,
+        "target_title": "Timestamps"
+      }
+    ]
+  },
+  "DL3054": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.505005,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.49887,
+        "relative_score": 0.934975,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.489443,
+        "relative_score": 0.841845,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.484147,
+        "relative_score": 0.792952,
+        "target_title": "Software process and device identification and authentication"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.482951,
+        "relative_score": 0.78224,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.482338,
+        "relative_score": 0.776788,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.481721,
+        "relative_score": 0.771346,
+        "target_title": "Software and information integrity"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.47957,
+        "relative_score": 0.752592,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.2",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.474637,
+        "relative_score": 0.710982,
+        "target_title": "Unique identification and authentication"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473929,
+        "relative_score": 0.705168,
+        "target_title": "Error handling"
+      }
+    ]
+  },
+  "DL3055": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.476917,
+        "relative_score": 1.0,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.473951,
+        "relative_score": 0.966263,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.471417,
+        "relative_score": 0.938193,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.47051,
+        "relative_score": 0.928306,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.468489,
+        "relative_score": 0.906589,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.466819,
+        "relative_score": 0.888951,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.463382,
+        "relative_score": 0.853549,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.460481,
+        "relative_score": 0.824565,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.456658,
+        "relative_score": 0.787615,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.9",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.456055,
+        "relative_score": 0.781914,
+        "target_title": "Strength of public key authentication"
+      }
+    ]
+  },
+  "DL3056": {
+    "candidate_count": 5,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.51035,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.494672,
+        "relative_score": 0.842304,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.482227,
+        "relative_score": 0.732161,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.481028,
+        "relative_score": 0.722208,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.480112,
+        "relative_score": 0.714676,
+        "target_title": "Randomness of session IDs"
+      }
+    ]
+  },
+  "DL3057": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.480388,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.47555,
+        "relative_score": 0.945852,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.473847,
+        "relative_score": 0.927367,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.468414,
+        "relative_score": 0.87038,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.45708,
+        "relative_score": 0.760677,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.452807,
+        "relative_score": 0.722379,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.452684,
+        "relative_score": 0.721303,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.4",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.450142,
+        "relative_score": 0.699306,
+        "target_title": "Automated notification about integrity violations"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.449316,
+        "relative_score": 0.692279,
+        "target_title": "Security functionality verification during normal operation"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.448909,
+        "relative_score": 0.688833,
+        "target_title": "Malicious code protection on entry and exit points"
+      }
+    ]
+  },
+  "DL3058": {
+    "candidate_count": 2,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.560281,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.529466,
+        "relative_score": 0.732622,
+        "target_title": "Input validation"
+      }
+    ]
+  },
+  "DL3059": {
+    "candidate_count": 5,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.544268,
+        "relative_score": 1.0,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 4.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 4.2",
+        "foundational_requirement": 4,
+        "raw_cosine": 0.524627,
+        "relative_score": 0.816975,
+        "target_title": "Purging of shared memory resources"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 5,
+        "raw_cosine": 0.51708,
+        "relative_score": 0.75439,
+        "target_title": "Application partitioning"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.511974,
+        "relative_score": 0.714316,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.509713,
+        "relative_score": 0.697137,
+        "target_title": "Randomness of session IDs"
+      }
+    ]
+  },
+  "DL3060": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.393922,
+        "relative_score": 1.0,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.393083,
+        "relative_score": 0.988339,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.1 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.1",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.388857,
+        "relative_score": 0.931289,
+        "target_title": "Logical and physical isolation of critical networks"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.384014,
+        "relative_score": 0.869268,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.8 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.383707,
+        "relative_score": 0.865445,
+        "target_title": "Unique session ID generation"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.382291,
+        "relative_score": 0.848023,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.379454,
+        "relative_score": 0.813984,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 4.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 4.2",
+        "foundational_requirement": 4,
+        "raw_cosine": 0.378087,
+        "relative_score": 0.797991,
+        "target_title": "Purging of shared memory resources"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 2.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.377142,
+        "relative_score": 0.787078,
+        "target_title": "Timestamps"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.376342,
+        "relative_score": 0.777943,
+        "target_title": "Malicious code protection"
+      }
+    ]
+  },
+  "DL3061": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.448931,
+        "relative_score": 1.0,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 6.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 6.1",
+        "foundational_requirement": 6,
+        "raw_cosine": 0.446741,
+        "relative_score": 0.973465,
+        "target_title": "Programmatic access to audit logs"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.441487,
+        "relative_score": 0.912138,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.439928,
+        "relative_score": 0.894561,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.43432,
+        "relative_score": 0.833622,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.430804,
+        "relative_score": 0.79717,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.43025,
+        "relative_score": 0.791553,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.427056,
+        "relative_score": 0.759768,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.42703,
+        "relative_score": 0.759509,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.424379,
+        "relative_score": 0.733939,
+        "target_title": "Hardware security for software process identity credentials"
+      }
+    ]
+  },
+  "DL3062": {
+    "candidate_count": 7,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.514541,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.510615,
+        "relative_score": 0.958751,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.498679,
+        "relative_score": 0.841792,
+        "target_title": "Central management and reporting for malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 2.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 2,
+        "raw_cosine": 0.494259,
+        "relative_score": 0.80157,
+        "target_title": "Mobile code"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.4 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.4",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.492909,
+        "relative_score": 0.789596,
+        "target_title": "Mobile code integrity check"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.485756,
+        "relative_score": 0.728598,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 5.2 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.484307,
+        "relative_score": 0.716725,
+        "target_title": "Island mode"
+      }
+    ]
+  },
+  "DL3063": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.493786,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.49306,
+        "relative_score": 0.991939,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.491474,
+        "relative_score": 0.974515,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.49086,
+        "relative_score": 0.967841,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.485582,
+        "relative_score": 0.911964,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.485041,
+        "relative_score": 0.906398,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.480989,
+        "relative_score": 0.865522,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.471433,
+        "relative_score": 0.775081,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.466021,
+        "relative_score": 0.727386,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 7.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.464211,
+        "relative_score": 0.711983,
+        "target_title": "Least functionality"
+      }
+    ]
+  },
+  "DL3064": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.545811,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.538053,
+        "relative_score": 0.924284,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.9",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.530489,
+        "relative_score": 0.855047,
+        "target_title": "Protection of audit information"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.523908,
+        "relative_score": 0.798308,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.523827,
+        "relative_score": 0.797632,
+        "target_title": "Security functionality verification during normal operation"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.13 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.13",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.523245,
+        "relative_score": 0.792768,
+        "target_title": "Explicit access request approval"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 4.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.52254,
+        "relative_score": 0.786912,
+        "target_title": "Information confidentiality"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.9",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.522411,
+        "relative_score": 0.78584,
+        "target_title": "Strength of public key authentication"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.7 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.7",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.520885,
+        "relative_score": 0.773299,
+        "target_title": "Password generation and lifetime restrictions for human users"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.518267,
+        "relative_score": 0.752164,
+        "target_title": "Control system backup"
+      }
+    ]
+  },
+  "DL3065": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.505612,
+        "relative_score": 1.0,
+        "target_title": "Deterministic output"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.487876,
+        "relative_score": 0.821684,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483317,
+        "relative_score": 0.780335,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 5.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 5,
+        "raw_cosine": 0.48183,
+        "relative_score": 0.767221,
+        "target_title": "General purpose person-to-person communication restrictions"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.479773,
+        "relative_score": 0.749377,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.479578,
+        "relative_score": 0.747698,
+        "target_title": "Input validation"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.478996,
+        "relative_score": 0.742727,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.477967,
+        "relative_score": 0.733995,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 7.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.474756,
+        "relative_score": 0.70728,
+        "target_title": "Network and security configuration settings"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 5.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.3",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.474347,
+        "relative_score": 0.703932,
+        "target_title": "Prohibit all general purpose person-to-person communications"
+      }
+    ]
+  },
+  "DL3066": {
+    "candidate_count": 9,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.563961,
+        "relative_score": 1.0,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.563078,
+        "relative_score": 0.991415,
+        "target_title": "Invalidation of session IDs after session termination"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.8 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.547226,
+        "relative_score": 0.847316,
+        "target_title": "Randomness of session IDs"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.1 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 1.1",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.542301,
+        "relative_score": 0.806213,
+        "target_title": "Multifactor authentication for untrusted networks"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 2.12 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 2.12",
+        "foundational_requirement": 2,
+        "raw_cosine": 0.539634,
+        "relative_score": 0.784652,
+        "target_title": "Non-repudiation for all users"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.8 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.539427,
+        "relative_score": 0.782998,
+        "target_title": "Unique session ID generation"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.533061,
+        "relative_score": 0.733502,
+        "target_title": "Human user identification and authentication"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 3.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.528232,
+        "relative_score": 0.697693,
+        "target_title": "Session integrity"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 1.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.1",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.526429,
+        "relative_score": 0.684698,
+        "target_title": "Unique identification and authentication"
+      }
+    ]
+  },
+  "DL3067": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.576489,
+        "relative_score": 1.0,
+        "target_title": "Control system backup"
+      }
+    ]
+  },
+  "DL4000": {
+    "candidate_count": 9,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 1.4",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.514533,
+        "relative_score": 1.0,
+        "target_title": "Identifier management"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 4.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 4,
+        "raw_cosine": 0.506099,
+        "relative_score": 0.91311,
+        "target_title": "Information persistence"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 7.6 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.6",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.496466,
+        "relative_score": 0.821522,
+        "target_title": "Machine-readable reporting of current security settings"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.48589,
+        "relative_score": 0.729775,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.484422,
+        "relative_score": 0.717727,
+        "target_title": "Security functionality verification"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.8 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.8",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.484053,
+        "relative_score": 0.714725,
+        "target_title": "Invalidation of session IDs after session termination"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.483566,
+        "relative_score": 0.710778,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.482278,
+        "relative_score": 0.700428,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.480091,
+        "relative_score": 0.683135,
+        "target_title": "Backup verification"
+      }
+    ]
+  },
+  "DL4001": {
+    "candidate_count": 7,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.457312,
+        "relative_score": 1.0,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.456104,
+        "relative_score": 0.985549,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.454881,
+        "relative_score": 0.971111,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 1.8",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.446332,
+        "relative_score": 0.874878,
+        "target_title": "Public key infrastructure (PKI) certificates"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 6.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 6.1",
+        "foundational_requirement": 6,
+        "raw_cosine": 0.441888,
+        "relative_score": 0.828029,
+        "target_title": "Programmatic access to audit logs"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 5.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.3",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.434371,
+        "relative_score": 0.753464,
+        "target_title": "Prohibit all general purpose person-to-person communications"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 1.1 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 1.1",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.431494,
+        "relative_score": 0.726426,
+        "target_title": "Multifactor authentication for all networks"
+      }
+    ]
+  },
+  "DL4003": {
+    "candidate_count": 10,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 7.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.1",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.502108,
+        "relative_score": 1.0,
+        "target_title": "Manage communication loads"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.501968,
+        "relative_score": 0.998471,
+        "target_title": "Malicious code protection on entry and exit points"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 3.2",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.500324,
+        "relative_score": 0.980617,
+        "target_title": "Malicious code protection"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.495995,
+        "relative_score": 0.934848,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 3.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.493764,
+        "relative_score": 0.911955,
+        "target_title": "Automated mechanisms for security functionality verification"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.491606,
+        "relative_score": 0.890247,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 7,
+        "target_id": "SR 7.3 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 7.3",
+        "foundational_requirement": 7,
+        "raw_cosine": 0.489798,
+        "relative_score": 0.872395,
+        "target_title": "Backup verification"
+      },
+      {
+        "rank": 8,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.484584,
+        "relative_score": 0.822524,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 9,
+        "target_id": "SR 3.7",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483288,
+        "relative_score": 0.810499,
+        "target_title": "Error handling"
+      },
+      {
+        "rank": 10,
+        "target_id": "SR 3.3 RE 2",
+        "target_type": "RE",
+        "parent_sr": "SR 3.3",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.483263,
+        "relative_score": 0.810266,
+        "target_title": "Security functionality verification during normal operation"
+      }
+    ]
+  },
+  "DL4004": {
+    "candidate_count": 1,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 3.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 3.2",
+        "foundational_requirement": 3,
+        "raw_cosine": 0.569088,
+        "relative_score": 1.0,
+        "target_title": "Malicious code protection on entry and exit points"
+      }
+    ]
+  },
+  "DL4005": {
+    "candidate_count": 6,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.435516,
+        "relative_score": 1.0,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.5",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.427869,
+        "relative_score": 0.907171,
+        "target_title": "Authenticator management"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 1.5 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 1.5",
+        "foundational_requirement": 1,
+        "raw_cosine": 0.420451,
+        "relative_score": 0.823973,
+        "target_title": "Hardware security for software process identity credentials"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 6.1 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 6.1",
+        "foundational_requirement": 6,
+        "raw_cosine": 0.415311,
+        "relative_score": 0.770072,
+        "target_title": "Programmatic access to audit logs"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 1.12",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.409629,
+        "relative_score": 0.713886,
+        "target_title": "System use notification"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.409549,
+        "relative_score": 0.713116,
+        "target_title": "Unsuccessful login attempts"
+      }
+    ]
+  },
+  "DL4006": {
+    "candidate_count": 6,
+    "matches": [
+      {
+        "rank": 1,
+        "target_id": "SR 5.2 RE 3",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.509595,
+        "relative_score": 1.0,
+        "target_title": "Fail close"
+      },
+      {
+        "rank": 2,
+        "target_id": "SR 1.11",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 1,
+        "raw_cosine": 0.505732,
+        "relative_score": 0.95901,
+        "target_title": "Unsuccessful login attempts"
+      },
+      {
+        "rank": 3,
+        "target_id": "SR 5.2 RE 1",
+        "target_type": "RE",
+        "parent_sr": "SR 5.2",
+        "foundational_requirement": 5,
+        "raw_cosine": 0.493245,
+        "relative_score": 0.835812,
+        "target_title": "Deny by default, allow by exception"
+      },
+      {
+        "rank": 4,
+        "target_id": "SR 7.1",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.488458,
+        "relative_score": 0.792154,
+        "target_title": "Denial of service protection"
+      },
+      {
+        "rank": 5,
+        "target_id": "SR 7.3",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 7,
+        "raw_cosine": 0.485866,
+        "relative_score": 0.769316,
+        "target_title": "Control system backup"
+      },
+      {
+        "rank": 6,
+        "target_id": "SR 3.6",
+        "target_type": "SR",
+        "parent_sr": null,
+        "foundational_requirement": 3,
+        "raw_cosine": 0.48445,
+        "relative_score": 0.757058,
+        "target_title": "Deterministic output"
+      }
+    ]
+  }
+}

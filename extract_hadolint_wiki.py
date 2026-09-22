@@ -4,7 +4,7 @@
 Extract structured Hadolint and ShellCheck rules from their GitHub wikis.
 
 Output:
-    ../data/output/datasets/hadolint_rules_structured.json
+    data/output/datasets/hadolint_rules_structured.json
 
 The extractor preserves the semantic sections of each wiki page:
 
@@ -38,12 +38,12 @@ from typing import Dict, Optional
 WIKI_REPOSITORIES = {
     "hadolint": {
         "url": "https://github.com/hadolint/hadolint.wiki.git",
-        "path": Path("../data/input/hadolint/wiki_hadolint_temp"),
+        "path": Path("data/input/hadolint/wiki_hadolint_temp"),
         "pattern": re.compile(r"^DL\d{4}\.md$", re.IGNORECASE),
     },
     "shellcheck": {
         "url": "https://github.com/koalaman/shellcheck.wiki.git",
-        "path": Path("../data/input/hadolint/wiki_shellcheck_temp"),
+        "path": Path("data/input/hadolint/wiki_shellcheck_temp"),
         "pattern": re.compile(r"^SC\d{4}\.md$", re.IGNORECASE),
     },
 }

@@ -1,0 +1,6780 @@
+{
+    "DL3026": [
+        {
+            "target_id": "CWE-830",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1427",
+            "relative_score": 0.9518
+        },
+        {
+            "target_id": "CWE-1291",
+            "relative_score": 0.9376
+        }
+    ],
+    "DL3043": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3030": [
+        {
+            "target_id": "CWE-455",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9728
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9157
+        },
+        {
+            "target_id": "CWE-1004",
+            "relative_score": 0.9034
+        }
+    ],
+    "DL3051": [
+        {
+            "target_id": "CWE-1071",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3016": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-527",
+            "relative_score": 0.983
+        },
+        {
+            "target_id": "CWE-1269",
+            "relative_score": 0.9077
+        }
+    ],
+    "DL3057": [
+        {
+            "target_id": "CWE-1127",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1332",
+            "relative_score": 0.966
+        },
+        {
+            "target_id": "CWE-754",
+            "relative_score": 0.9177
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9128
+        }
+    ],
+    "DL3034": [
+        {
+            "target_id": "CWE-484",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-414",
+            "relative_score": 0.9186
+        }
+    ],
+    "DL3005": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.9705
+        },
+        {
+            "target_id": "CWE-773",
+            "relative_score": 0.9339
+        },
+        {
+            "target_id": "CWE-576",
+            "relative_score": 0.9133
+        },
+        {
+            "target_id": "CWE-560",
+            "relative_score": 0.9095
+        },
+        {
+            "target_id": "CWE-243",
+            "relative_score": 0.9082
+        }
+    ],
+    "DL3058": [
+        {
+            "target_id": "CWE-1286",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4003": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3050": [
+        {
+            "target_id": "CWE-1112",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1427",
+            "relative_score": 0.9034
+        }
+    ],
+    "DL3006": [
+        {
+            "target_id": "CWE-82",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3060": [
+        {
+            "target_id": "CWE-459",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3032": [
+        {
+            "target_id": "CWE-459",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3012": [
+        {
+            "target_id": "CWE-216",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3044": [
+        {
+            "target_id": "CWE-526",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3025": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3024": [
+        {
+            "target_id": "CWE-1099",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-102",
+            "relative_score": 0.9617
+        }
+    ],
+    "DL3061": [
+        {
+            "target_id": "CWE-560",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3015": [
+        {
+            "target_id": "CWE-1123",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-455",
+            "relative_score": 0.9091
+        }
+    ],
+    "DL3022": [
+        {
+            "target_id": "CWE-773",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3059": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3001": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-77",
+            "relative_score": 0.9451
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9231
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9165
+        }
+    ],
+    "DL3002": [
+        {
+            "target_id": "CWE-272",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3056": [
+        {
+            "target_id": "CWE-344",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1112",
+            "relative_score": 0.9619
+        },
+        {
+            "target_id": "CWE-454",
+            "relative_score": 0.9537
+        },
+        {
+            "target_id": "CWE-1099",
+            "relative_score": 0.9249
+        }
+    ],
+    "DL3031": [
+        {
+            "target_id": "CWE-1329",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3008": [
+        {
+            "target_id": "CWE-494",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3041": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3054": [
+        {
+            "target_id": "CWE-1099",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3013": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3033": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3055": [
+        {
+            "target_id": "CWE-527",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1099",
+            "relative_score": 0.9858
+        }
+    ],
+    "DL3052": [
+        {
+            "target_id": "CWE-684",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-641",
+            "relative_score": 0.9876
+        },
+        {
+            "target_id": "CWE-1286",
+            "relative_score": 0.9038
+        }
+    ],
+    "DL3003": [
+        {
+            "target_id": "CWE-243",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-36",
+            "relative_score": 0.9064
+        }
+    ],
+    "DL3027": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-276",
+            "relative_score": 0.9114
+        }
+    ],
+    "DL3028": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1251",
+            "relative_score": 0.9953
+        },
+        {
+            "target_id": "CWE-414",
+            "relative_score": 0.9265
+        },
+        {
+            "target_id": "CWE-363",
+            "relative_score": 0.9061
+        }
+    ],
+    "DL3017": [
+        {
+            "target_id": "CWE-589",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1329",
+            "relative_score": 0.9915
+        }
+    ],
+    "DL3018": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3047": [
+        {
+            "target_id": "CWE-363",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3020": [
+        {
+            "target_id": "CWE-552",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3049": [
+        {
+            "target_id": "CWE-1112",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3000": [
+        {
+            "target_id": "CWE-57",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9698
+        },
+        {
+            "target_id": "CWE-36",
+            "relative_score": 0.9209
+        }
+    ],
+    "DL4001": [
+        {
+            "target_id": "CWE-443",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3004": [
+        {
+            "target_id": "CWE-243",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9382
+        },
+        {
+            "target_id": "CWE-272",
+            "relative_score": 0.9234
+        },
+        {
+            "target_id": "CWE-258",
+            "relative_score": 0.9216
+        }
+    ],
+    "DL3019": [
+        {
+            "target_id": "CWE-1303",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.9008
+        }
+    ],
+    "DL3021": [
+        {
+            "target_id": "CWE-52",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-51",
+            "relative_score": 0.9356
+        }
+    ],
+    "DL3035": [
+        {
+            "target_id": "CWE-1329",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1277",
+            "relative_score": 0.9661
+        }
+    ],
+    "DL3039": [
+        {
+            "target_id": "CWE-1329",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-71",
+            "relative_score": 0.9689
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.9153
+        }
+    ],
+    "DL3038": [
+        {
+            "target_id": "CWE-455",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9843
+        },
+        {
+            "target_id": "CWE-484",
+            "relative_score": 0.937
+        },
+        {
+            "target_id": "CWE-470",
+            "relative_score": 0.924
+        }
+    ],
+    "DL3036": [
+        {
+            "target_id": "CWE-459",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3029": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9615
+        },
+        {
+            "target_id": "CWE-1050",
+            "relative_score": 0.9173
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.913
+        }
+    ],
+    "DL3014": [
+        {
+            "target_id": "CWE-237",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3045": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4004": [
+        {
+            "target_id": "CWE-450",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-365",
+            "relative_score": 0.9969
+        },
+        {
+            "target_id": "CWE-148",
+            "relative_score": 0.9143
+        }
+    ],
+    "DL4005": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3010": [
+        {
+            "target_id": "CWE-552",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3042": [
+        {
+            "target_id": "CWE-909",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-524",
+            "relative_score": 0.9793
+        }
+    ],
+    "DL3040": [
+        {
+            "target_id": "CWE-459",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3009": [
+        {
+            "target_id": "CWE-188",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-131",
+            "relative_score": 0.9665
+        },
+        {
+            "target_id": "CWE-459",
+            "relative_score": 0.9407
+        },
+        {
+            "target_id": "CWE-244",
+            "relative_score": 0.9092
+        }
+    ],
+    "DL3053": [
+        {
+            "target_id": "CWE-1286",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3023": [
+        {
+            "target_id": "CWE-1098",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3011": [
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4000": [
+        {
+            "target_id": "CWE-216",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3062": [
+        {
+            "target_id": "CWE-527",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4006": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3037": [
+        {
+            "target_id": "CWE-1328",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-239",
+            "relative_score": 0.9944
+        },
+        {
+            "target_id": "CWE-456",
+            "relative_score": 0.9622
+        },
+        {
+            "target_id": "CWE-1188",
+            "relative_score": 0.9283
+        }
+    ],
+    "DL3046": [
+        {
+            "target_id": "CWE-451",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.9696
+        },
+        {
+            "target_id": "CWE-69",
+            "relative_score": 0.9216
+        }
+    ],
+    "DL3048": [
+        {
+            "target_id": "CWE-135",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-176",
+            "relative_score": 0.9727
+        }
+    ],
+    "DL3007": [
+        {
+            "target_id": "CWE-82",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.9773
+        },
+        {
+            "target_id": "CWE-351",
+            "relative_score": 0.972
+        },
+        {
+            "target_id": "CWE-821",
+            "relative_score": 0.939
+        }
+    ],
+    "SC2291": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2252": [
+        {
+            "target_id": "CWE-570",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-571",
+            "relative_score": 0.9914
+        }
+    ],
+    "SC1000": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9421
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.928
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9169
+        }
+    ],
+    "SC1051": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9524
+        }
+    ],
+    "SC2283": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2049": [
+        {
+            "target_id": "CWE-625",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9898
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.981
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.962
+        },
+        {
+            "target_id": "CWE-185",
+            "relative_score": 0.9272
+        },
+        {
+            "target_id": "CWE-595",
+            "relative_score": 0.9022
+        }
+    ],
+    "SC2223": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9156
+        }
+    ],
+    "SC1115": [
+        {
+            "target_id": "CWE-1114",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-156",
+            "relative_score": 0.9766
+        }
+    ],
+    "SC2216": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1008": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.9174
+        }
+    ],
+    "SC2248": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9828
+        },
+        {
+            "target_id": "CWE-149",
+            "relative_score": 0.9753
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9507
+        }
+    ],
+    "SC2323": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.975
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9487
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9487
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9201
+        }
+    ],
+    "SC1059": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9884
+        }
+    ],
+    "SC3056": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2246": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9766
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.9597
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9522
+        },
+        {
+            "target_id": "CWE-55",
+            "relative_score": 0.9521
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9508
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9487
+        },
+        {
+            "target_id": "CWE-61",
+            "relative_score": 0.9381
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9277
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9266
+        }
+    ],
+    "SC2327": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2125": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-843",
+            "relative_score": 0.9882
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9778
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9427
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9423
+        },
+        {
+            "target_id": "CWE-582",
+            "relative_score": 0.9231
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9229
+        },
+        {
+            "target_id": "CWE-1126",
+            "relative_score": 0.9002
+        }
+    ],
+    "SC2188": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9777
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9444
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9034
+        }
+    ],
+    "SC1029": [
+        {
+            "target_id": "CWE-34",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9884
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.978
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.956
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.922
+        }
+    ],
+    "SC2015": [
+        {
+            "target_id": "CWE-768",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2105": [
+        {
+            "target_id": "CWE-484",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2196": [
+        {
+            "target_id": "CWE-249",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-92",
+            "relative_score": 0.9711
+        }
+    ],
+    "SC2003": [
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2320": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2302": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1104": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1038": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2250": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2194": [
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2017": [
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2197": [
+        {
+            "target_id": "CWE-249",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2031": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9023
+        }
+    ],
+    "SC2198": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2000": [
+        {
+            "target_id": "CWE-616",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2204": [
+        {
+            "target_id": "CWE-22",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9606
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9455
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9379
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9338
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9179
+        }
+    ],
+    "SC1132": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2058": [
+        {
+            "target_id": "CWE-61",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1071": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1073": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1101": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1123": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9437
+        },
+        {
+            "target_id": "CWE-77",
+            "relative_score": 0.9077
+        }
+    ],
+    "SC1110": [
+        {
+            "target_id": "CWE-149",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2149": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9713
+        }
+    ],
+    "SC2184": [
+        {
+            "target_id": "CWE-428",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9526
+        }
+    ],
+    "SC2043": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.935
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9041
+        }
+    ],
+    "SC2212": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9258
+        }
+    ],
+    "SC2025": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-150",
+            "relative_score": 0.9251
+        }
+    ],
+    "SC2268": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.9351
+        }
+    ],
+    "SC3057": [
+        {
+            "target_id": "CWE-33",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9521
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9227
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9134
+        }
+    ],
+    "SC2174": [
+        {
+            "target_id": "CWE-22",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3062": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9064
+        }
+    ],
+    "SC2026": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1004": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2317": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2110": [
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-704",
+            "relative_score": 0.9624
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9385
+        },
+        {
+            "target_id": "CWE-570",
+            "relative_score": 0.9373
+        },
+        {
+            "target_id": "CWE-140",
+            "relative_score": 0.93
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.928
+        },
+        {
+            "target_id": "CWE-781",
+            "relative_score": 0.9226
+        },
+        {
+            "target_id": "CWE-229",
+            "relative_score": 0.9034
+        },
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 0.9027
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9016
+        }
+    ],
+    "SC2046": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1034": [
+        {
+            "target_id": "CWE-570",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2059": [
+        {
+            "target_id": "CWE-134",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2181": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9898
+        },
+        {
+            "target_id": "CWE-382",
+            "relative_score": 0.958
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.953
+        },
+        {
+            "target_id": "CWE-455",
+            "relative_score": 0.9268
+        }
+    ],
+    "SC3063": [
+        {
+            "target_id": "CWE-706",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9015
+        }
+    ],
+    "SC1019": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9815
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9646
+        }
+    ],
+    "SC2290": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2075": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2253": [
+        {
+            "target_id": "CWE-25",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9859
+        },
+        {
+            "target_id": "CWE-560",
+            "relative_score": 0.9146
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9004
+        }
+    ],
+    "SC3005": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.9738
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.9734
+        },
+        {
+            "target_id": "CWE-128",
+            "relative_score": 0.9002
+        }
+    ],
+    "SC1131": [
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2069": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2121": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1126": [
+        {
+            "target_id": "CWE-551",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9923
+        },
+        {
+            "target_id": "CWE-180",
+            "relative_score": 0.9876
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.953
+        }
+    ],
+    "SC2262": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9461
+        }
+    ],
+    "SC1053": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9609
+        }
+    ],
+    "SC2169": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-87",
+            "relative_score": 0.9622
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9492
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9237
+        },
+        {
+            "target_id": "CWE-35",
+            "relative_score": 0.9146
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9037
+        },
+        {
+            "target_id": "CWE-148",
+            "relative_score": 0.9021
+        },
+        {
+            "target_id": "CWE-75",
+            "relative_score": 0.9
+        }
+    ],
+    "SC2191": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9754
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9142
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9088
+        }
+    ],
+    "SC3031": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9262
+        }
+    ],
+    "SC3052": [
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2271": [
+        {
+            "target_id": "CWE-914",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2205": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9401
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.92
+        }
+    ],
+    "SC3036": [
+        {
+            "target_id": "CWE-32",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9918
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9668
+        }
+    ],
+    "SC3059": [
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.902
+        }
+    ],
+    "SC3049": [
+        {
+            "target_id": "CWE-478",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9859
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9367
+        },
+        {
+            "target_id": "CWE-365",
+            "relative_score": 0.9207
+        },
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 0.9182
+        }
+    ],
+    "SC1064": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-628",
+            "relative_score": 0.9149
+        }
+    ],
+    "SC2007": [
+        {
+            "target_id": "CWE-71",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.968
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9135
+        }
+    ],
+    "SC2118": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9154
+        }
+    ],
+    "SC2102": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-625",
+            "relative_score": 0.9917
+        }
+    ],
+    "SC1003": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9561
+        }
+    ],
+    "SC2315": [
+        {
+            "target_id": "CWE-252",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2095": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2328": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9
+        }
+    ],
+    "SC2010": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2108": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9074
+        }
+    ],
+    "SC1097": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2202": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9688
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9254
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.918
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9167
+        }
+    ],
+    "SC2028": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9738
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9618
+        }
+    ],
+    "SC2311": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9075
+        }
+    ],
+    "SC3060": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9311
+        },
+        {
+            "target_id": "CWE-141",
+            "relative_score": 0.93
+        }
+    ],
+    "SC2185": [
+        {
+            "target_id": "CWE-426",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2064": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1133": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2100": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9302
+        }
+    ],
+    "SC2091": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9121
+        }
+    ],
+    "SC2019": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-176",
+            "relative_score": 0.9428
+        }
+    ],
+    "SC1035": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1114",
+            "relative_score": 0.9823
+        },
+        {
+            "target_id": "CWE-156",
+            "relative_score": 0.9287
+        }
+    ],
+    "SC2229": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3013": [
+        {
+            "target_id": "CWE-42",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.9241
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.913
+        }
+    ],
+    "SC2145": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2329": [
+        {
+            "target_id": "CWE-242",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9182
+        }
+    ],
+    "SC2166": [
+        {
+            "target_id": "CWE-138",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.983
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9513
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9159
+        },
+        {
+            "target_id": "CWE-1286",
+            "relative_score": 0.9129
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9069
+        }
+    ],
+    "SC2247": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2236": [
+        {
+            "target_id": "CWE-839",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2092": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2124": [
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9207
+        }
+    ],
+    "SC1144": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2299": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1108": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3043": [
+        {
+            "target_id": "CWE-562",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9799
+        }
+    ],
+    "SC2112": [
+        {
+            "target_id": "CWE-479",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.991
+        },
+        {
+            "target_id": "CWE-628",
+            "relative_score": 0.915
+        },
+        {
+            "target_id": "CWE-253",
+            "relative_score": 0.9057
+        }
+    ],
+    "SC2141": [
+        {
+            "target_id": "CWE-53",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9746
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9694
+        },
+        {
+            "target_id": "CWE-113",
+            "relative_score": 0.961
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9466
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9293
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9245
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9102
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9058
+        }
+    ],
+    "SC3054": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-129",
+            "relative_score": 0.9847
+        },
+        {
+            "target_id": "CWE-232",
+            "relative_score": 0.9414
+        },
+        {
+            "target_id": "CWE-843",
+            "relative_score": 0.9211
+        },
+        {
+            "target_id": "CWE-229",
+            "relative_score": 0.9124
+        }
+    ],
+    "SC2298": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9198
+        }
+    ],
+    "SC3032": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 0.9539
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9123
+        }
+    ],
+    "SC2297": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9815
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.902
+        }
+    ],
+    "SC3039": [
+        {
+            "target_id": "CWE-475",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-232",
+            "relative_score": 0.9499
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9374
+        },
+        {
+            "target_id": "CWE-229",
+            "relative_score": 0.9217
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9014
+        }
+    ],
+    "SC2267": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9419
+        },
+        {
+            "target_id": "CWE-71",
+            "relative_score": 0.9003
+        }
+    ],
+    "SC2122": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2114": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.986
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9008
+        }
+    ],
+    "SC2020": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2322": [
+        {
+            "target_id": "CWE-571",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2220": [
+        {
+            "target_id": "CWE-232",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-229",
+            "relative_score": 0.9035
+        }
+    ],
+    "SC1078": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2076": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9876
+        },
+        {
+            "target_id": "CWE-625",
+            "relative_score": 0.9096
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9008
+        }
+    ],
+    "SC2176": [
+        {
+            "target_id": "CWE-208",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-475",
+            "relative_score": 0.9271
+        },
+        {
+            "target_id": "CWE-516",
+            "relative_score": 0.9215
+        }
+    ],
+    "SC2173": [
+        {
+            "target_id": "CWE-432",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1094": [
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.9388
+        },
+        {
+            "target_id": "CWE-144",
+            "relative_score": 0.9349
+        },
+        {
+            "target_id": "CWE-96",
+            "relative_score": 0.9095
+        }
+    ],
+    "SC1048": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1071",
+            "relative_score": 0.9581
+        }
+    ],
+    "SC2060": [
+        {
+            "target_id": "CWE-31",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9904
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9867
+        },
+        {
+            "target_id": "CWE-39",
+            "relative_score": 0.9747
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9488
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.9482
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9388
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9366
+        },
+        {
+            "target_id": "CWE-43",
+            "relative_score": 0.9316
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9193
+        }
+    ],
+    "SC1138": [
+        {
+            "target_id": "CWE-156",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3014": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2287": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9998
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9595
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.9493
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9167
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9103
+        }
+    ],
+    "SC2172": [
+        {
+            "target_id": "CWE-1311",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9209
+        }
+    ],
+    "SC2163": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9627
+        }
+    ],
+    "SC1060": [
+        {
+            "target_id": "CWE-1071",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2077": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2300": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2206": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2235": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2093": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3028": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9672
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9412
+        },
+        {
+            "target_id": "CWE-232",
+            "relative_score": 0.9056
+        }
+    ],
+    "SC2266": [
+        {
+            "target_id": "CWE-768",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9429
+        }
+    ],
+    "SC1079": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9639
+        },
+        {
+            "target_id": "CWE-351",
+            "relative_score": 0.9299
+        }
+    ],
+    "SC1020": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1114",
+            "relative_score": 0.9599
+        }
+    ],
+    "SC2261": [
+        {
+            "target_id": "CWE-43",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-52",
+            "relative_score": 0.9215
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.916
+        }
+    ],
+    "SC2084": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1139": [
+        {
+            "target_id": "CWE-768",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9591
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9585
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9154
+        },
+        {
+            "target_id": "CWE-481",
+            "relative_score": 0.9007
+        }
+    ],
+    "SC3065": [
+        {
+            "target_id": "CWE-475",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.963
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9209
+        }
+    ],
+    "SC1014": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9441
+        }
+    ],
+    "SC1111": [
+        {
+            "target_id": "CWE-149",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9039
+        }
+    ],
+    "SC1001": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9123
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9093
+        }
+    ],
+    "SC2033": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2187": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2148": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2162": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9961
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9927
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9729
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9311
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9277
+        }
+    ],
+    "SC2094": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.944
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9423
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9161
+        }
+    ],
+    "SC1043": [
+        {
+            "target_id": "CWE-147",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9853
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9411
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9251
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9188
+        },
+        {
+            "target_id": "CWE-132",
+            "relative_score": 0.916
+        }
+    ],
+    "SC1085": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9282
+        }
+    ],
+    "SC2123": [
+        {
+            "target_id": "CWE-45",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-426",
+            "relative_score": 0.994
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9664
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9587
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9559
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9387
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9287
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9137
+        }
+    ],
+    "SC3038": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9538
+        }
+    ],
+    "SC1041": [
+        {
+            "target_id": "CWE-170",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-147",
+            "relative_score": 0.9413
+        }
+    ],
+    "SC3023": [
+        {
+            "target_id": "CWE-33",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9651
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9422
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9287
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9212
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9147
+        }
+    ],
+    "SC2142": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9592
+        }
+    ],
+    "SC2023": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2284": [
+        {
+            "target_id": "CWE-595",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9505
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9092
+        }
+    ],
+    "SC3044": [
+        {
+            "target_id": "CWE-1126",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9459
+        }
+    ],
+    "SC1010": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9591
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9286
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9049
+        }
+    ],
+    "SC2097": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9009
+        }
+    ],
+    "SC2022": [
+        {
+            "target_id": "CWE-625",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-185",
+            "relative_score": 0.9188
+        }
+    ],
+    "SC2240": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3018": [
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-151",
+            "relative_score": 0.9625
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9591
+        },
+        {
+            "target_id": "CWE-128",
+            "relative_score": 0.9017
+        }
+    ],
+    "SC2224": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-941",
+            "relative_score": 0.9512
+        },
+        {
+            "target_id": "CWE-141",
+            "relative_score": 0.9088
+        }
+    ],
+    "SC2157": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2254": [
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3007": [
+        {
+            "target_id": "CWE-229",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-197",
+            "relative_score": 0.9831
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.9785
+        },
+        {
+            "target_id": "CWE-456",
+            "relative_score": 0.9378
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.935
+        }
+    ],
+    "SC3048": [
+        {
+            "target_id": "CWE-138",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9627
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.9507
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.942
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9396
+        }
+    ],
+    "SC1116": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9246
+        },
+        {
+            "target_id": "CWE-456",
+            "relative_score": 0.9022
+        }
+    ],
+    "SC2143": [
+        {
+            "target_id": "CWE-25",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9809
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9754
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9318
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.9174
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9039
+        }
+    ],
+    "SC3029": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9736
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9469
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9193
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9192
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9096
+        }
+    ],
+    "SC3035": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2230": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1056": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2099": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2335": [
+        {
+            "target_id": "CWE-391",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.964
+        }
+    ],
+    "SC1069": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9738
+        },
+        {
+            "target_id": "CWE-258",
+            "relative_score": 0.9212
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9001
+        }
+    ],
+    "SC1120": [
+        {
+            "target_id": "CWE-151",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3009": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9025
+        }
+    ],
+    "SC2177": [
+        {
+            "target_id": "CWE-516",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-208",
+            "relative_score": 0.9682
+        },
+        {
+            "target_id": "CWE-475",
+            "relative_score": 0.964
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9469
+        },
+        {
+            "target_id": "CWE-77",
+            "relative_score": 0.9204
+        }
+    ],
+    "SC2159": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1026": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9019
+        }
+    ],
+    "SC2269": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2289": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9361
+        }
+    ],
+    "SC2083": [
+        {
+            "target_id": "CWE-46",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-49",
+            "relative_score": 0.9814
+        },
+        {
+            "target_id": "CWE-47",
+            "relative_score": 0.9292
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9007
+        }
+    ],
+    "SC2129": [
+        {
+            "target_id": "CWE-698",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2318": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2175": [
+        {
+            "target_id": "CWE-149",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9234
+        }
+    ],
+    "SC2153": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3037": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2006": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2151": [
+        {
+            "target_id": "CWE-393",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-394",
+            "relative_score": 0.9852
+        },
+        {
+            "target_id": "CWE-253",
+            "relative_score": 0.955
+        },
+        {
+            "target_id": "CWE-690",
+            "relative_score": 0.9154
+        }
+    ],
+    "SC2203": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9644
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.942
+        }
+    ],
+    "SC2156": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2332": [
+        {
+            "target_id": "CWE-570",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-571",
+            "relative_score": 0.9128
+        }
+    ],
+    "SC2147": [
+        {
+            "target_id": "CWE-35",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9423
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9069
+        }
+    ],
+    "SC2061": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9714
+        },
+        {
+            "target_id": "CWE-45",
+            "relative_score": 0.9643
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9296
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9005
+        }
+    ],
+    "SC1122": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-147",
+            "relative_score": 0.9387
+        }
+    ],
+    "SC2170": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2308": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-625",
+            "relative_score": 0.9483
+        },
+        {
+            "target_id": "CWE-624",
+            "relative_score": 0.9446
+        },
+        {
+            "target_id": "CWE-130",
+            "relative_score": 0.9244
+        }
+    ],
+    "SC3061": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1057": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2107": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9944
+        },
+        {
+            "target_id": "CWE-481",
+            "relative_score": 0.9172
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9034
+        }
+    ],
+    "SC2008": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9681
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.94
+        }
+    ],
+    "SC3002": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.9595
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9545
+        },
+        {
+            "target_id": "CWE-35",
+            "relative_score": 0.9409
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9002
+        }
+    ],
+    "SC3010": [
+        {
+            "target_id": "CWE-582",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.9769
+        },
+        {
+            "target_id": "CWE-475",
+            "relative_score": 0.9402
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9055
+        }
+    ],
+    "SC1070": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1286",
+            "relative_score": 0.9078
+        }
+    ],
+    "SC2276": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3006": [
+        {
+            "target_id": "CWE-1100",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9952
+        }
+    ],
+    "SC1141": [
+        {
+            "target_id": "CWE-146",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9007
+        }
+    ],
+    "SC2164": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9737
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9681
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.963
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9353
+        }
+    ],
+    "SC2103": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-57",
+            "relative_score": 0.9341
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9339
+        }
+    ],
+    "SC1113": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9617
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.951
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9383
+        }
+    ],
+    "SC2280": [
+        {
+            "target_id": "CWE-587",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2027": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1107": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9823
+        }
+    ],
+    "SC1128": [
+        {
+            "target_id": "CWE-151",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1044": [
+        {
+            "target_id": "CWE-170",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2048": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2226": [
+        {
+            "target_id": "CWE-941",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9895
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9668
+        }
+    ],
+    "SC1061": [
+        {
+            "target_id": "CWE-414",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9968
+        },
+        {
+            "target_id": "CWE-705",
+            "relative_score": 0.9183
+        },
+        {
+            "target_id": "CWE-166",
+            "relative_score": 0.9082
+        }
+    ],
+    "SC2292": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9686
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.927
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9086
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9061
+        }
+    ],
+    "SC1102": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9197
+        }
+    ],
+    "SC3033": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2314": [
+        {
+            "target_id": "CWE-252",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-455",
+            "relative_score": 0.9032
+        }
+    ],
+    "SC2018": [
+        {
+            "target_id": "CWE-1007",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2044": [
+        {
+            "target_id": "CWE-46",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9403
+        }
+    ],
+    "SC1054": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2160": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3019": [
+        {
+            "target_id": "CWE-229",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.9549
+        }
+    ],
+    "SC2277": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2081": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2116": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.988
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.927
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9101
+        }
+    ],
+    "SC1100": [
+        {
+            "target_id": "CWE-176",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-80",
+            "relative_score": 0.9853
+        },
+        {
+            "target_id": "CWE-150",
+            "relative_score": 0.9312
+        }
+    ],
+    "SC3064": [
+        {
+            "target_id": "CWE-475",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9631
+        },
+        {
+            "target_id": "CWE-516",
+            "relative_score": 0.95
+        }
+    ],
+    "SC2279": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.9147
+        }
+    ],
+    "SC2140": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 0.9576
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9236
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9161
+        },
+        {
+            "target_id": "CWE-85",
+            "relative_score": 0.913
+        },
+        {
+            "target_id": "CWE-80",
+            "relative_score": 0.9039
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9026
+        }
+    ],
+    "SC2243": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9337
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9275
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9186
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9131
+        }
+    ],
+    "SC3026": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9591
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9228
+        }
+    ],
+    "SC2305": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1067": [
+        {
+            "target_id": "CWE-914",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-627",
+            "relative_score": 0.9128
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9114
+        }
+    ],
+    "SC2264": [
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9774
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9668
+        }
+    ],
+    "SC2256": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.9414
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9286
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9245
+        }
+    ],
+    "SC3042": [
+        {
+            "target_id": "CWE-475",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-77",
+            "relative_score": 0.9471
+        },
+        {
+            "target_id": "CWE-373",
+            "relative_score": 0.9263
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9187
+        },
+        {
+            "target_id": "CWE-560",
+            "relative_score": 0.9139
+        },
+        {
+            "target_id": "CWE-71",
+            "relative_score": 0.9053
+        }
+    ],
+    "SC1040": [
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2258": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2215": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1068": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2219": [
+        {
+            "target_id": "CWE-146",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1098": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2244": [
+        {
+            "target_id": "CWE-839",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2155": [
+        {
+            "target_id": "CWE-252",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9082
+        }
+    ],
+    "SC1012": [
+        {
+            "target_id": "CWE-116",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3017": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.984
+        },
+        {
+            "target_id": "CWE-43",
+            "relative_score": 0.9755
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9586
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.9503
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9236
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9202
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9108
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9053
+        }
+    ],
+    "SC2005": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9954
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9217
+        }
+    ],
+    "SC2139": [
+        {
+            "target_id": "CWE-55",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9833
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9808
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9713
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.962
+        },
+        {
+            "target_id": "CWE-67",
+            "relative_score": 0.9579
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.9411
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9265
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9206
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9203
+        }
+    ],
+    "SC3015": [
+        {
+            "target_id": "CWE-624",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9521
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9332
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9297
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9161
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9154
+        },
+        {
+            "target_id": "CWE-625",
+            "relative_score": 0.9069
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9047
+        }
+    ],
+    "SC2259": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9587
+        },
+        {
+            "target_id": "CWE-27",
+            "relative_score": 0.9365
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.907
+        }
+    ],
+    "SC2089": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2257": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2211": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2180": [
+        {
+            "target_id": "CWE-129",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9957
+        }
+    ],
+    "SC2030": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2035": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9808
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.978
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9446
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9437
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9369
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.9143
+        }
+    ],
+    "SC3024": [
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1088": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9711
+        }
+    ],
+    "SC2113": [
+        {
+            "target_id": "CWE-628",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-589",
+            "relative_score": 0.9493
+        },
+        {
+            "target_id": "CWE-683",
+            "relative_score": 0.9315
+        },
+        {
+            "target_id": "CWE-477",
+            "relative_score": 0.9093
+        }
+    ],
+    "SC2249": [
+        {
+            "target_id": "CWE-478",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2152": [
+        {
+            "target_id": "CWE-253",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-393",
+            "relative_score": 0.9994
+        },
+        {
+            "target_id": "CWE-584",
+            "relative_score": 0.985
+        },
+        {
+            "target_id": "CWE-690",
+            "relative_score": 0.9432
+        },
+        {
+            "target_id": "CWE-466",
+            "relative_score": 0.9152
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9095
+        },
+        {
+            "target_id": "CWE-562",
+            "relative_score": 0.9021
+        }
+    ],
+    "SC2239": [
+        {
+            "target_id": "CWE-36",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-37",
+            "relative_score": 0.9686
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9435
+        }
+    ],
+    "SC2186": [
+        {
+            "target_id": "CWE-377",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2214": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-478",
+            "relative_score": 0.9089
+        }
+    ],
+    "SC2168": [
+        {
+            "target_id": "CWE-61",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9451
+        },
+        {
+            "target_id": "CWE-1107",
+            "relative_score": 0.9362
+        },
+        {
+            "target_id": "CWE-134",
+            "relative_score": 0.9323
+        }
+    ],
+    "SC2199": [
+        {
+            "target_id": "CWE-582",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 0.9044
+        }
+    ],
+    "SC2012": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9612
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9267
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.9151
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9132
+        },
+        {
+            "target_id": "CWE-43",
+            "relative_score": 0.9075
+        }
+    ],
+    "SC3041": [
+        {
+            "target_id": "CWE-475",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1011": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3020": [
+        {
+            "target_id": "CWE-53",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9724
+        }
+    ],
+    "SC2295": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3008": [
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9364
+        }
+    ],
+    "SC1017": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9662
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.934
+        },
+        {
+            "target_id": "CWE-93",
+            "relative_score": 0.9291
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9213
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9064
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9061
+        }
+    ],
+    "SC1016": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-149",
+            "relative_score": 0.9184
+        }
+    ],
+    "SC2208": [
+        {
+            "target_id": "CWE-234",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9514
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.9482
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9378
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.901
+        }
+    ],
+    "SC2090": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-54",
+            "relative_score": 0.9214
+        }
+    ],
+    "SC2029": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2193": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9766
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9185
+        }
+    ],
+    "SC2021": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2039": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 0.9248
+        }
+    ],
+    "SC1037": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9378
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.92
+        }
+    ],
+    "SC2056": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-570",
+            "relative_score": 0.9925
+        },
+        {
+            "target_id": "CWE-571",
+            "relative_score": 0.9237
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.918
+        }
+    ],
+    "SC2221": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 0.9554
+        }
+    ],
+    "SC2334": [
+        {
+            "target_id": "CWE-839",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1140": [
+        {
+            "target_id": "CWE-146",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2004": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2001": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2326": [
+        {
+            "target_id": "CWE-768",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9576
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9535
+        },
+        {
+            "target_id": "CWE-1075",
+            "relative_score": 0.9227
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9081
+        },
+        {
+            "target_id": "CWE-455",
+            "relative_score": 0.9053
+        }
+    ],
+    "SC2183": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1118": [
+        {
+            "target_id": "CWE-156",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1114",
+            "relative_score": 0.9025
+        }
+    ],
+    "SC1090": [
+        {
+            "target_id": "CWE-426",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2119": [
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-134",
+            "relative_score": 0.9496
+        },
+        {
+            "target_id": "CWE-475",
+            "relative_score": 0.9366
+        },
+        {
+            "target_id": "CWE-560",
+            "relative_score": 0.9054
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9006
+        }
+    ],
+    "SC1137": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2282": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 0.9721
+        }
+    ],
+    "SC1083": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9281
+        }
+    ],
+    "SC2272": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1103": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2154": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-457",
+            "relative_score": 0.9435
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9335
+        }
+    ],
+    "SC1117": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.985
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9184
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9133
+        }
+    ],
+    "SC3034": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9891
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9245
+        }
+    ],
+    "SC2218": [
+        {
+            "target_id": "CWE-683",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2281": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9217
+        }
+    ],
+    "SC2054": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9264
+        }
+    ],
+    "SC1009": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2195": [
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2087": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9955
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9737
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9476
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.9325
+        },
+        {
+            "target_id": "CWE-551",
+            "relative_score": 0.9275
+        }
+    ],
+    "SC1134": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2109": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9402
+        }
+    ],
+    "SC2307": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3022": [
+        {
+            "target_id": "CWE-910",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.9532
+        },
+        {
+            "target_id": "CWE-403",
+            "relative_score": 0.9226
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9215
+        },
+        {
+            "target_id": "CWE-43",
+            "relative_score": 0.9125
+        }
+    ],
+    "SC1049": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2079": [
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-839",
+            "relative_score": 0.9371
+        }
+    ],
+    "SC2106": [
+        {
+            "target_id": "CWE-484",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1062": [
+        {
+            "target_id": "CWE-440",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9574
+        },
+        {
+            "target_id": "CWE-1123",
+            "relative_score": 0.9411
+        },
+        {
+            "target_id": "CWE-148",
+            "relative_score": 0.9194
+        }
+    ],
+    "SC2288": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1099": [
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2270": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2200": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2042": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2011": [
+        {
+            "target_id": "CWE-29",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9061
+        }
+    ],
+    "SC2037": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9604
+        },
+        {
+            "target_id": "CWE-914",
+            "relative_score": 0.9063
+        }
+    ],
+    "SC1063": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9954
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9789
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9592
+        }
+    ],
+    "SC2263": [
+        {
+            "target_id": "CWE-76",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1114": [
+        {
+            "target_id": "CWE-47",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-156",
+            "relative_score": 0.9229
+        }
+    ],
+    "SC2278": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9259
+        }
+    ],
+    "SC2063": [
+        {
+            "target_id": "CWE-625",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2275": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1109": [
+        {
+            "target_id": "CWE-80",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9121
+        }
+    ],
+    "SC1135": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2072": [
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2192": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-230",
+            "relative_score": 0.9656
+        },
+        {
+            "target_id": "CWE-258",
+            "relative_score": 0.9475
+        },
+        {
+            "target_id": "CWE-456",
+            "relative_score": 0.9447
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9218
+        }
+    ],
+    "SC1087": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1045": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9245
+        }
+    ],
+    "SC1018": [
+        {
+            "target_id": "CWE-1114",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2167": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2265": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1086": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3012": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3051": [
+        {
+            "target_id": "CWE-42",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9858
+        },
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 0.9728
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.9308
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.9038
+        },
+        {
+            "target_id": "CWE-553",
+            "relative_score": 0.9014
+        }
+    ],
+    "SC3003": [
+        {
+            "target_id": "CWE-149",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9153
+        }
+    ],
+    "SC2242": [
+        {
+            "target_id": "CWE-382",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-455",
+            "relative_score": 0.9282
+        }
+    ],
+    "SC2158": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2313": [
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2286": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3066": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9978
+        },
+        {
+            "target_id": "CWE-47",
+            "relative_score": 0.9968
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9895
+        },
+        {
+            "target_id": "CWE-427",
+            "relative_score": 0.9522
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9366
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9366
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.9277
+        },
+        {
+            "target_id": "CWE-48",
+            "relative_score": 0.9254
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.913
+        }
+    ],
+    "SC3030": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2217": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.9791
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9432
+        }
+    ],
+    "SC1077": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3053": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9682
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9428
+        }
+    ],
+    "SC3025": [
+        {
+            "target_id": "CWE-605",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1130": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2213": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1095": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-234",
+            "relative_score": 0.9631
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9008
+        }
+    ],
+    "SC2036": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2041": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2098": [
+        {
+            "target_id": "CWE-1076",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1100",
+            "relative_score": 0.994
+        },
+        {
+            "target_id": "CWE-239",
+            "relative_score": 0.9834
+        },
+        {
+            "target_id": "CWE-351",
+            "relative_score": 0.9594
+        },
+        {
+            "target_id": "CWE-266",
+            "relative_score": 0.9533
+        },
+        {
+            "target_id": "CWE-1111",
+            "relative_score": 0.9237
+        },
+        {
+            "target_id": "CWE-1066",
+            "relative_score": 0.9208
+        }
+    ],
+    "SC2050": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9089
+        }
+    ],
+    "SC3045": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1075": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2014": [
+        {
+            "target_id": "CWE-26",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2293": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2309": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3047": [
+        {
+            "target_id": "CWE-455",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.9367
+        }
+    ],
+    "SC2285": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 0.945
+        }
+    ],
+    "SC1089": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2241": [
+        {
+            "target_id": "CWE-455",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-382",
+            "relative_score": 0.995
+        }
+    ],
+    "SC2189": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1136": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 0.9447
+        }
+    ],
+    "SC2150": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9394
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9064
+        }
+    ],
+    "SC1028": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9606
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9568
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9369
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9173
+        }
+    ],
+    "SC2245": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9626
+        },
+        {
+            "target_id": "CWE-363",
+            "relative_score": 0.9316
+        }
+    ],
+    "SC2171": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9404
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9074
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9068
+        }
+    ],
+    "SC1124": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-535",
+            "relative_score": 0.9087
+        }
+    ],
+    "SC2062": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.963
+        }
+    ],
+    "SC2222": [
+        {
+            "target_id": "CWE-1124",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9835
+        },
+        {
+            "target_id": "CWE-351",
+            "relative_score": 0.935
+        }
+    ],
+    "SC1058": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1065": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1036": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1015": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9892
+        },
+        {
+            "target_id": "CWE-149",
+            "relative_score": 0.9843
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9459
+        }
+    ],
+    "SC2251": [
+        {
+            "target_id": "CWE-252",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.981
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9581
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9118
+        }
+    ],
+    "SC2120": [
+        {
+            "target_id": "CWE-234",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9369
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9042
+        }
+    ],
+    "SC2032": [
+        {
+            "target_id": "CWE-560",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9275
+        }
+    ],
+    "SC2227": [
+        {
+            "target_id": "CWE-25",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.984
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9322
+        }
+    ],
+    "SC1007": [
+        {
+            "target_id": "CWE-156",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2009": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2128": [
+        {
+            "target_id": "CWE-129",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2067": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2304": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2303": [
+        {
+            "target_id": "CWE-129",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.917
+        }
+    ],
+    "SC2101": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9934
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9625
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9577
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9573
+        },
+        {
+            "target_id": "CWE-28",
+            "relative_score": 0.9339
+        },
+        {
+            "target_id": "CWE-26",
+            "relative_score": 0.902
+        }
+    ],
+    "SC2232": [
+        {
+            "target_id": "CWE-62",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2115": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.945
+        }
+    ],
+    "SC2161": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1027": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9208
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9117
+        }
+    ],
+    "SC2078": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9887
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9757
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9631
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.913
+        }
+    ],
+    "SC1047": [
+        {
+            "target_id": "CWE-440",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-231",
+            "relative_score": 0.948
+        }
+    ],
+    "SC2294": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2111": [
+        {
+            "target_id": "CWE-242",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-831",
+            "relative_score": 0.9973
+        },
+        {
+            "target_id": "CWE-622",
+            "relative_score": 0.9761
+        },
+        {
+            "target_id": "CWE-676",
+            "relative_score": 0.9738
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9314
+        },
+        {
+            "target_id": "CWE-560",
+            "relative_score": 0.9268
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9142
+        }
+    ],
+    "SC2301": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9384
+        }
+    ],
+    "SC1082": [
+        {
+            "target_id": "CWE-176",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-116",
+            "relative_score": 0.9417
+        }
+    ],
+    "SC1084": [
+        {
+            "target_id": "CWE-140",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-148",
+            "relative_score": 0.9349
+        },
+        {
+            "target_id": "CWE-138",
+            "relative_score": 0.9179
+        }
+    ],
+    "SC3004": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9383
+        },
+        {
+            "target_id": "CWE-116",
+            "relative_score": 0.9298
+        }
+    ],
+    "SC1046": [
+        {
+            "target_id": "CWE-394",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9935
+        }
+    ],
+    "SC2238": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1105": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-47",
+            "relative_score": 0.9818
+        }
+    ],
+    "SC1050": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3001": [
+        {
+            "target_id": "CWE-153",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2066": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2051": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9544
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9021
+        }
+    ],
+    "SC3040": [
+        {
+            "target_id": "CWE-455",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9689
+        }
+    ],
+    "SC2274": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2071": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 0.9156
+        },
+        {
+            "target_id": "CWE-839",
+            "relative_score": 0.9148
+        }
+    ],
+    "SC3055": [
+        {
+            "target_id": "CWE-197",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.994
+        },
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 0.9826
+        },
+        {
+            "target_id": "CWE-843",
+            "relative_score": 0.9583
+        }
+    ],
+    "SC2073": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.971
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9395
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9006
+        }
+    ],
+    "SC2325": [
+        {
+            "target_id": "CWE-33",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1092": [
+        {
+            "target_id": "CWE-1080",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1119",
+            "relative_score": 0.9841
+        }
+    ],
+    "SC3016": [
+        {
+            "target_id": "CWE-456",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9031
+        }
+    ],
+    "SC2233": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2040": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2002": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9799
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9318
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9059
+        }
+    ],
+    "SC2074": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9976
+        },
+        {
+            "target_id": "CWE-595",
+            "relative_score": 0.9726
+        },
+        {
+            "target_id": "CWE-481",
+            "relative_score": 0.9532
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9113
+        }
+    ],
+    "SC2316": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-831",
+            "relative_score": 0.9437
+        }
+    ],
+    "SC2306": [
+        {
+            "target_id": "CWE-25",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9574
+        },
+        {
+            "target_id": "CWE-56",
+            "relative_score": 0.931
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9188
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9007
+        }
+    ],
+    "SC3021": [
+        {
+            "target_id": "CWE-43",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.9536
+        },
+        {
+            "target_id": "CWE-45",
+            "relative_score": 0.9172
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9163
+        }
+    ],
+    "SC2201": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9797
+        }
+    ],
+    "SC1055": [
+        {
+            "target_id": "CWE-1071",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2210": [
+        {
+            "target_id": "CWE-33",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9975
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.994
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9874
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9663
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9161
+        },
+        {
+            "target_id": "CWE-27",
+            "relative_score": 0.9152
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9019
+        },
+        {
+            "target_id": "CWE-43",
+            "relative_score": 0.9011
+        }
+    ],
+    "SC2310": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.958
+        },
+        {
+            "target_id": "CWE-252",
+            "relative_score": 0.9522
+        }
+    ],
+    "SC2068": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2130": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1080": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1129": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9204
+        }
+    ],
+    "SC1121": [
+        {
+            "target_id": "CWE-147",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1112": [
+        {
+            "target_id": "CWE-149",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1119": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-93",
+            "relative_score": 0.9344
+        }
+    ],
+    "SC1072": [
+        {
+            "target_id": "CWE-670",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-97",
+            "relative_score": 0.986
+        },
+        {
+            "target_id": "CWE-483",
+            "relative_score": 0.9822
+        },
+        {
+            "target_id": "CWE-95",
+            "relative_score": 0.9548
+        },
+        {
+            "target_id": "CWE-96",
+            "relative_score": 0.9344
+        },
+        {
+            "target_id": "CWE-705",
+            "relative_score": 0.9247
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9189
+        },
+        {
+            "target_id": "CWE-754",
+            "relative_score": 0.9151
+        },
+        {
+            "target_id": "CWE-391",
+            "relative_score": 0.9092
+        }
+    ],
+    "SC2065": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9372
+        },
+        {
+            "target_id": "CWE-57",
+            "relative_score": 0.9305
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.922
+        }
+    ],
+    "SC2024": [
+        {
+            "target_id": "CWE-62",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2179": [
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2053": [
+        {
+            "target_id": "CWE-621",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-597",
+            "relative_score": 0.9627
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9352
+        },
+        {
+            "target_id": "CWE-582",
+            "relative_score": 0.9265
+        },
+        {
+            "target_id": "CWE-616",
+            "relative_score": 0.9221
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9192
+        },
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 0.9068
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9012
+        }
+    ],
+    "SC2055": [
+        {
+            "target_id": "CWE-571",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-570",
+            "relative_score": 0.9583
+        },
+        {
+            "target_id": "CWE-481",
+            "relative_score": 0.9515
+        }
+    ],
+    "SC1081": [
+        {
+            "target_id": "CWE-1289",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2255": [
+        {
+            "target_id": "CWE-839",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 0.9419
+        }
+    ],
+    "SC2207": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1052": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9524
+        }
+    ],
+    "SC1106": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1066": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-482",
+            "relative_score": 0.9807
+        }
+    ],
+    "SC1127": [
+        {
+            "target_id": "CWE-1113",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2260": [
+        {
+            "target_id": "CWE-785",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-698",
+            "relative_score": 0.9807
+        },
+        {
+            "target_id": "CWE-52",
+            "relative_score": 0.9737
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9528
+        },
+        {
+            "target_id": "CWE-443",
+            "relative_score": 0.9056
+        }
+    ],
+    "SC2234": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2104": [
+        {
+            "target_id": "CWE-484",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-253",
+            "relative_score": 0.9343
+        }
+    ],
+    "SC2331": [
+        {
+            "target_id": "CWE-49",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-48",
+            "relative_score": 0.9702
+        },
+        {
+            "target_id": "CWE-45",
+            "relative_score": 0.9191
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9036
+        }
+    ],
+    "SC2319": [
+        {
+            "target_id": "CWE-535",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-606",
+            "relative_score": 0.9152
+        }
+    ],
+    "SC2324": [
+        {
+            "target_id": "CWE-1046",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2080": [
+        {
+            "target_id": "CWE-1389",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2070": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-149",
+            "relative_score": 0.9774
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9686
+        },
+        {
+            "target_id": "CWE-234",
+            "relative_score": 0.9568
+        }
+    ],
+    "SC2273": [
+        {
+            "target_id": "CWE-151",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2038": [
+        {
+            "target_id": "CWE-46",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9891
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9636
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9581
+        },
+        {
+            "target_id": "CWE-47",
+            "relative_score": 0.924
+        }
+    ],
+    "SC2296": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9909
+        }
+    ],
+    "SC2126": [
+        {
+            "target_id": "CWE-391",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2182": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2146": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.993
+        },
+        {
+            "target_id": "CWE-47",
+            "relative_score": 0.9898
+        },
+        {
+            "target_id": "CWE-46",
+            "relative_score": 0.9812
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9738
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9598
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.959
+        },
+        {
+            "target_id": "CWE-59",
+            "relative_score": 0.9586
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.951
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9278
+        }
+    ],
+    "SC1143": [
+        {
+            "target_id": "CWE-54",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-53",
+            "relative_score": 0.9397
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9366
+        },
+        {
+            "target_id": "CWE-151",
+            "relative_score": 0.9147
+        }
+    ],
+    "SC2165": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9764
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9393
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9125
+        }
+    ],
+    "SC3011": [
+        {
+            "target_id": "CWE-177",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.978
+        },
+        {
+            "target_id": "CWE-1106",
+            "relative_score": 0.9593
+        },
+        {
+            "target_id": "CWE-38",
+            "relative_score": 0.9073
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9042
+        }
+    ],
+    "SC2013": [
+        {
+            "target_id": "CWE-25",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.9558
+        }
+    ],
+    "SC2096": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.9181
+        }
+    ],
+    "SC2034": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-621",
+            "relative_score": 0.9706
+        },
+        {
+            "target_id": "CWE-457",
+            "relative_score": 0.9221
+        }
+    ],
+    "SC1125": [
+        {
+            "target_id": "CWE-1113",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1078",
+            "relative_score": 0.9224
+        }
+    ],
+    "SC2237": [
+        {
+            "target_id": "CWE-839",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1091": [
+        {
+            "target_id": "CWE-59",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9184
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9158
+        }
+    ],
+    "SC3067": [
+        {
+            "target_id": "CWE-44",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9517
+        }
+    ],
+    "SC1076": [
+        {
+            "target_id": "CWE-481",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1077",
+            "relative_score": 0.9758
+        }
+    ],
+    "SC1142": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9167
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9033
+        }
+    ],
+    "SC2144": [
+        {
+            "target_id": "CWE-56",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9831
+        },
+        {
+            "target_id": "CWE-30",
+            "relative_score": 0.9306
+        }
+    ],
+    "SC2117": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2082": [
+        {
+            "target_id": "CWE-154",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2225": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-941",
+            "relative_score": 0.9918
+        },
+        {
+            "target_id": "CWE-78",
+            "relative_score": 0.9852
+        }
+    ],
+    "SC2088": [
+        {
+            "target_id": "CWE-24",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-35",
+            "relative_score": 0.9649
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9608
+        },
+        {
+            "target_id": "CWE-76",
+            "relative_score": 0.9412
+        },
+        {
+            "target_id": "CWE-428",
+            "relative_score": 0.9376
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9173
+        }
+    ],
+    "SC2209": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-563",
+            "relative_score": 0.9491
+        }
+    ],
+    "SC2016": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1039": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-146",
+            "relative_score": 0.9384
+        },
+        {
+            "target_id": "CWE-156",
+            "relative_score": 0.929
+        }
+    ],
+    "SC2127": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-88",
+            "relative_score": 0.941
+        }
+    ],
+    "SC1145": [
+        {
+            "target_id": "CWE-553",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2178": [
+        {
+            "target_id": "CWE-563",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-582",
+            "relative_score": 0.9861
+        },
+        {
+            "target_id": "CWE-1109",
+            "relative_score": 0.9856
+        },
+        {
+            "target_id": "CWE-914",
+            "relative_score": 0.9378
+        },
+        {
+            "target_id": "CWE-1126",
+            "relative_score": 0.9351
+        },
+        {
+            "target_id": "CWE-154",
+            "relative_score": 0.9318
+        }
+    ],
+    "SC2045": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2190": [
+        {
+            "target_id": "CWE-129",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9537
+        },
+        {
+            "target_id": "CWE-462",
+            "relative_score": 0.9273
+        }
+    ],
+    "SC2086": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2333": [
+        {
+            "target_id": "CWE-606",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-768",
+            "relative_score": 0.9106
+        }
+    ],
+    "SC2321": [
+        {
+            "target_id": "CWE-129",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1285",
+            "relative_score": 0.9149
+        }
+    ],
+    "SC1074": [
+        {
+            "target_id": "CWE-483",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-157",
+            "relative_score": 0.9871
+        }
+    ],
+    "SC2057": [
+        {
+            "target_id": "CWE-597",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2231": [
+        {
+            "target_id": "CWE-30",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-29",
+            "relative_score": 0.9854
+        },
+        {
+            "target_id": "CWE-22",
+            "relative_score": 0.9715
+        },
+        {
+            "target_id": "CWE-23",
+            "relative_score": 0.9455
+        },
+        {
+            "target_id": "CWE-25",
+            "relative_score": 0.9401
+        },
+        {
+            "target_id": "CWE-39",
+            "relative_score": 0.9367
+        },
+        {
+            "target_id": "CWE-34",
+            "relative_score": 0.9174
+        },
+        {
+            "target_id": "CWE-31",
+            "relative_score": 0.9005
+        }
+    ],
+    "SC3046": [
+        {
+            "target_id": "CWE-23",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-32",
+            "relative_score": 0.9866
+        },
+        {
+            "target_id": "CWE-42",
+            "relative_score": 0.948
+        },
+        {
+            "target_id": "CWE-44",
+            "relative_score": 0.9439
+        },
+        {
+            "target_id": "CWE-33",
+            "relative_score": 0.9318
+        },
+        {
+            "target_id": "CWE-35",
+            "relative_score": 0.9016
+        }
+    ],
+    "SC3050": [
+        {
+            "target_id": "CWE-88",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-24",
+            "relative_score": 0.938
+        }
+    ],
+    "SC2312": [
+        {
+            "target_id": "CWE-78",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1033": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2330": [
+        {
+            "target_id": "CWE-157",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CWE-1235",
+            "relative_score": 0.9863
+        }
+    ]
+}

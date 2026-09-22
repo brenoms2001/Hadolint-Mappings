@@ -74,18 +74,20 @@ FINAL_JSON_PATH = OUTPUT_DIR / "iec62443_clean.json"
 
 MODEL_NAME = "gemini-3.1-flash-lite"
 
-API_KEY = os.getenv("GEMINI_API_KEY")
+def get_client():
 
-if not API_KEY:
-    raise RuntimeError(
-        "\nGEMINI_API_KEY environment variable is not set.\n\n"
-        "For Bash/Linux:\n"
-        'export GEMINI_API_KEY="YOUR_API_KEY"\n\n'
-        "Then run:\n"
-        "python3 iec_cleaning.py\n"
-    )
+    api_key = os.getenv("GEMINI_API_KEY", "")
 
-client = genai.Client(api_key=API_KEY)
+    if not api_key:
+        raise RuntimeError(
+            "\nGEMINI_API_KEY environment variable is not set.\n\n"
+            "For Bash/Linux:\n"
+            'export GEMINI_API_KEY="YOUR_API_KEY"\n\n'
+            "Then run:\n"
+            "python3 iec_cleaning.py\n"
+        )
+
+    return genai.Client(api_key=api_key)
 
 
 # ----------------------------------------------------------------------
@@ -674,7 +676,7 @@ def call_gemini(block):
 
         try:
 
-            response = client.models.generate_content(
+            response = get_client().models.generate_content(
                 model=MODEL_NAME,
                 contents=prompt,
                 config=types.GenerateContentConfig(

@@ -1,0 +1,937 @@
+{
+  "method": {
+    "relative_threshold": 0.6,
+    "power": 5.5,
+    "similarity": "cosine"
+  },
+  "hadolint": {
+    "source": "Hadolint (DL)",
+    "rules": {
+      "total": 75,
+      "with_candidates": 75,
+      "without_candidates": 0
+    },
+    "candidates": {
+      "total": 1243,
+      "per_rule": {
+        "count": 75,
+        "min": 1,
+        "max": 43,
+        "mean": 16.573333333333334,
+        "median": 15,
+        "stdev": 10.110435247846697
+      },
+      "per_rule_percentiles": {
+        "p25": 9.0,
+        "p50": 15.0,
+        "p75": 23.0,
+        "p90": 26.60000000000001,
+        "p95": 36.3,
+        "p99": 41.52000000000001
+      },
+      "per_rule_distribution": {
+        "0": 0,
+        "1-5": 11,
+        "6-10": 13,
+        "11-15": 15,
+        "16-20": 7,
+        "21-30": 23,
+        "31-50": 6,
+        ">50": 0
+      }
+    },
+    "target_type": {
+      "SR": 630,
+      "RE": 613,
+      "unknown": 0
+    },
+    "distinct_parent_sr_per_rule": {
+      "statistics": {
+        "count": 75,
+        "min": 1,
+        "max": 28,
+        "mean": 12.12,
+        "median": 11,
+        "stdev": 6.702077128610043
+      },
+      "interpretation": "For SR targets, target_id is used as the SR group because parent_sr is null. For RE targets, parent_sr is used."
+    },
+    "relative_score": {
+      "statistics": {
+        "count": 1243,
+        "min": 0.600296,
+        "max": 1.0,
+        "mean": 0.7370583748994368,
+        "median": 0.705765,
+        "stdev": 0.11440072605183163
+      },
+      "percentiles": {
+        "p25": 0.6459984999999999,
+        "p50": 0.705765,
+        "p75": 0.7974019999999999,
+        "p90": 0.9268423999999998,
+        "p95": 1.0,
+        "p99": 1.0
+      },
+      "distribution": {
+        "0.60-0.69": 601,
+        "0.70-0.79": 340,
+        "0.80-0.89": 150,
+        "0.90-0.99": 77,
+        "1.00": 75
+      }
+    },
+    "raw_similarity": {
+      "statistics": {
+        "count": 1243,
+        "min": 0.358283,
+        "max": 0.600301,
+        "mean": 0.45120511665325824,
+        "median": 0.451127,
+        "stdev": 0.03660752346547675
+      },
+      "percentiles": {
+        "p25": 0.42333200000000004,
+        "p50": 0.451127,
+        "p75": 0.475819,
+        "p90": 0.4979548,
+        "p95": 0.5119734,
+        "p99": 0.5411808599999998
+      },
+      "distribution": {
+        "<0.10": 0,
+        "0.10-0.19": 0,
+        "0.20-0.29": 0,
+        "0.30-0.39": 77,
+        "0.40-0.49": 1055,
+        "0.50-0.59": 110,
+        "0.60-0.69": 1,
+        "0.70-0.79": 0,
+        "0.80-0.89": 0,
+        "0.90-1.00": 0
+      }
+    },
+    "most_frequent_iec_targets": [
+      {
+        "target_id": "SR 1.11",
+        "count": 51
+      },
+      {
+        "target_id": "SR 3.2",
+        "count": 48
+      },
+      {
+        "target_id": "SR 3.2 RE 1",
+        "count": 46
+      },
+      {
+        "target_id": "SR 3.7",
+        "count": 45
+      },
+      {
+        "target_id": "SR 3.8 RE 3",
+        "count": 45
+      },
+      {
+        "target_id": "SR 3.3",
+        "count": 40
+      },
+      {
+        "target_id": "SR 3.6",
+        "count": 39
+      },
+      {
+        "target_id": "SR 1.5 RE 1",
+        "count": 35
+      },
+      {
+        "target_id": "SR 7.1",
+        "count": 34
+      },
+      {
+        "target_id": "SR 2.12 RE 1",
+        "count": 33
+      },
+      {
+        "target_id": "SR 4.2",
+        "count": 31
+      },
+      {
+        "target_id": "SR 2.4 RE 1",
+        "count": 31
+      },
+      {
+        "target_id": "SR 2.4",
+        "count": 30
+      },
+      {
+        "target_id": "SR 1.7 RE 1",
+        "count": 29
+      },
+      {
+        "target_id": "SR 7.7",
+        "count": 28
+      },
+      {
+        "target_id": "SR 5.2 RE 3",
+        "count": 28
+      },
+      {
+        "target_id": "SR 3.2 RE 2",
+        "count": 27
+      },
+      {
+        "target_id": "SR 1.4",
+        "count": 26
+      },
+      {
+        "target_id": "SR 3.4",
+        "count": 24
+      },
+      {
+        "target_id": "SR 7.3",
+        "count": 23
+      }
+    ],
+    "most_candidates_per_rule": [
+      {
+        "source_id": "DL3023",
+        "title": "COPY --from cannot reference its own FROM alias",
+        "candidate_count": 43
+      },
+      {
+        "source_id": "DL3013",
+        "title": "Pin versions in pip.",
+        "candidate_count": 41
+      },
+      {
+        "source_id": "DL3000",
+        "title": "Use absolute WORKDIR.",
+        "candidate_count": 39
+      },
+      {
+        "source_id": "DL1001",
+        "title": "Please refrain from using inline ignore pragmas # hadolint ignore=DLxxxx.",
+        "candidate_count": 37
+      },
+      {
+        "source_id": "DL4003",
+        "title": "Multiple CMD instructions found. If you list more than one CMD then only the last CMD will take effect.",
+        "candidate_count": 36
+      },
+      {
+        "source_id": "DL3022",
+        "title": "COPY --from should reference a previously defined FROM alias",
+        "candidate_count": 35
+      },
+      {
+        "source_id": "DL3047",
+        "title": "Use wget --progress to avoid excessively bloated build logs",
+        "candidate_count": 29
+      },
+      {
+        "source_id": "DL3064",
+        "title": "Potentially sensitive data should not be used in the ARG or ENV commands",
+        "candidate_count": 27
+      },
+      {
+        "source_id": "DL3040",
+        "title": "dnf clean all missing after dnf command.",
+        "candidate_count": 26
+      },
+      {
+        "source_id": "DL3045",
+        "title": "DL3045",
+        "candidate_count": 26
+      },
+      {
+        "source_id": "DL3060",
+        "title": "yarn cache clean missing after yarn install was run.",
+        "candidate_count": 26
+      },
+      {
+        "source_id": "DL3061",
+        "title": "Invalid instruction order. Dockerfile must begin with FROM, ARG or comment.",
+        "candidate_count": 26
+      },
+      {
+        "source_id": "DL3021",
+        "title": "COPY with more than 2 arguments requires the last argument to end with /",
+        "candidate_count": 25
+      },
+      {
+        "source_id": "DL3055",
+        "title": "Label <label> is not a valid git hash.",
+        "candidate_count": 25
+      },
+      {
+        "source_id": "DL3001",
+        "title": "Command does not make sense in a container.",
+        "candidate_count": 24
+      },
+      {
+        "source_id": "DL3032",
+        "title": "yum clean all missing after yum command.",
+        "candidate_count": 24
+      },
+      {
+        "source_id": "DL3006",
+        "title": "Always tag the version of an image explicitly.",
+        "candidate_count": 23
+      },
+      {
+        "source_id": "DL3029",
+        "title": "Problematic code:",
+        "candidate_count": 23
+      },
+      {
+        "source_id": "DL3038",
+        "title": "Use the -y switch to avoid manual input dnf install -y <package>",
+        "candidate_count": 23
+      },
+      {
+        "source_id": "DL3043",
+        "title": "DL3043",
+        "candidate_count": 23
+      }
+    ],
+    "most_distinct_parent_srs_per_rule": [
+      {
+        "source_id": "DL3023",
+        "title": "COPY --from cannot reference its own FROM alias",
+        "candidate_count": 43,
+        "distinct_parent_sr_count": 28
+      },
+      {
+        "source_id": "DL3000",
+        "title": "Use absolute WORKDIR.",
+        "candidate_count": 39,
+        "distinct_parent_sr_count": 26
+      },
+      {
+        "source_id": "DL3013",
+        "title": "Pin versions in pip.",
+        "candidate_count": 41,
+        "distinct_parent_sr_count": 26
+      },
+      {
+        "source_id": "DL1001",
+        "title": "Please refrain from using inline ignore pragmas # hadolint ignore=DLxxxx.",
+        "candidate_count": 37,
+        "distinct_parent_sr_count": 25
+      },
+      {
+        "source_id": "DL4003",
+        "title": "Multiple CMD instructions found. If you list more than one CMD then only the last CMD will take effect.",
+        "candidate_count": 36,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "DL3022",
+        "title": "COPY --from should reference a previously defined FROM alias",
+        "candidate_count": 35,
+        "distinct_parent_sr_count": 23
+      },
+      {
+        "source_id": "DL3047",
+        "title": "Use wget --progress to avoid excessively bloated build logs",
+        "candidate_count": 29,
+        "distinct_parent_sr_count": 21
+      },
+      {
+        "source_id": "DL3019",
+        "title": "Use the --no-cache switch",
+        "candidate_count": 22,
+        "distinct_parent_sr_count": 19
+      },
+      {
+        "source_id": "DL3001",
+        "title": "Command does not make sense in a container.",
+        "candidate_count": 24,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3005",
+        "title": "Do not use apt-get dist-upgrade.",
+        "candidate_count": 22,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3017",
+        "title": "Do not use apk upgrade",
+        "candidate_count": 20,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3037",
+        "title": "Specify version with zypper install -y <package>[=]<version>",
+        "candidate_count": 22,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3040",
+        "title": "dnf clean all missing after dnf command.",
+        "candidate_count": 26,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3041",
+        "title": "Specify version with dnf install -y <package>-<version>",
+        "candidate_count": 22,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3060",
+        "title": "yarn cache clean missing after yarn install was run.",
+        "candidate_count": 26,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3061",
+        "title": "Invalid instruction order. Dockerfile must begin with FROM, ARG or comment.",
+        "candidate_count": 26,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3064",
+        "title": "Potentially sensitive data should not be used in the ARG or ENV commands",
+        "candidate_count": 27,
+        "distinct_parent_sr_count": 18
+      },
+      {
+        "source_id": "DL3006",
+        "title": "Always tag the version of an image explicitly.",
+        "candidate_count": 23,
+        "distinct_parent_sr_count": 17
+      },
+      {
+        "source_id": "DL3008",
+        "title": "Pin versions in apt-get install.",
+        "candidate_count": 22,
+        "distinct_parent_sr_count": 17
+      },
+      {
+        "source_id": "DL3045",
+        "title": "DL3045",
+        "candidate_count": 26,
+        "distinct_parent_sr_count": 17
+      }
+    ],
+    "parent_sr_frequency": {
+      "SR 3.8": 75,
+      "SR 3.2": 73,
+      "SR 5.2": 71,
+      "SR 3.3": 41,
+      "SR 1.7": 39,
+      "SR 1.5": 35,
+      "SR 2.12": 33,
+      "SR 2.4": 31,
+      "SR 7.1": 26,
+      "SR 7.3": 21,
+      "SR 5.1": 18,
+      "SR 4.2": 15,
+      "SR 1.2": 13,
+      "SR 1.13": 13,
+      "SR 2.1": 13,
+      "SR 6.1": 13,
+      "SR 1.1": 12,
+      "SR 7.6": 11,
+      "SR 5.3": 10,
+      "SR 2.11": 10,
+      "SR 2.8": 7,
+      "SR 3.9": 7,
+      "SR 2.3": 6,
+      "SR 2.9": 6,
+      "SR 3.4": 4,
+      "SR 4.1": 4,
+      "SR 1.9": 3,
+      "SR 2.2": 1,
+      "SR 3.1": 1,
+      "SR 1.3": 1
+    },
+    "rules_without_candidates": []
+  },
+  "shellcheck": {
+    "source": "ShellCheck (SC)",
+    "rules": {
+      "total": 519,
+      "with_candidates": 519,
+      "without_candidates": 0
+    },
+    "candidates": {
+      "total": 7932,
+      "per_rule": {
+        "count": 519,
+        "min": 1,
+        "max": 47,
+        "mean": 15.283236994219653,
+        "median": 14,
+        "stdev": 9.038673255078152
+      },
+      "per_rule_percentiles": {
+        "p25": 8.0,
+        "p50": 14.0,
+        "p75": 20.5,
+        "p90": 27.0,
+        "p95": 33.0,
+        "p99": 41.82000000000005
+      },
+      "per_rule_distribution": {
+        "0": 0,
+        "1-5": 76,
+        "6-10": 102,
+        "11-15": 101,
+        "16-20": 110,
+        "21-30": 96,
+        "31-50": 34,
+        ">50": 0
+      }
+    },
+    "target_type": {
+      "SR": 3865,
+      "RE": 4067,
+      "unknown": 0
+    },
+    "distinct_parent_sr_per_rule": {
+      "statistics": {
+        "count": 519,
+        "min": 1,
+        "max": 31,
+        "mean": 11.847784200385357,
+        "median": 12,
+        "stdev": 6.1664453431095
+      },
+      "interpretation": "For SR targets, target_id is used as the SR group because parent_sr is null. For RE targets, parent_sr is used."
+    },
+    "relative_score": {
+      "statistics": {
+        "count": 7932,
+        "min": 0.600009,
+        "max": 1.0,
+        "mean": 0.737696714573878,
+        "median": 0.7017595,
+        "stdev": 0.11732317590930594
+      },
+      "percentiles": {
+        "p25": 0.6431475,
+        "p50": 0.7017595,
+        "p75": 0.805857,
+        "p90": 0.9376437,
+        "p95": 1.0,
+        "p99": 1.0
+      },
+      "distribution": {
+        "0.60-0.69": 3922,
+        "0.70-0.79": 1952,
+        "0.80-0.89": 1011,
+        "0.90-0.99": 528,
+        "1.00": 519
+      }
+    },
+    "raw_similarity": {
+      "statistics": {
+        "count": 7932,
+        "min": 0.409149,
+        "max": 0.627089,
+        "mean": 0.4898932590771558,
+        "median": 0.48768849999999997,
+        "stdev": 0.03050520266681756
+      },
+      "percentiles": {
+        "p25": 0.46803425,
+        "p50": 0.48768849999999997,
+        "p75": 0.51000725,
+        "p90": 0.5305134,
+        "p95": 0.5426792,
+        "p99": 0.56661889
+      },
+      "distribution": {
+        "<0.10": 0,
+        "0.10-0.19": 0,
+        "0.20-0.29": 0,
+        "0.30-0.39": 0,
+        "0.40-0.49": 5132,
+        "0.50-0.59": 2789,
+        "0.60-0.69": 11,
+        "0.70-0.79": 0,
+        "0.80-0.89": 0,
+        "0.90-1.00": 0
+      }
+    },
+    "most_frequent_iec_targets": [
+      {
+        "target_id": "SR 3.5",
+        "count": 414
+      },
+      {
+        "target_id": "SR 3.7",
+        "count": 400
+      },
+      {
+        "target_id": "SR 3.2 RE 1",
+        "count": 377
+      },
+      {
+        "target_id": "SR 5.2 RE 3",
+        "count": 370
+      },
+      {
+        "target_id": "SR 1.11",
+        "count": 311
+      },
+      {
+        "target_id": "SR 2.12 RE 1",
+        "count": 256
+      },
+      {
+        "target_id": "SR 3.3",
+        "count": 252
+      },
+      {
+        "target_id": "SR 2.11",
+        "count": 242
+      },
+      {
+        "target_id": "SR 3.6",
+        "count": 226
+      },
+      {
+        "target_id": "SR 7.1",
+        "count": 224
+      },
+      {
+        "target_id": "SR 1.4",
+        "count": 212
+      },
+      {
+        "target_id": "SR 1.7 RE 1",
+        "count": 210
+      },
+      {
+        "target_id": "SR 7.1 RE 1",
+        "count": 200
+      },
+      {
+        "target_id": "SR 2.4 RE 1",
+        "count": 180
+      },
+      {
+        "target_id": "SR 4.2 RE 1",
+        "count": 180
+      },
+      {
+        "target_id": "SR 1.5 RE 1",
+        "count": 179
+      },
+      {
+        "target_id": "SR 7.3",
+        "count": 176
+      },
+      {
+        "target_id": "SR 5.2 RE 2",
+        "count": 156
+      },
+      {
+        "target_id": "SR 7.6 RE 1",
+        "count": 152
+      },
+      {
+        "target_id": "SR 3.2",
+        "count": 139
+      }
+    ],
+    "most_candidates_per_rule": [
+      {
+        "source_id": "SC2166",
+        "title": "Prefer [ p ] && [ q ] as [ p -a q ] is not well-defined.",
+        "candidate_count": 47
+      },
+      {
+        "source_id": "SC2299",
+        "title": "Parameter expansions can't be nested. Use temporary variables.",
+        "candidate_count": 44
+      },
+      {
+        "source_id": "SC1126",
+        "title": "Place shellcheck directives before commands, not after.",
+        "candidate_count": 42
+      },
+      {
+        "source_id": "SC2179",
+        "title": "Use array+=(\"item\") to append items to an array.",
+        "candidate_count": 42
+      },
+      {
+        "source_id": "SC2187",
+        "title": "Ash scripts will be checked as Dash. Add # shellcheck shell=dash to silence.",
+        "candidate_count": 42
+      },
+      {
+        "source_id": "SC2190",
+        "title": "Elements in associative arrays need index, e.g. array=( [index]=value ) .",
+        "candidate_count": 42
+      },
+      {
+        "source_id": "SC1009",
+        "title": "SC1009",
+        "candidate_count": 41
+      },
+      {
+        "source_id": "SC2026",
+        "title": "This word is outside of quotes. Did you intend to 'nest '\"'single quotes'\"' instead?",
+        "candidate_count": 41
+      },
+      {
+        "source_id": "SC3063",
+        "title": "In POSIX sh, test -R and namerefs in general are undefined.",
+        "candidate_count": 40
+      },
+      {
+        "source_id": "SC2000",
+        "title": "example code",
+        "candidate_count": 39
+      },
+      {
+        "source_id": "SC2090",
+        "title": "SC2090",
+        "candidate_count": 39
+      },
+      {
+        "source_id": "SC1018",
+        "title": "SC1018",
+        "candidate_count": 37
+      },
+      {
+        "source_id": "SC2139",
+        "title": "This expands when defined, not when used. Consider escaping.",
+        "candidate_count": 37
+      },
+      {
+        "source_id": "SC1134",
+        "title": "SC1134",
+        "candidate_count": 36
+      },
+      {
+        "source_id": "SC2149",
+        "title": "Remove $/${} for numeric index, or escape it for string.",
+        "candidate_count": 36
+      },
+      {
+        "source_id": "SC2300",
+        "title": "Parameter expansion can't be applied to command substitutions. Use temporary variables.",
+        "candidate_count": 36
+      },
+      {
+        "source_id": "SC2257",
+        "title": "Arithmetic modifications in command redirections may be discarded. Do them separately.",
+        "candidate_count": 34
+      },
+      {
+        "source_id": "SC2259",
+        "title": "This redirection overrides piped input. To use both, merge or pass filenames.",
+        "candidate_count": 34
+      },
+      {
+        "source_id": "SC2268",
+        "title": "Avoid x-prefix in comparisons as it no longer serves a purpose.",
+        "candidate_count": 34
+      },
+      {
+        "source_id": "SC2309",
+        "title": "-eq treats this as a variable. Use = to compare as string (or expand explicitly with $var)",
+        "candidate_count": 34
+      }
+    ],
+    "most_distinct_parent_srs_per_rule": [
+      {
+        "source_id": "SC2190",
+        "title": "Elements in associative arrays need index, e.g. array=( [index]=value ) .",
+        "candidate_count": 42,
+        "distinct_parent_sr_count": 31
+      },
+      {
+        "source_id": "SC1009",
+        "title": "SC1009",
+        "candidate_count": 41,
+        "distinct_parent_sr_count": 30
+      },
+      {
+        "source_id": "SC2166",
+        "title": "Prefer [ p ] && [ q ] as [ p -a q ] is not well-defined.",
+        "candidate_count": 47,
+        "distinct_parent_sr_count": 30
+      },
+      {
+        "source_id": "SC2299",
+        "title": "Parameter expansions can't be nested. Use temporary variables.",
+        "candidate_count": 44,
+        "distinct_parent_sr_count": 30
+      },
+      {
+        "source_id": "SC1126",
+        "title": "Place shellcheck directives before commands, not after.",
+        "candidate_count": 42,
+        "distinct_parent_sr_count": 29
+      },
+      {
+        "source_id": "SC2187",
+        "title": "Ash scripts will be checked as Dash. Add # shellcheck shell=dash to silence.",
+        "candidate_count": 42,
+        "distinct_parent_sr_count": 29
+      },
+      {
+        "source_id": "SC2179",
+        "title": "Use array+=(\"item\") to append items to an array.",
+        "candidate_count": 42,
+        "distinct_parent_sr_count": 28
+      },
+      {
+        "source_id": "SC3063",
+        "title": "In POSIX sh, test -R and namerefs in general are undefined.",
+        "candidate_count": 40,
+        "distinct_parent_sr_count": 28
+      },
+      {
+        "source_id": "SC2000",
+        "title": "example code",
+        "candidate_count": 39,
+        "distinct_parent_sr_count": 27
+      },
+      {
+        "source_id": "SC2090",
+        "title": "SC2090",
+        "candidate_count": 39,
+        "distinct_parent_sr_count": 27
+      },
+      {
+        "source_id": "SC1120",
+        "title": "No comments allowed after here-doc token. Comment the next line instead.",
+        "candidate_count": 33,
+        "distinct_parent_sr_count": 25
+      },
+      {
+        "source_id": "SC2026",
+        "title": "This word is outside of quotes. Did you intend to 'nest '\"'single quotes'\"' instead?",
+        "candidate_count": 41,
+        "distinct_parent_sr_count": 25
+      },
+      {
+        "source_id": "SC2139",
+        "title": "This expands when defined, not when used. Consider escaping.",
+        "candidate_count": 37,
+        "distinct_parent_sr_count": 25
+      },
+      {
+        "source_id": "SC2149",
+        "title": "Remove $/${} for numeric index, or escape it for string.",
+        "candidate_count": 36,
+        "distinct_parent_sr_count": 25
+      },
+      {
+        "source_id": "SC1008",
+        "title": "This shebang was unrecognized. ShellCheck only supports sh/bash/dash/ksh. Add a 'shell' directive to specify.",
+        "candidate_count": 31,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "SC1018",
+        "title": "SC1018",
+        "candidate_count": 37,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "SC1142",
+        "title": "Use done < <(cmd) to redirect from process substitution (currently missing one <).",
+        "candidate_count": 33,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "SC2259",
+        "title": "This redirection overrides piped input. To use both, merge or pass filenames.",
+        "candidate_count": 34,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "SC2300",
+        "title": "Parameter expansion can't be applied to command substitutions. Use temporary variables.",
+        "candidate_count": 36,
+        "distinct_parent_sr_count": 24
+      },
+      {
+        "source_id": "SC2309",
+        "title": "-eq treats this as a variable. Use = to compare as string (or expand explicitly with $var)",
+        "candidate_count": 34,
+        "distinct_parent_sr_count": 24
+      }
+    ],
+    "parent_sr_frequency": {
+      "SR 5.2": 649,
+      "SR 3.2": 452,
+      "SR 3.8": 313,
+      "SR 1.7": 266,
+      "SR 2.12": 256,
+      "SR 7.1": 227,
+      "SR 2.4": 180,
+      "SR 4.2": 180,
+      "SR 1.5": 179,
+      "SR 3.3": 170,
+      "SR 7.6": 152,
+      "SR 2.9": 133,
+      "SR 1.2": 130,
+      "SR 2.11": 128,
+      "SR 7.3": 91,
+      "SR 1.13": 83,
+      "SR 2.1": 72,
+      "SR 4.1": 54,
+      "SR 3.9": 52,
+      "SR 2.3": 50,
+      "SR 1.1": 45,
+      "SR 2.8": 43,
+      "SR 6.1": 40,
+      "SR 5.3": 38,
+      "SR 3.1": 19,
+      "SR 5.1": 17,
+      "SR 1.6": 14,
+      "SR 1.9": 13,
+      "SR 3.4": 11,
+      "SR 1.3": 7,
+      "SR 2.2": 3
+    },
+    "rules_without_candidates": []
+  },
+  "comparison": {
+    "rules": {
+      "hadolint": 75,
+      "shellcheck": 519
+    },
+    "total_candidates": {
+      "hadolint": 1243,
+      "shellcheck": 7932,
+      "combined": 9175
+    },
+    "mean_candidates_per_rule": {
+      "hadolint": 16.573333333333334,
+      "shellcheck": 15.283236994219653
+    },
+    "median_candidates_per_rule": {
+      "hadolint": 15,
+      "shellcheck": 14
+    },
+    "distinct_parent_srs_mean": {
+      "hadolint": 12.12,
+      "shellcheck": 11.847784200385357
+    },
+    "target_type": {
+      "hadolint": {
+        "SR": 630,
+        "RE": 613,
+        "unknown": 0
+      },
+      "shellcheck": {
+        "SR": 3865,
+        "RE": 4067,
+        "unknown": 0
+      }
+    }
+  }
+}

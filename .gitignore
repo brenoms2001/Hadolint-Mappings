@@ -1,13 +1,33 @@
+# Python / environment caches
 __pycache__/
-*.pkl
-all_mpnet_base_v2
-venv
 .ipynb_checkpoints
-data/output/images
+venv/
 .env/
-data/output/mappings
+all_mpnet_base_v2/
+
+# Binary / regenerable artifacts
+*.pkl
+data/output/images/
+
+# LLM extraction review reports (text)
 *.txt
+
+# Debug / checkpoint / intermediate artifacts
 *debug*
 *checkpoint*
-*old*
-*test*
+*progress*.xlsx
+
+# Explicitly superseded versions (precise patterns; avoid broad *old*,
+# which also matches "gold_standard" and "threshold")
+*_old.py
+*_old.json
+*_old.csv
+*_old.xlsx
+*_old.md
+
+# Audit pilot runs (superseded by gemini_audit/full/)
+data/output/mappings/iec/inspection/gold_standard/gemini_audit/iec_gold_standard_gemini_audit_v2.*
+data/output/mappings/iec/inspection/gold_standard/gemini_audit/iec_gold_standard_gemini_audit_report_v2.md
+
+# Derived markdown dump of gold standard candidates
+data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.md

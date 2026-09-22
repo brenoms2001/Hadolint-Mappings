@@ -61,3 +61,22 @@ Before deleting or substantially restructuring research artifacts,
 inspect their references and role in the pipeline.
 
 When uncertain, preserve the artifact and mark it for manual review.
+
+## Repository layout
+
+Scripts stay at the repository root (mixed BASE_DIR conventions make
+subfolders error-prone without refactoring). `data/` keeps inputs and
+outputs; `notebooks/` holds the original (historical) pipeline.
+
+## Secrets
+
+Gemini API keys are read from the `GEMINI_API_KEY` environment
+variable. Never hardcode or commit keys.
+
+## Output versioning
+
+Only canonical research outputs under `data/output/mappings/` are
+versioned (gold standard candidates, Gemini audit, annotations,
+security relevance, matches, analyses). Checkpoints, progress files,
+pilot runs and derived markdown dumps are gitignored but may remain
+on disk. See `.gitignore`.

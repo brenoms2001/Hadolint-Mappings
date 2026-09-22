@@ -1,0 +1,4680 @@
+{
+    "DL3026": [
+        {
+            "target_id": "CIS_4.2",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3043": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3030": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 0.9865
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9307
+        }
+    ],
+    "DL3051": [
+        {
+            "target_id": "CIS_4.12",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9609
+        }
+    ],
+    "DL3016": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3057": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3034": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9501
+        }
+    ],
+    "DL3005": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3058": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9879
+        }
+    ],
+    "DL4003": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3050": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3006": [
+        {
+            "target_id": "CIS_4.4",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3060": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3032": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3012": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3044": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3025": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9705
+        }
+    ],
+    "DL3024": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3061": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3015": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3022": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3059": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3001": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3002": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3056": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3031": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9391
+        }
+    ],
+    "DL3008": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3041": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3054": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3013": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3033": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3055": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3052": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9994
+        },
+        {
+            "target_id": "CIS_4.12",
+            "relative_score": 0.9013
+        }
+    ],
+    "DL3003": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9959
+        }
+    ],
+    "DL3027": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9206
+        }
+    ],
+    "DL3028": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3017": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3018": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3047": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.9274
+        }
+    ],
+    "DL3020": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3049": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3000": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4001": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9101
+        }
+    ],
+    "DL3004": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9971
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9422
+        },
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 0.9223
+        }
+    ],
+    "DL3019": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3021": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3035": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3039": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3038": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9707
+        }
+    ],
+    "DL3036": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3029": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3014": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3045": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4004": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4005": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3010": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3042": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3040": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3009": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3053": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9776
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9109
+        }
+    ],
+    "DL3023": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3011": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4000": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.9055
+        }
+    ],
+    "DL3062": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL4006": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3037": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3046": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3048": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "DL3007": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2291": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2252": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1000": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1051": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2283": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2049": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2223": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9978
+        }
+    ],
+    "SC1115": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.959
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9432
+        }
+    ],
+    "SC2216": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1008": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2248": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.952
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9498
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.904
+        }
+    ],
+    "SC2323": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9829
+        }
+    ],
+    "SC1059": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3056": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9803
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9282
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9042
+        }
+    ],
+    "SC2246": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 0.9973
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9369
+        }
+    ],
+    "SC2327": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9429
+        }
+    ],
+    "SC2125": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2188": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1029": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2015": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9644
+        }
+    ],
+    "SC2105": [
+        {
+            "target_id": "CIS_4.10",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9323
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9109
+        }
+    ],
+    "SC2196": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2003": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9416
+        }
+    ],
+    "SC2320": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9235
+        }
+    ],
+    "SC2302": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1104": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9562
+        }
+    ],
+    "SC1038": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2250": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9624
+        }
+    ],
+    "SC2194": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9543
+        }
+    ],
+    "SC2017": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2197": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2031": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2198": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9604
+        }
+    ],
+    "SC2000": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2204": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9517
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9171
+        }
+    ],
+    "SC1132": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2058": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1071": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1073": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1101": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9446
+        }
+    ],
+    "SC1123": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1110": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9947
+        }
+    ],
+    "SC2149": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9754
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9517
+        }
+    ],
+    "SC2184": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2043": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9911
+        }
+    ],
+    "SC2212": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9058
+        }
+    ],
+    "SC2025": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.967
+        }
+    ],
+    "SC2268": [
+        {
+            "target_id": "CIS_4.4",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.913
+        }
+    ],
+    "SC3057": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2174": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9893
+        }
+    ],
+    "SC3062": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9971
+        }
+    ],
+    "SC2026": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1004": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2317": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2110": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2046": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.9038
+        }
+    ],
+    "SC1034": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9457
+        }
+    ],
+    "SC2059": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2181": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3063": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9986
+        }
+    ],
+    "SC1019": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.924
+        }
+    ],
+    "SC2290": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9385
+        }
+    ],
+    "SC2075": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2253": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3005": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1131": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.909
+        }
+    ],
+    "SC2069": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2121": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9123
+        }
+    ],
+    "SC1126": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2262": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9102
+        }
+    ],
+    "SC1053": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9767
+        }
+    ],
+    "SC2169": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2191": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9517
+        }
+    ],
+    "SC3031": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9799
+        }
+    ],
+    "SC3052": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9585
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9396
+        }
+    ],
+    "SC2271": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2205": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3036": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3059": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9093
+        }
+    ],
+    "SC3049": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9383
+        }
+    ],
+    "SC1064": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9013
+        }
+    ],
+    "SC2007": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2118": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2102": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1003": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 0.9023
+        }
+    ],
+    "SC2315": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.973
+        }
+    ],
+    "SC2095": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2328": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2010": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9742
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9489
+        }
+    ],
+    "SC2108": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1097": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2202": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2028": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2311": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9574
+        }
+    ],
+    "SC3060": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2185": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2064": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1133": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9578
+        }
+    ],
+    "SC2100": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9491
+        }
+    ],
+    "SC2091": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2019": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1035": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2229": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9704
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9588
+        }
+    ],
+    "SC3013": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9863
+        }
+    ],
+    "SC2145": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2329": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9691
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9114
+        }
+    ],
+    "SC2166": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9518
+        }
+    ],
+    "SC2247": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.969
+        }
+    ],
+    "SC2236": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9205
+        }
+    ],
+    "SC2092": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2124": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1144": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2299": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1108": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9459
+        }
+    ],
+    "SC3043": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9874
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9373
+        }
+    ],
+    "SC2112": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.10",
+            "relative_score": 0.9746
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9709
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9554
+        }
+    ],
+    "SC2141": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3054": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9935
+        }
+    ],
+    "SC2298": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3032": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2297": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3039": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2267": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9989
+        }
+    ],
+    "SC2122": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9697
+        }
+    ],
+    "SC2114": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2020": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2322": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9344
+        }
+    ],
+    "SC2220": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9943
+        }
+    ],
+    "SC1078": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2076": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9934
+        }
+    ],
+    "SC2176": [
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9547
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9481
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9175
+        }
+    ],
+    "SC2173": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1094": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9287
+        }
+    ],
+    "SC1048": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2060": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9
+        }
+    ],
+    "SC1138": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9261
+        }
+    ],
+    "SC3014": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9492
+        }
+    ],
+    "SC2287": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9889
+        }
+    ],
+    "SC2172": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.9378
+        }
+    ],
+    "SC2163": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1060": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2077": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2300": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2206": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9192
+        }
+    ],
+    "SC2235": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9366
+        }
+    ],
+    "SC2093": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9599
+        }
+    ],
+    "SC3028": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 0.9265
+        }
+    ],
+    "SC2266": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1079": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1020": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9006
+        }
+    ],
+    "SC2261": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.969
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9466
+        }
+    ],
+    "SC2084": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1139": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3065": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1014": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9064
+        }
+    ],
+    "SC1111": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9118
+        }
+    ],
+    "SC1001": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9188
+        }
+    ],
+    "SC2033": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2187": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2148": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2162": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9542
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9248
+        }
+    ],
+    "SC2094": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1043": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1085": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2123": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9566
+        }
+    ],
+    "SC3038": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9826
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9071
+        }
+    ],
+    "SC1041": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3023": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2142": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9435
+        }
+    ],
+    "SC2023": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2284": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9403
+        }
+    ],
+    "SC3044": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1010": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.991
+        }
+    ],
+    "SC2097": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2022": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9376
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9196
+        }
+    ],
+    "SC2240": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 0.9977
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9513
+        }
+    ],
+    "SC3018": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9092
+        }
+    ],
+    "SC2224": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2157": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.99
+        }
+    ],
+    "SC2254": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9566
+        }
+    ],
+    "SC3007": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3048": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1116": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2143": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3029": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3035": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2230": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9423
+        }
+    ],
+    "SC1056": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9988
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9956
+        }
+    ],
+    "SC2099": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9607
+        }
+    ],
+    "SC2335": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1069": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9122
+        }
+    ],
+    "SC1120": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9327
+        }
+    ],
+    "SC3009": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2177": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9782
+        }
+    ],
+    "SC2159": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1026": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2269": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9219
+        }
+    ],
+    "SC2289": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9117
+        }
+    ],
+    "SC2083": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2129": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2318": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2175": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2153": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3037": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9167
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9138
+        }
+    ],
+    "SC2006": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2151": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9905
+        }
+    ],
+    "SC2203": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2156": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9468
+        }
+    ],
+    "SC2332": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2147": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2061": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9111
+        }
+    ],
+    "SC1122": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2170": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2308": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3061": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1057": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2107": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2008": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3002": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3010": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1070": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2276": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3006": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9906
+        }
+    ],
+    "SC1141": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9635
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9369
+        }
+    ],
+    "SC2164": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2103": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1113": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2280": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2027": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9394
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9269
+        }
+    ],
+    "SC1107": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1128": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1044": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2048": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9909
+        }
+    ],
+    "SC2226": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1061": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2292": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1102": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3033": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9276
+        }
+    ],
+    "SC2314": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2018": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2044": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1054": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2160": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3019": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2277": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2081": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9868
+        }
+    ],
+    "SC2116": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1100": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.981
+        }
+    ],
+    "SC3064": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2279": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2140": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2243": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9779
+        }
+    ],
+    "SC3026": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9426
+        }
+    ],
+    "SC2305": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1067": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2264": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9582
+        }
+    ],
+    "SC2256": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3042": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9323
+        }
+    ],
+    "SC1040": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2258": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2215": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9719
+        }
+    ],
+    "SC1068": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2219": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9665
+        }
+    ],
+    "SC1098": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 0.9472
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9381
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9116
+        }
+    ],
+    "SC2244": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9188
+        }
+    ],
+    "SC2155": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9691
+        }
+    ],
+    "SC1012": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9249
+        }
+    ],
+    "SC3017": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9473
+        }
+    ],
+    "SC2005": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2139": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9248
+        }
+    ],
+    "SC3015": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9756
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9473
+        }
+    ],
+    "SC2259": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9549
+        }
+    ],
+    "SC2089": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2257": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2211": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2180": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9146
+        }
+    ],
+    "SC2030": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9674
+        }
+    ],
+    "SC2035": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3024": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1088": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.901
+        }
+    ],
+    "SC2113": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2249": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9786
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9215
+        }
+    ],
+    "SC2152": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2239": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2186": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2214": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2168": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2199": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2012": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3041": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9407
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9208
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9078
+        }
+    ],
+    "SC1011": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3020": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9611
+        }
+    ],
+    "SC2295": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3008": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9009
+        }
+    ],
+    "SC1017": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1016": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9972
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9935
+        }
+    ],
+    "SC2208": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2090": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2029": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2193": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2021": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2039": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9663
+        }
+    ],
+    "SC1037": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9231
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9084
+        }
+    ],
+    "SC2056": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2221": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9755
+        }
+    ],
+    "SC2334": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1140": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2004": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9818
+        }
+    ],
+    "SC2001": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2326": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.964
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9098
+        }
+    ],
+    "SC2183": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9599
+        }
+    ],
+    "SC1118": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9877
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9106
+        }
+    ],
+    "SC1090": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9767
+        }
+    ],
+    "SC2119": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1137": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2282": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1083": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2272": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1103": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9295
+        }
+    ],
+    "SC2154": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1117": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3034": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2218": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9794
+        }
+    ],
+    "SC2281": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2054": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1009": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2195": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2087": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1134": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2109": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9818
+        }
+    ],
+    "SC2307": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.932
+        }
+    ],
+    "SC3022": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1049": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2079": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9921
+        }
+    ],
+    "SC2106": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1062": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9617
+        }
+    ],
+    "SC2288": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9192
+        }
+    ],
+    "SC1099": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2270": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2200": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2042": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2011": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2037": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1063": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9575
+        }
+    ],
+    "SC2263": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1114": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2278": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9041
+        }
+    ],
+    "SC2063": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9921
+        }
+    ],
+    "SC2275": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1109": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9315
+        }
+    ],
+    "SC1135": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2072": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9154
+        }
+    ],
+    "SC2192": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1087": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1045": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1018": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2167": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2265": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1086": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3012": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3051": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3003": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2242": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9689
+        }
+    ],
+    "SC2158": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 0.9675
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9262
+        }
+    ],
+    "SC2313": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.958
+        }
+    ],
+    "SC2286": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9333
+        }
+    ],
+    "SC3066": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3030": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9448
+        }
+    ],
+    "SC2217": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1077": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9628
+        }
+    ],
+    "SC3053": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9093
+        }
+    ],
+    "SC3025": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1130": [
+        {
+            "target_id": "CIS_4.5",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9535
+        }
+    ],
+    "SC2213": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9267
+        }
+    ],
+    "SC1095": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2036": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9151
+        }
+    ],
+    "SC2041": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2098": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2050": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9462
+        }
+    ],
+    "SC3045": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1075": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9642
+        }
+    ],
+    "SC2014": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2293": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2309": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3047": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9027
+        }
+    ],
+    "SC2285": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1089": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2241": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9289
+        }
+    ],
+    "SC2189": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9482
+        }
+    ],
+    "SC1136": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2150": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1028": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2245": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9407
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9171
+        }
+    ],
+    "SC2171": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9866
+        }
+    ],
+    "SC1124": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9277
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9247
+        }
+    ],
+    "SC2062": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2222": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1058": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9821
+        }
+    ],
+    "SC1065": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1036": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9793
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.903
+        }
+    ],
+    "SC1015": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2251": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2120": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2032": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2227": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1007": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2009": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9783
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9539
+        }
+    ],
+    "SC2128": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9969
+        }
+    ],
+    "SC2067": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2304": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2303": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2101": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9617
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9011
+        }
+    ],
+    "SC2232": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2115": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2161": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1027": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2078": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1047": [
+        {
+            "target_id": "CIS_4.11",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.9302
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9037
+        }
+    ],
+    "SC2294": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2111": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9709
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9521
+        }
+    ],
+    "SC2301": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1082": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1084": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3004": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1046": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2238": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9366
+        }
+    ],
+    "SC1105": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9027
+        }
+    ],
+    "SC1050": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3001": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2066": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2051": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9227
+        }
+    ],
+    "SC3040": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2274": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2071": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9209
+        },
+        {
+            "target_id": "CIS_4.7",
+            "relative_score": 0.9118
+        }
+    ],
+    "SC3055": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9984
+        }
+    ],
+    "SC2073": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9684
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9594
+        }
+    ],
+    "SC2325": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9086
+        }
+    ],
+    "SC1092": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3016": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9234
+        }
+    ],
+    "SC2233": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2040": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2002": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9478
+        }
+    ],
+    "SC2074": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2316": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2306": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3021": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2201": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1055": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.909
+        }
+    ],
+    "SC2210": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9395
+        }
+    ],
+    "SC2310": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2068": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9496
+        }
+    ],
+    "SC2130": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9891
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9445
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9031
+        }
+    ],
+    "SC1080": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9265
+        }
+    ],
+    "SC1129": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1121": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1112": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9893
+        }
+    ],
+    "SC1119": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1072": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2065": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2024": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2179": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2053": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9656
+        }
+    ],
+    "SC2055": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9261
+        }
+    ],
+    "SC1081": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9893
+        }
+    ],
+    "SC2255": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2207": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1052": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1106": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1066": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1127": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9078
+        }
+    ],
+    "SC2260": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2234": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9027
+        }
+    ],
+    "SC2104": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9966
+        }
+    ],
+    "SC2331": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9701
+        }
+    ],
+    "SC2319": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9463
+        }
+    ],
+    "SC2324": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2080": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2070": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2273": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.4",
+            "relative_score": 0.9786
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9475
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9128
+        }
+    ],
+    "SC2038": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.961
+        }
+    ],
+    "SC2296": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2126": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2182": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2146": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1143": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2165": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3011": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2013": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2096": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2034": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9691
+        }
+    ],
+    "SC1125": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9185
+        }
+    ],
+    "SC2237": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9217
+        }
+    ],
+    "SC1091": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3067": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1076": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1142": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2144": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2117": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2082": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2225": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2088": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9874
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9563
+        }
+    ],
+    "SC2209": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2016": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1039": [
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2127": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 0.932
+        }
+    ],
+    "SC1145": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2178": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9159
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9073
+        }
+    ],
+    "SC2045": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2190": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 0.9677
+        }
+    ],
+    "SC2086": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2333": [
+        {
+            "target_id": "CIS_4.6",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.12",
+            "relative_score": 0.9867
+        }
+    ],
+    "SC2321": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ],
+    "SC1074": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC2057": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 0.9908
+        }
+    ],
+    "SC2231": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        }
+    ],
+    "SC3046": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9621
+        }
+    ],
+    "SC3050": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.8",
+            "relative_score": 0.9396
+        }
+    ],
+    "SC2312": [
+        {
+            "target_id": "CIS_4.1",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9327
+        }
+    ],
+    "SC1033": [
+        {
+            "target_id": "CIS_4.9",
+            "relative_score": 1.0
+        },
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 0.9995
+        }
+    ],
+    "SC2330": [
+        {
+            "target_id": "CIS_4.3",
+            "relative_score": 1.0
+        }
+    ]
+}
