@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -61,7 +61,7 @@ ALLOWED_VERDICTS = {
 
 
 # ============================================================
-# UTILIDADES
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -126,16 +126,16 @@ def load_security_classifications(data):
 
     if not isinstance(data, dict):
         raise ValueError(
-            "A auditoria de security relevance "
-            "deveria ser um objeto JSON."
+            "The security relevance audit "
+            "should be a JSON object."
         )
 
     results = data.get("results")
 
     if not isinstance(results, list):
         raise ValueError(
-            "A auditoria de security relevance "
-            "não possui 'results' como lista."
+            "The security relevance audit "
+            "does not have 'results' as a list."
         )
 
     classifications = {}
@@ -146,7 +146,7 @@ def load_security_classifications(data):
 
         if not source_id:
             raise ValueError(
-                "Resultado sem source_id."
+                "Result without source_id."
             )
 
         if source_id in classifications:
@@ -195,23 +195,23 @@ def load_pair_audit(data):
 
     if not isinstance(data, dict):
         raise ValueError(
-            "A auditoria Gemini deveria "
-            "ser um objeto JSON."
+            "The Gemini audit should "
+            "be a JSON object."
         )
 
     results = data.get("results")
 
     if not isinstance(results, list):
         raise ValueError(
-            "A auditoria Gemini não possui "
-            "'results' como lista."
+            "The Gemini audit does not have "
+            "'results' as a list."
         )
 
     return results
 
 
 # ============================================================
-# CONSTRUÇÃO DA ANÁLISE POR REGRA
+# RULE-LEVEL ANALYSIS CONSTRUCTION
 # ============================================================
 
 def build_rule_analysis(
@@ -229,7 +229,7 @@ def build_rule_analysis(
 
         if not pair_id:
             raise ValueError(
-                "Associação sem pair_id."
+                "Association without pair_id."
             )
 
         if pair_id in pair_ids:
@@ -249,7 +249,7 @@ def build_rule_analysis(
 
         if not source_id:
             raise ValueError(
-                f"Pair {pair_id} sem source_id."
+                f"Pair {pair_id} without source_id."
             )
 
         if verdict not in ALLOWED_VERDICTS:
@@ -263,7 +263,7 @@ def build_rule_analysis(
         )
 
     # --------------------------------------------------------
-    # Verificar se toda regra possui classificação
+    # Check that every rule has a classification
     # --------------------------------------------------------
 
     pair_rule_ids = set(grouped.keys())
@@ -279,14 +279,14 @@ def build_rule_analysis(
     if missing_security:
 
         raise ValueError(
-            "Existem regras presentes na "
-            "auditoria de pares sem "
-            "classificação de security relevance: "
+"There are rules present in the "
+                "pair audit without a "
+                "security relevance classification: "
             f"{sorted(missing_security)}"
         )
 
     # --------------------------------------------------------
-    # Construir registro por regra
+    # Build record by rule
     # --------------------------------------------------------
 
     rows = []
@@ -384,7 +384,7 @@ def build_rule_analysis(
 
 
 # ============================================================
-# ESTATÍSTICAS POR CLASSIFICAÇÃO
+# STATISTICS BY CLASSIFICATION
 # ============================================================
 
 def build_group_statistics(rows):
@@ -491,7 +491,7 @@ def build_group_statistics(rows):
 
 
 # ============================================================
-# COMPARAÇÕES
+# COMPARISONS
 # ============================================================
 
 def build_comparisons(
@@ -567,7 +567,7 @@ def build_comparisons(
         ] = None
 
     # --------------------------------------------------------
-    # YES rate entre associações
+    # YES rate across associations
     # --------------------------------------------------------
 
     security_candidates = (
@@ -626,7 +626,7 @@ def build_comparisons(
 
 
 # ============================================================
-# RELATÓRIO MARKDOWN
+# MARKDOWN REPORT
 # ============================================================
 
 def write_markdown(
@@ -838,7 +838,7 @@ def main():
     print("=" * 70)
 
     # --------------------------------------------------------
-    # Carregar classificação
+    # Load classification
     # --------------------------------------------------------
 
     print("")
@@ -862,7 +862,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Carregar auditoria dos pares
+    # Load pair audit
     # --------------------------------------------------------
 
     print("")
@@ -884,7 +884,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Construir análise
+    # Build analysis
     # --------------------------------------------------------
 
     print("")
@@ -903,7 +903,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Estatísticas
+    # Statistics
     # --------------------------------------------------------
 
     statistics_by_group = (
@@ -917,7 +917,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # Validação global
+    # Global validation
     # --------------------------------------------------------
 
     total_candidates = sum(

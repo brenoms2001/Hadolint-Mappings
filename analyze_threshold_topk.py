@@ -6,7 +6,7 @@ import numpy as np
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -19,7 +19,7 @@ IEC_DATASET = BASE_DIR / "output/datasets/iec62443_clean.json"
 
 OUTPUT_FILE = BASE_DIR / "output/mappings/iec/threshold_topk_analysis.json"
 
-# Valores que queremos comparar
+# Valuees que queremos comparar
 THRESHOLDS = [
     0.60,
     0.65,
@@ -39,7 +39,7 @@ POWER = 5.5
 
 
 # ============================================================
-# FUNÇÕES AUXILIARES
+# HELPER FUNCTIONS
 # ============================================================
 
 def load_pickle(path):
@@ -54,9 +54,9 @@ def load_json(path):
 
 def get_source_rules(dataset):
     """
-    Extrai as regras do dataset Hadolint/ShellCheck.
+    Extracts the rules from the Hadolint/ShellCheck dataset.
 
-    O JSON estruturado possui os IDs diretamente como chaves:
+    The structured JSON holds the IDs directly as keys:
 
         {
             "DL1001": {...},
@@ -64,11 +64,11 @@ def get_source_rules(dataset):
             "SC2016": {...}
         }
 
-    Retorna uma lista de regras, preservando a ordem do JSON.
+    Returns a list of rules, preserving the order of the JSON.
     """
     if not isinstance(dataset, dict):
         raise TypeError(
-            "Dataset Hadolint/ShellCheck deve ser um objeto JSON."
+            "The Hadolint/ShellCheck dataset must be a JSON object."
         )
 
     return list(dataset.values())
@@ -76,9 +76,9 @@ def get_source_rules(dataset):
 
 def get_requirements(dataset):
     """
-    Extrai os requisitos do IEC 62443.
+    Extracts the requirements of the IEC 62443.
 
-    Formato esperado:
+    Expected format:
 
         {
             "metadata": {...},
@@ -90,8 +90,8 @@ def get_requirements(dataset):
 
         if not isinstance(requirements, list):
             raise ValueError(
-                "Dataset IEC inválido: "
-                "'requirements' deve ser uma lista."
+                "Invalid IEC dataset: "
+                "'requirements' must be a list."
             )
 
         return requirements
@@ -100,16 +100,16 @@ def get_requirements(dataset):
         return dataset
 
     raise TypeError(
-        "Formato inesperado do dataset IEC."
+        "Unexpected format for IEC dataset."
     )
 
 def normalize_parent_sr(req):
     """
-    Para um SR:
+    For an SR:
         parent_sr = null
 
-    Para um RE:
-        parent_sr = SR pai
+    For an RE:
+        parent_sr = parent SR
     """
     if req["id"] == req.get("parent_sr"):
         return None
@@ -119,7 +119,7 @@ def normalize_parent_sr(req):
 
 def descriptive_stats(values):
     """
-    Estatísticas básicas para uma lista numérica.
+    Basic statistics for a numeric list.
     """
     if not values:
         return {
@@ -145,20 +145,20 @@ def descriptive_stats(values):
 
 def build_embedding_matrix(cache, ids):
     """
-    Reconstrói a matriz de embeddings na ordem dos IDs
-    fornecidos pelo dataset.
+    Rebuilds the embedding matrix in the order of the IDs
+    provided by the dataset.
 
-    Suporta:
-        1. embeddings como matriz/lista;
-        2. embeddings como {id: vector};
-        3. embeddings como {id: {"embedding": vector}};
-        4. embeddings como {id: {"vector": vector}}.
+    Supports:
+        1. embeddings as a matrix/list;
+        2. embeddings as {id: vector};
+        3. embeddings as {id: {"embedding": vector}};
+        4. embeddings as {id: {"vector": vector}}.
     """
 
     embeddings = cache["embeddings"]
 
     # --------------------------------------------------------
-    # Formato matricial
+    # Matrix format
     # --------------------------------------------------------
 
     if not isinstance(embeddings, dict):
@@ -168,7 +168,7 @@ def build_embedding_matrix(cache, ids):
         )
 
     # --------------------------------------------------------
-    # Formato indexado por ID
+    # ID-indexed format
     # --------------------------------------------------------
 
     matrix = []
@@ -177,12 +177,12 @@ def build_embedding_matrix(cache, ids):
 
         if item_id not in embeddings:
             raise KeyError(
-                f"Embedding não encontrado para ID: {item_id}"
+                f"Embedding not found for ID: {item_id}"
             )
 
         vector = embeddings[item_id]
 
-        # Caso o embedding esteja encapsulado em um dict
+        # If the embedding is encapsulated in a dictionary
         if isinstance(vector, dict):
 
             if "embedding" in vector:
@@ -193,8 +193,8 @@ def build_embedding_matrix(cache, ids):
 
             else:
                 raise ValueError(
-                    f"Formato desconhecido para embedding "
-                    f"do ID {item_id}: "
+                    f"Unknown embedding format for "
+                    f"ID {item_id}: "
                     f"{vector.keys()}"
                 )
 
@@ -207,14 +207,14 @@ def build_embedding_matrix(cache, ids):
 
 
 # ============================================================
-# CARREGAMENTO
+# LOADING
 # ============================================================
 
 print("=" * 70)
 print("THRESHOLD × TOP-K ANALYSIS")
 print("=" * 70)
 
-print("\nCarregando caches...")
+print("\nLoading caches...")
 
 hadolint_cache = load_pickle(HADOLINT_CACHE)
 iec_cache = load_pickle(IEC_CACHE)
@@ -229,7 +229,7 @@ print(
     f"{type(iec_cache['embeddings']).__name__}"
 )
 
-print("\nCarregando datasets...")
+print("\nLoading datasets...")
 
 hadolint_dataset = load_json(HADOLINT_DATASET)
 iec_dataset = load_json(IEC_DATASET)
@@ -257,7 +257,7 @@ iec_ids = [
 
 
 # ============================================================
-# CONSTRUÇÃO DAS MATRIZES
+# MATRIX CONSTRUCTION
 # ============================================================
 
 hadolint_embeddings = build_embedding_matrix(
@@ -282,29 +282,29 @@ print(
 
 
 # ============================================================
-# VALIDAÇÃO DOS EMBEDDINGS
+# EMBEDDINGS VALIDATION
 # ============================================================
 
 if len(source_rules) != len(hadolint_embeddings):
     raise ValueError(
-        "Quantidade de regras Hadolint/ShellCheck "
-        "não corresponde à quantidade de embeddings."
+        "The number of Hadolint/ShellCheck rules "
+        "does not match the number of embeddings."
     )
 
 if len(iec_requirements) != len(iec_embeddings):
     raise ValueError(
-        "Quantidade de requisitos IEC "
-        "não corresponde à quantidade de embeddings."
+        "The number of IEC requirements "
+        "does not match the number of embeddings."
     )
 
 if len(set(source_ids)) != len(source_ids):
     raise ValueError(
-        "IDs duplicados nas regras de origem."
+        "Duplicate IDs in source rules."
     )
 
 if len(set(iec_ids)) != len(iec_ids):
     raise ValueError(
-        "IDs duplicados nos requisitos IEC."
+        "Duplicate IDs in IEC requirements."
     )
 
 
@@ -312,9 +312,9 @@ if len(set(iec_ids)) != len(iec_ids):
 # COSINE SIMILARITY
 # ============================================================
 
-print("\nCalculando matriz de similaridade...")
+print("\nComputing similarity matrix...")
 
-# Como os embeddings já estão normalizados:
+# Since the embeddings are already normalized:
 # cosine(a, b) = dot(a, b)
 
 similarity_matrix = (
@@ -334,21 +334,21 @@ print(
 
 
 # ============================================================
-# PRÉ-CÁLCULO DO SCORE RELATIVO
+# RELATIVE-SCORE PRECALCULATION
 # ============================================================
 
 """
-Para cada regra de origem:
+For each source rule:
 
-1. cosine negativo -> 0
+1. negative cosine -> 0
 2. cosine ** POWER
-3. normalização pelo máximo daquela regra
+3. normalization by that rule's maximum
 
-Assim:
+Thus:
 
     relative_score = transformed / max(transformed)
 
-O melhor candidato de cada regra terá score = 1.0.
+The best candidate of each rule will have score = 1.0.
 """
 
 clamped = np.maximum(
@@ -366,7 +366,7 @@ row_max = transformed.max(
     keepdims=True
 )
 
-# Evita divisão por zero.
+# Avoids division by zero.
 relative_matrix = np.divide(
     transformed,
     row_max,
@@ -382,7 +382,7 @@ print(
 
 
 # ============================================================
-# METADADOS DOS SRs
+# SRs' metadata
 # ============================================================
 
 iec_parent_sr = []
@@ -394,7 +394,7 @@ for req in iec_requirements:
 
 
 # ============================================================
-# SEPARAÇÃO DL / SC
+# DL / SC SPLIT
 # ============================================================
 
 source_indices = {
@@ -408,13 +408,13 @@ for idx, rule in enumerate(source_rules):
 
     if source not in source_indices:
         raise ValueError(
-            f"Fonte inesperada: {source}"
+            f"Unexpected source: {source}"
         )
 
     source_indices[source].append(idx)
 
 
-print("\nRegras por fonte:")
+print("\nRules by source:")
 
 for source, indices in source_indices.items():
 
@@ -424,7 +424,7 @@ for source, indices in source_indices.items():
 
 
 # ============================================================
-# ANÁLISE
+# ANALYSIS
 # ============================================================
 
 all_results = []
@@ -457,7 +457,7 @@ for threshold in THRESHOLDS:
                 raw_scores = similarity_matrix[source_idx]
 
                 # ------------------------------------------------
-                # PRIMEIRO: THRESHOLD
+                # FIRST: THRESHOLD
                 # ------------------------------------------------
 
                 threshold_indices = np.where(
@@ -465,7 +465,7 @@ for threshold in THRESHOLDS:
                 )[0]
 
                 # ------------------------------------------------
-                # DEPOIS: ORDENAÇÃO
+                # THEN: SORTING
                 # ------------------------------------------------
 
                 threshold_indices = threshold_indices[
@@ -475,7 +475,7 @@ for threshold in THRESHOLDS:
                 ]
 
                 # ------------------------------------------------
-                # FINALMENTE: TOP-K
+                # FINALLY: TOP-K
                 # ------------------------------------------------
 
                 selected = threshold_indices[:top_k]
@@ -492,7 +492,7 @@ for threshold in THRESHOLDS:
                     rules_without_candidates += 1
 
                 # ------------------------------------------------
-                # SRs DISTINTOS
+                # DISTINCT SRs
                 # ------------------------------------------------
 
                 parents = set()
@@ -503,8 +503,8 @@ for threshold in THRESHOLDS:
 
                     parent = normalize_parent_sr(req)
 
-                    # Se o próprio requisito é um SR,
-                    # usamos seu próprio ID como grupo.
+                    # If the requirement itself is an SR,
+                    # we use its own ID as the group.
                     if parent is None:
                         parent = req["id"]
 
@@ -564,12 +564,12 @@ for threshold in THRESHOLDS:
 
 
 # ============================================================
-# IMPRESSÃO
+# PRINTING
 # ============================================================
 
 print("\n")
 print("=" * 70)
-print("RESULTADOS")
+print("RESULTS")
 print("=" * 70)
 
 
@@ -608,12 +608,12 @@ for source in ["hadolint", "shellcheck"]:
 
 
 # ============================================================
-# COMPARAÇÃO DIRETA COM O ARTIGO
+# DIRECT COMPARISON WITH THE PAPER
 # ============================================================
 
 print("\n")
 print("=" * 70)
-print("CONFIGURAÇÃO DO ARTIGO")
+print("PAPER CONFIGURATION")
 print("=" * 70)
 
 matching = next(
@@ -629,7 +629,7 @@ for source in ["hadolint", "shellcheck"]:
     print(f"\n{source.upper()}")
 
     print(
-        f"  Candidatos médios : "
+        f"  Average candidates : "
         f"{data['candidate_count']['mean']:.2f}"
     )
 
@@ -654,13 +654,13 @@ for source in ["hadolint", "shellcheck"]:
     )
 
     print(
-        f"  Sem candidatos    : "
+        f"  No candidates     : "
         f"{data['rules_without_candidates']}"
     )
 
 
 # ============================================================
-# SALVAMENTO
+# SAVE
 # ============================================================
 
 OUTPUT_FILE.parent.mkdir(
@@ -700,6 +700,6 @@ with open(
 
 print("\n")
 print("=" * 70)
-print("Resultado salvo em:")
+print("Result saved at:")
 print(OUTPUT_FILE)
 print("=" * 70)

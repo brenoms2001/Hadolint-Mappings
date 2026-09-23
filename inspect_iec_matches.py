@@ -6,7 +6,7 @@ import numpy as np
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -35,14 +35,14 @@ OUTPUT_JSON = OUTPUT_DIR / "iec_matches_068_top10.json"
 OUTPUT_CSV = OUTPUT_DIR / "iec_matches_068_top10.csv"
 
 
-# Configuração experimental
+# Experimental configuration
 THRESHOLD = 0.68
 TOP_K = 10
 POWER = 5.5
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -57,14 +57,14 @@ def load_pickle(path):
 
 def get_requirements(dataset):
     """
-    IEC pode estar no formato:
+    IEC can be stored as:
 
         {
             "metadata": {...},
             "requirements": [...]
         }
 
-    ou diretamente como lista.
+    or directly as a list.
     """
 
     if isinstance(dataset, dict):
@@ -75,14 +75,14 @@ def get_requirements(dataset):
 
 def normalize_parent_sr(requirement):
     """
-    Para um SR:
+    For an SR:
 
         id = SR 1.1
         parent_sr = SR 1.1
 
-    Portanto, não consideramos o próprio SR como seu pai.
+    Therefore, we do not consider the SR itself as its own parent.
 
-    Para um RE:
+    For an RE:
 
         id = SR 1.1 RE 1
         parent_sr = SR 1.1
@@ -99,8 +99,8 @@ def normalize_parent_sr(requirement):
 
 def build_embedding_matrix(cache, ids):
     """
-    Reconstrói a matriz de embeddings respeitando a ordem
-    dos IDs fornecidos pelo dataset.
+    Reconstructs the embedding matrix respecting the order
+    of the IDs provided by the dataset.
     """
 
     embeddings = cache["embeddings"]
@@ -119,7 +119,7 @@ def build_embedding_matrix(cache, ids):
 
         if item_id not in embeddings:
             raise KeyError(
-                f"Embedding não encontrado para ID: {item_id}"
+                f"Embedding not found for ID: {item_id}"
             )
 
         vector = embeddings[item_id]
@@ -134,8 +134,8 @@ def build_embedding_matrix(cache, ids):
 
             else:
                 raise ValueError(
-                    f"Formato desconhecido para embedding "
-                    f"de {item_id}: {vector.keys()}"
+                    f"Unknown embedding format "
+                    f"for {item_id}: {vector.keys()}"
                 )
 
         matrix.append(vector)
@@ -147,26 +147,26 @@ def build_embedding_matrix(cache, ids):
 
 
 # ============================================================
-# CARREGAMENTO
+# LOADING
 # ============================================================
 
 print("=" * 70)
 print("QUALITATIVE IEC MATCH INSPECTION")
 print("=" * 70)
 
-print("\nConfiguração")
+print("\nConfiguration")
 print("-" * 70)
 print(f"Threshold : {THRESHOLD}")
 print(f"Top-K     : {TOP_K}")
 print(f"Power     : {POWER}")
 
 
-print("\nCarregando datasets...")
+print("\nLoading datasets...")
 
 hadolint_dataset = load_json(HADOLINT_DATASET)
 iec_dataset = load_json(IEC_DATASET)
 
-# Hadolint structured é um dicionário:
+# Hadolint structured is a dictionary:
 #
 # {
 #     "DL1001": {...},
@@ -192,7 +192,7 @@ print(f"IEC requirements : {len(iec_requirements)}")
 
 
 # ============================================================
-# ÍNDICES DOS DATASETS
+# DATASET INDICES
 # ============================================================
 
 source_by_id = {
@@ -211,10 +211,10 @@ iec_ids = list(iec_by_id.keys())
 
 
 # ============================================================
-# CARREGAMENTO DOS EMBEDDINGS
+# EMBEDDING LOADING
 # ============================================================
 
-print("\nCarregando embeddings...")
+print("\nLoading embeddings...")
 
 hadolint_cache = load_pickle(HADOLINT_CACHE)
 iec_cache = load_pickle(IEC_CACHE)
@@ -243,24 +243,24 @@ print(
 
 
 # ============================================================
-# VALIDAÇÃO
+# VALIDATION
 # ============================================================
 
 if hadolint_embeddings.shape[0] != len(source_ids):
     raise ValueError(
-        "Número de embeddings Hadolint "
-        "não corresponde ao dataset."
+        "Number of Hadolint embeddings "
+        "does not match the dataset."
     )
 
 if iec_embeddings.shape[0] != len(iec_ids):
     raise ValueError(
-        "Número de embeddings IEC "
-        "não corresponde ao dataset."
+        "Number of IEC embeddings "
+        "does not match the dataset."
     )
 
 
 # ============================================================
-# SEPARAÇÃO DL / SC
+# DL / SC SPLIT
 # ============================================================
 
 source_indices = {
@@ -274,7 +274,7 @@ for index, rule_id in enumerate(source_ids):
 
     if source not in source_indices:
         raise ValueError(
-            f"Fonte desconhecida: {source}"
+            f"Unknown source: {source}"
         )
 
     source_indices[source].append(index)
@@ -295,14 +295,14 @@ print(
 
 
 # ============================================================
-# MATRIZ DE SIMILARIDADE
+# SIMILARITY MATRIX
 # ============================================================
 
-print("\nCalculando similaridade...")
+print("\nCalculating similarity...")
 
-# Os embeddings já foram normalizados.
+# The embeddings are already normalized.
 #
-# Portanto:
+# Therefore:
 #
 # cosine(a,b) = a · b
 
@@ -313,7 +313,7 @@ similarity_matrix = (
 
 
 # ============================================================
-# TRANSFORMAÇÃO DO SCORE
+# SCORE TRANSFORMATION
 # ============================================================
 
 clamped = np.maximum(
@@ -340,7 +340,7 @@ relative_matrix = np.divide(
 
 
 # ============================================================
-# CONSTRUÇÃO DOS MATCHES
+# MATCH CONSTRUCTION
 # ============================================================
 
 def get_matches(source_index):
@@ -362,7 +362,7 @@ def get_matches(source_index):
     )[0]
 
     # --------------------------------------------------------
-    # Ordenação por score
+    # Sort by score
     # --------------------------------------------------------
 
     candidates = candidates[
@@ -445,7 +445,7 @@ def get_matches(source_index):
 
 
 # ============================================================
-# RESULTADO ESTRUTURADO
+# STRUCTURED RESULT
 # ============================================================
 
 results = {
@@ -474,7 +474,7 @@ results = {
 
 
 # ============================================================
-# GERAÇÃO
+# GENERATION
 # ============================================================
 
 print("\n")
@@ -668,7 +668,7 @@ with open(
 
 
 # ============================================================
-# RESUMO
+# SUMMARY
 # ============================================================
 
 print("\n")

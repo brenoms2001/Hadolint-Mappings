@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -47,12 +47,12 @@ OUTPUT_SC_JSON = (
 )
 
 
-# Número de posições exibidas nos rankings
+# Number of positions shown in the rankings
 TOP_N = 20
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -102,15 +102,15 @@ def safe_percentage(value, total):
 
 def entropy(counter):
     """
-    Entropia de Shannon em bits.
+    Shannon entropy in bits.
 
-    Mede quão distribuídos estão os matches.
+    Measures how distributed the matches are.
 
-    Entropia baixa:
-        forte concentração.
+    Low entropy:
+        strong concentration.
 
-    Entropia alta:
-        distribuição mais uniforme.
+    High entropy:
+        more uniform distribution.
     """
 
     total = sum(counter.values())
@@ -133,10 +133,10 @@ def entropy(counter):
 
 def normalized_entropy(counter):
     """
-    Entropia normalizada entre 0 e 1.
+    Normalized entropy between 0 and 1.
 
-    0 = concentração máxima
-    1 = distribuição perfeitamente uniforme
+    0 = maximum concentration
+    1 = perfectly uniform distribution
     """
 
     if len(counter) <= 1:
@@ -153,11 +153,11 @@ def normalized_entropy(counter):
 
 def herfindahl(counter):
     """
-    Índice de concentração de Herfindahl-Hirschman (HHI).
+    Herfindahl-Hirschman concentration index (HHI).
 
-    HHI = soma(p_i²)
+    HHI = sum(p_i²)
 
-    Quanto maior, maior a concentração.
+    The higher, the greater the concentration.
     """
 
     total = sum(counter.values())
@@ -173,8 +173,8 @@ def herfindahl(counter):
 
 def top_share(counter, n):
     """
-    Percentual de todos os matches cobertos
-    pelos N targets mais frequentes.
+    Share of all matches covered
+    by the N most frequent targets.
     """
 
     total = sum(counter.values())
@@ -192,10 +192,10 @@ def top_share(counter, n):
 
 def gini_from_counter(counter):
     """
-    Coeficiente de Gini da distribuição de frequência.
+    Gini coefficient of the frequency distribution.
 
-    0 = perfeitamente uniforme
-    1 = concentração máxima.
+    0 = perfectly uniform
+    1 = maximum concentration.
     """
 
     values = sorted(counter.values())
@@ -222,12 +222,12 @@ def gini_from_counter(counter):
 
 
 # ============================================================
-# NORMALIZAÇÃO DO MATCHING
+# MATCHING NORMALIZATION
 # ============================================================
 
 def normalize_matching(data):
     """
-    Normaliza a estrutura do arquivo:
+    Normalizes the structure of the file:
 
         {
             "metadata": {...},
@@ -244,7 +244,7 @@ def normalize_matching(data):
             }
         }
 
-    Retorna uma lista de registros:
+    Returns a list of records:
 
         {
             source_type,
@@ -263,15 +263,15 @@ def normalize_matching(data):
 
     if not isinstance(data, dict):
         raise ValueError(
-            "Arquivo de matching deve ser um objeto JSON."
+            "The matching file must be a JSON object."
         )
 
     sources = data.get("sources")
 
     if not isinstance(sources, dict):
         raise ValueError(
-            "Arquivo de matching não possui "
-            "estrutura 'sources'."
+            "The matching file does not have a "
+            "'sources' structure."
         )
 
     records = []
@@ -283,7 +283,7 @@ def normalize_matching(data):
             "shellcheck",
         }:
             print(
-                f"⚠️ Fonte inesperada ignorada: "
+                f"⚠️ Unexpected source ignored: "
                 f"{source_type}"
             )
             continue
@@ -368,7 +368,7 @@ def normalize_matching(data):
 
 
 # ============================================================
-# SEPARAÇÃO POR FONTE
+# SPLIT BY SOURCE
 # ============================================================
 
 def separate_by_source(records):
@@ -420,10 +420,10 @@ def build_counters(records):
         # ----------------------------------------------------
         # SR pai
         #
-        # Se o próprio target for SR,
-        # parent_sr é null. Nesse caso usamos o target_id.
+        # If the target itself is an SR,
+        # parent_sr is null. In that case we use the target_id.
         #
-        # Isso evita perder os SRs diretamente selecionados.
+        # This prevents the loss of directly selected SRs..
         # ----------------------------------------------------
 
         effective_parent = (
@@ -601,7 +601,7 @@ def ranking_target_details(records, source=None):
 
 
 # ============================================================
-# CONCENTRAÇÃO
+# CONCENTRATION
 # ============================================================
 
 def concentration_summary(records):
@@ -706,7 +706,7 @@ def concentration_summary(records):
 
 
 # ============================================================
-# CONCENTRAÇÃO POR FONTE
+# CONCENTRATION BY SOURCE
 # ============================================================
 
 def analyze_sources(records):
@@ -903,7 +903,7 @@ def build_source_target_matrix(records):
 
 
 # ============================================================
-# SEPARAÇÃO DOS JSONs
+# JSON SEPARATION
 # ============================================================
 
 def build_separated_mapping(records):
@@ -1231,7 +1231,7 @@ def generate_markdown(
             lines.append("")
 
     # --------------------------------------------------------
-    # Comparação DL × SC
+    # DL × SC comparison
     # --------------------------------------------------------
 
     lines.append(
@@ -1345,7 +1345,7 @@ def generate_markdown(
     lines.append("")
 
     # --------------------------------------------------------
-    # Interpretação metodológica
+    # Methodological interpretation
     # --------------------------------------------------------
 
     lines.append(
@@ -1355,27 +1355,27 @@ def generate_markdown(
     lines.append("")
 
     lines.append(
-        "- `target_id` mede concentração no nível do requisito IEC individual."
+        "- `target_id` measures concentration at the individual IEC requirement level."
     )
 
     lines.append(
-        "- `parent_sr` agrega cada RE ao seu SR pai, permitindo medir concentração por requisito de segurança."
+        "- `parent_sr` aggregates each RE under its parent SR, allowing concentration to be measured per security requirement."
     )
 
     lines.append(
-        "- Para um target que já é um SR, o próprio `target_id` é utilizado como `parent_sr` efetivo."
+        "- For a target that is already an SR, its own `target_id` is used as the effective `parent_sr`."
     )
 
     lines.append(
-        "- HHI e Gini maiores indicam maior concentração."
+        "- Higher HHI and Gini indicate greater concentration."
     )
 
     lines.append(
-        "- Entropia normalizada maior indica distribuição mais diversificada."
+        "- Higher normalized entropy indicates a more diversified distribution."
     )
 
     lines.append(
-        "- Top-N share mostra qual fração de todos os candidatos está concentrada nos N targets mais frequentes."
+        "- Top-N share shows what fraction of all candidates is concentrated in the N most frequent targets."
     )
 
     lines.append("")
@@ -1393,7 +1393,7 @@ print(
 )
 print("=" * 70)
 
-print("\nCarregando matching...")
+print("\nLoading matching...")
 
 matches_data = load_json(
     MATCHES_FILE
@@ -1421,10 +1421,10 @@ print(
 
 
 # ============================================================
-# NORMALIZAÇÃO
+# NORMALIZATION
 # ============================================================
 
-print("\nNormalizando registros...")
+print("\nNormalizing records...")
 
 records = normalize_matching(
     matches_data
@@ -1437,7 +1437,7 @@ print(
 
 if not records:
     raise RuntimeError(
-        "Nenhum registro de matching foi encontrado."
+        "No matching records were found."
     )
 
 
@@ -1473,11 +1473,11 @@ for source in [
 
 
 # ============================================================
-# ANÁLISE
+# ANALYSIS
 # ============================================================
 
 print(
-    "\nCalculando concentração e rankings..."
+    "\nComputing concentration and rankings..."
 )
 
 source_analysis = analyze_sources(
@@ -1525,11 +1525,11 @@ global_foundational_ranking = (
 
 
 # ============================================================
-# SEPARAÇÃO
+# SEPARATION
 # ============================================================
 
 print(
-    "\nGerando mapeamentos separados..."
+    "\nGenerating separated mappings..."
 )
 
 separated = build_separated_mapping(
@@ -1559,7 +1559,7 @@ print(
 # CSV
 # ============================================================
 
-print("\nGerando CSV...")
+print("\nGenerating CSV...")
 
 csv_rows = build_csv_rows(
     records

@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -94,8 +94,8 @@ def get_client():
 
     if not api_key:
         raise RuntimeError(
-            "Nenhuma API key do Gemini encontrada. "
-            "Defina a variável de ambiente GEMINI_API_KEY."
+            "No Gemini API key found. "
+            "Set the GEMINI_API_KEY environment variable."
         )
 
     return genai.Client(
@@ -104,50 +104,50 @@ def get_client():
 
 
 # ============================================================
-# CRITÉRIO DE CLASSIFICAÇÃO
+# CLASSIFICATION CRITERION
 # ============================================================
 
 SECURITY_CRITERION = """
-Classifique uma regra como relacionada à segurança quando seu
-objetivo primário ou substancialmente explícito é prevenir, detectar
-ou reduzir uma condição que possa comprometer:
+Classify a rule as security-related when its primary or substantially
+explicit purpose is to prevent, detect or reduce a condition that could
+compromise:
 
-- confidencialidade;
-- integridade;
-- disponibilidade;
-- autenticação;
-- autorização ou controle de acesso;
-- privilégio mínimo;
-- exposição de informações;
-- execução não autorizada ou perigosa;
-- injeção ou execução de comandos;
-- configuração segura;
-- integridade da cadeia de dependências ou software;
-- segurança de rede;
-- ou outra propriedade de segurança claramente identificável.
+- confidentiality;
+- integrity;
+- availability;
+- authentication;
+- authorization or access control;
+- least privilege;
+- information exposure;
+- unauthorized or dangerous execution;
+- command injection or command execution;
+- secure configuration;
+- integrity of the dependency chain or software;
+- network security;
+- or another clearly identifiable security property.
 
-Uma regra NÃO deve ser considerada security-related apenas porque
-pode ter algum efeito indireto sobre segurança.
+A rule MUST NOT be considered security-related just because
+it may have some indirect effect on security.
 
-Por exemplo, regras cujo objetivo primário é:
+For example, rules whose primary purpose is:
 
-- estilo;
-- formatação;
-- sintaxe;
-- portabilidade;
-- manutenção;
-- legibilidade;
-- otimização;
-- redução de tamanho;
-- conveniência;
-- qualidade geral do código;
+- style;
+- formatting;
+- syntax;
+- portability;
+- maintainability;
+- readability;
+- optimization;
+- size reduction;
+- convenience;
+- overall code quality;
 
-devem ser classificadas como non-security quando não houver um
-objetivo de segurança explícito ou substancial.
+should be classified as non-security when there is no explicit
+or substantial security purpose.
 
-Quando houver uma fronteira genuinamente ambígua e não for possível
-determinar a classificação com segurança a partir do conteúdo da
-regra, use uncertain.
+When there is a genuinely ambiguous boundary and it is not possible
+to determine the classification confidently from the rule's content,
+use uncertain.
 """
 
 
@@ -169,7 +169,7 @@ SECURITY_CATEGORIES = [
 
 
 # ============================================================
-# SCHEMA DE RESPOSTA
+# REPLY SCHEMA
 # ============================================================
 
 GEMINI_RESPONSE_SCHEMA = types.Schema(
@@ -218,7 +218,7 @@ GEMINI_RESPONSE_SCHEMA = types.Schema(
 
 
 # ============================================================
-# UTILIDADES
+# UTILITIES
 # ============================================================
 
 def sha256_file(path: Path) -> str:
@@ -274,7 +274,7 @@ def safe_text(value):
 
 
 # ============================================================
-# CARREGAMENTO DAS REGRAS
+# LOADING RULES
 # ============================================================
 
 def load_rules():
@@ -284,7 +284,7 @@ def load_rules():
 
     if not isinstance(data, dict):
         raise ValueError(
-            "O dataset de regras deveria ser um objeto/dict."
+            "The rules dataset should be an object/dict."
         )
 
     rules = []
@@ -293,8 +293,8 @@ def load_rules():
 
         if not isinstance(rule, dict):
             raise ValueError(
-                f"Regra inválida para "
-                f"{source_id}: esperado objeto."
+                f"Invalid rule for "
+                f"{source_id}: expected an object."
             )
 
         source = rule.get("source")
@@ -304,16 +304,16 @@ def load_rules():
             "shellcheck",
         }:
             raise ValueError(
-                f"Regra {source_id} possui "
-                f"source inválido: {source!r}"
+                f"Rule {source_id} has an "
+                f"invalid source: {source!r}"
             )
 
         actual_id = rule.get("id")
 
         if actual_id != source_id:
             raise ValueError(
-                f"Inconsistência de ID: chave={source_id!r}, "
-                f"campo id={actual_id!r}"
+                f"ID inconsistency: key={source_id!r}, "
+                f"field id={actual_id!r}"
             )
 
         rules.append(
@@ -538,7 +538,7 @@ def call_gemini(batch):
 
             if not response.text:
                 raise GeminiBatchError(
-                    "Gemini retornou resposta vazia.",
+                    "Gemini returned an empty response.",
                     kind="invalid_response",
                 )
 
@@ -548,7 +548,7 @@ def call_gemini(batch):
                 )
             except json.JSONDecodeError as exc:
                 raise GeminiBatchError(
-                    f"Resposta não é JSON válido: {exc}",
+                    f"Response is not valid JSON: {exc}",
                     kind="invalid_response",
                 ) from exc
 
@@ -564,14 +564,14 @@ def call_gemini(batch):
             if is_quota_error(exc):
 
                 raise GeminiBatchError(
-                    f"Erro de quota/rate limit: {exc}",
+                    f"Quota/rate limit error: {exc}",
                     kind="quota",
                 ) from exc
 
             if not is_transient_error(exc):
 
                 raise GeminiBatchError(
-                    f"Erro não transitório: {exc}",
+                    f"Non-transient error: {exc}",
                     kind="fatal",
                 ) from exc
 
@@ -583,22 +583,22 @@ def call_gemini(batch):
                 )
 
                 print(
-                    f"      Erro transitório "
-                    f"(tentativa {attempt}/{MAX_RETRIES}). "
-                    f"Aguardando {delay:.1f}s..."
+                    f"      Transient error "
+                    f"(attempt {attempt}/{MAX_RETRIES}). "
+                    f"Waiting {delay:.1f}s..."
                 )
 
                 time.sleep(delay)
 
     raise GeminiBatchError(
-        f"Falha após {MAX_RETRIES} tentativas: "
+        f"Failed after {MAX_RETRIES} attempts: "
         f"{last_error}",
         kind="transient",
     )
 
 
 # ============================================================
-# VALIDAÇÃO
+# VALIDATION
 # ============================================================
 
 def validate_results(
@@ -611,7 +611,7 @@ def validate_results(
         list,
     ):
         raise GeminiBatchError(
-            "Resposta deveria ser uma lista.",
+            "The response should be a list.",
             kind="invalid_response",
         )
 
@@ -632,7 +632,7 @@ def validate_results(
             dict,
         ):
             raise GeminiBatchError(
-                "Resultado individual não é objeto.",
+                "Individual result is not an object.",
                 kind="invalid_response",
             )
 
@@ -646,7 +646,7 @@ def validate_results(
 
         if not source or not source_id:
             raise GeminiBatchError(
-                "Resultado sem source/source_id.",
+                "Result without source/source_id.",
                 kind="invalid_response",
             )
 
@@ -667,7 +667,7 @@ def validate_results(
             "uncertain",
         }:
             raise GeminiBatchError(
-                f"security_relevance inválido: "
+                f"invalid security_relevance: "
                 f"{relevance}",
                 kind="invalid_response",
             )
@@ -684,7 +684,7 @@ def validate_results(
             or not 1 <= confidence <= 5
         ):
             raise GeminiBatchError(
-                f"Confidence inválida: "
+                f"Invalid confidence: "
                 f"{confidence}",
                 kind="invalid_response",
             )
@@ -719,22 +719,22 @@ def validate_results(
 
     if missing:
         raise GeminiBatchError(
-            f"Resultados ausentes: "
+            f"Missing results: "
             f"{sorted(missing)}",
             kind="invalid_response",
         )
 
     if extra:
         raise GeminiBatchError(
-            f"Resultados extras: "
+            f"Extra results: "
             f"{sorted(extra)}",
             kind="invalid_response",
         )
 
     if len(results) != len(batch):
         raise GeminiBatchError(
-            "Quantidade de resultados diferente "
-            "da quantidade de regras.",
+            "The number of results differs "
+            "from the number of rules.",
             kind="invalid_response",
         )
 
@@ -742,7 +742,7 @@ def validate_results(
 
 
 # ============================================================
-# PROCESSAMENTO ADAPTATIVO
+# ADAPTIVE PROCESSING
 # ============================================================
 
 def process_batch_adaptive(
@@ -755,8 +755,8 @@ def process_batch_adaptive(
     try:
 
         print(
-            f"{indent}Processando "
-            f"{len(batch)} regra(s)..."
+            f"{indent}Processing "
+            f"{len(batch)} rule(s)..."
         )
 
         for attempt in range(
@@ -777,7 +777,7 @@ def process_batch_adaptive(
 
                 print(
                     f"{indent}OK: "
-                    f"{len(results)} resultado(s)."
+                    f"{len(results)} result(s)."
                 )
 
                 return results
@@ -791,11 +791,11 @@ def process_batch_adaptive(
                 if attempt < VALIDATION_RETRIES:
 
                     print(
-                        f"{indent}Resposta inválida "
-                        f"(tentativa "
+                        f"{indent}Invalid response "
+                        f"(attempt "
                         f"{attempt}/"
                         f"{VALIDATION_RETRIES}). "
-                        f"Repetindo..."
+                        f"Repeating..."
                     )
 
                     time.sleep(
@@ -814,8 +814,8 @@ def process_batch_adaptive(
         if len(batch) == 1:
 
             raise RuntimeError(
-                "Falha em regra individual após "
-                "todas as tentativas:\n"
+                "Failure on an individual rule after "
+                "all attempts:\n"
                 f"{batch[0]['source']}:"
                 f"{batch[0]['source_id']}\n"
                 f"{exc}"
@@ -832,9 +832,9 @@ def process_batch_adaptive(
         ]
 
         print(
-            f"{indent}Falha no batch de "
+            f"{indent}Failure in the batch of "
             f"{len(batch)}. "
-            f"Dividindo em "
+            f"Splitting into "
             f"{len(left)} + {len(right)}..."
         )
 
@@ -924,7 +924,7 @@ def load_checkpoint():
         return None
 
     print(
-        f"Checkpoint encontrado: "
+        f"Checkpoint found: "
         f"{CHECKPOINT_PATH}"
     )
 
@@ -937,7 +937,7 @@ def load_checkpoint():
         dict,
     ):
         raise ValueError(
-            "Checkpoint inválido."
+            "Invalid checkpoint."
         )
 
     return data
@@ -963,7 +963,7 @@ def load_gemini_audit():
         list,
     ):
         raise ValueError(
-            "Campo results inválido no "
+            "Invalid results field in the "
             "Gemini audit."
         )
 
@@ -1612,13 +1612,13 @@ def main():
 
     print()
     print(
-        "Carregando regras..."
+        "Loading rules..."
     )
 
     rules = load_rules()
 
     print(
-        f"  Regras encontradas: "
+        f"  Rules found: "
         f"{len(rules)}"
     )
 
@@ -1628,13 +1628,13 @@ def main():
         ]
 
         print(
-            f"  Limitando execução para "
-            f"{len(rules)} regras."
+            f"  Limiting execution to "
+            f"{len(rules)} rules."
         )
 
     if not rules:
         raise ValueError(
-            "Nenhuma regra encontrada."
+            "No rules found."
         )
 
     # --------------------------------------------------------
@@ -1643,7 +1643,7 @@ def main():
 
     print()
     print(
-        "Carregando auditoria Gemini existente..."
+        "Loading existing Gemini audit..."
     )
 
     gemini_metadata, gemini_results = (
@@ -1651,7 +1651,7 @@ def main():
     )
 
     print(
-        f"  Associações Gemini: "
+        f"  Gemini associations: "
         f"{len(gemini_results)}"
     )
 
@@ -1693,8 +1693,8 @@ def main():
             ]
         ):
             raise RuntimeError(
-                "O hash do dataset mudou "
-                "desde o checkpoint."
+                "The dataset hash changed "
+                "since the checkpoint."
             )
 
         for result in checkpoint.get(
@@ -1712,12 +1712,12 @@ def main():
             ] = result
 
         print(
-            f"  Resultados recuperados: "
+            f"  Recovered results: "
             f"{len(results_by_key)}"
         )
 
     # --------------------------------------------------------
-    # PROCESSAMENTO
+    # PROCESSING
     # --------------------------------------------------------
 
     remaining = [
@@ -1741,7 +1741,7 @@ def main():
 
     print()
     print(
-        f"Regras restantes: "
+        f"Remaining rules: "
         f"{len(remaining)}"
     )
 
@@ -1751,7 +1751,7 @@ def main():
     )
 
     print(
-        f"Batches restantes: "
+        f"Remaining batches: "
         f"{total_batches}"
     )
 
@@ -1827,7 +1827,7 @@ def main():
         )
 
         print(
-            f"Batch {batch_number} concluído."
+            f"Batch {batch_number} completed."
         )
 
         print(
@@ -1884,13 +1884,13 @@ def main():
 
     if missing:
         raise RuntimeError(
-            f"Regras sem classificação: "
+            f"Rules without classification: "
             f"{sorted(missing)}"
         )
 
     if extra:
         raise RuntimeError(
-            f"Classificações extras: "
+            f"Extra classifications: "
             f"{sorted(extra)}"
         )
 
@@ -1898,8 +1898,8 @@ def main():
         rules
     ):
         raise RuntimeError(
-            "Quantidade final de classificações "
-            "não corresponde à quantidade de regras."
+            "Final number of classifications "
+            "does not correspond to the number of rules."
         )
 
     # --------------------------------------------------------
@@ -1908,7 +1908,7 @@ def main():
 
     print()
     print(
-        "Construindo análise cruzada..."
+        "Building cross analysis..."
     )
 
     analysis = build_cross_analysis(

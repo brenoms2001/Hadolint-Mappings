@@ -6,7 +6,7 @@ import numpy as np
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -35,14 +35,14 @@ OUTPUT_JSON = OUTPUT_DIR / "iec_match_quality_analysis.json"
 OUTPUT_MD = OUTPUT_DIR / "iec_match_quality_report.md"
 
 
-# Configuração metodológica
+# Methodological configuration
 THRESHOLD = 0.68
 TOP_K = 10
 POWER = 5.5
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -54,14 +54,14 @@ def load_json(path):
 
 def get_requirements(dataset):
     """
-    IEC pode estar armazenado como:
+    IEC may be stored as:
 
         {
             "metadata": {...},
             "requirements": [...]
         }
 
-    ou diretamente como uma lista.
+    or directly as a list.
     """
 
     if isinstance(dataset, dict):
@@ -69,7 +69,7 @@ def get_requirements(dataset):
 
         if requirements is None:
             raise ValueError(
-                "Dataset IEC não possui a chave 'requirements'."
+                "The IEC dataset does not have the 'requirements' key."
             )
 
         return requirements
@@ -78,7 +78,7 @@ def get_requirements(dataset):
         return dataset
 
     raise ValueError(
-        "Formato inesperado para dataset IEC."
+        "Unexpected format for IEC dataset."
     )
 
 
@@ -86,7 +86,7 @@ def get_source_rules(dataset):
     """
     Hadolint/ShellCheck structured dataset.
 
-    O dataset possui as regras diretamente como chaves:
+    The dataset holds the rules directly as keys:
 
         {
             "DL1001": {...},
@@ -95,7 +95,7 @@ def get_source_rules(dataset):
             "SC1000": {...}
         }
 
-    Também aceita, por compatibilidade, o formato:
+    It also accepts, for compatibility, the format:
 
         {
             "rules": [...]
@@ -107,7 +107,7 @@ def get_source_rules(dataset):
 
     if not isinstance(dataset, dict):
         raise ValueError(
-            "Formato inesperado para dataset Hadolint."
+            "Unexpected format for Hadolint dataset."
         )
 
     if "rules" in dataset:
@@ -115,7 +115,7 @@ def get_source_rules(dataset):
 
         if not isinstance(rules, list):
             raise ValueError(
-                "A chave 'rules' deve conter uma lista."
+                "The 'rules' key must contain a list."
             )
 
         return rules
@@ -144,9 +144,9 @@ def get_source_rules(dataset):
 
 def normalize_matches_structure(matches):
     """
-    Normaliza a estrutura real do arquivo de inspeção IEC.
+    Normalizes the actual structure of the IEC inspection file.
 
-    Estrutura esperada:
+    Expected structure:
 
         {
             "metadata": {...},
@@ -175,25 +175,25 @@ def normalize_matches_structure(matches):
             }
         }
 
-    Retorna:
+    Returns:
 
         {
             "DL1001": [candidate, ...],
             "SC....": [candidate, ...]
         }
 
-    O ponto importante é que ``sources/<fonte>/<regra>`` é um
-    objeto de metadados da regra, e os candidatos estão dentro
-    da chave ``matches``.
+    The important point is that ``sources/<source>/<rule>`` is a
+    rule metadata object, and the candidates are inside
+    the ``matches`` key.
     """
 
     if not isinstance(matches, dict):
         raise ValueError(
-            "Arquivo de matching deve conter um objeto JSON."
+            "The matching file must contain a JSON object."
         )
 
     # --------------------------------------------------------
-    # Estrutura principal: envelope "sources"
+    # Main structure: "sources" envelope
     # --------------------------------------------------------
 
     if "sources" in matches:
@@ -201,7 +201,7 @@ def normalize_matches_structure(matches):
 
         if not isinstance(sources, dict):
             raise ValueError(
-                "A chave 'sources' deve conter um objeto."
+                "The 'sources' key must contain an object."
             )
 
         normalized = {}
@@ -213,7 +213,7 @@ def normalize_matches_structure(matches):
 
             for source_id, rule_data in source_matches.items():
 
-                # Nunca interpretar metadados como regra.
+                # Nunca interpretar metadata como regra.
                 if source_id in {
                     "metadata",
                     "config",
@@ -232,8 +232,8 @@ def normalize_matches_structure(matches):
 
                 if not isinstance(candidates, list):
                     raise ValueError(
-                        f"Formato inválido para matches da regra "
-                        f"{source_id}: esperado list, recebido "
+                        f"Invalid format for matches of rule "
+                        f"{source_id}: expected list, got "
                         f"{type(candidates).__name__}."
                     )
 
@@ -242,7 +242,7 @@ def normalize_matches_structure(matches):
         return normalized
 
     # --------------------------------------------------------
-    # Estrutura alternativa plana
+    # Flat alternative structure
     # --------------------------------------------------------
 
     normalized = {}
@@ -267,7 +267,7 @@ def normalize_matches_structure(matches):
             if candidates is not None:
                 if not isinstance(candidates, list):
                     raise ValueError(
-                        f"Formato inválido para matches da regra "
+                        f"Invalid format for matches of rule "
                         f"{source_id}."
                     )
 
@@ -283,7 +283,7 @@ def normalize_matches_structure(matches):
 
 
 # ============================================================
-# ESTATÍSTICAS
+# STATISTICS
 # ============================================================
 
 def descriptive_stats(values):
@@ -321,12 +321,12 @@ def safe_float(value):
 
 
 # ============================================================
-# EXTRAÇÃO DOS CANDIDATOS
+# CANDIDATE EXTRACTION
 # ============================================================
 
 def extract_candidate_id(candidate):
     """
-    Aceita diferentes nomes usados pelo matching.
+    Accepts different names used by the matching.
     """
 
     if not isinstance(candidate, dict):
@@ -369,7 +369,7 @@ def extract_relative_score(candidate):
 
 def extract_raw_similarity(candidate):
     """
-    Extrai similaridade original quando disponível.
+    Extracts the original similarity when available.
     """
 
     if not isinstance(candidate, dict):
@@ -411,17 +411,17 @@ def build_iec_index(requirements):
 
 def get_parent_sr(requirement):
     """
-    Para SR:
+    For SR:
 
         id == parent_sr
 
-    significa que o requisito é o próprio SR.
+    means the requirement is the SR itself.
 
-    Nesse caso retornamos None.
+    In that case we return None.
 
-    Para RE:
+    For RE:
 
-        parent_sr = SR pai
+        parent_sr = parent SR
     """
 
     requirement_id = requirement.get("id")
@@ -434,7 +434,7 @@ def get_parent_sr(requirement):
 
 
 # ============================================================
-# REGISTROS DE MATCH
+# MATCH RECORD
 # ============================================================
 
 def extract_match_records(
@@ -443,9 +443,9 @@ def extract_match_records(
     iec_index,
 ):
     """
-    Converte o matching em registros individuais.
+    Converts the matching into individual records.
 
-    Cada registro representa:
+    Each record represents:
 
         source_rule -> IEC candidate
     """
@@ -462,7 +462,7 @@ def extract_match_records(
     for source_id, candidates in normalized_matches.items():
 
         # ----------------------------------------------------
-        # Segurança contra chaves estruturais
+        # Safety against structural keys
         # ----------------------------------------------------
 
         if source_id not in source_index:
@@ -516,8 +516,8 @@ def extract_match_records(
     if missing_sources:
 
         raise KeyError(
-            "As seguintes regras de origem existem no matching "
-            "mas não no dataset: "
+            "The following source rules exist in the matching "
+            "but not in the dataset: "
             f"{missing_sources[:20]}"
             + (
                 f" ... ({len(missing_sources)} total)"
@@ -530,7 +530,7 @@ def extract_match_records(
 
 
 # ============================================================
-# AGRUPAMENTO
+# Grouping
 # ============================================================
 
 def group_records_by_source(records):
@@ -550,7 +550,7 @@ def group_records_by_source(records):
 
 
 # ============================================================
-# QUALIDADE POR REGRA
+# Rule Quality
 # ============================================================
 
 def analyze_rule_quality(records):
@@ -660,7 +660,7 @@ def analyze_rule_quality(records):
 
 
 # ============================================================
-# ANÁLISE POR FONTE
+# ANALYSIS BY SOURCE
 # ============================================================
 
 def analyze_source(
@@ -753,7 +753,7 @@ def analyze_source(
 
 
 # ============================================================
-# DISTRIBUIÇÃO DOS TIPOS IEC
+# IEC TYPE DISTRIBUTION
 # ============================================================
 
 def analyze_target_types(records):
@@ -772,7 +772,7 @@ def analyze_target_types(records):
 
 
 # ============================================================
-# DISTRIBUIÇÃO DOS TARGETS
+# TARGET DISTRIBUTION
 # ============================================================
 
 def analyze_target_distribution(records):
@@ -795,7 +795,7 @@ def analyze_target_distribution(records):
 
 
 # ============================================================
-# GERAÇÃO DO MARKDOWN
+# GENERATION DO MARKDOWN
 # ============================================================
 
 def generate_markdown(
@@ -846,7 +846,7 @@ def generate_markdown(
     lines.append("")
 
     # --------------------------------------------------------
-    # Fonte
+    # Source
     # --------------------------------------------------------
 
     for source in ["hadolint", "shellcheck"]:
@@ -990,10 +990,10 @@ print("=" * 70)
 
 
 # ------------------------------------------------------------
-# Carregamento
+# Loading
 # ------------------------------------------------------------
 
-print("\nCarregando dados...")
+print("\nLoading data...")
 
 matches_raw = load_json(MATCHES_FILE)
 
@@ -1007,7 +1007,7 @@ iec_dataset = load_json(
 
 
 # ------------------------------------------------------------
-# Normalização
+# Normalization
 # ------------------------------------------------------------
 
 source_rules = get_source_rules(
@@ -1036,7 +1036,7 @@ print(
 
 
 # ------------------------------------------------------------
-# Separação
+# Split
 # ------------------------------------------------------------
 
 hadolint_rules = [
@@ -1103,10 +1103,10 @@ print(
 
 
 # ------------------------------------------------------------
-# Análises
+# Analyses
 # ------------------------------------------------------------
 
-print("\nCalculando análises...")
+print("\nComputing analyses...")
 
 dl_result = analyze_source(
     "hadolint",
@@ -1235,7 +1235,7 @@ for target_type, count in sorted(
 
 
 # ============================================================
-# SALVAMENTO
+# Save
 # ============================================================
 
 OUTPUT_DIR.mkdir(

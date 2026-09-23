@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -28,15 +28,15 @@ OUTPUT_MD = OUTPUT_DIR / "iec_gold_standard_sample_report.md"
 
 
 # ------------------------------------------------------------
-# Tamanho da amostra
+# Sample size
 # ------------------------------------------------------------
 
-# Número de regras de cada fonte a serem amostradas.
+# Number of rules from each source to be sampled.
 #
-# A amostragem é feita por REGRA, e não por candidato.
-# Todos os candidatos da regra selecionada serão preservados.
+# The sampling is done by RULE, not by candidate.
+# All candidates of the selected rule will be preserved.
 #
-# Se None, usa todas as regras.
+# If None, use all the rules.
 SAMPLE_RULES = {
     "hadolint": 25,
     "shellcheck": 50,
@@ -44,14 +44,14 @@ SAMPLE_RULES = {
 
 
 # ------------------------------------------------------------
-# Estratégia de amostragem
+# Sampling strategy
 # ------------------------------------------------------------
 
 RANDOM_SEED = 42
 
 
 # ------------------------------------------------------------
-# Faixas de confiança baseadas no gap Top1-Top2
+# Confidence bands based on the Top1-Top2 gap
 # ------------------------------------------------------------
 
 GAP_BINS = [
@@ -63,7 +63,7 @@ GAP_BINS = [
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -87,10 +87,10 @@ def save_json(path, data):
 
 def gap_bin(gap):
     """
-    Classifica uma regra de acordo com o gap entre
-    Top-1 e Top-2.
+    Classifies a rule according to the gap between
+    Top-1 and Top-2.
 
-    Quanto menor o gap, maior a ambiguidade.
+    The smaller the gap, the higher the ambiguity.
     """
 
     if gap is None:
@@ -105,7 +105,7 @@ def gap_bin(gap):
 
 def normalize_source_name(source):
     """
-    Normaliza os nomes das fontes.
+    Normalizes the names of the sources.
     """
 
     source = source.lower().strip()
@@ -126,38 +126,38 @@ def normalize_source_name(source):
 
 
 # ============================================================
-# METADADOS DA CONFIGURAÇÃO
+# CONFIGURATION METADATA
 # ============================================================
 
 def extract_matching_metadata(data):
     """
-    Extrai e normaliza os metadados da configuração do
-    matching original.
+    Extracts and normalizes the configuration metadata of the
+    original matching.
 
-    A fonte de verdade é o metadata do
+    The source of truth is the metadata of
     iec_gold_standard_candidates.json.
 
-    Compatibilidade:
+    Compatibility:
 
-    Formato direto:
+    Direct format:
         metadata.threshold
         metadata.top_k
         metadata.power
         metadata.method
 
-    Formato agrupado:
+    Grouped format:
         metadata.matching_configuration.threshold
         metadata.matching_configuration.top_k
         metadata.matching_configuration.power
         metadata.matching_configuration.method
 
-    Também aceita aliases utilizados em versões anteriores.
+    It also accepts aliases used in previous versions.
     """
 
     if not isinstance(data, dict):
         raise ValueError(
-            "O arquivo de gold standard precisa ser "
-            "um objeto JSON."
+            "The gold standard file needs to be "
+            "a JSON object."
         )
 
     metadata = data.get("metadata", {})
@@ -165,7 +165,7 @@ def extract_matching_metadata(data):
     if not isinstance(metadata, dict):
         raise ValueError(
             "Campo 'metadata' do gold standard "
-            "possui formato inválido."
+            "has an invalid format."
         )
 
     matching_configuration = metadata.get(
@@ -256,7 +256,7 @@ def extract_matching_metadata(data):
         )
 
     # --------------------------------------------------------
-    # Validação
+    # Validation
     # --------------------------------------------------------
 
     missing = []
@@ -284,8 +284,8 @@ def extract_matching_metadata(data):
             )
 
         print(
-            "\nO sample continuará sendo construído, "
-            "mas esses campos não poderão ser preservados."
+"\nThe sample will still be built, "
+"but these fields cannot be preserved."
         )
 
     return {
@@ -298,12 +298,12 @@ def extract_matching_metadata(data):
 
 
 # ============================================================
-# EXTRAÇÃO DO GOLD STANDARD
+# GOLD STANDARD EXTRACTION
 # ============================================================
 
 def extract_rules(data):
     """
-    Extrai as regras da estrutura:
+    Extracts the rules from the structure:
 
         sources
           ├── hadolint
@@ -325,14 +325,14 @@ def extract_rules(data):
 
     if not isinstance(data, dict):
         raise ValueError(
-            "O arquivo de gold standard precisa ser um objeto JSON."
+            "The gold standard file needs to be a JSON object."
         )
 
     sources = data.get("sources")
 
     if not isinstance(sources, dict):
         raise ValueError(
-            "Estrutura inválida: campo 'sources' não encontrado."
+            "Invalid structure: 'sources' field not found."
         )
 
     normalized = {
@@ -346,14 +346,14 @@ def extract_rules(data):
 
         if not isinstance(rules, dict):
             raise ValueError(
-                f"Fonte '{source}' possui formato inválido."
+                f"Source '{source}' has an invalid format."
             )
 
         for source_id, entry in rules.items():
 
             if not isinstance(entry, dict):
                 raise ValueError(
-                    f"Entrada inválida para {source_id}."
+                    f"Invalid entry for {source_id}."
                 )
 
             source_rule = entry.get("source_rule")
@@ -362,25 +362,25 @@ def extract_rules(data):
 
             if not isinstance(source_rule, dict):
                 raise ValueError(
-                    f"{source_id}: campo 'source_rule' ausente "
-                    f"ou inválido."
+                    f"{source_id}: field 'source_rule' missing "
+                    f"or invalid."
                 )
 
             if not isinstance(matches, list):
                 raise ValueError(
-                    f"{source_id}: campo 'matches' ausente "
-                    f"ou inválido."
+                    f"{source_id}: field 'matches' missing "
+                    f"or invalid."
                 )
 
             if source_rule.get("id") != source_id:
                 raise ValueError(
-                    f"Inconsistência em {source_id}: "
+                    f"Inconsistency in {source_id}: "
                     f"source_rule.id = "
                     f"{source_rule.get('id')}"
                 )
 
             # ------------------------------------------------
-            # Estatísticas da regra
+            # Rule statistics
             # ------------------------------------------------
 
             candidate_count = len(matches)
@@ -424,7 +424,7 @@ def extract_rules(data):
 
 
 # ============================================================
-# VALIDAÇÃO
+# VALIDATION
 # ============================================================
 
 def validate_rules(rules_by_source):
@@ -446,7 +446,7 @@ def validate_rules(rules_by_source):
             matches = rule["matches"]
 
             # ------------------------------------------------
-            # Os ranks precisam ser sequenciais
+            # The ranks must be sequential.
             # ------------------------------------------------
 
             ranks = [
@@ -461,7 +461,7 @@ def validate_rules(rules_by_source):
             if ranks != expected:
                 raise ValueError(
                     f"{source}/{rule['source_id']}: "
-                    f"ranks inválidos: {ranks}"
+                    f"invalid ranks: {ranks}"
                 )
 
             # ------------------------------------------------
@@ -476,19 +476,19 @@ def validate_rules(rules_by_source):
 
 
 # ============================================================
-# AMOSTRAGEM ESTRATIFICADA
+# STRATIFIED SAMPLING
 # ============================================================
 
 def sample_rules(rules, sample_size, rng):
     """
-    Amostragem estratificada pelo gap Top1-Top2.
+    Stratified sampling by the Top1-Top2 gap.
 
-    Isso é importante porque queremos avaliar não apenas
-    casos fáceis, mas também casos onde o embedding possui
-    candidatos semanticamente próximos.
+    This is important because we want to evaluate not only
+    easy cases, but also cases where the embedding has
+    semantically close candidates.
 
-    A amostra é feita por regra.
-    Todos os candidatos da regra selecionada permanecem.
+    The sample is done per rule.
+    All candidates of the selected rule remain.
     """
 
     if sample_size is None:
@@ -510,7 +510,7 @@ def sample_rules(rules, sample_size, rng):
         rng.shuffle(items)
 
     # --------------------------------------------------------
-    # Distribuição proporcional inicial
+    # Initial proportional distribution
     # --------------------------------------------------------
 
     total = len(rules)
@@ -526,7 +526,7 @@ def sample_rules(rules, sample_size, rng):
         )
 
     # --------------------------------------------------------
-    # Corrigir arredondamento
+    # Correct rounding
     # --------------------------------------------------------
 
     allocated = sum(allocation.values())
@@ -542,7 +542,7 @@ def sample_rules(rules, sample_size, rng):
         if not candidates:
             break
 
-        # Adiciona ao maior estrato disponível
+        # Adds to the largest available stratum
         label = max(
             candidates,
             key=lambda x: len(strata[x]) - allocation[x]
@@ -571,7 +571,7 @@ def sample_rules(rules, sample_size, rng):
         allocated -= 1
 
     # --------------------------------------------------------
-    # Seleção
+    # Selection
     # --------------------------------------------------------
 
     selected = []
@@ -582,14 +582,13 @@ def sample_rules(rules, sample_size, rng):
             strata[label][:count]
         )
 
-    # Embaralha a ordem final
     rng.shuffle(selected)
 
     return selected
 
 
 # ============================================================
-# CONSTRUÇÃO DA AMOSTRA
+# SAMPLE CONSTRUCTION
 # ============================================================
 
 def build_sample(rules_by_source):
@@ -617,7 +616,7 @@ def build_sample(rules_by_source):
 
 
 # ============================================================
-# EXPANSÃO DOS CANDIDATOS
+# CANDIDATE EXPANSION
 # ============================================================
 
 def build_candidate_records(sampled):
@@ -687,7 +686,7 @@ def build_candidate_records(sampled):
                     ),
 
                     # ------------------------------------------------
-                    # Campos para anotação humana
+                    # Fields for human annotation
                     # ------------------------------------------------
 
                     "human_label": match.get(
@@ -784,14 +783,14 @@ def generate_markdown(
     lines.append("")
 
     lines.append(
-        "Dataset gerado para avaliação humana "
-        "dos candidatos de mapeamento semântico."
+"Dataset generated for human evaluation "
+"of the semantic mapping candidates."
     )
 
     lines.append("")
 
     # ========================================================
-    # CONFIGURAÇÃO DO MATCHING
+    # MATCHING CONFIGURATION
     # ========================================================
 
     lines.append("## Matching configuration")
@@ -825,7 +824,7 @@ def generate_markdown(
     lines.append("")
 
     # ========================================================
-    # AMOSTRAGEM
+    # SAMPLING
     # ========================================================
 
     lines.append("## Sampling configuration")
@@ -853,7 +852,7 @@ def generate_markdown(
     lines.append("")
 
     # ========================================================
-    # RESUMO POR FONTE
+    # Summary by Source
     # ========================================================
 
     lines.append("## Summary")
@@ -892,7 +891,7 @@ def generate_markdown(
     lines.append("")
 
     # ========================================================
-    # ESTRATIFICAÇÃO
+    # STRATIFICATION
     # ========================================================
 
     lines.append(
@@ -923,7 +922,7 @@ def generate_markdown(
     lines.append("")
 
     # ========================================================
-    # DISTRIBUIÇÃO TARGET TYPE
+    # TARGET TYPE DISTRIBUTION
     # ========================================================
 
     lines.append(
@@ -953,7 +952,7 @@ def generate_markdown(
     lines.append("")
 
     # ========================================================
-    # REGRAS SELECIONADAS
+    # SELECTED RULES
     # ========================================================
 
     lines.append(
@@ -1011,7 +1010,7 @@ def generate_markdown(
         lines.append("")
 
     # ========================================================
-    # INSTRUÇÕES DE ANOTAÇÃO
+    # ANNOTATION INSTRUCTIONS
     # ========================================================
 
     lines.append(
@@ -1021,39 +1020,39 @@ def generate_markdown(
     lines.append("")
 
     lines.append(
-        "Cada candidato deve receber uma das seguintes "
-        "classificações:"
+        "Each candidate must receive one of the following "
+        "classifications:"
     )
 
     lines.append("")
 
     lines.append(
-        "- `relevant` — relação direta e semanticamente "
-        "defensável."
+"- `relevant` — direct and semantically "
+"defensible relation."
     )
 
     lines.append(
-        "- `partially_relevant` — relação plausível, "
-        "mas incompleta, indireta ou dependente de "
-        "interpretação."
+"- `partially_relevant` — a plausible relation, "
+"but incomplete, indirect or dependent on an "
+"interpretation."
     )
 
     lines.append(
-        "- `irrelevant` — ausência de relação relevante."
+        "- `irrelevant` — absence of a relevant relation."
     )
 
     lines.append("")
 
     lines.append(
-        "A avaliação deve considerar o significado da "
-        "regra de origem e do requisito IEC, e não apenas "
+"The evaluation must consider the meaning of the "
+"source rule and the IEC requirement, and not only "
         "a similaridade lexical."
     )
 
     lines.append("")
 
     lines.append(
-        "Amostragem reproduzível através do "
+        "Reproducible sampling via the "
         f"`RANDOM_SEED = {RANDOM_SEED}`."
     )
 
@@ -1070,17 +1069,17 @@ print("=" * 70)
 print("IEC 62443 GOLD STANDARD SAMPLER")
 print("=" * 70)
 
-print("\nCarregando candidatos...")
+print("\nLoading candidates...")
 
 data = load_json(INPUT_FILE)
 
 # ============================================================
-# METADADOS DO MATCHING
+# MATCHING METADATA
 # ============================================================
 
 matching_metadata = extract_matching_metadata(data)
 
-print("\nConfiguração do matching original:")
+print("\nConfiguration of the original matching:")
 
 print(
     f"  Standard  : "
@@ -1107,7 +1106,7 @@ print(
     f"{matching_metadata['method']}"
 )
 
-print("\nNormalizando estrutura...")
+print("\nNormalizing structure...")
 
 rules_by_source = extract_rules(data)
 
@@ -1123,7 +1122,7 @@ print(
     f"{len(rules_by_source['shellcheck'])} rules"
 )
 
-print("\nConstruindo amostra...")
+print("\nBuilding sample...")
 
 sampled = build_sample(
     rules_by_source
@@ -1136,7 +1135,7 @@ for source in ["hadolint", "shellcheck"]:
         f"{len(sampled[source])} rules"
     )
 
-print("\nExpandindo candidatos...")
+print("\nExpanding candidates...")
 
 records = build_candidate_records(
     sampled
@@ -1149,10 +1148,10 @@ print(
 
 
 # ============================================================
-# ESTATÍSTICAS
+# STATISTICS
 # ============================================================
 
-print("\nCalculando estatísticas...")
+print("\nComputing statistics...")
 
 for source in ["hadolint", "shellcheck"]:
 
@@ -1193,7 +1192,7 @@ for source in ["hadolint", "shellcheck"]:
 
 
 # ============================================================
-# SALVAMENTO
+# SAVE
 # ============================================================
 
 OUTPUT_DIR.mkdir(
@@ -1215,7 +1214,7 @@ output = {
         ),
 
         # ----------------------------------------------------
-        # Configuração original do matching
+        # Original matching configuration
         # ----------------------------------------------------
 
         "threshold": matching_metadata["threshold"],
@@ -1223,8 +1222,8 @@ output = {
         "power": matching_metadata["power"],
         "method": matching_metadata["method"],
 
-        # Mantemos também o agrupamento explícito para
-        # documentação e compatibilidade futura.
+# We also keep the explicit grouping for
+# documentation and future compatibility.
         "matching_configuration": {
             "threshold": matching_metadata["threshold"],
             "top_k": matching_metadata["top_k"],
@@ -1233,7 +1232,7 @@ output = {
         },
 
         # ----------------------------------------------------
-        # Configuração da amostragem
+        #  Sampling configuration
         # ----------------------------------------------------
 
         "random_seed": RANDOM_SEED,

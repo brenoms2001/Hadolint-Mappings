@@ -5,14 +5,14 @@ from pathlib import Path
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
 
-# Entrada atual: resultado do auditor preliminar do Gemini.
-# Para voltar a anotar a amostra completa, troque INPUT_FILE para
-# iec_gold_standard_sample.json. O script suporta os dois formatos.
+# Current input: Gemini preliminary auditor result.
+# To annotate the full sample again, change INPUT_FILE to
+# iec_gold_standard_sample.json. The script supports both formats.
 INPUT_FILE = (
     BASE_DIR
     / "output/mappings/iec/inspection/gold_standard/"
@@ -38,21 +38,21 @@ ALLOWED_LABELS = [
 
 ALLOWED_CONFIDENCE = [1, 2, 3, 4, 5]
 
-# Quando a entrada é o audit do Gemini, queremos revisar SOMENTE
-# os pares que efetivamente foram avaliados pelo Gemini.
-# Isso evita expandir acidentalmente os 10 casos de teste para os
-# 531 candidatos do gold standard.
-REVIEW_SCOPE = "gemini_evaluated"
+# When the input is the Gemini audit, we want to review ONLY
+# the pairs that were actually evaluated by Gemini.
+# This avoids accidentally expanding the 10 test cases to the
+# 531 candidates from the gold standard.
+# REVIEW_SCOPE = "gemini_evaluated"
 
-# O no_match original é uma decisão sobre a REGRA inteira e exige
-# conhecer todos os candidatos relevantes daquela regra. Portanto,
-# ele NÃO é oferecido no modo Gemini-evaluated, que normalmente contém
-# apenas um subconjunto dos candidatos.
+# The original no_match is a decision about the WHOLE rule and requires
+# knowing all the relevant candidates of that rule. Therefore,
+# it is NOT offered in Gemini-evaluated mode, which normally contains
+# only a subset of the candidates.
 ALLOW_RULE_NO_MATCH = False
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -68,7 +68,7 @@ def save_json(path, data):
 
 
 def safe_text(value):
-    """Converte qualquer valor em texto seguro para o terminal."""
+    """Converts any value into safe text for the terminal."""
     if value is None:
         return ""
     if isinstance(value, (dict, list)):
@@ -78,13 +78,13 @@ def safe_text(value):
 
 def export_cell_value(value):
     """
-    Converte valores estruturados para tipos aceitos pelo Excel.
+    Converts structured values to types accepted by Excel.
 
-    O openpyxl não aceita list/dict diretamente em uma célula.
-    Mantemos números e strings como estão e serializamos estruturas
-    compostas de forma legível.
+    openpyxl does not accept list/dict directly in a cell.
+    We keep numbers and strings as they are and serialize compound
+    structures in a readable way.
 
-    Exemplo:
+    Example:
         [32, 33] -> "32, 33"
         {"a": 1} -> '{"a": 1}'
     """
@@ -95,8 +95,8 @@ def export_cell_value(value):
         if not value:
             return ""
 
-        # Listas simples de páginas/números ficam mais legíveis
-        # como uma lista separada por vírgulas.
+        # Simple page/number lists are more readable
+        # as a comma-separated list.
         if all(not isinstance(item, (dict, list)) for item in value):
             return ", ".join(str(item) for item in value)
 
@@ -126,12 +126,12 @@ def is_valid_human_label(value):
 
 
 # ============================================================
-# DETECÇÃO DO FORMATO DE ENTRADA
+# INPUT FORMAT DETECTION
 # ============================================================
 
 def detect_input_format(sample):
     if not isinstance(sample, dict):
-        raise ValueError("O arquivo JSON deve conter um objeto na raiz.")
+        raise ValueError("The JSON file must contain an object at the root.")
 
     if isinstance(sample.get("results"), list):
         return "gemini_audit"
@@ -143,42 +143,42 @@ def detect_input_format(sample):
         return "flat_records"
 
     raise ValueError(
-        "Formato de entrada não reconhecido. Esperado um arquivo com "
-        "'results', 'rules' ou 'records'."
+        "Unrecognized input format. Expected a file with "
+        "'results', 'rules' or 'records'."
     )
 
 
 def validate_input(sample, input_format):
     if "metadata" not in sample:
-        raise ValueError("O input não possui a chave 'metadata'.")
+        raise ValueError("The input does not have the 'metadata' key.")
 
     if input_format == "gemini_audit":
         if not sample["results"]:
-            raise ValueError("O audit do Gemini não contém resultados.")
+            raise ValueError("The Gemini audit does not contain results.")
         return
 
     if input_format == "gold_standard_sample":
         rules = sample["rules"]
         for source in ("hadolint", "shellcheck"):
             if source not in rules:
-                raise ValueError(f"O sample não possui rules['{source}'].")
+                raise ValueError(f"The sample has no rules['{source}'].")
             if not isinstance(rules[source], list):
-                raise ValueError(f"rules['{source}'] deve ser uma lista.")
+                raise ValueError(f"rules['{source}'] must be a list.")
         return
 
     if input_format == "flat_records":
         if not sample["records"]:
-            raise ValueError("O arquivo de records não contém registros.")
+            raise ValueError("The records file does not contain records.")
 
 
 # ============================================================
-# METADADOS
+# METADATA
 # ============================================================
 
 def normalize_metadata(metadata, input_format):
     metadata = dict(metadata or {})
 
-    # O audit do Gemini usa sample_* para a configuração do matching.
+    # The Gemini audit uses sample_* for the matching configuration.
     if input_format == "gemini_audit":
         aliases = {
             "standard": "sample_standard",
@@ -203,17 +203,17 @@ def normalize_metadata(metadata, input_format):
 
 
 # ============================================================
-# CONVERSÃO PARA REGISTROS PLANOS
+# CONVERSION TO FLAT RECORDS
 # ============================================================
 
 def build_records_from_gemini_audit(sample):
     """
-    Converte results[] do auditor Gemini para o formato plano usado
-    pelo anotador.
+    Converts the auditor's results[] to the flat format used
+    by the annotator.
 
-    IMPORTANTE: todos os campos contextuais do audit são preservados,
-    incluindo rationale da regra, rationale do requisito e avaliação
-    preliminar do Gemini.
+    IMPORTANT: all contextual audit fields are preserved,
+    including the rule rationale, the requirement rationale and the
+    Gemini preliminary evaluation.
     """
     records = []
 
@@ -228,7 +228,7 @@ def build_records_from_gemini_audit(sample):
 
         if not source or not source_id or rank is None or not target_id:
             raise ValueError(
-                "Resultado do Gemini sem identidade completa: "
+                "Gemini result without a complete identity: "
                 f"{result!r}"
             )
 
@@ -238,7 +238,7 @@ def build_records_from_gemini_audit(sample):
             make_association_id(source, source_id, rank, target_id),
         )
 
-        # Normalização explícita do estado humano.
+        # Explicit normalization of the human state.
         record["human_label"] = result.get("human_label")
         record["human_confidence"] = result.get("human_confidence")
         record["human_notes"] = result.get("human_notes")
@@ -280,12 +280,12 @@ def build_records_from_flat_sample(sample, input_format):
                     source_id = source_rule.get("id")
 
             if not source_id:
-                raise ValueError(f"Regra {source} sem source_id.")
+                raise ValueError(f"Rule {source} without source_id.")
 
             matches = rule.get("matches", [])
             if not isinstance(matches, list):
                 raise ValueError(
-                    f"matches de {source}/{source_id} deve ser uma lista."
+                    f"matches of {source}/{source_id} must be a list."
                 )
 
             for match in matches:
@@ -344,11 +344,11 @@ def build_records(sample, input_format):
 
 
 # ============================================================
-# MERGE / RETOMADA
+# MERGE / RESUMPTION
 # ============================================================
 
 def extract_existing_annotations(old_data):
-    """Extrai somente anotações humanas de um output anterior."""
+    """Extracts only human annotations from a previous output."""
     old_format = detect_input_format(old_data)
     old_records = build_records(old_data, old_format)
 
@@ -381,15 +381,15 @@ def merge_human_annotations(records, old_data):
             record["human_notes"] = annotation.get("human_notes")
             transferred += 1
 
-    print(f"Anotações humanas preservadas: {transferred}")
+    print(f"Human annotations preserved: {transferred}")
     return records
 
 
 def records_to_output_sample(input_sample, input_format, records):
     """
-    O output passa a ser sempre um objeto com results[] quando estamos
-    revisando o audit do Gemini. Isso evita tentar encaixar os 10 pares
-    do audit dentro dos 531 candidatos do sample original.
+    The output is always an object with results[] when we are
+    reviewing the Gemini audit. This avoids trying to fit the 10 audit
+    pairs into the 531 candidates of the original sample.
     """
     metadata = normalize_metadata(
         input_sample.get("metadata", {}), input_format
@@ -402,7 +402,7 @@ def records_to_output_sample(input_sample, input_format, records):
 
 
 # ============================================================
-# EXIBIÇÃO INTERATIVA
+# INTERACTIVE DISPLAY
 # ============================================================
 
 def print_rule_header(record):
@@ -415,9 +415,9 @@ def print_rule_header(record):
     print(f"Association ID : {safe_text(record.get('association_id'))}")
     print("=" * 82)
 
-    print("\nREGRA DE ORIGEM")
+    print("\nSOURCE RULE")
     print("-" * 82)
-    print(safe_text(record.get("source_title")) or "(sem título)")
+    print(safe_text(record.get("source_title")) or "(no title)")
 
     source_rule = record.get("source_rule")
     if isinstance(source_rule, dict):
@@ -427,24 +427,24 @@ def print_rule_header(record):
         exceptions = source_rule.get("exceptions")
 
         if problematic:
-            print("\nCódigo problemático:")
+            print("\nProblematic code:")
             print(problematic)
         if correct:
-            print("\nCódigo correto:")
+            print("\nCorrect code:")
             print(correct)
         if rationale:
-            print("\nRationale da regra:")
+            print("\nRule rationale:")
             print(rationale)
         if exceptions:
-            print("\nExceções:")
+            print("\nExceptions:")
             print(exceptions)
     else:
-        # O audit enriquecido já traz esses campos no nível do resultado.
+        # The enriched audit already brings these fields at the result level.
         for label, key in (
-            ("Código problemático", "problematic_code"),
-            ("Código correto", "correct_code"),
-            ("Rationale da regra", "rationale"),
-            ("Exceções", "exceptions"),
+            ("Problematic code", "problematic_code"),
+            ("Correct code", "correct_code"),
+            ("Rule rationale", "rationale"),
+            ("Exceptions", "exceptions"),
         ):
             value = record.get(key)
             if value:
@@ -461,21 +461,21 @@ def print_rule_header(record):
         "Foundational Req.   : "
         f"{safe_text(record.get('foundational_requirement'))}"
     )
-    print(f"Título              : {safe_text(record.get('target_title'))}")
+    print(f"Title                : {safe_text(record.get('target_title'))}")
 
-    print("\nTexto normativo:")
-    print(safe_text(record.get("target_text")) or "(sem texto)")
+    print("\nNormative text:")
+    print(safe_text(record.get("target_text")) or "(no text)")
 
     target_rationale = record.get("target_rationale")
     if target_rationale:
-        print("\nRationale do requisito IEC:")
+        print("\nIEC requirement rationale:")
         print(target_rationale)
 
     pages = record.get("rationale_source_pages")
     if pages:
-        print(f"\nPáginas da rationale: {safe_text(pages)}")
+        print(f"\nRationale pages      : {safe_text(pages)}")
 
-    print("\nMÉTRICAS DO MATCH")
+    print("\nMATCH METRICS")
     print("-" * 82)
     print(f"Raw cosine          : {safe_text(record.get('raw_cosine'))}")
     print(f"Relative score      : {safe_text(record.get('relative_score'))}")
@@ -484,7 +484,7 @@ def print_rule_header(record):
     print(f"Top-1/Top-2 gap     : {safe_text(record.get('top1_top2_gap'))}")
     print(f"Gap bin             : {safe_text(record.get('gap_bin'))}")
 
-    # Auditoria preliminar do Gemini.
+    # Audit preliminar do Gemini.
     if record.get("llm_verdict") is not None:
         print("\nAUDITORIA PRELIMINAR — GEMINI")
         print("-" * 82)
@@ -497,24 +497,24 @@ def print_rule_header(record):
             f"{safe_text(record.get('llm_security_objective'))}"
         )
         print("Justification:")
-        print(safe_text(record.get("llm_justification")) or "(sem justificativa)")
+        print(safe_text(record.get("llm_justification")) or "(no justification)")
         caveat = record.get("llm_caveat")
         if caveat:
             print("\nCaveat:")
             print(caveat)
 
-    print("\nESTADO HUMANO")
+    print("\nHUMAN STATE")
     print("-" * 82)
     print(
-        f"Label atual         : "
-        f"{safe_text(record.get('human_label')) or '(não anotado)'}"
+        f"Current label       : "
+        f"{safe_text(record.get('human_label')) or '(not annotated)'}"
     )
     print(
-        f"Confiança atual     : "
-        f"{safe_text(record.get('human_confidence')) or '(não anotada)'}"
+        f"Current confidence  : "
+        f"{safe_text(record.get('human_confidence')) or '(not annotated)'}"
     )
     if record.get("human_notes"):
-        print(f"Notas atuais        : {record.get('human_notes')}")
+        print(f"Current notes       : {record.get('human_notes')}")
 
 
 def ask_label(current=None, allow_rule_no_match=False):
@@ -523,12 +523,12 @@ def ask_label(current=None, allow_rule_no_match=False):
     print("[p] partially_relevant")
     print("[i] irrelevant")
     if allow_rule_no_match:
-        print("[n] nenhum candidato relevante para esta regra")
-    print("[s] manter/anotar depois")
-    print("[q] sair")
+        print("[n] no relevant candidate for this rule")
+    print("[s] keep/annotate later")
+    print("[q] quit")
 
     if current:
-        print(f"Atual: {current}")
+        print(f"Current: {current}")
 
     while True:
         value = input("\nLabel: ").strip().lower()
@@ -550,40 +550,40 @@ def ask_label(current=None, allow_rule_no_match=False):
         if value in ALLOWED_LABELS:
             return value
 
-        print("Valor inválido.")
+        print("Invalid value.")
 
 
 def ask_confidence(current=None):
     print()
-    print("Confiança:")
-    print("  1 = muito baixa")
-    print("  2 = baixa")
-    print("  3 = moderada")
-    print("  4 = alta")
-    print("  5 = muito alta")
+    print("Confidence:")
+    print("  1 = very low")
+    print("  2 = low")
+    print("  3 = moderate")
+    print("  4 = high")
+    print("  5 = very high")
 
     if current is not None:
-        print(f"Atual: {current}")
+        print(f"Current: {current}")
 
     while True:
-        value = input("\nConfiança [1-5]: ").strip()
+        value = input("\nConfidence [1-5]: ").strip()
         if value == "":
             return current
         try:
             value = int(value)
         except ValueError:
-            print("Digite um número de 1 a 5.")
+            print("Enter a number from 1 to 5.")
             continue
         if value in ALLOWED_CONFIDENCE:
             return value
-        print("Confiança deve estar entre 1 e 5.")
+        print("Confidence must be between 1 and 5.")
 
 
 def ask_notes(current=None):
     print()
     if current:
-        print(f"Notas atuais: {current}")
-    value = input("Notas (Enter para manter/vazio): ")
+        print(f"Current notes: {current}")
+    value = input("Notes (Enter to keep/empty): ")
     return current if value == "" else value
 
 
@@ -613,7 +613,7 @@ def annotate_record(record):
 
 
 # ============================================================
-# ESTATÍSTICAS / STATUS
+# STATISTICS / STATUS
 # ============================================================
 
 def count_labeled(records):
@@ -707,15 +707,15 @@ def print_progress(records):
     print("-" * 72)
     if total:
         print(
-            f"Progresso: {labeled}/{total} candidatos anotados "
+            f"Progresso: {labeled}/{total} candidates annotated "
             f"({labeled / total * 100:.2f}%)"
         )
-    print(f"Regras decididas: {decided}/{rules}")
+    print(f"Rules decided: {decided}/{rules}")
     print("-" * 72)
 
 
 # ============================================================
-# EXPORTAÇÃO CSV
+# CSV EXPORT
 # ============================================================
 
 CSV_FIELDS = [
@@ -769,7 +769,7 @@ def write_csv(records, path):
 
 
 # ============================================================
-# EXPORTAÇÃO XLSX
+# XLSX EXPORT
 # ============================================================
 
 def write_xlsx(records, metadata, stats, path):
@@ -779,7 +779,7 @@ def write_xlsx(records, metadata, stats, path):
         from openpyxl.utils import get_column_letter
     except ImportError as exc:
         raise RuntimeError(
-            "openpyxl não está instalado. Instale com: pip install openpyxl"
+            "openpyxl is not installed. Install it with: pip install openpyxl"
         ) from exc
 
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -804,8 +804,8 @@ def write_xlsx(records, metadata, stats, path):
     ws.freeze_panes = "A2"
     ws.auto_filter.ref = ws.dimensions
 
-    # A planilha é voltada para leitura humana. Colunas textuais recebem
-    # largura razoável e wrap para permitir comparar regra/rationale/IEC/Gemini.
+    # The worksheet is meant for human reading. Textual columns receive
+    # a reasonable width and wrap to allow comparing rule/rationale/IEC/Gemini.
     wide_columns = {
         "source_title": 28,
         "problematic_code": 32,
@@ -871,7 +871,7 @@ def write_xlsx(records, metadata, stats, path):
     summary.column_dimensions["B"].width = 70
 
     # --------------------------------------------------------
-    # Gemini view — apenas se o input tiver dados do auditor.
+    # Gemini view — only if the input includes the auditor's date.
     # --------------------------------------------------------
     if any(r.get("llm_verdict") is not None for r in records):
         gemini = wb.create_sheet("Gemini_vs_Human")
@@ -931,14 +931,14 @@ def generate_markdown(metadata, records, stats):
 
     if metadata.get("review_scope") == "gemini_evaluated":
         lines.append(
-            "> Este arquivo contém somente os pares efetivamente avaliados pelo "
-            "> Gemini. A avaliação humana continua sendo independente e autoritativa."
+"> This file contains only the pairs actually evaluated by "
+"> Gemini. Human evaluation remains independent and authoritative."
         )
         lines.append("")
 
     lines.append("## Summary")
     lines.append("")
-    lines.append("| Métrica | Valor |")
+    lines.append("| Metric | Value |")
     lines.append("|---|---:|")
     lines.append(f"| Candidate pairs | {stats['total_records']} |")
     lines.append(f"| Human labeled | {stats['labeled_records']} |")
@@ -965,7 +965,7 @@ def generate_markdown(metadata, records, stats):
         )
         lines.append("")
         lines.append(f"- Association: `{record.get('association_id')}`")
-        lines.append(f"- Rule title: {record.get('source_title') or '(sem título)'}")
+        lines.append(f"- Rule title: {record.get('source_title') or '(no title)'}")
 
         if record.get("problematic_code"):
             lines.append(f"- Problematic code: `{record.get('problematic_code')}`")
@@ -978,13 +978,13 @@ def generate_markdown(metadata, records, stats):
         lines.append("**IEC requirement**")
         lines.append("")
         lines.append(
-            f"- Title: **{record.get('target_title') or '(sem título)'}**"
+            f"- Title: **{record.get('target_title') or '(no title)'}**"
         )
         lines.append(f"- Type: `{record.get('target_type')}`")
         lines.append(f"- Parent SR: `{record.get('parent_sr')}`")
         lines.append(f"- Foundational requirement: `{record.get('foundational_requirement')}`")
         lines.append("")
-        lines.append(record.get("target_text") or "(sem texto)")
+        lines.append(record.get("target_text") or "(no text)")
 
         if record.get("target_rationale"):
             lines.append("")
@@ -1061,7 +1061,7 @@ def main():
     validate_input(input_sample, input_format)
 
     print()
-    print(f"Formato detectado: {input_format}")
+    print(f"Detected format: {input_format}")
 
     # --------------------------------------------------------
     # OUTPUT ANTERIOR
@@ -1069,33 +1069,33 @@ def main():
     old_output = None
     if OUTPUT_JSON.exists():
         print()
-        print("Encontrado output de anotação existente.")
-        print(f"Retomando de: {OUTPUT_JSON}")
+        print("Existing annotation output found.")
+        print(f"Resuming from: {OUTPUT_JSON}")
         old_output = load_json(OUTPUT_JSON)
 
         old_format = detect_input_format(old_output)
-        print(f"Formato do output anterior: {old_format}")
+        print(f"Format of the previous output: {old_format}")
 
     # --------------------------------------------------------
     # RECORDS
     # --------------------------------------------------------
     print()
-    print("Construindo registros de revisão...")
+    print("Building review records...")
     records = build_records(input_sample, input_format)
     records = merge_human_annotations(records, old_output)
 
     if not records:
-        raise ValueError("Nenhum par disponível para revisão.")
+        raise ValueError("No pair available for review.")
 
-    print(f"  Candidate pairs disponíveis: {len(records)}")
+    print(f"  Candidate pairs available: {len(records)}")
 
     if input_format == "gemini_audit":
         print(
-            "  REVIEW SCOPE: somente os pares presentes no audit do Gemini."
+            "  REVIEW SCOPE: only the pairs present in the Gemini audit."
         )
         print(
-            "  Regra 'no_match' desabilitada: o audit pode conter apenas um "
-            "subconjunto dos candidatos da regra."
+            "  'no_match' rule disabled: the audit may contain only a "
+            "subset of the rule candidates."
         )
 
     # --------------------------------------------------------
@@ -1123,23 +1123,23 @@ def main():
     print(f"Status    : {metadata.get('label_status', 'unknown')}")
 
     # --------------------------------------------------------
-    # PROGRESSO EXISTENTE
+    # EXISTING PROGRESS
     # --------------------------------------------------------
     existing = count_labeled(records)
     if existing:
         print()
-        print(f"Anotações existentes: {existing}/{len(records)}")
+        print(f"Existing annotations: {existing}/{len(records)}")
 
     # --------------------------------------------------------
-    # INTERAÇÃO
+    # INTERACTION
     # --------------------------------------------------------
     print()
     print("=" * 78)
-    print("INÍCIO DA ANOTAÇÃO")
+    print("ANNOTATION START")
     print("=" * 78)
     print()
-    print("Você avaliará a associação regra → requisito IEC.")
-    print("No modo Gemini, somente os pares auditados pelo Gemini serão exibidos.")
+    print("You will evaluate the rule → IEC requirement association.")
+    print("In Gemini mode, only the pairs audited by Gemini will be shown.")
     print()
     print("Labels:")
     print("  relevant")
@@ -1148,11 +1148,11 @@ def main():
     if not ALLOW_RULE_NO_MATCH:
         print()
         print(
-            "Observação: 'no_match' está desabilitado neste modo porque "
-            "um audit parcial não contém necessariamente todos os candidatos da regra."
+"Note: 'no_match' is disabled in this mode because "
+"a partial audit does not necessarily contain all the candidates of the rule."
         )
     print()
-    print("Digite 'q' para salvar e sair.")
+    print("Type 'q' to save and exit.")
 
     for index, record in enumerate(records):
         if is_valid_human_label(record.get("human_label")):
@@ -1165,16 +1165,16 @@ def main():
 
         if result == "QUIT":
             print()
-            print("Saindo da anotação...")
+            print("Exiting annotation...")
             break
 
         if result is None:
             continue
 
         if result == "NO_MATCH":
-            # Só pode ocorrer se ALLOW_RULE_NO_MATCH for ativado.
+            # Can only happen if ALLOW_RULE_NO_MATCH is enabled.
             raise RuntimeError(
-                "no_match foi selecionado, mas este modo não deveria permitir essa opção."
+                "no_match was selected, but this mode should not allow that option."
             )
 
         records[index] = result

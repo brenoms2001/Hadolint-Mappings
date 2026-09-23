@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -36,7 +36,7 @@ OUTPUT_MD = OUTPUT_DIR / "iec_gold_standard_report.md"
 
 
 # ============================================================
-# UTILITÁRIOS
+# UTILITIES
 # ============================================================
 
 def load_json(path):
@@ -66,14 +66,14 @@ def save_json(path, data):
 
 
 # ============================================================
-# METADADOS DO MATCHING
+# MATCHING'S METADATA
 # ============================================================
 
 def extract_matching_metadata(matching):
     """
-    Preserva a configuração/proveniência do matching original.
+    Preserves the configuration/provenance of the original matching.
 
-    O arquivo de matching é a fonte de verdade para:
+    The matching file is the source of truth for:
 
         threshold
         top_k
@@ -82,19 +82,19 @@ def extract_matching_metadata(matching):
         source_dataset
         target_dataset
 
-    Não devemos duplicar esses valores neste script.
+    We should not duplicate these values in this script.
     """
 
     if not isinstance(matching, dict):
         raise ValueError(
-            "Matching deveria ser um objeto JSON."
+            "The matching should be a JSON object."
         )
 
     metadata = matching.get("metadata")
 
     if not isinstance(metadata, dict):
         raise ValueError(
-            "Matching não possui um objeto 'metadata'."
+            "The matching does not have a 'metadata' object."
         )
 
     return {
@@ -140,13 +140,13 @@ def normalize_parent_sr(requirement):
         SR 1.1 RE 1
             parent_sr = SR 1.1
 
-    Para um SR, não queremos considerar o próprio requisito
-    como seu parent_sr.
+    For an SR, we do not want to consider the requirement itself
+    as its parent_sr.
 
-    Portanto:
+    Therefore:
 
         SR -> None
-        RE -> SR pai
+        RE -> parent SR
     """
 
     req_id = requirement.get("id")
@@ -159,12 +159,12 @@ def normalize_parent_sr(requirement):
 
 
 # ============================================================
-# DATASETS DE ORIGEM
+# SOURCE DATASETS
 # ============================================================
 
 def normalize_source_dataset(dataset):
     """
-    hadolint_rules_structured.json é diretamente indexado:
+    hadolint_rules_structured.json is directly indexed:
 
         {
             "DL1001": {...},
@@ -173,9 +173,9 @@ def normalize_source_dataset(dataset):
             "SC3067": {...}
         }
 
-    Não existe necessariamente uma chave "rules".
+    A "rules" key does not necessarily exist.
 
-    A função também aceita, por compatibilidade, uma estrutura:
+    The function also accepts, for compatibility, a structure:
 
         {
             "rules": [...]
@@ -184,8 +184,8 @@ def normalize_source_dataset(dataset):
 
     if not isinstance(dataset, dict):
         raise ValueError(
-            "Dataset de origem deveria ser um objeto JSON "
-            "indexado por ID."
+            "The source dataset should be a JSON object "
+            "indexed by ID."
         )
 
     metadata_keys = {
@@ -195,7 +195,7 @@ def normalize_source_dataset(dataset):
     }
 
     # --------------------------------------------------------
-    # Estrutura alternativa:
+    # Alternative structure:
     #
     # {
     #     "rules": [...]
@@ -208,8 +208,8 @@ def normalize_source_dataset(dataset):
 
         if not isinstance(rules, list):
             raise ValueError(
-                "A chave 'rules' existe, mas não contém "
-                "uma lista."
+                "The 'rules' key exists but does not contain "
+                "a list."
             )
 
         normalized = {}
@@ -229,7 +229,7 @@ def normalize_source_dataset(dataset):
         return normalized
 
     # --------------------------------------------------------
-    # Estrutura atual:
+    # Current structure:
     #
     # {
     #     "DL1001": {...},
@@ -264,14 +264,14 @@ def normalize_iec_dataset(dataset):
 
     if not isinstance(dataset, dict):
         raise ValueError(
-            "Dataset IEC deveria ser um objeto JSON."
+            "The IEC dataset should be a JSON object."
         )
 
     requirements = dataset.get("requirements")
 
     if not isinstance(requirements, list):
         raise ValueError(
-            "Dataset IEC não possui uma lista 'requirements'."
+            "The IEC dataset does not have a list named 'requirements'."
         )
 
     normalized = {}
@@ -292,12 +292,12 @@ def normalize_iec_dataset(dataset):
 
 
 # ============================================================
-# NORMALIZAÇÃO DO MATCHING
+# MATCHING NORMALIZATION
 # ============================================================
 
 def normalize_matching(matching):
     """
-    Estrutura esperada:
+    Expected structure:
 
     {
         "metadata": {...},
@@ -339,14 +339,14 @@ def normalize_matching(matching):
 
     if not isinstance(matching, dict):
         raise ValueError(
-            "Matching deveria ser um objeto JSON."
+            "The matching should be a JSON object."
         )
 
     sources = matching.get("sources")
 
     if not isinstance(sources, dict):
         raise ValueError(
-            "Matching não possui a estrutura esperada "
+            "The matching does not have the expected structure "
             "'sources'."
         )
 
@@ -359,7 +359,7 @@ def normalize_matching(matching):
             "shellcheck",
         }:
             print(
-                f"  ⚠ Ignorando source desconhecido: "
+                f"  ⚠ Ignoring unknown source: "
                 f"{source_name}"
             )
             continue
@@ -444,7 +444,7 @@ def normalize_matching(matching):
 
 
 # ============================================================
-# VALIDAÇÃO DOS MATCHES
+# MATCH VALIDATION
 # ============================================================
 
 def validate_records(
@@ -453,11 +453,11 @@ def validate_records(
     iec_requirements,
 ):
     """
-    Confere se os IDs presentes no matching realmente existem
-    nos datasets utilizados como fonte.
+    Checks that the IDs present in the matching really exist
+    in the datasets used as source.
 
-    Também substitui os metadados IEC presentes no matching
-    pelos valores canônicos do dataset IEC.
+    It also replaces the IEC metadata present in the matching
+    with the canonical values of the IEC dataset.
     """
 
     valid_records = []
@@ -489,7 +489,7 @@ def validate_records(
         requirement = iec_requirements[target_id]
 
         # ----------------------------------------------------
-        # Dados canônicos do dataset IEC
+        # Canonical data of the IEC dataset
         # ----------------------------------------------------
 
         record["target_type"] = (
@@ -537,7 +537,7 @@ def validate_records(
     if invalid_source_ids:
 
         print(
-            "\n⚠ Source IDs inválidos:"
+            "\n⚠ Invalid Source IDs:"
         )
 
         for item in sorted(
@@ -550,7 +550,7 @@ def validate_records(
     if invalid_target_ids:
 
         print(
-            "\n⚠ Target IDs IEC inválidos:"
+            "\n⚠ Invalid IEC Target IDs:"
         )
 
         for item in sorted(
@@ -564,7 +564,7 @@ def validate_records(
 
 
 # ============================================================
-# AGRUPAMENTO
+# GROUPING
 # ============================================================
 
 def group_by_source(records):
@@ -597,7 +597,7 @@ def group_by_source_rule(records):
 
 
 # ============================================================
-# ESTATÍSTICAS
+# STATISTICS
 # ============================================================
 
 def calculate_statistics(
@@ -721,17 +721,17 @@ def build_gold_standard(
     matching_metadata,
 ):
     """
-    O gold standard não inventa novos matches.
+    The gold standard does not invent new matches.
 
-    Ele transforma os candidatos automáticos em uma estrutura
-    adequada para avaliação humana.
+    It turns the automatic candidates into a structure
+    suitable for human evaluation.
 
-    Os resultados automáticos são preservados.
+    The automatic results are preserved.
 
-    Campos humanos são inicialmente null.
+    Human fields are initially null.
 
-    A configuração do método é herdada diretamente do
-    matching original.
+    The method configuration is inherited directly from the
+    original matching.
     """
 
     grouped = group_by_source_rule(
@@ -741,7 +741,7 @@ def build_gold_standard(
     output = {
         "metadata": {
             # ------------------------------------------------
-            # Proveniência
+            # Provenance
             # ------------------------------------------------
 
             "standard": matching_metadata.get(
@@ -773,7 +773,7 @@ def build_gold_standard(
             ),
 
             # ------------------------------------------------
-            # Finalidade
+            # Goal
             # ------------------------------------------------
 
             "purpose": (
@@ -808,7 +808,7 @@ def build_gold_standard(
             if rule.get("source") == source
         ]
 
-        # Ordenação estável
+        # Stable sorting
         source_ids = sorted(
             source_ids
         )
@@ -823,7 +823,7 @@ def build_gold_standard(
                 [],
             )
 
-            # Ordena pelo rank do matching
+            # Sorts by matching rank
             candidates = sorted(
                 candidates,
                 key=lambda x: (
@@ -885,7 +885,7 @@ def build_gold_standard(
                             ),
 
                         # ------------------------------------
-                        # Métricas automáticas
+                        # Automatic metrics
                         # ------------------------------------
 
                         "raw_cosine":
@@ -1201,7 +1201,7 @@ print(
 print("=" * 70)
 
 print(
-    "\nCarregando arquivos..."
+    "\nLoading files..."
 )
 
 matching = load_json(
@@ -1218,7 +1218,7 @@ iec_dataset = load_json(
 
 
 # ============================================================
-# METADADOS DO MATCHING
+# MATCHING METADATA
 # ============================================================
 
 matching_metadata = (
@@ -1228,7 +1228,7 @@ matching_metadata = (
 )
 
 print(
-    "\nConfiguração do matching original:"
+    "\nConfiguration of the original matching:"
 )
 
 print(
@@ -1258,11 +1258,11 @@ print(
 
 
 # ============================================================
-# NORMALIZAÇÃO
+# NORMALIZATION
 # ============================================================
 
 print(
-    "\nNormalizando datasets..."
+    "\nNormalizing datasets..."
 )
 
 source_rules = (
@@ -1293,7 +1293,7 @@ print(
 # ============================================================
 
 print(
-    "\nNormalizando matching..."
+    "\nNormalizing matching..."
 )
 
 records = normalize_matching(
@@ -1307,11 +1307,11 @@ print(
 
 
 # ============================================================
-# VALIDAÇÃO
+# VALIDATION
 # ============================================================
 
 print(
-    "\nValidando candidatos..."
+    "\nValidating candidates..."
 )
 
 valid_records = validate_records(
@@ -1329,18 +1329,18 @@ print(
 if not valid_records:
 
     raise RuntimeError(
-        "Nenhum candidato válido foi encontrado. "
-        "O matching provavelmente não está sendo "
-        "interpretado corretamente."
+"No valid candidate was found. "
+        "The matching is probably not being "
+        "interpreted correctly."
     )
 
 
 # ============================================================
-# ESTATÍSTICAS
+# STATISTICS
 # ============================================================
 
 print(
-    "\nCalculando estatísticas..."
+    "\nComputing statistics..."
 )
 
 statistics = calculate_statistics(
@@ -1354,7 +1354,7 @@ statistics = calculate_statistics(
 # ============================================================
 
 print(
-    "\nConstruindo gold standard..."
+    "\nBuilding gold standard..."
 )
 
 gold_standard = build_gold_standard(
@@ -1366,7 +1366,7 @@ gold_standard = build_gold_standard(
 
 
 # ============================================================
-# SALVAMENTO
+# SAVE
 # ============================================================
 
 OUTPUT_DIR.mkdir(

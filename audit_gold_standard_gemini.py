@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 
 
 # ============================================================
-# CONFIGURAÇÃO
+# CONFIGURATION
 # ============================================================
 
 BASE_DIR = Path("data")
@@ -56,9 +56,9 @@ OUTPUT_XLSX = (
     / "iec_gold_standard_gemini_audit.xlsx"
 )
 
-# XLSX atualizado após cada batch concluído.
-# Serve para inspeção durante uma execução longa; o XLSX acima
-# continua sendo o artefato final da execução completa.
+# XLSX updated after each completed batch.
+# Used for inspection during a long run; the XLSX above
+# remains the final artifact of the complete execution.
 OUTPUT_XLSX_PROGRESS = (
     OUTPUT_DIR
     / "iec_gold_standard_gemini_audit_progress.xlsx"
@@ -81,27 +81,27 @@ CHECKPOINT_PATH = (
 
 MODEL_NAME = "gemini-3.1-flash-lite"
 
-# Batch normal de execução.
+# Normal execution batch.
 BATCH_SIZE = 5
 
 TEMPERATURE = 0.0
 
-# Número máximo de tentativas para erros transitórios.
+# Maximum number of attempts for transient errors.
 MAX_RETRIES = 5
 
-# Número de tentativas para respostas semanticamente/estruturalmente
-# inválidas antes de dividir o batch.
+# Number of attempts for semantically/structurally
+# invalid responses before splitting the batch.
 #
 # Exemplo:
-#   batch de 5 -> tentativa 1 -> inválido
-#              -> tentativa 2 -> inválido
+#   batch of 5 -> attempt 1 -> invalid
+#              -> attempt 2 -> invalid
 #              -> divide em 2 + 3
 VALIDATION_RETRIES = 2
 
 REQUEST_DELAY = 5.0
 BACKOFF_BASE = 10.0
 
-# None = todos os candidatos.
+# None = todos os candidates.
 MAX_PAIRS = None
 
 PROMPT_VERSION = (
@@ -114,8 +114,8 @@ def get_client():
 
     if not api_key:
         raise RuntimeError(
-            "Nenhuma API key do Gemini encontrada. "
-            "Defina a variável de ambiente GEMINI_API_KEY."
+            "No Gemini API key found. "
+            "Set the GEMINI_API_KEY environment variable."
         )
 
     return genai.Client(
@@ -124,11 +124,11 @@ def get_client():
 
 
 # ============================================================
-# UTILIDADES
+# UTILITIES
 # ============================================================
 
 def sha256_file(path: Path) -> str:
-    """Calcula SHA-256 do arquivo."""
+    """Computes the SHA-256 of the file."""
 
     digest = hashlib.sha256()
 
@@ -173,7 +173,7 @@ def save_json(path: Path, data):
 
 
 def safe_text(value):
-    """Converte valor arbitrário para texto seguro."""
+    """Converts arbitrary values to safe text."""
 
     if value is None:
         return ""
@@ -186,9 +186,9 @@ def safe_text(value):
 
 def _safe_excel_value(value):
     """
-    Excel não aceita diretamente listas/dicts em células.
+    Excel does not directly accept lists/dicts in cells.
 
-    Estruturas complexas são serializadas como JSON.
+    Complex structures are serialized as JSON.
     """
 
     if value is None:
@@ -207,7 +207,7 @@ def _safe_excel_value(value):
 
 
 def chunked(items, size):
-    """Divide uma lista em batches."""
+    """Splits a list into batches."""
 
     for i in range(
         0,
@@ -223,7 +223,7 @@ def make_pair_id(
     rank,
     target_id,
 ):
-    """Identificador estável de uma associação."""
+    """Stable identifier of an association."""
 
     return (
         f"{source}:"
@@ -235,10 +235,10 @@ def make_pair_id(
 
 def classify_gap(gap):
     """
-    Classificação apenas descritiva do gap.
+    Descriptive-only classification of the gap.
 
-    Não participa da geração dos candidatos nem altera
-    o matching original.
+    It does not participate in candidate generation nor modifies
+    the original matching.
     """
 
     if gap is None:
@@ -262,12 +262,12 @@ def classify_gap(gap):
 
 def validate_input(data):
     """
-    Aceita:
+    Accepts:
 
-    1. formato sample:
+    1. sample format:
        metadata + records
 
-    2. formato completo:
+    2. full format:
        metadata + sources
     """
 
@@ -337,7 +337,7 @@ def validate_input(data):
 
 
 def load_input():
-    """Carrega e valida o arquivo de entrada."""
+    """Loads and validates the input file."""
 
     print(
         f"Loading: {INPUT_PATH}"
@@ -366,11 +366,11 @@ def load_input():
 
 def build_hadolint_rule_index(dataset):
     """
-    Constrói:
+    Builds:
 
         (source, rule_id) -> source rule
 
-    O dataset atual é keyed por rule ID.
+    The current dataset is keyed by rule ID.
     """
 
     if not isinstance(
@@ -401,7 +401,7 @@ def build_hadolint_rule_index(dataset):
             (source, rule_id)
         ] = rule
 
-        # Fallback explícito.
+        # Explicit fallback.
         index[
             ("hadolint", rule_id)
         ] = rule
@@ -411,7 +411,7 @@ def build_hadolint_rule_index(dataset):
 
 def build_iec_requirement_index(dataset):
     """
-    Constrói:
+    Builds:
 
         target_id -> IEC requirement
     """
@@ -500,7 +500,7 @@ def load_datasets():
 
 
 # ============================================================
-# NORMALIZAÇÃO
+# NORMALIZATION
 # ============================================================
 
 def normalize_record(
@@ -510,10 +510,10 @@ def normalize_record(
     rule_matches=None,
 ):
     """
-    Normaliza um candidato individual.
+    Normalizes an individual candidate.
 
-    Dados existentes no candidato têm prioridade.
-    Datasets enriquecidos são utilizados como fallback.
+    Existing data in the candidate takes priority.
+    Enriched datasets are used as a fallback.
     """
 
     source = (
@@ -825,7 +825,7 @@ def build_records(
     iec_index,
 ):
     """
-    Converte sample ou full candidates em uma lista plana.
+    Converts sample or full candidates into a flat list.
     """
 
     normalized_records = []
@@ -1006,7 +1006,7 @@ def build_records(
 def experiment_metadata(
     input_data
 ):
-    """Metadados reprodutíveis."""
+    """Reproducible metadata."""
 
     metadata = input_data.get(
         "metadata",
@@ -1361,11 +1361,11 @@ GEMINI_RESPONSE_SCHEMA = {
 
 
 # ============================================================
-# ERROS GEMINI
+# GEMINI ERRORS
 # ============================================================
 
 def is_transient_error(error):
-    """Identifica erros recuperáveis de infraestrutura."""
+    """Identifies recoverable infrastructure errors."""
 
     text = str(error).lower()
 
@@ -1387,7 +1387,7 @@ def is_transient_error(error):
 
 
 def is_quota_error(error):
-    """Identifica quota/rate-limit."""
+    """Identifies quota/rate-limit."""
 
     text = str(error).lower()
 
@@ -1407,10 +1407,10 @@ def is_quota_error(error):
 
 class GeminiBatchError(RuntimeError):
     """
-    Erro controlado de processamento de um batch.
+    Controlled error of batch processing.
 
-    O erro mantém a causa original para que o chamador possa
-    decidir se deve dividir o batch ou interromper a execução.
+    The error keeps the original cause so the caller can
+    decide whether to split the batch or interrupt the execution.
     """
 
     def __init__(
@@ -1433,7 +1433,7 @@ class GeminiBatchError(RuntimeError):
 
 
 # ============================================================
-# VALIDAÇÃO DO GEMINI
+# GEMINI VALIDATION
 # ============================================================
 
 def validate_gemini_results(
@@ -1441,9 +1441,9 @@ def validate_gemini_results(
     results,
 ):
     """
-    Valida a resposta do Gemini contra o batch.
+    Validates the Gemini response against the batch.
 
-    Falhas aqui são tratadas como resposta inválida.
+    Failures here are treated as an invalid response.
     """
 
     if not isinstance(
@@ -1553,19 +1553,19 @@ def validate_gemini_results(
 
 def call_gemini(batch):
     """
-    Executa uma chamada Gemini para um batch.
+    Runs a Gemini call for a batch.
 
-    Estratégia:
+    Strategy:
 
-    1. Erros transitórios:
-       até MAX_RETRIES.
+    1. Transient errors:
+       up to MAX_RETRIES.
 
-    2. Respostas inválidas/incompletas:
-       até VALIDATION_RETRIES.
+    2. Invalid/incomplete responses:
+       up to VALIDATION_RETRIES.
 
-    3. Depois disso, lança GeminiBatchError.
+    3. After that, raises GeminiBatchError.
 
-    O chamador decide se o batch deve ser dividido.
+    The caller decides if the batch should be split.
     """
 
     prompt = build_prompt(
@@ -1619,7 +1619,7 @@ def call_gemini(batch):
 
             # ------------------------------------------------
             # Quota:
-            # nunca tentar contornar dividindo.
+            # never try to get around it by splitting.
             # ------------------------------------------------
 
             if is_quota_error(
@@ -1632,8 +1632,8 @@ def call_gemini(batch):
                 ) from error
 
             # ------------------------------------------------
-            # Erro transitório:
-            # retry com backoff.
+            # Transient error:
+            # retry using backoff.
             # ------------------------------------------------
 
             if is_transient_error(
@@ -1685,8 +1685,8 @@ def call_gemini(batch):
                 continue
 
             # ------------------------------------------------
-            # Resposta inválida:
-            # retry limitado.
+            # Invalid response:
+            # limited retry.
             # ------------------------------------------------
 
             validation_attempts += 1
@@ -1742,27 +1742,27 @@ def process_batch_adaptive(
     depth=0,
 ):
     """
-    Processa um batch usando divisão adaptativa.
+    Processes a batch using adaptive splitting.
 
-    Fluxo:
+    Flow:
 
-        batch válido
-            -> retorna resultados
+        valid batch
+            -> returns results
 
-        batch inválido após retries
-            -> divide em dois
+        invalid batch after retries
+            -> splits in two
 
-        singleton inválido
-            -> interrompe com erro
+        invalid singleton
+            -> stops with error
 
-    A divisão é uma estratégia de robustez operacional.
-    Ela não modifica:
-        - os candidatos;
-        - o prompt;
-        - o modelo;
-        - a temperatura;
-        - o schema;
-        - os critérios semânticos da auditoria.
+    The split is an operational robustness strategy.
+    It does not modify:
+        - the candidates;
+        - the prompt;
+        - the model;
+        - the temperature;
+        - the schema;
+        - the semantic criteria of the audit.
     """
 
     if not batch:
@@ -1784,7 +1784,7 @@ def process_batch_adaptive(
 
         # ----------------------------------------------------
         # Quota:
-        # não dividir.
+        # do not split.
         # ----------------------------------------------------
 
         if error.error_kind == "quota":
@@ -1797,7 +1797,7 @@ def process_batch_adaptive(
 
         # ----------------------------------------------------
         # Singleton:
-        # não existe mais divisão possível.
+        # there is no more possible split.
         # ----------------------------------------------------
 
         if len(batch) == 1:
@@ -1816,7 +1816,7 @@ def process_batch_adaptive(
             ) from error
 
         # ----------------------------------------------------
-        # Divide o batch.
+        # Split the batch.
         # ----------------------------------------------------
 
         midpoint = len(batch) // 2
@@ -1857,7 +1857,7 @@ def process_batch_adaptive(
             )
 
         # ----------------------------------------------------
-        # Processa cada metade independentemente.
+        # Process each half independently.
         # ----------------------------------------------------
 
         left_results = (
@@ -1888,7 +1888,7 @@ def merge_result(
     record,
     gemini_result,
 ):
-    """Combina evidência original + Gemini."""
+    """Combines original evidence + Gemini."""
 
     return {
         **record,
@@ -1951,7 +1951,7 @@ def load_or_create_checkpoint(
     metadata,
 ):
     """
-    Carrega checkpoint somente se a configuração for idêntica.
+    Loads a checkpoint only if the configuration is identical.
     """
 
     if not CHECKPOINT_PATH.exists():
@@ -2035,7 +2035,7 @@ def save_checkpoint(
     metadata,
     results,
 ):
-    """Salva progresso intermediário."""
+    """Saves intermediate progress."""
 
     save_json(
         CHECKPOINT_PATH,
@@ -2186,11 +2186,11 @@ def save_excel(
     results,
     output_path=OUTPUT_XLSX,
 ):
-    """Gera um XLSX a partir do estado atual da auditoria.
+    """Generates an XLSX from the current state of the audit.
 
-    output_path permite manter um arquivo de progresso separado do
-    artefato XLSX final. O arquivo é gravado atomicamente para que uma
-    interrupção durante a escrita não destrua a versão anterior.
+    output_path keeps a progress file separate from the
+    final XLSX artifact. The file is written atomically so an
+    interruption during the write does not destroy the previous version.
     """
 
     wb = Workbook()
@@ -2878,7 +2878,7 @@ def print_outputs(results):
     )
 
     print(
-        f"  XLSX progresso: {OUTPUT_XLSX_PROGRESS}"
+        f"  XLSX progress: {OUTPUT_XLSX_PROGRESS}"
     )
 
     print(
@@ -3072,11 +3072,11 @@ def main():
             )
 
             # ------------------------------------------------
-            # Defesa adicional.
+            # Additional safeguard. 
             #
-            # Mesmo que os sub-batches tenham sido processados
-            # separadamente, o conjunto agregado precisa conter
-            # exatamente os IDs do batch original.
+            # Even if the sub-batches were processed
+            # separately, the aggregated set must contain
+            # exactly the IDs from the original batch.
             # ------------------------------------------------
 
             validate_gemini_results(
@@ -3139,9 +3139,9 @@ def main():
             # ------------------------------------------------
             # XLSX preliminar
             #
-            # O checkpoint continua sendo a fonte de recuperação
-            # da execução. Este XLSX é apenas uma representação
-            # legível do estado atual e é atualizado a cada batch.
+            # The checkpoint remains the recovery source
+            # of the execution. This XLSX is only a readable
+            # representation of the current state and is updated each batch.
             # ------------------------------------------------
 
             progress_metadata = dict(
