@@ -86,18 +86,19 @@ A null RE rationale is a data-availability condition and must not automatically 
 
 ## Canonical embedding caches
 
-Planned canonical paths:
+Canonical paths:
 
 - `data/output/embeddings/cache_hadolint_structured.pkl`
 - `data/output/embeddings/cache_iec_structured.pkl`
 
 Each pickle retains the historical top-level structure of `metadata` and an
-ID-indexed `embeddings` dictionary. Each definitive cache must have an adjacent
+ID-indexed `embeddings` dictionary. Each definitive cache has an adjacent
 `.metadata.json` sidecar containing input, text-builder, model revision,
 runtime, Git, vector-validation, timestamp, and output-hash provenance.
 
-Existing files at these paths are historical caches and are not the definitive
-embeddings for the finalized 595-rule source population.
+The files at these paths are the definitive embeddings for the finalized
+595-rule source population and 100-requirement IEC target population. Exact
+hashes are recorded in `manifests/canonical_artifacts.json`.
 
 ## Candidate dataset
 
@@ -155,7 +156,9 @@ Do not write code that assumes the sample and full candidate JSONs have identica
 
 ## Gemini pair audit
 
-The full pair audit is expected to contain 4134 evaluated candidate associations in the current canonical configuration.
+The existing 4134-result pair audit belongs to the historical 594-rule
+development candidate set. It is not an audit of the definitive 4149-pair
+canonical candidate set.
 
 Human fields must remain distinguishable from LLM fields.
 

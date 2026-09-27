@@ -7,6 +7,8 @@ all_mpnet_base_v2/
 
 # Binary / regenerable artifacts
 *.pkl
+!data/output/embeddings/cache_hadolint_structured.pkl
+!data/output/embeddings/cache_iec_structured.pkl
 data/output/images/
 
 # LLM extraction review reports (text)

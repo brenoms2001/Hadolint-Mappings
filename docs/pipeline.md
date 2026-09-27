@@ -25,7 +25,7 @@ Relative threshold (0.68)
         ↓
 Top-K (10)
         ↓
-Canonical candidate dataset (4134 pairs)
+Canonical candidate dataset (4149 pairs)
         ↓
 Gemini preliminary pair audit
         ↓
@@ -52,9 +52,10 @@ The auxiliary branch must not feed back into candidate generation.
 
 ## Current verified checkpoints
 
-The checkpoints below describe historical downstream artifacts generated from
-the earlier 594-rule population. Canonical source acquisition now contains 595
-rules; downstream artifacts are not silently regenerated.
+Canonical matching and candidate generation now use the definitive 595-rule
+population. Existing LLM, sample, annotation, concentration, and quality
+artifacts remain historical outputs from the earlier 594-rule population and
+were not silently regenerated.
 
 ### Canonical embedding preparation
 
@@ -63,17 +64,24 @@ rules; downstream artifacts are not silently regenerated.
 - source texts: 595
 - IEC texts: 100
 - exact model/tokenizer revision pinned
-- definitive caches: not yet generated
-- historical structured caches: preserved and not overwritten
+- definitive caches: generated, validated, and hash-frozen
+- source vectors: 595 float32[1024]
+- IEC vectors: 100 float32[1024]
 
 ### Candidate generation
-- 594 source rules
-- 4134 candidate associations
+- 595 source rules
+- 4149 candidate associations
+- Hadolint associations: 566
+- ShellCheck associations: 3583
+- SR associations: 2240
+- RE associations: 1909
+- zero-candidate source rules: 0
 - threshold = 0.68
 - top_k = 10
 - power = 5.5
 
-### Preliminary Gemini pair audit
+### Historical preliminary Gemini pair audit
+- source population: 594 rules
 - 4134 results
 - YES = 78
 - MAYBE = 481
@@ -84,6 +92,5 @@ rules; downstream artifacts are not silently regenerated.
 - non_security = 504
 - uncertain = 4
 
-## Repository-audit goal
-
-The next migration task is to map real repository files to each stage above without changing scientific behavior.
+No LLM audit or human annotation has been run for the definitive 4149-pair
+candidate set.

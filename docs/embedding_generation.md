@@ -4,8 +4,9 @@
 
 The tracked canonical implementation is `generate_embeddings.py`.
 
-The definitive 595-rule source and 100-requirement IEC embeddings have not yet
-been generated. Generation requires a separately authorized CUDA/Colab run.
+The definitive 595-rule source and 100-requirement IEC embeddings were generated
+in an authorized CUDA/Colab run and transferred back byte-for-byte. Both caches,
+both metadata sidecars, and the text audit passed the canonical validation gate.
 
 `generate_embedding.ipynb` is preserved as historical evidence. Its retained
 execution generated a 594-rule source cache and a 100-requirement IEC cache; it
@@ -186,14 +187,16 @@ data/output/embeddings/embedding_text_audit.json
 
 No Google Drive path is required or embedded in the canonical generator.
 
-## Historical Cache Protection
+## Historical Cache Lineage
 
-Existing files are historical and were not overwritten during preparation:
+Before definitive generation, these paths contained historical development
+caches with the following hashes; those states remain recoverable through Git
+history:
 
 - source cache SHA-256:
   `cdb4d2ad68b33e3bb1e3b3709812061355d0507f9dabd5c140b228031844734f`;
 - IEC cache SHA-256:
   `e47753dec6f3b19eb8370fc9708062cb2eb40a9c90d8a12dce48130c2e91bbc9`.
 
-The source cache contains 594 vectors and is not canonical for the finalized
-595-rule source population.
+The current files at these paths are the definitive 595-source/100-target
+caches. Their current hashes are recorded in `manifests/canonical_artifacts.json`.

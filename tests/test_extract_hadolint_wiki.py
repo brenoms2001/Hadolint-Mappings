@@ -393,7 +393,8 @@ class FrozenCorpusRegressionTests(unittest.TestCase):
         historical = parser.run_git(
             parser.ROOT,
             "show",
-            "HEAD:data/output/datasets/hadolint_rules_structured.json",
+            "94204cefbb5079077b797525ed3bf0f7fe3a9e4b:"
+            "data/output/datasets/hadolint_rules_structured.json",
             binary=True,
         )
         self.assertEqual(

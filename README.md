@@ -1,7 +1,7 @@
 # Hadolint/ShellCheck → IEC 62443-3-3 semantic mapping
 
 Research repository on the semantic mapping between container
-static-analysis security rules (75 Hadolint + 519 ShellCheck = 594)
+static-analysis security rules (75 Hadolint + 520 ShellCheck = 595)
 and the 100 requirements of IEC 62443-3-3 (51 SR + 49 RE).
 
 ## Pipeline
@@ -13,8 +13,8 @@ source input (IEC PDF, Hadolint/ShellCheck wikis, CWE XML)
   -> similarity matching (cosine -> clamp negative -> power 5.5
                           -> L-infinity per source rule -> threshold 0.68
                           -> top-K 10)
-  -> gold standard candidates (4 134 associations)
-  -> Gemini preliminary audit (78 YES / 481 MAYBE / 3575 NO)
+  -> canonical unreviewed candidates (4 149 associations)
+  -> optional preliminary Gemini audit (not yet run for canonical candidates)
   -> human review (authoritative)
   -> auxiliary analyses (match quality, concentration,
                         security relevance rule-level)
@@ -27,7 +27,11 @@ source input (IEC PDF, Hadolint/ShellCheck wikis, CWE XML)
 - Power transform: 5.5
 - Normalization: L-infinity per source rule
 - Relative threshold: 0.68
+- Deterministic secondary ordering: frozen IEC dataset order
 - Top-K: 10
+
+The retained 594-rule/4,134-pair outputs and their Gemini analyses are
+historical development artifacts, not the definitive canonical candidate set.
 
 These values are fixed; do not change them without explicit
 authorization. See `AGENTS.md`.

@@ -60,8 +60,10 @@ Canonical IEC embedding text uses `id`, `title`, and normative `text`, separated
 by two newlines. IEC rationale is excluded.
 
 The model and tokenizer are pinned to revision
-`d4aa6901d3a41ba39fb536a557fa166f842b0e09`. Definitive embeddings for the
-final 595-rule population have not yet been generated.
+`d4aa6901d3a41ba39fb536a557fa166f842b0e09`. Definitive normalized float32
+embeddings have been generated and validated for all 595 source rules and all
+100 IEC requirements. Their hashes are frozen in
+`manifests/canonical_artifacts.json`.
 
 ## Candidate generation
 
@@ -72,7 +74,8 @@ For each source rule:
 3. apply a power transform with exponent 5.5;
 4. perform per-source-rule L-infinity normalization;
 5. retain candidates whose relative score is at least 0.68;
-6. retain at most the top 10 candidates.
+6. sort by relative score descending and then by frozen IEC dataset order;
+7. retain at most the top 10 candidates.
 
 Canonical parameters:
 
@@ -89,6 +92,16 @@ Canonical method string:
 Canonical candidate dataset:
 
 `data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.json`
+
+Definitive canonical totals:
+
+- source rules: 595
+- candidate associations: 4149
+- Hadolint associations: 566
+- ShellCheck associations: 3583
+- SR associations: 2240
+- RE associations: 1909
+- source rules with zero candidates: 0
 
 Historical validated totals from the exploratory/development 594-rule source
 population:

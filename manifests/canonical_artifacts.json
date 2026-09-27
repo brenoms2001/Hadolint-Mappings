@@ -1,43 +1,68 @@
 {
-  "manifest_version": 1,
-  "status": "migration-bootstrap",
-  "note": "The canonical source_rules entry is verified. Remaining downstream entries describe historical 594-rule artifacts and retain bootstrap status until independently verified or regenerated.",
+  "manifest_version": 2,
+  "status": "definitive-canonical-through-candidate-generation",
+  "note": "Canonical artifacts are frozen through deterministic unreviewed candidate generation. No LLM audit or human annotation has been run for this candidate set.",
   "artifacts": {
-    "source_rules": {
+    "source_dataset": {
       "path": "data/output/datasets/hadolint_rules_structured.json",
-      "expected_rule_count": 595,
+      "observed_rule_count": 595,
       "sha256": "708cb58293a9d081f492c1010830f6cf96b040db9d767545cc211f6c6eee37ea"
     },
-    "iec_enriched": {
-      "path": "data/output/datasets/iec62443_with_rationale.json",
-      "expected_requirement_count": 100,
-      "sha256": null
+    "target_dataset": {
+      "path": "data/output/datasets/iec62443_clean.json",
+      "observed_requirement_count": 100,
+      "sha256": "fa44e0af3598b58bae7e6dd8057479234bd8c97cd0d9f3effee34f244c007a4c"
     },
-    "candidate_set": {
+    "source_embedding_cache": {
+      "path": "data/output/embeddings/cache_hadolint_structured.pkl",
+      "observed_vector_count": 595,
+      "sha256": "0ce1921e4a4b021eafe735edd49fbbe05ea7c40839df9a6e154662c83b4ee761",
+      "sidecar_path": "data/output/embeddings/cache_hadolint_structured.metadata.json",
+      "sidecar_sha256": "3977a2fe2369c13dced2d9dcf520493c3a94b971b2b0a64739fb4d8690456b3d"
+    },
+    "target_embedding_cache": {
+      "path": "data/output/embeddings/cache_iec_structured.pkl",
+      "observed_vector_count": 100,
+      "sha256": "3ba7d6cc0c7056f63f04f0569d25abf795773555536b227356b6586c8bfa7886",
+      "sidecar_path": "data/output/embeddings/cache_iec_structured.metadata.json",
+      "sidecar_sha256": "6bf2c6ea1ffcea406fe523b5376242172bb09a3c33d6fb00653176f02f452acc"
+    },
+    "embedding_text_audit": {
+      "path": "data/output/embeddings/embedding_text_audit.json",
+      "sha256": "5e95b5128024d96f406a99a4980bf81e537143f0e1e05dc1140cb44800fc784e"
+    },
+    "matching_configuration": {
+      "path": "config/matching.yaml",
+      "sha256": "f8208b50c38309741185a18d4b646619654bc698efab516922cb21f50d978be5"
+    },
+    "canonical_matching": {
+      "path": "data/output/mappings/iec/inspection/iec_matches_068_top10.json",
+      "sidecar_path": "data/output/mappings/iec/inspection/iec_matches_068_top10.metadata.json",
+      "observed_source_count": 595,
+      "observed_target_count": 100,
+      "observed_pair_count": 4149,
+      "sha256": "38385ad13784abfb86940d3ae4ed5176269c79808b6b52c4ef86a0e03dd930d9",
+      "sidecar_sha256": "96c1e9be27eac384515a07f8e28205c59f8efed818da6485da303e61952aee80"
+    },
+    "canonical_candidate_set": {
       "path": "data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.json",
-      "expected_source_rules": 594,
-      "expected_associations": 4134,
-      "expected_hadolint_associations": 529,
-      "expected_shellcheck_associations": 3605,
-      "expected_sr_associations": 2214,
-      "expected_re_associations": 1920,
-      "sha256": null
-    },
-    "gemini_pair_audit": {
-      "path": "data/output/mappings/iec/inspection/gold_standard/gemini_audit/full/iec_gold_standard_gemini_audit.json",
-      "expected_results": 4134,
-      "expected_yes": 78,
-      "expected_maybe": 481,
-      "expected_no": 3575,
-      "sha256": null
-    },
-    "security_relevance_audit": {
-      "path": "data/output/mappings/iec/inspection/gold_standard/gemini_audit/security_relevance/security_relevance_gemini_audit.json",
-      "expected_rules": 594,
-      "expected_security_related": 86,
-      "expected_non_security": 504,
-      "expected_uncertain": 4,
-      "sha256": null
+      "sidecar_path": "data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.metadata.json",
+      "observed_source_count": 595,
+      "observed_target_count": 100,
+      "observed_pair_count": 4149,
+      "observed_hadolint_pairs": 566,
+      "observed_shellcheck_pairs": 3583,
+      "observed_sr_pairs": 2240,
+      "observed_re_pairs": 1909,
+      "observed_zero_candidate_sources": 0,
+      "sha256": "064093f08764f3cbeeb1599a5626c4402349b2d35290d630e81bb00ac1b925a7",
+      "sidecar_sha256": "e9de06b09d42628d66d346b3ae0b51ad9fe2e7aa7ba3c144000e6d9eefcce9e7"
     }
+  },
+  "historical_development": {
+    "recoverable_git_commit": "b2efcd1c5a0ca43945c51b6b6d3f1ba305918d47",
+    "source_count": 594,
+    "pair_count": 4134,
+    "status": "development/historical; not canonical"
   }
 }

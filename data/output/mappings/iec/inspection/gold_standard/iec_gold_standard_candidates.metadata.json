@@ -1,0 +1,59 @@
+{
+  "metadata_version": 1,
+  "output_json_path": "data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.json",
+  "output_json_sha256": "064093f08764f3cbeeb1599a5626c4402349b2d35290d630e81bb00ac1b925a7",
+  "source_dataset_sha256": "708cb58293a9d081f492c1010830f6cf96b040db9d767545cc211f6c6eee37ea",
+  "target_dataset_sha256": "fa44e0af3598b58bae7e6dd8057479234bd8c97cd0d9f3effee34f244c007a4c",
+  "source_cache_sha256": "0ce1921e4a4b021eafe735edd49fbbe05ea7c40839df9a6e154662c83b4ee761",
+  "source_cache_sidecar_sha256": "3977a2fe2369c13dced2d9dcf520493c3a94b971b2b0a64739fb4d8690456b3d",
+  "target_cache_sha256": "3ba7d6cc0c7056f63f04f0569d25abf795773555536b227356b6586c8bfa7886",
+  "target_cache_sidecar_sha256": "6bf2c6ea1ffcea406fe523b5376242172bb09a3c33d6fb00653176f02f452acc",
+  "embedding_text_audit_sha256": "5e95b5128024d96f406a99a4980bf81e537143f0e1e05dc1140cb44800fc784e",
+  "embedding_generator_sha256": "219059d8ed8618ab2fa35b83a14a876ebb524150a2ad65c801674852fa4b2bd8",
+  "matching_config_path": "config/matching.yaml",
+  "matching_config_sha256": "f8208b50c38309741185a18d4b646619654bc698efab516922cb21f50d978be5",
+  "matching_script_path": "inspect_iec_matches.py",
+  "matching_script_sha256": "4553de1fb32ecc76e89b3b1cc29f51133637ffdc3bf812ec65e189e89a804b35",
+  "matching_json_sha256": "38385ad13784abfb86940d3ae4ed5176269c79808b6b52c4ef86a0e03dd930d9",
+  "matching_sidecar_sha256": "96c1e9be27eac384515a07f8e28205c59f8efed818da6485da303e61952aee80",
+  "candidate_script_path": "build_gold_standard.py",
+  "candidate_script_sha256": "07265d3353cb7c5cad651d870c24e57caa7ffc2d6e64c0710325ec7ba2df01b1",
+  "observed": {
+    "source_count": 595,
+    "target_count": 100,
+    "match_count": 4149,
+    "hadolint_match_count": 566,
+    "shellcheck_match_count": 3583,
+    "sr_match_count": 2240,
+    "re_match_count": 1909,
+    "zero_candidate_source_count": 0,
+    "candidate_count_distribution": {
+      "1": 33,
+      "2": 33,
+      "3": 52,
+      "4": 48,
+      "5": 34,
+      "6": 44,
+      "7": 52,
+      "8": 26,
+      "9": 34,
+      "10": 239
+    }
+  },
+  "repository": {
+    "commit": "b2efcd1c5a0ca43945c51b6b6d3f1ba305918d47",
+    "dirty": true
+  },
+  "runtime": {
+    "python_version": "3.12.3",
+    "numpy_version": "2.5.1",
+    "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+    "numpy_backend": "Build Dependencies:\n  blas:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.33.112.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Haswell MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.33.112.0\n  lapack:\n    detection method: pkgconfig\n    found: true\n    include directory: /opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/include\n    lib directory: /opt/_internal/cpython-3.12.13/lib/python3.12/site-packages/scipy_openblas64/lib\n    name: scipy-openblas\n    openblas configuration: OpenBLAS 0.3.33.112.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY\n      Haswell MAX_THREADS=64\n    pc file directory: /project/.openblas\n    version: 0.3.33.112.0\nCompilers:\n  c:\n    commands: cc\n    linker: ld.bfd\n    name: gcc\n    version: 14.2.1\n  c++:\n    commands: c++\n    linker: ld.bfd\n    name: gcc\n    version: 14.2.1\n  cython:\n    commands: cython\n    linker: cython\n    name: cython\n    version: 3.2.8\nMachine Information:\n  build:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\n  host:\n    cpu: x86_64\n    endian: little\n    family: x86_64\n    system: linux\nPython Information:\n  path: /tmp/build-env-kd0sw37v/bin/python\n  version: '3.12'\nSIMD Extensions:\n  baseline:\n  - X86_V2\n  not found:\n  - X86_V3\n  - X86_V4\n  - AVX512_ICL\n  - AVX512_SPR\n\n"
+  },
+  "command": [
+    "python",
+    "build_gold_standard.py",
+    "--overwrite"
+  ],
+  "generated_at_utc": "2026-09-27T19:50:26.792124+00:00"
+}

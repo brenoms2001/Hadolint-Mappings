@@ -1,16 +1,48 @@
-version: 1
+version: 2
 
 embedding:
   model: BAAI/bge-large-en-v1.5
   revision: d4aa6901d3a41ba39fb536a557fa166f842b0e09
   tokenizer_revision: d4aa6901d3a41ba39fb536a557fa166f842b0e09
   dimensions: 1024
+  dtype: float32
   normalized: true
+  norm_tolerance: 1.0e-5
   text_builder_version: historical-structured-v1
+
+artifacts:
+  source_dataset:
+    path: data/output/datasets/hadolint_rules_structured.json
+    sha256: 708cb58293a9d081f492c1010830f6cf96b040db9d767545cc211f6c6eee37ea
+    count: 595
+  target_dataset:
+    path: data/output/datasets/iec62443_clean.json
+    sha256: fa44e0af3598b58bae7e6dd8057479234bd8c97cd0d9f3effee34f244c007a4c
+    count: 100
+  source_cache:
+    path: data/output/embeddings/cache_hadolint_structured.pkl
+    sha256: 0ce1921e4a4b021eafe735edd49fbbe05ea7c40839df9a6e154662c83b4ee761
+    sidecar_path: data/output/embeddings/cache_hadolint_structured.metadata.json
+    sidecar_sha256: 3977a2fe2369c13dced2d9dcf520493c3a94b971b2b0a64739fb4d8690456b3d
+  target_cache:
+    path: data/output/embeddings/cache_iec_structured.pkl
+    sha256: 3ba7d6cc0c7056f63f04f0569d25abf795773555536b227356b6586c8bfa7886
+    sidecar_path: data/output/embeddings/cache_iec_structured.metadata.json
+    sidecar_sha256: 6bf2c6ea1ffcea406fe523b5376242172bb09a3c33d6fb00653176f02f452acc
+  text_audit:
+    path: data/output/embeddings/embedding_text_audit.json
+    sha256: 5e95b5128024d96f406a99a4980bf81e537143f0e1e05dc1140cb44800fc784e
+  generator:
+    path: generate_embeddings.py
+    sha256: 219059d8ed8618ab2fa35b83a14a876ebb524150a2ad65c801674852fa4b2bd8
 
 matching:
   similarity: cosine
-  clamp_negative: true
+  execution_dtype: float32
+  cosine_implementation: matrix_product_of_validated_unit_vectors
+  negative_clamp:
+    enabled: true
+    value: 0.0
 
   power_transform:
     enabled: true
@@ -22,8 +54,19 @@ matching:
 
   threshold:
     type: relative
+    operator: ">="
     value: 0.68
 
   top_k: 10
+
+  zero_row_policy: all_relative_scores_zero_and_no_candidates
+
+  ordering:
+    primary: relative_score_descending
+    secondary: frozen_iec_dataset_order_ascending
+
+  serialization:
+    canonical_json_score_rounding: null
+    derived_csv_decimal_places: 6
 
 canonical_method: "cosine similarity -> clamp negative -> power transform -> L-infinity normalization -> threshold -> top-K"

@@ -4,23 +4,26 @@
 
 ### Candidate set
 
-Under the current canonical matching configuration:
+Under the definitive canonical matching execution:
 
-- 594 source rules produced 4134 candidate associations.
-- 529 associations came from Hadolint rules.
-- 3605 came from ShellCheck rules.
-- 2214 targeted SR.
-- 1920 targeted RE.
+- 595 source rules produced 4149 candidate associations.
+- 566 associations came from Hadolint rules.
+- 3583 came from ShellCheck rules.
+- 2240 targeted SR.
+- 1909 targeted RE.
+- 0 source rules had zero candidates.
 
 ### Preliminary Gemini pair audit
 
-Gemini classified:
+For the historical 594-rule/4134-pair development candidate set, Gemini
+classified:
 
 - 78 pairs as YES
 - 481 as MAYBE
 - 3575 as NO
 
-This is a preliminary LLM audit, not the human gold standard.
+This is a historical preliminary LLM audit, not an audit of the definitive
+4149-pair candidate set and not the human gold standard.
 
 ### Security relevance
 

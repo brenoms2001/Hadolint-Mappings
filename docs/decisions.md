@@ -111,3 +111,18 @@ The canonical model and tokenizer revision is
 `d4aa6901d3a41ba39fb536a557fa166f842b0e09`. Definitive embeddings must not be
 treated as generated until an authorized CUDA run creates caches and complete
 metadata sidecars from the frozen inputs.
+
+This condition was fulfilled by the authorized canonical generation recorded
+in the cache sidecars and `manifests/canonical_artifacts.json`.
+
+## D013 — Canonical numerical execution and deterministic ordering
+
+Canonical matching uses validated normalized float32 embeddings and a float32
+matrix product. Selection and ranking use unrounded float32 values. After the
+canonical clamp, power transform, and per-source L-infinity normalization, the
+inclusive threshold is `>= 0.68`. Candidates are sorted by relative score
+descending and then by frozen IEC dataset order ascending before top-K 10.
+
+Canonical JSON scores are not deliberately decimal-rounded. CSV rounding is a
+display-only transformation. `config/matching.yaml` is the executable
+authority for these semantics.

@@ -54,7 +54,14 @@ must record the input and output hashes, ordered-ID hash, text-builder identity,
 model/tokenizer revision, dimension, normalization, dtype, count, batch size,
 device, software versions, generator hash, Git state, and UTC timestamp.
 
-The definitive final-population embeddings have not yet been generated.
+The definitive final-population embeddings have been generated and validated.
+Their cache, sidecar, text-audit, dataset, and generator hashes are frozen in
+`config/matching.yaml` and `manifests/canonical_artifacts.json`.
+
+Canonical matching is executed by `inspect_iec_matches.py`. The script validates
+all embedding inputs before computation and emits deterministic JSON plus a
+run-specific provenance sidecar. `build_gold_standard.py` consumes only that
+validated matching artifact and emits the definitive unreviewed candidate set.
 
 ## LLM pair audit configuration
 
