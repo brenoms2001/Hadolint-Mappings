@@ -1,0 +1,22 @@
+version: 3
+
+role: preliminary_pair_auditor
+
+model: gemini-3.1-flash-lite
+temperature: 0
+batch_size: 5
+
+prompt_version: iec-gemini-preliminary-audit-v3-enriched-context
+prompt_path: prompts/gemini_pair_audit_v3.txt
+
+retries:
+  max_retries: 5
+  validation_retries: 2
+  request_delay_seconds: 5.0
+  backoff_base_seconds: 10.0
+
+max_pairs: null
+
+authority:
+  gold_standard: false
+  human_review_required: true

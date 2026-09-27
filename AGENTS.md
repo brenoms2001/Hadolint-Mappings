@@ -1,82 +1,110 @@
 # AGENTS.md
 
-## Project
+## Project type
 
-This repository implements research on semantic mapping between
-Hadolint/ShellCheck static-analysis rules and IEC 62443-3-3
-security requirements.
+This is a scientific research repository.
 
-## Dataset
+Preserving methodological integrity, traceability, and reproducibility takes priority over code cleanliness.
 
-Source rules:
-- 75 Hadolint
-- 519 ShellCheck
-- 594 total
+## Required reading before modifying the repository
 
-IEC:
-- 100 requirements
-- 51 SR
-- 49 RE
+Read, in this order:
 
-## Canonical matching configuration
+1. `docs/methodology.md`
+2. `docs/data_contracts.md`
+3. `docs/decisions.md`
+4. `docs/pipeline.md`
+5. `REPRODUCIBILITY.md`
+6. `config/*.yaml`
 
-- Embedding model: BAAI/bge-large-en-v1.5
-- Embedding dimension: 1024
-- Similarity: cosine
-- Negative similarity: clamped to 0
-- Power transform: 5.5
-- Normalization: L-infinity per source rule
-- Relative threshold: 0.68
-- Top-K: 10
+## Canonical matching methodology
 
-Do not change these values without explicit authorization.
+Do not modify methodological parameters unless explicitly authorized.
 
-## Gemini audit
+Canonical values:
+
+- embedding model: `BAAI/bge-large-en-v1.5`
+- embedding dimension: 1024
+- normalized embeddings: true
+- similarity: cosine
+- negative similarities: clamp to zero
+- power transform exponent: 5.5
+- normalization: L-infinity per source rule
+- relative threshold: 0.68
+- top-K: 10
+
+Canonical method:
+
+`cosine similarity -> clamp negative -> power transform -> L-infinity normalization -> threshold -> top-K`
+
+## Gold-standard authority
 
 Gemini is a preliminary auditor.
 
-Gemini results are NOT the gold standard.
+Gemini output is NOT the gold standard.
 
-Human review remains authoritative for final labels.
+Human review remains authoritative for final pair labels.
 
-Do not infer the gold standard from Gemini YES/MAYBE/NO.
+Do not infer the gold standard from Gemini `YES` / `MAYBE` / `NO`.
 
 ## Security relevance
 
 Security relevance is an auxiliary rule-level analysis.
 
-It must not modify candidate generation or the canonical matching pipeline.
+The current LLM-assisted classification is preliminary and must not:
 
-## Reproducibility
+- filter candidate associations;
+- alter thresholding or ranking;
+- modify candidate generation;
+- determine human pair labels;
+- be presented as author-validated unless an independent human validation has been completed.
 
-Prefer preserving scripts and intermediate artifacts required to
-reconstruct published results.
+## Research artifacts
 
-Do not delete research artifacts solely because they are not imported
-by another Python module.
+A file does not need to be imported by another Python module to be scientifically relevant.
 
-## Changes
+Before deleting, moving, or replacing a research artifact:
 
-Before deleting or substantially restructuring research artifacts,
-inspect their references and role in the pipeline.
+1. determine which stage generated it;
+2. determine whether another stage consumes it;
+3. determine whether it is necessary for reproducibility or auditability;
+4. check whether it is referenced by documentation, scripts, or paper notes.
 
-When uncertain, preserve the artifact and mark it for manual review.
+If uncertain, do not delete it. Mark it for manual review.
 
-## Repository layout
+## Methodological inconsistencies
 
-Scripts stay at the repository root (mixed BASE_DIR conventions make
-subfolders error-prone without refactoring). `data/` keeps inputs and
-outputs; `notebooks/` holds the original (historical) pipeline.
+Do not silently repair anything that can change scientific results.
+
+Report it as:
+
+`METHODOLOGICAL REVIEW REQUIRED`
+
+Include:
+- affected file(s);
+- observed behavior;
+- documented expected behavior;
+- likely impact.
 
 ## Secrets
 
-Gemini API keys are read from the `GEMINI_API_KEY` environment
-variable. Never hardcode or commit keys.
+Never commit:
+- API keys;
+- tokens;
+- credentials;
+- `.env`;
+- machine-specific secrets.
 
-## Output versioning
+Use `.env.example` for documentation only.
 
-Only canonical research outputs under `data/output/mappings/` are
-versioned (gold standard candidates, Gemini audit, annotations,
-security relevance, matches, analyses). Checkpoints, progress files,
-pilot runs and derived markdown dumps are gitignored but may remain
-on disk. See `.gitignore`.
+## Refactoring
+
+Repository cleanup and scientific-method changes are separate tasks.
+
+During cleanup:
+- preserve scientific behavior;
+- prefer moves over rewrites;
+- update paths carefully;
+- verify outputs after changes.
+
+Do not commit automatically unless explicitly instructed.

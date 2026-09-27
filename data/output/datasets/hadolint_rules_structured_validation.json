@@ -1,0 +1,1431 @@
+{
+    "validation_version": 1,
+    "parser_specification_version": "canonical-source-parser-v1",
+    "passed": true,
+    "failures": [],
+    "counts": {
+        "hadolint": 75,
+        "shellcheck": 520,
+        "total": 595
+    },
+    "source_manifest_sha256": "a20bacc25738611d9f286331e4336e02e1aaf34bd0072b8be8c799b2cf8cb027",
+    "field_coverage": {
+        "problematic_code": 570,
+        "correct_code": 572,
+        "rationale": 560,
+        "exceptions": 478
+    },
+    "section_occurrences": {
+        "problematic_code": 568,
+        "correct_code": 569,
+        "rationale": 562,
+        "exceptions": 478
+    },
+    "qualified_occurrences": {
+        "problematic_code": 7,
+        "correct_code": 7,
+        "rationale": 0,
+        "exceptions": 0
+    },
+    "rules_with_repeated_sections": {
+        "problematic_code": 3,
+        "correct_code": 5,
+        "rationale": 1,
+        "exceptions": 0
+    },
+    "fences": {
+        "total": 1444,
+        "language_identifiers": {
+            "C": 1,
+            "Dockefile": 1,
+            "Dockerfile": 64,
+            "bash": 30,
+            "console": 13,
+            "dockerfile": 102,
+            "python": 1,
+            "sh": 1223,
+            "shell": 4,
+            "yaml": 1
+        }
+    },
+    "warning_count": 99,
+    "warning_counts_by_code": {
+        "empty_semantic_section": 1,
+        "missing_semantic_field": 98
+    },
+    "warnings": [
+        {
+            "source": "hadolint",
+            "source_id": "DL3010",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "hadolint",
+            "source_id": "DL3010",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "hadolint",
+            "source_id": "DL3053",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "hadolint",
+            "source_id": "DL3058",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1009",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1009",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1009",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1018",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1018",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1018",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1034",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1034",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1034",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1047",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1047",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1047",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1062",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1062",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1062",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1070",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1070",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1071",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1072",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1073",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1073",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1073",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1079",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1079",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1079",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1105",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1105",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1105",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1134",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1134",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC1134",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2000",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2000",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2000",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2019",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2019",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2019",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2030",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2030",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2030",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2032",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2032",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2032",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2039",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2039",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2039",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2040",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2040",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2040",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2079",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2079",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2079",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2090",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2090",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2090",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2092",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2092",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2092",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2098",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2098",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2098",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2119",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2119",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2119",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2167",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2167",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2167",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2169",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2169",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2169",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2222",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2222",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2222",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2263",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2263",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2263",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2303",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2303",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2303",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2327",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2327",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2327",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3006",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3009",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3009",
+            "code": "empty_semantic_section",
+            "field": "rationale",
+            "line": 29,
+            "message": "Recognized semantic heading has an empty body."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3010",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3010",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3010",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3019",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3035",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3035",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3035",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3055",
+            "code": "missing_semantic_field",
+            "field": "correct_code",
+            "line": null,
+            "message": "No nonempty correct_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3055",
+            "code": "missing_semantic_field",
+            "field": "problematic_code",
+            "line": null,
+            "message": "No nonempty problematic_code section was extracted."
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC3055",
+            "code": "missing_semantic_field",
+            "field": "rationale",
+            "line": null,
+            "message": "No nonempty rationale section was extracted."
+        }
+    ],
+    "missing_embedding_field_audit": {
+        "review_version": 2,
+        "path": "data/input/hadolint/missing_embedding_field_reviews.json",
+        "sha256": "cddb9e0b92cd34482fe1619235c29a71015dec53699f458edabea300045b39e1",
+        "reviewed_missing_fields": 63,
+        "counts_by_classification": {
+            "A": 46,
+            "B": 17
+        },
+        "category_b_count": 17,
+        "counts_by_resolution": {
+            "explicit_source_curation": 15,
+            "genuinely_absent_retained_null": 46,
+            "methodological_null_exception": 2
+        },
+        "applied_source_curation_count": 15,
+        "methodological_exception_count": 2,
+        "unresolved_category_b_count": 0,
+        "unresolved_category_b": [],
+        "category_b_ids_by_field": {
+            "problematic_code": [
+                "SC1034",
+                "SC1105",
+                "SC2000",
+                "SC2039",
+                "SC2079",
+                "SC3010",
+                "SC3035"
+            ],
+            "correct_code": [
+                "DL3010",
+                "SC1018",
+                "SC1047",
+                "SC1062",
+                "SC2000",
+                "SC2019",
+                "SC2039",
+                "SC2040",
+                "SC2119",
+                "SC3010"
+            ]
+        },
+        "methodological_exceptions": [
+            {
+                "source": "shellcheck",
+                "source_id": "SC2039",
+                "field": "correct_code",
+                "policy": "retain_null_ambiguous_semantic_assignment",
+                "relevant_content_exists": true,
+                "assignment_ambiguous": true,
+                "curation_applied": false,
+                "retained_value": null,
+                "reason": "Potentially relevant POSIX rewrites are distributed across feature sections, prose labels, inline constructs, mixed examples, and one-sided examples; the source does not define one unambiguous correct_code representation.",
+                "frozen_source_commit": "aca6b23fa48dd73df2d6b96d0eac43af294270a3",
+                "source_location": "SC2039.md: feature subsections before the Errors with changed codes and Exception sections",
+                "authority": "Approved canonical methodology: retain null rather than reconstruct semantic grouping"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2039",
+                "field": "problematic_code",
+                "policy": "retain_null_ambiguous_semantic_assignment",
+                "relevant_content_exists": true,
+                "assignment_ambiguous": true,
+                "curation_applied": false,
+                "retained_value": null,
+                "reason": "Potentially relevant Bash and non-POSIX material is distributed across feature sections, prose labels, inline constructs, mixed examples, and one-sided examples; the source does not define one unambiguous problematic_code representation.",
+                "frozen_source_commit": "aca6b23fa48dd73df2d6b96d0eac43af294270a3",
+                "source_location": "SC2039.md: feature subsections before the Errors with changed codes and Exception sections",
+                "authority": "Approved canonical methodology: retain null rather than reconstruct semantic grouping"
+            }
+        ],
+        "publication_allowed": true,
+        "entries": [
+            {
+                "source": "hadolint",
+                "source_id": "DL3010",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "A concrete ADD instruction appears inside rationale prose rather than a Correct code section.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "hadolint",
+                "source_id": "DL3010",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No problematic Docker instruction is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1009",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Parser-error explanation only; no correction.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1009",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Parser-error explanation only; no example.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1018",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "An unheaded fenced sed correction command appears in prose.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1018",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No problematic example is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1034",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected expression is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1034",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "The mismatched [ and ]] expression appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1047",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "The corrective fi token appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1047",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No malformed example is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1062",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "The corrective done token appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1062",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No malformed example is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1070",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Only rationale and exceptions are present.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1070",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Only rationale and exceptions are present.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1071",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "The page explains unsupported languages but supplies no supported replacement example.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1073",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Generic parser-recovery advice only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1073",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Generic parser-recovery advice only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1079",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Diagnostic description only; no corrected quote example.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1079",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Diagnostic description only; no quote example.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1105",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Correction is described but no corrected code example is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1105",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "The problematic (( token appears schematically in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1134",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No correction is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC1134",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "The fenced text is a ShellCheck diagnostic, not problematic source code.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2000",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "The ${#1} replacement appears in the same generic fenced example.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2000",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "wc examples appear under the generic example code heading.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2019",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "The corrective [:upper:] construct appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2019",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No problematic character-range example is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2030",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Diagnostic summary and companion link only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2030",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Diagnostic summary and companion link only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2032",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected invocation is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2032",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Context and companion link only; no invocation.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2039",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "Paired POSIX fenced rewrites occur under feature headings and prose labels.",
+                "resolution": "methodological_null_exception"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2039",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "Many Bash/non-POSIX fenced examples occur under feature headings and prose labels.",
+                "resolution": "methodological_null_exception"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2040",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "A replacement bash shebang appears inline in prose.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2040",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "The unsupported feature is an unresolved placeholder.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2079",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Tools are recommended but no corrected command is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2079",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "The decimal arithmetic form (( )) appears schematically in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2090",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Warning description and companion link only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2090",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Warning description and companion link only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2092",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No resulting corrected command is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2092",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No offending command is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2098",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Companion-warning stub only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2098",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Companion-warning stub only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2119",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "The corrected foo \"$@\" invocation appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2119",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No problematic invocation is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2167",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected loop variables are shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2167",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Descriptive title and companion link only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2169",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "Workarounds are external references only.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2169",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "Unsupported feature remains a placeholder.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2222",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No reordered correction is present.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2222",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No pattern example is present.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2263",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected arrangement is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2263",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No alias/command example is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2303",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected loop is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2303",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No array expression is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2327",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No corrected form is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC2327",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No substitution/redirection example is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3010",
+                "field": "correct_code",
+                "classification": "B",
+                "evidence": "Portable [ ] and test replacements appear inline in prose.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3010",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "The unsupported [[ ]] construct appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3035",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No replacement is supplied.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3035",
+                "field": "problematic_code",
+                "classification": "B",
+                "evidence": "The unsupported `<file construct appears inline in the title.",
+                "resolution": "explicit_source_curation"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3055",
+                "field": "correct_code",
+                "classification": "A",
+                "evidence": "No portable replacement is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            },
+            {
+                "source": "shellcheck",
+                "source_id": "SC3055",
+                "field": "problematic_code",
+                "classification": "A",
+                "evidence": "No concrete array-key expansion is shown.",
+                "resolution": "genuinely_absent_retained_null"
+            }
+        ]
+    },
+    "publication_allowed": true
+}

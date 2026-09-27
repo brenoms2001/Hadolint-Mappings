@@ -1,0 +1,75 @@
+{
+    "schema_version": 2,
+    "frozen_source_commits": {
+        "hadolint": "4b16cf803e2ebb3fd1eba5ecabd6f5905c20e17b",
+        "shellcheck": "aca6b23fa48dd73df2d6b96d0eac43af294270a3"
+    },
+    "classifications": {
+        "A": "Corresponding semantic code/example content is genuinely absent.",
+        "B": "Relevant content exists but is not recognized by the canonical parser."
+    },
+    "methodological_exceptions": [
+        {
+            "source": "shellcheck",
+            "source_id": "SC2039",
+            "field": "problematic_code",
+            "policy": "retain_null_ambiguous_semantic_assignment",
+            "relevant_content_exists": true,
+            "assignment_ambiguous": true,
+            "curation_applied": false,
+            "retained_value": null,
+            "reason": "Potentially relevant Bash and non-POSIX material is distributed across feature sections, prose labels, inline constructs, mixed examples, and one-sided examples; the source does not define one unambiguous problematic_code representation.",
+            "frozen_source_commit": "aca6b23fa48dd73df2d6b96d0eac43af294270a3",
+            "source_location": "SC2039.md: feature subsections before the Errors with changed codes and Exception sections",
+            "authority": "Approved canonical methodology: retain null rather than reconstruct semantic grouping"
+        },
+        {
+            "source": "shellcheck",
+            "source_id": "SC2039",
+            "field": "correct_code",
+            "policy": "retain_null_ambiguous_semantic_assignment",
+            "relevant_content_exists": true,
+            "assignment_ambiguous": true,
+            "curation_applied": false,
+            "retained_value": null,
+            "reason": "Potentially relevant POSIX rewrites are distributed across feature sections, prose labels, inline constructs, mixed examples, and one-sided examples; the source does not define one unambiguous correct_code representation.",
+            "frozen_source_commit": "aca6b23fa48dd73df2d6b96d0eac43af294270a3",
+            "source_location": "SC2039.md: feature subsections before the Errors with changed codes and Exception sections",
+            "authority": "Approved canonical methodology: retain null rather than reconstruct semantic grouping"
+        }
+    ],
+    "reviews": [
+        {"source": "hadolint", "source_id": "DL3010", "fields": {"problematic_code": {"classification": "A", "evidence": "No problematic Docker instruction is shown."}, "correct_code": {"classification": "B", "evidence": "A concrete ADD instruction appears inside rationale prose rather than a Correct code section."}}},
+        {"source": "shellcheck", "source_id": "SC1009", "fields": {"problematic_code": {"classification": "A", "evidence": "Parser-error explanation only; no example."}, "correct_code": {"classification": "A", "evidence": "Parser-error explanation only; no correction."}}},
+        {"source": "shellcheck", "source_id": "SC1018", "fields": {"problematic_code": {"classification": "A", "evidence": "No problematic example is shown."}, "correct_code": {"classification": "B", "evidence": "An unheaded fenced sed correction command appears in prose."}}},
+        {"source": "shellcheck", "source_id": "SC1034", "fields": {"problematic_code": {"classification": "B", "evidence": "The mismatched [ and ]] expression appears inline in the title."}, "correct_code": {"classification": "A", "evidence": "No corrected expression is shown."}}},
+        {"source": "shellcheck", "source_id": "SC1047", "fields": {"problematic_code": {"classification": "A", "evidence": "No malformed example is shown."}, "correct_code": {"classification": "B", "evidence": "The corrective fi token appears inline in the title."}}},
+        {"source": "shellcheck", "source_id": "SC1062", "fields": {"problematic_code": {"classification": "A", "evidence": "No malformed example is shown."}, "correct_code": {"classification": "B", "evidence": "The corrective done token appears inline in the title."}}},
+        {"source": "shellcheck", "source_id": "SC1070", "fields": {"problematic_code": {"classification": "A", "evidence": "Only rationale and exceptions are present."}, "correct_code": {"classification": "A", "evidence": "Only rationale and exceptions are present."}}},
+        {"source": "shellcheck", "source_id": "SC1071", "fields": {"correct_code": {"classification": "A", "evidence": "The page explains unsupported languages but supplies no supported replacement example."}}},
+        {"source": "shellcheck", "source_id": "SC1073", "fields": {"problematic_code": {"classification": "A", "evidence": "Generic parser-recovery advice only."}, "correct_code": {"classification": "A", "evidence": "Generic parser-recovery advice only."}}},
+        {"source": "shellcheck", "source_id": "SC1079", "fields": {"problematic_code": {"classification": "A", "evidence": "Diagnostic description only; no quote example."}, "correct_code": {"classification": "A", "evidence": "Diagnostic description only; no corrected quote example."}}},
+        {"source": "shellcheck", "source_id": "SC1105", "fields": {"problematic_code": {"classification": "B", "evidence": "The problematic (( token appears schematically in the title."}, "correct_code": {"classification": "A", "evidence": "Correction is described but no corrected code example is shown."}}},
+        {"source": "shellcheck", "source_id": "SC1134", "fields": {"problematic_code": {"classification": "A", "evidence": "The fenced text is a ShellCheck diagnostic, not problematic source code."}, "correct_code": {"classification": "A", "evidence": "No correction is supplied."}}},
+        {"source": "shellcheck", "source_id": "SC2000", "fields": {"problematic_code": {"classification": "B", "evidence": "wc examples appear under the generic example code heading."}, "correct_code": {"classification": "B", "evidence": "The ${#1} replacement appears in the same generic fenced example."}}},
+        {"source": "shellcheck", "source_id": "SC2019", "fields": {"problematic_code": {"classification": "A", "evidence": "No problematic character-range example is shown."}, "correct_code": {"classification": "B", "evidence": "The corrective [:upper:] construct appears inline in the title."}}},
+        {"source": "shellcheck", "source_id": "SC2030", "fields": {"problematic_code": {"classification": "A", "evidence": "Diagnostic summary and companion link only."}, "correct_code": {"classification": "A", "evidence": "Diagnostic summary and companion link only."}}},
+        {"source": "shellcheck", "source_id": "SC2032", "fields": {"problematic_code": {"classification": "A", "evidence": "Context and companion link only; no invocation."}, "correct_code": {"classification": "A", "evidence": "No corrected invocation is shown."}}},
+        {"source": "shellcheck", "source_id": "SC2039", "fields": {"problematic_code": {"classification": "B", "evidence": "Many Bash/non-POSIX fenced examples occur under feature headings and prose labels."}, "correct_code": {"classification": "B", "evidence": "Paired POSIX fenced rewrites occur under feature headings and prose labels."}}},
+        {"source": "shellcheck", "source_id": "SC2040", "fields": {"problematic_code": {"classification": "A", "evidence": "The unsupported feature is an unresolved placeholder."}, "correct_code": {"classification": "B", "evidence": "A replacement bash shebang appears inline in prose."}}},
+        {"source": "shellcheck", "source_id": "SC2079", "fields": {"problematic_code": {"classification": "B", "evidence": "The decimal arithmetic form (( )) appears schematically in the title."}, "correct_code": {"classification": "A", "evidence": "Tools are recommended but no corrected command is shown."}}},
+        {"source": "shellcheck", "source_id": "SC2090", "fields": {"problematic_code": {"classification": "A", "evidence": "Warning description and companion link only."}, "correct_code": {"classification": "A", "evidence": "Warning description and companion link only."}}},
+        {"source": "shellcheck", "source_id": "SC2092", "fields": {"problematic_code": {"classification": "A", "evidence": "No offending command is shown."}, "correct_code": {"classification": "A", "evidence": "No resulting corrected command is shown."}}},
+        {"source": "shellcheck", "source_id": "SC2098", "fields": {"problematic_code": {"classification": "A", "evidence": "Companion-warning stub only."}, "correct_code": {"classification": "A", "evidence": "Companion-warning stub only."}}},
+        {"source": "shellcheck", "source_id": "SC2119", "fields": {"problematic_code": {"classification": "A", "evidence": "No problematic invocation is shown."}, "correct_code": {"classification": "B", "evidence": "The corrected foo \"$@\" invocation appears inline in the title."}}},
+        {"source": "shellcheck", "source_id": "SC2167", "fields": {"problematic_code": {"classification": "A", "evidence": "Descriptive title and companion link only."}, "correct_code": {"classification": "A", "evidence": "No corrected loop variables are shown."}}},
+        {"source": "shellcheck", "source_id": "SC2169", "fields": {"problematic_code": {"classification": "A", "evidence": "Unsupported feature remains a placeholder."}, "correct_code": {"classification": "A", "evidence": "Workarounds are external references only."}}},
+        {"source": "shellcheck", "source_id": "SC2222", "fields": {"problematic_code": {"classification": "A", "evidence": "No pattern example is present."}, "correct_code": {"classification": "A", "evidence": "No reordered correction is present."}}},
+        {"source": "shellcheck", "source_id": "SC2263", "fields": {"problematic_code": {"classification": "A", "evidence": "No alias/command example is supplied."}, "correct_code": {"classification": "A", "evidence": "No corrected arrangement is supplied."}}},
+        {"source": "shellcheck", "source_id": "SC2303", "fields": {"problematic_code": {"classification": "A", "evidence": "No array expression is shown."}, "correct_code": {"classification": "A", "evidence": "No corrected loop is shown."}}},
+        {"source": "shellcheck", "source_id": "SC2327", "fields": {"problematic_code": {"classification": "A", "evidence": "No substitution/redirection example is supplied."}, "correct_code": {"classification": "A", "evidence": "No corrected form is supplied."}}},
+        {"source": "shellcheck", "source_id": "SC3010", "fields": {"problematic_code": {"classification": "B", "evidence": "The unsupported [[ ]] construct appears inline in the title."}, "correct_code": {"classification": "B", "evidence": "Portable [ ] and test replacements appear inline in prose."}}},
+        {"source": "shellcheck", "source_id": "SC3035", "fields": {"problematic_code": {"classification": "B", "evidence": "The unsupported `<file construct appears inline in the title."}, "correct_code": {"classification": "A", "evidence": "No replacement is supplied."}}},
+        {"source": "shellcheck", "source_id": "SC3055", "fields": {"problematic_code": {"classification": "A", "evidence": "No concrete array-key expansion is shown."}, "correct_code": {"classification": "A", "evidence": "No portable replacement is shown."}}}
+    ]
+}

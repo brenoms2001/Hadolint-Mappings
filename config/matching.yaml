@@ -1,0 +1,29 @@
+version: 1
+
+embedding:
+  model: BAAI/bge-large-en-v1.5
+  revision: d4aa6901d3a41ba39fb536a557fa166f842b0e09
+  tokenizer_revision: d4aa6901d3a41ba39fb536a557fa166f842b0e09
+  dimensions: 1024
+  normalized: true
+  text_builder_version: historical-structured-v1
+
+matching:
+  similarity: cosine
+  clamp_negative: true
+
+  power_transform:
+    enabled: true
+    exponent: 5.5
+
+  normalization:
+    method: l_infinity
+    scope: per_source_rule
+
+  threshold:
+    type: relative
+    value: 0.68
+
+  top_k: 10
+
+canonical_method: "cosine similarity -> clamp negative -> power transform -> L-infinity normalization -> threshold -> top-K"

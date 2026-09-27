@@ -1,0 +1,6 @@
+[submodule "data/input/hadolint/wiki_hadolint_temp"]
+	path = data/input/hadolint/wiki_hadolint_temp
+	url = https://github.com/hadolint/hadolint.wiki.git
+[submodule "data/input/hadolint/wiki_shellcheck_temp"]
+	path = data/input/hadolint/wiki_shellcheck_temp
+	url = https://github.com/koalaman/shellcheck.wiki.git

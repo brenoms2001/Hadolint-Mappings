@@ -1,0 +1,36 @@
+version: 1
+
+role: preliminary_rule_level_security_relevance_auditor
+
+model: gemini-3.1-flash-lite
+temperature: 0
+batch_size: 5
+
+prompt_version: iec-gemini-security-relevance-audit-v1
+prompt_path: prompts/security_relevance_v1.txt
+
+allowed_relevance:
+  - security_related
+  - non_security
+  - uncertain
+
+security_categories:
+  - authentication
+  - authorization_access_control
+  - least_privilege
+  - secrets_credentials
+  - input_validation
+  - injection_command_execution
+  - information_exposure
+  - integrity
+  - availability
+  - secure_configuration
+  - dependency_supply_chain
+  - network_security
+  - other_security
+
+methodological_role:
+  auxiliary_analysis: true
+  candidate_filter: false
+  gold_standard_authority: false
+  human_validation_status: preliminary

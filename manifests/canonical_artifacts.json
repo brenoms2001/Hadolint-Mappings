@@ -1,0 +1,43 @@
+{
+  "manifest_version": 1,
+  "status": "migration-bootstrap",
+  "note": "The canonical source_rules entry is verified. Remaining downstream entries describe historical 594-rule artifacts and retain bootstrap status until independently verified or regenerated.",
+  "artifacts": {
+    "source_rules": {
+      "path": "data/output/datasets/hadolint_rules_structured.json",
+      "expected_rule_count": 595,
+      "sha256": "708cb58293a9d081f492c1010830f6cf96b040db9d767545cc211f6c6eee37ea"
+    },
+    "iec_enriched": {
+      "path": "data/output/datasets/iec62443_with_rationale.json",
+      "expected_requirement_count": 100,
+      "sha256": null
+    },
+    "candidate_set": {
+      "path": "data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.json",
+      "expected_source_rules": 594,
+      "expected_associations": 4134,
+      "expected_hadolint_associations": 529,
+      "expected_shellcheck_associations": 3605,
+      "expected_sr_associations": 2214,
+      "expected_re_associations": 1920,
+      "sha256": null
+    },
+    "gemini_pair_audit": {
+      "path": "data/output/mappings/iec/inspection/gold_standard/gemini_audit/full/iec_gold_standard_gemini_audit.json",
+      "expected_results": 4134,
+      "expected_yes": 78,
+      "expected_maybe": 481,
+      "expected_no": 3575,
+      "sha256": null
+    },
+    "security_relevance_audit": {
+      "path": "data/output/mappings/iec/inspection/gold_standard/gemini_audit/security_relevance/security_relevance_gemini_audit.json",
+      "expected_rules": 594,
+      "expected_security_related": 86,
+      "expected_non_security": 504,
+      "expected_uncertain": 4,
+      "sha256": null
+    }
+  }
+}
