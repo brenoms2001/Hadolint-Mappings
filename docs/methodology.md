@@ -165,6 +165,17 @@ Full pair-audit result count:
 
 Human review remains authoritative.
 
+The historical totals above describe only the 594-rule/4134-pair development
+run. The canonical 595-rule/4149-pair auditor is execution-ready but has not
+called Gemini. Its executable authority is `config/gemini_pair_audit.yaml`.
+The exact v3 prompt is frozen at `prompts/gemini_pair_audit_v3.txt`, and the
+ordered canonical pair and batch manifests are frozen under `manifests/`.
+
+Canonical execution uses two identities: the historical rank-bearing
+`prompt_pair_id` sent to Gemini and a rank-independent `canonical_pair_id` used
+for provenance, checkpointing, and exact result-set validation. Canonical
+outputs are isolated from `gemini_audit/full/`, which remains historical.
+
 ## Security-relevance analysis
 
 A separate historical rule-level LLM-assisted analysis classified the earlier

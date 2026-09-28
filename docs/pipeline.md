@@ -94,3 +94,14 @@ were not silently regenerated.
 
 No LLM audit or human annotation has been run for the definitive 4149-pair
 candidate set.
+
+### Canonical preliminary pair-audit preparation
+
+- status: execution-ready; Gemini not yet called
+- executable: `audit_gold_standard_gemini.py`
+- executable config: `config/gemini_pair_audit.yaml`
+- frozen prompt: `prompts/gemini_pair_audit_v3.txt`
+- ordered pair manifest: 4149 unique canonical pair IDs
+- ordered batch manifest: 830 batches, comprising 829 batches of 5 and one of 4
+- historical 4134-pair results and checkpoints: rejected for canonical resume
+- output namespace: isolated under `gemini_audit/canonical/`

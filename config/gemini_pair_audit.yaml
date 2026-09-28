@@ -1,21 +1,55 @@
 version: 3
-
+audit_format_version: 1
 role: preliminary_pair_auditor
 
 model: gemini-3.1-flash-lite
-temperature: 0
+temperature: 0.0
 batch_size: 5
+response_mime: application/json
 
 prompt_version: iec-gemini-preliminary-audit-v3-enriched-context
 prompt_path: prompts/gemini_pair_audit_v3.txt
+prompt_marker: __CANDIDATE_PAYLOAD_JSON__
+prompt_template_sha256: e328d92c192e420694e57820e03ebef575bfebb48bd5f23df62499d2586390e5
+response_schema_sha256: fab3fde89ff122e86e788cb4f5044f422e5316b8111023dfd8c03af9b76bd763
 
 retries:
-  max_retries: 5
-  validation_retries: 2
+  transient_attempts: 5
+  validation_attempts: 2
   request_delay_seconds: 5.0
   backoff_base_seconds: 10.0
 
-max_pairs: null
+generation_settings:
+  explicitly_set:
+    - temperature
+    - response_mime_type
+    - response_schema
+  provider_defaults:
+    candidate_count: null
+    max_output_tokens: null
+    safety_settings: null
+    seed: null
+    stop_sequences: null
+    top_k: null
+    top_p: null
+
+canonical:
+  freeze_commit: c86caf8b47cd89cd219a27cc01a69fa4679ccf1a
+  candidate_path: data/output/mappings/iec/inspection/gold_standard/iec_gold_standard_candidates.json
+  candidate_sha256: 064093f08764f3cbeeb1599a5626c4402349b2d35290d630e81bb00ac1b925a7
+  candidate_pair_count: 4149
+  source_count: 595
+  source_path: data/output/datasets/hadolint_rules_structured.json
+  source_sha256: 708cb58293a9d081f492c1010830f6cf96b040db9d767545cc211f6c6eee37ea
+  clean_iec_path: data/output/datasets/iec62443_clean.json
+  clean_iec_sha256: fa44e0af3598b58bae7e6dd8057479234bd8c97cd0d9f3effee34f244c007a4c
+  enriched_iec_path: data/output/datasets/iec62443_with_rationale.json
+  enriched_iec_sha256: 33e222b4b57bb321933e113634510c19dabf2a1b5e32cc892d6455e48e2c0bdf
+  pair_manifest_path: manifests/gemini_pair_audit_canonical_pairs.json
+  pair_manifest_sha256: 852c6691e1b033ad9dcac80953125470564c912e2826f8a83e7f3183292d8a3a
+  batch_manifest_path: manifests/gemini_pair_audit_canonical_batches.json
+  batch_manifest_sha256: 53f5f2e0122ac2882b8414b872e04354a0474a669e3d850be61ad7d6112f2a1c
+  output_namespace: data/output/mappings/iec/inspection/gold_standard/gemini_audit/canonical/v3-c86caf8-064093f08764
 
 authority:
   gold_standard: false

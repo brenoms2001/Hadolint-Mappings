@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "status": "definitive-canonical-through-candidate-generation",
-  "note": "Canonical artifacts are frozen through deterministic unreviewed candidate generation. No LLM audit or human annotation has been run for this candidate set.",
+  "status": "definitive-canonical-through-pair-audit-execution-readiness",
+  "note": "Canonical artifacts are frozen through deterministic pair-audit preparation. No LLM audit or human annotation has been run for this candidate set.",
   "artifacts": {
     "source_dataset": {
       "path": "data/output/datasets/hadolint_rules_structured.json",
@@ -57,6 +57,23 @@
       "observed_zero_candidate_sources": 0,
       "sha256": "064093f08764f3cbeeb1599a5626c4402349b2d35290d630e81bb00ac1b925a7",
       "sidecar_sha256": "e9de06b09d42628d66d346b3ae0b51ad9fe2e7aa7ba3c144000e6d9eefcce9e7"
+    },
+    "canonical_pair_audit_preparation": {
+      "status": "execution-ready-not-run",
+      "auditor_path": "audit_gold_standard_gemini.py",
+      "auditor_sha256": "3b328fa1c876d50eb015fd17aaff09829cb2586176e649da9b760889720dc9ea",
+      "config_path": "config/gemini_pair_audit.yaml",
+      "config_sha256": "ededf0c76e1364612c0bd62a2bcae79d882af00f6a1974b638bf27b0ec92c482",
+      "prompt_path": "prompts/gemini_pair_audit_v3.txt",
+      "prompt_sha256": "e328d92c192e420694e57820e03ebef575bfebb48bd5f23df62499d2586390e5",
+      "response_schema_sha256": "fab3fde89ff122e86e788cb4f5044f422e5316b8111023dfd8c03af9b76bd763",
+      "pair_manifest_path": "manifests/gemini_pair_audit_canonical_pairs.json",
+      "pair_manifest_sha256": "852c6691e1b033ad9dcac80953125470564c912e2826f8a83e7f3183292d8a3a",
+      "batch_manifest_path": "manifests/gemini_pair_audit_canonical_batches.json",
+      "batch_manifest_sha256": "53f5f2e0122ac2882b8414b872e04354a0474a669e3d850be61ad7d6112f2a1c",
+      "observed_pair_count": 4149,
+      "observed_batch_count": 830,
+      "gemini_requests_made": 0
     }
   },
   "historical_development": {

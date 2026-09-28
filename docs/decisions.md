@@ -126,3 +126,19 @@ descending and then by frozen IEC dataset order ascending before top-K 10.
 Canonical JSON scores are not deliberately decimal-rounded. CSV rounding is a
 display-only transformation. `config/matching.yaml` is the executable
 authority for these semantics.
+
+## D014 — Canonical preliminary Gemini pair-audit execution contract
+
+The definitive 4149-pair candidate universe is audited independently from the
+historical 4134-pair development run. Historical Gemini verdicts and
+checkpoints must not transfer to the canonical run.
+
+The canonical preliminary audit preserves prompt v3, its response schema,
+`gemini-3.1-flash-lite`, temperature 0, and batch size 5. Rank-bearing prompt
+IDs remain part of the model payload. Separate rank-independent canonical pair
+IDs govern provenance, checkpointing, and completeness.
+
+The ordered pair and top-level batch manifests are frozen before execution.
+Resume may skip only fully completed original batches and must never re-chunk
+remaining pairs. Adaptive splitting is permitted only after response-validation
+failure. Gemini remains preliminary and human review remains authoritative.

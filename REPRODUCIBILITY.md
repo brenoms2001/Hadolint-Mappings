@@ -75,6 +75,23 @@ The exact prompt text must be preserved verbatim in:
 
 Do not reconstruct the prompt from memory if the original script still exists.
 
+The canonical pair-audit preparation can be validated without an API key or
+external request:
+
+```bash
+python audit_gold_standard_gemini.py preflight
+```
+
+The frozen pair and batch manifests are:
+
+- `manifests/gemini_pair_audit_canonical_pairs.json`
+- `manifests/gemini_pair_audit_canonical_batches.json`
+
+Only the explicit `run` subcommand can create the Gemini client. Checkpoint
+compatibility binds all canonical input, prompt, schema, script, config,
+manifest, runtime, and generation-setting fingerprints. Canonical output is
+isolated from the historical `gemini_audit/full/` artifacts.
+
 ## Security-relevance configuration
 
 See:

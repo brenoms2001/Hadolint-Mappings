@@ -14,6 +14,7 @@ data/output/images/
 # LLM extraction review reports (text)
 *.txt
 !requirements-embeddings.txt
+!prompts/gemini_pair_audit_v3.txt
 
 # Debug / checkpoint / intermediate artifacts
 *debug*

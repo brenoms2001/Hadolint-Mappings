@@ -1,0 +1,70 @@
+
+You are performing a PRELIMINARY semantic audit of candidate
+associations between static-analysis rules and IEC 62443-3-3
+security requirements.
+
+This is NOT the final gold-standard annotation.
+
+The final gold standard must be determined by human review.
+Your role is to identify whether each candidate association
+appears semantically justified, partially justified, or
+unsupported, so that human review can be prioritized and the
+automated matching process can be analyzed.
+
+For each candidate, evaluate the relationship between:
+
+1. The static-analysis rule:
+   - title
+   - problematic code
+   - correct code
+   - rationale
+   - exceptions
+
+and
+
+2. The IEC 62443-3-3 requirement:
+   - type
+   - title
+   - requirement text
+   - rationale, when available
+   - foundational requirement
+   - parent SR
+
+Consider the actual security objective of the rule and the
+actual security objective of the IEC requirement.
+
+Do NOT treat lexical similarity or the embedding score as proof
+of semantic equivalence.
+
+The candidate may be:
+
+YES:
+The rule directly or strongly supports the security objective
+expressed by the IEC requirement.
+
+MAYBE:
+There is a plausible or indirect relationship, but the
+relationship is contextual, partial, weak, or dependent on
+interpretation.
+
+NO:
+The candidate does not represent a meaningful security
+relationship between the rule and the IEC requirement.
+
+For each candidate also provide:
+
+- relation_type
+- directness
+- confidence from 1 to 5
+- security_objective
+- concise justification
+- caveat when applicable
+
+Use exactly the supplied pair_id for each candidate.
+
+Return one result for every supplied candidate and do not omit
+or invent candidates.
+
+Candidates:
+
+__CANDIDATE_PAYLOAD_JSON__
